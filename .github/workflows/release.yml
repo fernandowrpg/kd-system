@@ -1,0 +1,57 @@
+name: Release
+
+# Publique uma release no GitHub (ex.: tag v1.0.0) e este workflow compila os
+# compêndios, gera o zip do sistema e anexa system.json + zip à release.
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Verificar código, templates e compêndios
+        run: npm run lint
+
+      - name: Compilar compêndios
+        run: npm run build
+
+      - name: Atualizar system.json com versão e URLs
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+          REPO: ${{ github.repository }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const s = JSON.parse(fs.readFileSync("system.json", "utf8"));
+            const tag = process.env.TAG, repo = process.env.REPO;
+            s.version = tag.replace(/^v/, "");
+            s.url = `https://github.com/${repo}`;
+            s.manifest = `https://github.com/${repo}/releases/latest/download/system.json`;
+            s.download = `https://github.com/${repo}/releases/download/${tag}/lenda-dragao-fogo.zip`;
+            fs.writeFileSync("system.json", JSON.stringify(s, null, 2) + "\n");
+          '
+
+      - name: Gerar zip
+        run: |
+          zip -r lenda-dragao-fogo.zip system.json module templates styles lang assets packs README.md LICENSE CHANGELOG.md -x "packs/_source/*"
+
+      - name: Anexar arquivos à release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            system.json
+            lenda-dragao-fogo.zip

@@ -1,0 +1,54 @@
+{
+  "_id": "qMM5NQ7HBOsJ920G",
+  "name": "Mente de Metal",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/terra.svg",
+  "system": {
+    "requisitos": "Força 4, Aura 1",
+    "tipos": [],
+    "elemento": "terra",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Todo metal foi, em algum momento, extraído da terra. Um dos poderes mais temidos do focus, Mente de Metal permite que um yuza atraia metais próximos até ele, como se fosse um ímã. Para mover metais muito pesados, o yuza precisa se ancorar, disputando Força contra a Tensão. Se o metal for mais pesado que o yuza, quaisquer resultados 2 na jogada aumentam a Tensão, como se fossem resultados 1. A velocidade de atração não é muito alta, impedindo que essa habilidade seja usada como arma na maioria dos casos.</p>",
+    "ougi": "<p>Você pode empurrar objetos para longe de você, em vez de somente atraí-los para perto.</p>",
+    "sincronizacao": "<p>A velocidade de atração (ou repulsão, caso seja seu ougi) é muito alta, permitindo que seja usada como arma. Trate os itens de metal como armas, escolhendo uma característica que se adeque ao tipo de arma. Jogadas de ataque dependem do posicionamento cauteloso e são feitas com Razão. O dano é calculado com Vontade, incluindo um bônus de +1 a +3 dependendo do tamanho do objeto de metal.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!qMM5NQ7HBOsJ920G"
+}

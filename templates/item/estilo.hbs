@@ -1,0 +1,14 @@
+<div class="grade-formulario">
+  <div class="grade-estilo item-estilo">
+    {{#each valores}}
+    <label class="habilidade">{{label}} <input type="number" name="system.valores.{{key}}" value="{{value}}" min="0" max="6" {{#unless @root.editable}}disabled{{/unless}}></label>
+    {{/each}}
+  </div>
+  <p class="info">{{localize "LENDA.TotalPontos"}}: <strong>{{totalEstilo}}</strong></p>
+  <div class="form-group">
+    <label>{{localize "LENDA.Estilo.Ougis"}}</label>
+    <input type="text" name="ougisTexto" value="{{ougisTexto}}" {{#unless editable}}disabled{{/unless}}>
+  </div>
+  <label class="caixa-opcao"><input type="checkbox" name="system.secreto" {{checked system.secreto}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Estilo.Secreto"}}</label>
+  <p class="dica">{{localize "LENDA.Dica.ArrasteEstilo"}}</p>
+</div>

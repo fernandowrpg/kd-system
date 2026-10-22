@@ -1,0 +1,39 @@
+{
+  "_id": "TcxmMhlPbfSfog47",
+  "name": "Machadinha",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/arma.svg",
+  "system": {
+    "categoria": "arma",
+    "caracteristicas": [
+      "arremessavel"
+    ],
+    "descricao": "<p>Arma comum com a característica <strong>Arremessável</strong>.</p><p><strong>Arremessável:</strong> A arma pode ser arremessada, podendo ser lançada como um Projétil contra um alvo distante. Caso seja arremessada, a arma deve ser recuperada depois, com uma ação extra.</p><p>O dano de ataques com a arma aumenta em 1 o atributo usado para o dano. Técnicas usadas com armas custam +1 nagen.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "k6Uu36xiDMpbHc32",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!TcxmMhlPbfSfog47"
+}

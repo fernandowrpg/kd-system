@@ -1,0 +1,17 @@
+<section class="bloco estilo">
+  <h3 class="titulo-bloco">{{localize "LENDA.EstiloDeLuta"}} <span class="contagem" data-tooltip="{{localize 'LENDA.TotalPontos'}}">({{totalEstilo}})</span></h3>
+  <input class="nome-estilo" type="text" name="system.estilo.nome" value="{{system.estilo.nome}}" placeholder="{{localize 'LENDA.EstiloNomePlaceholder'}}" {{#unless editable}}disabled{{/unless}}>
+  <div class="grade-estilo">
+    {{#each estilo}}
+    <div class="habilidade {{#if ataque}}ataque{{/if}}">
+      {{#if ataque}}
+      <a class="rotulo rolavel" data-action="ataque" data-tipo="{{key}}" data-tooltip="{{localize 'LENDA.AtaqueSimples'}}"><img src="{{icon}}" alt=""> {{label}}</a>
+      {{else}}
+      <a class="rotulo rolavel" data-action="defesa" data-tipo="{{#if (lenda-eq key 'evasao')}}esquiva{{else}}bloqueio{{/if}}" data-tooltip="{{localize 'LENDA.DefesaTotal'}}"><img src="{{icon}}" alt=""> {{label}}</a>
+      {{/if}}
+      <input type="number" name="system.estilo.{{key}}" value="{{value}}" min="0" max="6" {{#unless ../editable}}disabled{{/unless}}>
+    </div>
+    {{/each}}
+  </div>
+  <p class="dica-drop"><i class="fas fa-hand-pointer"></i> {{localize "LENDA.Dica.ArrasteEstilo"}}</p>
+</section>

@@ -1,0 +1,39 @@
+{
+  "_id": "IPxhz6SeMSJdx3G9",
+  "name": "Correntes",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/arma.svg",
+  "system": {
+    "categoria": "arma",
+    "caracteristicas": [
+      "flexivel"
+    ],
+    "descricao": "<p>Arma comum com a característica <strong>Flexível</strong>.</p><p><strong>Flexível:</strong> A arma é maleável e dobrável, por isso pode ser usada para realizar Agarrões, concedendo uma vantagem quando usada para esse fim.</p><p>O dano de ataques com a arma aumenta em 1 o atributo usado para o dano. Técnicas usadas com armas custam +1 nagen.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "k6Uu36xiDMpbHc32",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!IPxhz6SeMSJdx3G9"
+}

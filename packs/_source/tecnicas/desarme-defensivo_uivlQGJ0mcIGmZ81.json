@@ -1,0 +1,56 @@
+{
+  "_id": "uivlQGJ0mcIGmZ81",
+  "name": "Desarme Defensivo",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/evasao.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "evasao"
+    ],
+    "elemento": "",
+    "acao": "reacao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>A maior arma da Terra é a alma humana em chamas, mas muitos guerreiros insistem em usar armas manufaturadas. Essas meras ferramentas podem ser removidas por qualquer oponente minimamente treinado, mas um verdadeiro especialista pode desarmar algúem ao mesmo tempo que se defende. Quando um ataque com arma erra você, faça uma jogada de Agilidade (Evasão) contra a jogada de ataque. Caso tenha sucesso e a arma esteja ao alcance das suas mãos, você a desarma.</p>",
+    "ougi": "<p>Você tem vantagem na jogada e pode desarmar alvos próximos, desde que tenha algo para jogar neles.</p>",
+    "sincronizacao": "<p>Você tem vantagem na próxima jogada de ataque contra o alvo.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!uivlQGJ0mcIGmZ81"
+}

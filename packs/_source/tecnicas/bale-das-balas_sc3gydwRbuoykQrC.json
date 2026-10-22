@@ -1,0 +1,54 @@
+{
+  "_id": "sc3gydwRbuoykQrC",
+  "name": "Balé das Balas",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Esta técnica é a bela e mortífera fusão das práticas de focus com uso de armas de fogo. Como uma ação extra, você pode iniciar o balé das balas. Até o final do seu próximo turno, qualquer dado de vantagem que receber para ataques com armas de fogo é instantaneamente convertido em um dado de sincronização.</p>",
+    "ougi": "<p>Você pode gastar um dado de sincronização para iniciar o balé sem gastar ações.</p>",
+    "sincronizacao": "<p>Durante o balé, você gera sincronização com resultados 5 ou 6 em dados descartados (em vez de apenas 6).</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!sc3gydwRbuoykQrC"
+}

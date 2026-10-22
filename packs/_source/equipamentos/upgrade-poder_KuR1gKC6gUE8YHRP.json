@@ -1,0 +1,26 @@
+{
+  "_id": "KuR1gKC6gUE8YHRP",
+  "name": "Upgrade: Poder",
+  "type": "upgrade",
+  "img": "systems/lenda-dragao-fogo/assets/icons/upgrade.svg",
+  "system": {
+    "chave": "poder",
+    "descricao": "<p>Você aprendeu a aplicar mais força na técnica. Some +2 ou sua Aura ao dano causado, o que for maior. Esse upgrade só pode ser aplicado a técnicas que causem dano e tenham uma jogada de ataque.</p><p><em>Arraste este upgrade para a ficha de um personagem para aplicá-lo a uma técnica. Para aprendizado e custo, um upgrade conta como uma técnica.</em></p>"
+  },
+  "effects": [],
+  "folder": "B0EYpNKOylAHv0xc",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!KuR1gKC6gUE8YHRP"
+}

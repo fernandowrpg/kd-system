@@ -1,0 +1,56 @@
+{
+  "_id": "lpAfgwmmkhcESWSI",
+  "name": "Ruído Cardíaco",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "Amplificação Sensorial, Pontos de Pressão",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Um dos maiores segredos dos guerreiros Tuchi é uma sequência rápida de socos capaz de encerrar um combate em um instante. Técnicas similares surgem entre grupos de aceitos do ar, que sabem o verdadeiro segredo para a técnica: som. O lutador ouve os batimentos cardíacos do oponente e golpeia na região do tórax entre um batimento e outro, causando arritmia e dor intensa. Quando você acerta um ataque com Ruído Cardíaco, faça uma jogada de Razão contra a Força do alvo. Se você vencer, some sua Razão no dano e o alvo sofre desvantagem em todas as jogadas até o final do seu próximo turno.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Razão.</p>",
+    "sincronizacao": "<p>Você pode usar a técnica Pontos de Pressão como parte da mesma ação.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "max(@for, @agi)",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!lpAfgwmmkhcESWSI"
+}

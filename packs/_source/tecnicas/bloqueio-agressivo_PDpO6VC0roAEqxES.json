@@ -1,0 +1,56 @@
+{
+  "_id": "PDpO6VC0roAEqxES",
+  "name": "Bloqueio Agressivo",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/bloqueio.svg",
+  "system": {
+    "requisitos": "Força 3",
+    "tipos": [
+      "bloqueio"
+    ],
+    "elemento": "",
+    "acao": "reacao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Nesta técnica típica de artes marciais tailandesas, o lutador bloqueia com a intenção de ferir os membros do atacante. Como uma reação após ser atingido com um Golpe ou Combo desarmado, o yuza causa ao atacante uma quantidade de dano igual à sua Força.</p>",
+    "ougi": "<p>Mesmo que não tenha ações extras restando depois do seu turno, você pode usar essa técnica uma vez por rodada.</p>",
+    "sincronizacao": "<p>Some sua Aura ao dano causado.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@for",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!PDpO6VC0roAEqxES"
+}

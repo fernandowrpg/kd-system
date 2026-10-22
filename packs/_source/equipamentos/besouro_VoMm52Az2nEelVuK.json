@@ -1,0 +1,37 @@
+{
+  "_id": "VoMm52Az2nEelVuK",
+  "name": "Besouro",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/equipamento.svg",
+  "system": {
+    "categoria": "outro",
+    "caracteristicas": [],
+    "descricao": "<p>Os drones da Divisão Pandora foram apelidados carinhosamente de “besouros”. De aparência quase esférica e com um chassis preto lustroso, poderia ser confundido com o inseto homônimo se alguma espécie chegasse a sessenta centímetros de comprimento.</p><p>O besouro pode ser controlado pelo celular ou por óculos digitais. É munido de uma câmera e pode ser usado para acessar fisicamente sistemas eletrônicos que não estejam conectados à internet, sem a necessidade da presença física do agente.</p>",
+    "equipado": false,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "RMFHkiqn8xE00yZV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!VoMm52Az2nEelVuK"
+}

@@ -1,0 +1,301 @@
+{
+  "_id": "E6SglGki5HzDZ614",
+  "name": "Espião de Elite",
+  "type": "coadjuvante",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 1,
+    "conceito": "Espião de Elite",
+    "atributos": {
+      "forca": 2,
+      "razao": 4,
+      "instinto": 3,
+      "agilidade": 3,
+      "presenca": 4,
+      "vontade": 2
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 3,
+        "especializacoes": "mentiras"
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 3,
+        "especializacoes": "disfarce, furtividade"
+      },
+      "vigilante": {
+        "value": 3,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 2,
+      "combo": 0,
+      "evasao": 2,
+      "golpe": 0,
+      "projetil": 0
+    },
+    "vigor": {
+      "value": 6,
+      "bonus": 1
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 1
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 1
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Governos e grandes corporações precisam de informação. Sabendo que informação é poder, essas forças requisitam os serviços de um espião de elite. Embora não seja um combatente dos mais exímios, é um grande desafio ultrapassar seus subterfúgios e disfarces. Um espião de elite pode ser encontrado em qualquer lugar: qualquer face, mesmo as mais conhecidas, pode ser apenas uma máscara. Frequentemente estão equipados com tecnologia de ponta. O mais aterrorizante é quando um desses agentes começa a agir por conta própria.</p>",
+    "especial": "",
+    "notas": "",
+    "grupo": {
+      "ativo": false,
+      "tamanho": 1
+    },
+    "instantaneo": {
+      "ativo": false,
+      "fazBem": "",
+      "fazMal": ""
+    }
+  },
+  "effects": [],
+  "folder": "yNAtDeilews3LsxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!E6SglGki5HzDZ614",
+  "items": [
+    {
+      "_id": "B3WXLRYJxMGho6hu",
+      "name": "Excelência Verdadeira",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "qualquer ocupação 3",
+        "tipos": [],
+        "elemento": "",
+        "acao": "livre",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Além da luta, existem aqueles que se superam nas mais variadas artes. Poucas são os que conseguem portar a excelência genuína, mas logo são reconhecidos pelas mais belas peças, músicas e pinturas. Alguns dizem que esses grandes mestres, de forma consciente ou não, acabam por impregnar seu nagen em suas peças usando focus. Sempre que usa sua especialização, você pode usar essa técnica para trocar um dos dados jogados por um d10. Excelência Verdadeira não requer ações, sendo parte do uso da habilidade. Muitos usuários dessa técnica nem sabem que estão usando focus.</p>",
+        "ougi": "<p>Você recebe uma segunda especialização na ocupação.</p>",
+        "sincronizacao": "<p>Jogue um d10 adicional.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!E6SglGki5HzDZ614.B3WXLRYJxMGho6hu"
+    },
+    {
+      "_id": "XtRzbhBVVlOwtbCo",
+      "name": "Mil Faces",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Excelência Verdadeira, Trapaceiro 3, especialização em disfarce",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Qualquer pessoa munida de tempo e artifícios adequados pode se disfarçar. Um verdadeiro mestre do disfarce, porém, pode fazê-lo com precisão incrível ou com uma velocidade impressionante. Caso disponha de uma quantidade de tempo que permita um disfarce realizado com calma (como uma cena de recuperação), você pode usar essa técnica para se disfarçar perfeitamente de qualquer outra pessoa. Jogadas não são necessárias, exceto no caso de diferenças muito grandes de tamanho ou características sobrenaturais; nesse caso, jogue Presença contra a Tensão. Caso não disponha de tempo, você pode improvisar um disfarce como uma ação. Sem testes isso garante que você não seja reconhecido. Para se passar por outra pessoa, é necessário uma jogada de Presença contra a Tensão. Em qualquer dos casos, contato prolongado com pessoas que conheçam o alvo permite que façam uma jogada de Razão ou Instinto contra sua Presença para identificar a farsa.</p>",
+        "ougi": "<p>Você tem vantagem nas jogadas de Presença.</p>",
+        "sincronizacao": "<p>Você consegue fazer um disfarce perfeito em uma ação, dispensando testes.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!E6SglGki5HzDZ614.XtRzbhBVVlOwtbCo"
+    },
+    {
+      "_id": "15um9k4ogN53LYiL",
+      "name": "Prontidão Perpétua",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Excelência Verdadeira, Vigilante 3",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acaoExtra",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Muitos yuzas consideram o Zanshin como o ápice da percepção humana. O uso de um sexto sentido indicaria a transcendência dos limites da humanidade. Dentre os usuários de focus mais mundanos, especialmente aqueles que ativaram suas auras sem sequer perceber, os cinco sentidos são mais valorizados. A Prontidão Perpétua indica esse estado avançado de percepção, parecido com o de um predador em busca de sua presa. Como uma ação extra, todos os seus sentidos ficam mais aguçados. Até o final da cena, o usuário tem vantagem em qualquer jogada para perceber alguma coisa.</p>",
+        "ougi": "<p>Você tem uma vantagem adicional em jogadas para perceber.</p>",
+        "sincronizacao": "<p>Você assume a iniciativa.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!E6SglGki5HzDZ614.15um9k4ogN53LYiL"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Espião de Elite",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

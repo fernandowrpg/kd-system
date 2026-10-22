@@ -1,0 +1,54 @@
+{
+  "_id": "NVLIWJeAJ4XZIYEa",
+  "name": "Mentira Ultrajante",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Excelência Verdadeira, Trapaceiro 3, especialização em mentira",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Qualquer um pode mentir. Alguns lutadores mentem com o próprio corpo, fintando em combate de formas imprevisíveis. Às vezes, uma mentira bem contada impede um soco. Em outras situações, uma mentira totalmente descabida pode desorientar o inimigo! Conte sua mentira como uma ação extra. Jogue Presença (Trapaceiro) contra Vontade do alvo. Caso obtenha sucesso, o alvo fica tão confuso que perde um ponto de Vigor e sofre uma desvantagem em sua próxima jogada.</p>",
+    "ougi": "<p>Você tem vantagem no teste de Presença.</p>",
+    "sincronizacao": "<p>Você não gasta nenhuma ação para mentir.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!NVLIWJeAJ4XZIYEa"
+}

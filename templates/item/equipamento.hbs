@@ -1,0 +1,34 @@
+<div class="grade-formulario">
+  <div class="form-linha">
+    <div class="form-group">
+      <label>{{localize "LENDA.Equipamento.Categoria"}}</label>
+      <select name="system.categoria" {{#unless editable}}disabled{{/unless}}>{{selectOptions categorias selected=system.categoria}}</select>
+    </div>
+    <div class="form-group">
+      <label>{{localize "LENDA.Equipamento.Quantidade"}}</label>
+      <input type="number" name="system.quantidade" value="{{system.quantidade}}" min="0" {{#unless editable}}disabled{{/unless}}>
+    </div>
+    <label class="caixa-opcao"><input type="checkbox" name="system.equipado" {{checked system.equipado}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Equipamento.Equipado"}}</label>
+  </div>
+  <fieldset>
+    <legend>{{localize "LENDA.Equipamento.Caracteristicas"}}</legend>
+    <div class="caixas-selecao">
+      {{#each caracteristicas}}
+      <label class="caixa-opcao" data-tooltip="{{hint}}"><input type="checkbox" name="system.caracteristicas.{{key}}" {{checked checked}} {{#unless @root.editable}}disabled{{/unless}}> {{label}}</label>
+      {{/each}}
+    </div>
+    <p class="dica">{{localize "LENDA.Equipamento.Dica"}}</p>
+  </fieldset>
+  <fieldset>
+    <legend>{{localize "LENDA.Modificadores"}}</legend>
+    <div class="grade-modificadores">
+      <label>{{localize "LENDA.Vigor"}} <input type="number" name="system.modificadores.vigor" value="{{system.modificadores.vigor}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Limiar.Defesa"}} <input type="number" name="system.modificadores.defesa" value="{{system.modificadores.defesa}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Limiar.Protecao"}} <input type="number" name="system.modificadores.protecao" value="{{system.modificadores.protecao}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Limiar.Canalizacao"}} <input type="number" name="system.modificadores.canalizacao" value="{{system.modificadores.canalizacao}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Ferimentos"}} <input type="number" name="system.modificadores.ferimentos" value="{{system.modificadores.ferimentos}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.SincInicial"}} <input type="number" name="system.modificadores.sincInicial" value="{{system.modificadores.sincInicial}}" {{#unless editable}}disabled{{/unless}}></label>
+    </div>
+    <p class="dica">{{localize "LENDA.Equipamento.ModificadoresDica"}}</p>
+  </fieldset>
+</div>

@@ -1,0 +1,37 @@
+{
+  "_id": "MnDQsdmThcl8DskF",
+  "name": "Elixir Espiritual",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/equipamento.svg",
+  "system": {
+    "categoria": "outro",
+    "caracteristicas": [],
+    "descricao": "<p>Esse composto alquímico experimental visa recuperar a comunhão espiritual perdida com implantes. Quando ciborgues e usuários de jasq consomem o elixir, o Limiar de Canalização deles aumenta em 2 até o final da cena. Porém, quando o efeito acaba, o usuário faz uma jogada de Força contra a Tensão. Se falhar, marca uma caixa de ferimento. Se o elixir for usado em duas cenas seguidas ou por um personagem com Limiar de Canalização zero, ele dá acesso a um shintai (geralmente Músculos de Aço) enquanto deforma o corpo do usuário. Quando isso acontece, o usuário perde um ponto da Barra de Vigor permanentemente.</p>",
+    "equipado": false,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "RMFHkiqn8xE00yZV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!MnDQsdmThcl8DskF"
+}

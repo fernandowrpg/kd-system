@@ -1,0 +1,54 @@
+{
+  "_id": "0ic45pHiq0NGX6mS",
+  "name": "Antecipação Tática",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Análise Tática, Excelência Verdadeira, Vigilante 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "livre",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O poder de antecipação e planejamento de alguns lutadores beira o sobrenatural. Porém, não se trata de leitura de mentes ou previsão do futuro. É apenas a aplicação mais direta da lógica, eliminando hipóteses até que uma resposta surja. Quando começar um turno com Análise Tática ativa, você pode usar essa técnica, o que não exige nenhuma ação. Faça uma jogada de Razão (Vigilante) contra a Tensão. Caso obtenha sucesso, você ganha uma ação extra.</p>",
+    "ougi": "<p>Você tem vantagem nas jogadas feitas com sua ação extra.</p>",
+    "sincronizacao": "<p>Você ganha uma ação em vez de uma ação extra. Qualquer jogada durante essa ação gera tensão com resultados 1 ou 2.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0ic45pHiq0NGX6mS"
+}

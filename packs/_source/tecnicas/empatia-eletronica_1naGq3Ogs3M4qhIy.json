@@ -1,0 +1,54 @@
+{
+  "_id": "1naGq3Ogs3M4qhIy",
+  "name": "Empatia Eletrônica",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Ciborgue, Engenheiro 2",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Usar a aura aliada à tecnologia não é nenhuma novidade, mas ciborgues têm a capacidade de levar isso ao extremo. Ao se concentrar por alguns momentos, o yuza se torna capaz de se conectar com algum aparato tecnológico próximo, como um celular, câmera de segurança ou algum computador, e convencer esse aparato de que faz parte dele, obtendo assim seus segredos. Faça um teste de Razão (Engenheiro) contra a Tensão. Caso vença, você consegue obter acesso aos arquivos guardados no equipamento invadido. Você só pode invadir um objeto por vez. Não é incomum que grandes empresas e governos tenham firewalls avançados de proteção, capazes até mesmo de detectar a assinatura de nagen dos invasores e delatá-los às autoridades.</p>",
+    "ougi": "<p>Você tem vantagem no teste de Razão.</p>",
+    "sincronizacao": "<p>Você consegue invadir dois dispositivos de uma só vez.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1naGq3Ogs3M4qhIy"
+}

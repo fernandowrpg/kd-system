@@ -1,0 +1,54 @@
+{
+  "_id": "jO59ozxPErqIE0vW",
+  "name": "Espírito de Colmeia",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": true,
+    "ritual": false,
+    "descricao": "<p>Sem contar com os grandes poderes sobrenaturais de criaturas mais poderosas, certos shen desenvolveram formas de combinar a energia espiritual da comunidade. Uma espécie de rede espiritual conecta os membros das tribos, que podem acessar essa rede para ter acesso aos conhecimentos e energias de seus companheiros. Ativar esse shintai requer uma ação. Depois de ativado, o efeito dura até o final da cena. Todos os shen presentes na cena que também saibam a técnica Espírito de Colmeia e tenham um laço em comum com o usuário ficam conectados a ele. Ele pode detectar sua presença, estado emocional (feliz, triste, eufórico etc) e se está ferido ou não. Além disso, sempre sabe a direção que precisa ir para chegar àquele shen. Como uma ação extra enquanto esta técnica está ativa, você pode escolher uma técnica ou ocupação de outro shen que saiba Espírito de Colmeia, tenha um laço em comum com você e esteja presente na cena. Até o final da cena, você pode usar aquela ocupação ou técnica como se fosse o shen de quem pegou emprestado. Você só pode compartilhar uma técnica por vez para cada ponto de Aura.</p>",
+    "ougi": "<p>Enquanto luta junto de alguém com quem consiga compartilhar técnicas, você tem vantagem em todas as jogadas.</p>",
+    "sincronizacao": "<p>Se mais de um shen tiver ativado esta técnica na mesma cena, eles podem compartilhar dados de sincronização como se viessem da mesma fonte, desde que compartilhem pelo menos um laço. Só um dos shen precisa sincronizar a técnica para que todos obtenham esse efeito.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Hf5Fjh7IJzO92JNz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!jO59ozxPErqIE0vW"
+}

@@ -1,0 +1,119 @@
+<div class="lenda-ficha">
+  {{> "systems/lenda-dragao-fogo/templates/actor/parts/cabecalho.hbs"}}
+
+  <div class="barra-ferramentas">
+    {{#if editable}}
+    <button type="button" class="assistente" data-action="assistente"><i class="fas fa-hat-wizard"></i> {{localize "LENDA.Assistente.Abrir"}}</button>
+    {{/if}}
+    <button type="button" data-action="abrirGuia"><i class="fas fa-book-open"></i> {{localize "LENDA.Guia.Abrir"}}</button>
+    <span class="karma-resumo" data-tooltip="{{localize 'LENDA.KarmaHint'}}"><i class="fas fa-yin-yang"></i> {{localize "LENDA.Karma"}}: <strong>{{system.karma.value}}</strong></span>
+  </div>
+
+  {{> "systems/lenda-dragao-fogo/templates/actor/parts/abas.hbs"}}
+
+  <div class="aba-corpo">
+    <section class="tab {{aba.ficha.cssClass}}" data-group="primary" data-tab="ficha">
+      <div class="colunas">
+        <div class="coluna">
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/atributos.hbs"}}
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/limiares.hbs"}}
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/estilo.hbs"}}
+        </div>
+        <div class="coluna">
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/ocupacoes.hbs"}}
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/trunfos.hbs"}}
+        </div>
+      </div>
+    </section>
+
+    <section class="tab {{aba.tecnicas.cssClass}}" data-group="primary" data-tab="tecnicas">
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/tecnicas.hbs"}}
+    </section>
+
+    <section class="tab {{aba.combate.cssClass}}" data-group="primary" data-tab="combate">
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/combate.hbs"}}
+    </section>
+
+    <section class="tab {{aba.caminho.cssClass}}" data-group="primary" data-tab="caminho">
+      <div class="colunas">
+        <div class="coluna">
+          <section class="bloco caminho">
+            <h3 class="titulo-bloco">{{localize "LENDA.Caminho"}}</h3>
+            {{#if caminho}}
+            <div class="caminho-cartao {{#if caminho.system.reviravolta.marcado}}riscado{{/if}}" data-item-id="{{caminho.id}}">
+              <div class="caminho-cabecalho">
+                <img src="{{caminho.img}}" alt="">
+                <h4>{{caminho.name}}</h4>
+                <span class="col-controles">
+                  <a data-action="itemEditar" data-tooltip="{{localize 'LENDA.Editar'}}"><i class="fas fa-pen"></i></a>
+                  {{#if editable}}<a data-action="itemApagar" data-tooltip="{{localize 'LENDA.Apagar'}}"><i class="fas fa-trash"></i></a>{{/if}}
+                </span>
+              </div>
+              <div class="descricao">{{{caminho.descricaoHtml}}}</div>
+              <h5>{{localize "LENDA.Eventos"}}</h5>
+              <ol class="eventos">
+                {{#each caminho.system.eventos}}
+                <li><label><input type="checkbox" data-evento="{{@index}}" {{checked marcado}} {{#unless @root.editable}}disabled{{/unless}}> {{texto}}</label></li>
+                {{/each}}
+              </ol>
+              <h5>{{localize "LENDA.Reviravolta"}}</h5>
+              <label class="reviravolta"><input type="checkbox" data-evento="reviravolta" {{checked caminho.system.reviravolta.marcado}} {{#unless editable}}disabled{{/unless}}> {{caminho.system.reviravolta.texto}}</label>
+            </div>
+            {{else}}
+            <p class="vazio"><i class="fas fa-hand-pointer"></i> {{localize "LENDA.Dica.ArrasteCaminho"}}</p>
+            {{/if}}
+          </section>
+
+          <section class="bloco lacos">
+            <div class="titulo-acoes">
+              <h3 class="titulo-bloco">{{localize "LENDA.Lacos"}} <span class="contagem">({{lacos.length}})</span></h3>
+              {{#if editable}}<a class="botao-criar" data-action="lacoAdicionar"><i class="fas fa-plus"></i></a>{{/if}}
+            </div>
+            <ol class="lista-lacos">
+              {{#each lacos}}
+              <li class="laco {{#if marcado}}marcado{{/if}}">
+                <input type="checkbox" name="system.lacos.{{indice}}.marcado" {{checked marcado}} {{#unless @root.editable}}disabled{{/unless}} data-tooltip="{{localize 'LENDA.Laco.MarcarHint'}}">
+                <input type="text" name="system.lacos.{{indice}}.nome" value="{{nome}}" placeholder="{{localize 'LENDA.Laco.Placeholder'}}" {{#unless @root.editable}}disabled{{/unless}}>
+                {{#if @root.editable}}
+                <a data-action="lacoInvocar" data-indice="{{indice}}" data-tooltip="{{localize 'LENDA.Laco.InvocarHint'}}"><i class="fas fa-fire"></i></a>
+                <a data-action="lacoRemover" data-indice="{{indice}}" data-tooltip="{{localize 'LENDA.Apagar'}}"><i class="fas fa-trash"></i></a>
+                {{/if}}
+              </li>
+              {{/each}}
+            </ol>
+            <p class="dica">{{localize "LENDA.Laco.Dica"}}</p>
+          </section>
+        </div>
+
+        <div class="coluna">
+          <section class="bloco karma">
+            <h3 class="titulo-bloco">{{localize "LENDA.Karma"}}</h3>
+            <div class="grade-karma">
+              <label>{{localize "LENDA.KarmaAtual"}} <input type="number" name="system.karma.value" value="{{system.karma.value}}" min="0" {{#unless editable}}disabled{{/unless}}></label>
+              <label>{{localize "LENDA.KarmaTotal"}} <input type="number" name="system.karma.total" value="{{system.karma.total}}" min="0" {{#unless editable}}disabled{{/unless}}></label>
+              <label>{{localize "LENDA.Avancos"}} <input type="number" name="system.avancos.value" value="{{system.avancos.value}}" min="0" {{#unless editable}}disabled{{/unless}}></label>
+            </div>
+            <p class="info">{{localize "LENDA.AvancosParaAura" n=system.avancos.paraAura}}</p>
+            <p class="info">{{localize "LENDA.KarmaPrevisto" n=karmaPrevisto}}</p>
+            {{#if editable}}
+            <div class="botoes-combate">
+              <button type="button" data-action="encerrarSessao"><i class="fas fa-flag-checkered"></i> {{localize "LENDA.Sessao.Encerrar"}}</button>
+              <button type="button" data-action="comprarAvanco" {{#unless avancosDisponiveis}}disabled{{/unless}}><i class="fas fa-arrow-up"></i> {{localize "LENDA.ComprarAvanco"}}</button>
+            </div>
+            {{/if}}
+            <table class="tabela-avancos">
+              <thead><tr><th>{{localize "LENDA.Melhoria"}}</th><th>{{localize "LENDA.Avancos"}}</th></tr></thead>
+              <tbody>
+                {{#each avancosTabela}}<tr><td>{{label}}</td><td>{{custo}}</td></tr>{{/each}}
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab {{aba.biografia.cssClass}}" data-group="primary" data-tab="biografia">
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/biografia.hbs"}}
+    </section>
+  </div>
+</div>

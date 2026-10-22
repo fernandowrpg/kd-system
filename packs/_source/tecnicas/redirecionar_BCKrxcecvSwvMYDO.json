@@ -1,0 +1,56 @@
+{
+  "_id": "BCKrxcecvSwvMYDO",
+  "name": "Redirecionar",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/bloqueio.svg",
+  "system": {
+    "requisitos": "Agilidade 3",
+    "tipos": [
+      "bloqueio"
+    ],
+    "elemento": "",
+    "acao": "reacao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Com esta técnica de defesa fluida, o yuza afasta seu oponente após bloquear, empurrando-o para longe e redirecionando o impacto. Como uma reação após ser atingido por um Agarrão, Golpe ou Combo, o yuza soma sua Agilidade ao Limiar de Proteção. Se não tiver que marcar uma caixa de ferimento devido ao ataque, ele move o alvo um passo de distância para perto ou para longe, à sua escolha.</p>",
+    "ougi": "<p>Mesmo que não tenha ações extras restando depois do seu turno, você pode usar essa técnica uma vez por rodada.</p>",
+    "sincronizacao": "<p>Some sua Aura no Limiar de Proteção.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!BCKrxcecvSwvMYDO"
+}

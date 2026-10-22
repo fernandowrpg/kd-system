@@ -1,0 +1,56 @@
+{
+  "_id": "30R9CNrZnyHyXxdy",
+  "name": "Relâmpago Inevitável",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+  "system": {
+    "requisitos": "Tempo de Tempestade",
+    "tipos": [
+      "projetil"
+    ],
+    "elemento": "ar",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Mesmo para os aceitos do ar é muito difícil controlar o relâmpago. Essa força poderosa é difícil de direcionar, respeitando somente seus próprios desígnios. Mestres desta técnica, porém, sabem aproveitar o ozônio na atmosfera e a carga negativa causada pelas suas próprias auras para fulminar seus alvos com relâmpagos. Essa técnica só pode ser usada em um alvo que esteja atordoado pelo Tempo de Tempestade. O yuza dispara um relâmpago, normalmente para cima. O próprio relâmpago procura o alvo e o atinge como um Projétil contínuo. Independente do resultado da jogada de ataque, o Relâmpago Inevitável atinge um alvo que não tenha usado uma Defesa Total ou técnica de defesa (i.e., que dependa apenas do Limiar de Defesa). Quaisquer jogadas para se defender do relâmpago são feitas com desvantagem, incluindo uma disputa de Projéteis. O dano causado é igual ao dobro da Vontade do yuza, mais sua Aura. Essa técnica funciona melhor ao ar livre. Se usada em um espaço fechado, ela pode gerar consequências catastróficas – qualquer resultado 2 que não seja utilizado para o total da ação aumenta a Tensão, como se fosse um resultado 1.</p>",
+    "ougi": "<p>Reações para se defender do relâmpago sofrem duas desvantagens.</p>",
+    "sincronizacao": "<p>Aumente o dano em +2.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@von * 2 + @aura",
+      "danoOugi": "",
+      "danoSinc": "2",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!30R9CNrZnyHyXxdy"
+}

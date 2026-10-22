@@ -1,0 +1,55 @@
+{
+  "_id": "oMjvAvMFbKTmNn1m",
+  "name": "Hanyo",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>YOKAI é o tipo de shen mais parecido com os humanos. Eles são humanoides com uma ou outra característica estranha, como olhos de cores incomuns, pupilas verticais ou escamas na pele.</p><p>Como um HANYO (半妖), você tem sangue de yokai. Normalmente um dos pais é yokai e o outro humano, mas às vezes o yokai é um ancestral distante. Devido ao seu sangue de yokai, você é capaz de manipular seu próprio corpo com focus de formas que humanos dificilmente poderiam. Você pode escolher uma técnica shintai além das 6 normais (veja SHINTAI, p. 94). Você não pode aprender outro shintai, a não ser que se torne um yokai completo de alguma forma.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 1,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!oMjvAvMFbKTmNn1m"
+}

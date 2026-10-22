@@ -1,0 +1,54 @@
+{
+  "_id": "VfPSFxbbLwt4vBNu",
+  "name": "Toque da Escuridão",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/fogo.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "fogo",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Da mesma forma que a chama ilumina, ela projeta longas sombras. Com essa técnica, o yuza pode apagar a luz de uma lâmpada, tocha ou fonte de luz similar. O dispositivo continua funcionando normalmente, mas não emite mais nenhuma luz. Uma tocha, por exemplo, mostraria o ar distorcido ao redor e emitiria calor, mas não iluminaria. Jogadas que dependam da visão sofrem uma ou duas desvantagens, dependendo de outras fontes de iluminação no local e a critério do narrador. O efeito dura até o começo do seu próximo turno. Essa técnica não pode ser usada sob a luz direta do sol. Seus efeitos funcionam somente em ambientes fechados ou durante a noite.</p>",
+    "ougi": "<p>Quando apaga uma luz, você a substitui por uma chama fantasmagórica que somente você pode ver, permitindo que enxergue normalmente. Se você tiver Infravisão, ganha vantagem em todas as jogadas que dependam da sua vista.</p>",
+    "sincronizacao": "<p>O efeito dura uma cena.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!VfPSFxbbLwt4vBNu"
+}

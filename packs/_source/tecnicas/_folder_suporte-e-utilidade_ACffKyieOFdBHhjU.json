@@ -1,0 +1,20 @@
+{
+  "_id": "ACffKyieOFdBHhjU",
+  "name": "Suporte e Utilidade",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 6,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!ACffKyieOFdBHhjU"
+}

@@ -1,0 +1,38 @@
+<div class="lenda-ficha">
+  {{> "systems/lenda-dragao-fogo/templates/actor/parts/cabecalho.hbs"}}
+
+  <div class="barra-ferramentas">
+    <span class="info"><i class="fas fa-skull"></i> {{localize "TYPES.Actor.antagonista"}}</span>
+    <label class="info">{{localize "LENDA.Avancos"}} <input type="number" name="system.avancos.value" value="{{system.avancos.value}}" min="0" {{#unless editable}}disabled{{/unless}}></label>
+  </div>
+
+  {{> "systems/lenda-dragao-fogo/templates/actor/parts/abas.hbs"}}
+
+  <div class="aba-corpo">
+    <section class="tab {{aba.ficha.cssClass}}" data-group="primary" data-tab="ficha">
+      <div class="colunas">
+        <div class="coluna">
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/atributos.hbs"}}
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/limiares.hbs"}}
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/estilo.hbs"}}
+        </div>
+        <div class="coluna">
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/ocupacoes.hbs"}}
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/trunfos.hbs"}}
+        </div>
+      </div>
+    </section>
+
+    <section class="tab {{aba.tecnicas.cssClass}}" data-group="primary" data-tab="tecnicas">
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/tecnicas.hbs"}}
+    </section>
+
+    <section class="tab {{aba.combate.cssClass}}" data-group="primary" data-tab="combate">
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/combate.hbs"}}
+    </section>
+
+    <section class="tab {{aba.biografia.cssClass}}" data-group="primary" data-tab="biografia">
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/biografia.hbs"}}
+    </section>
+  </div>
+</div>

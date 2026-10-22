@@ -1,0 +1,56 @@
+{
+  "_id": "2p6rGa4g3E8Ncead",
+  "name": "Pilão Atômico",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agarrao.svg",
+  "system": {
+    "requisitos": "Força 4",
+    "tipos": [
+      "agarrao"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Esta técnica é conhecida por ser uma finalização famosa no Circuito Mundial de Lutas, sempre acompanhada de aplausos e gritos da plateia. Você agarra o oponente, levanta-o do chão, vira de cabeça para baixo e o enterra no chão com violência. Machuca bastante: o dano é Força + 2. No caso de um acerto, a vítima perde 2 pontos de Vigor em vez de 1.</p>",
+    "ougi": "<p>Você inclui um giro na técnica que desorienta a vítima, fazendo com que ela sofra uma desvantagem na próxima jogada.</p>",
+    "sincronizacao": "<p>Some sua Aura no dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@for + 2",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 2
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2p6rGa4g3E8Ncead"
+}

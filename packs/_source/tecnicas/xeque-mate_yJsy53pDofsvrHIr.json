@@ -1,0 +1,54 @@
+{
+  "_id": "yJsy53pDofsvrHIr",
+  "name": "Xeque-Mate",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Análise Tática, Antecipação Tática",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>\"Tudo de acordo com o *keikaku.\" — Death Note  Um bom plano leva tempo para ser executado, mas quando finalmente chega ao fim tem um resultado devastador. Os mestres da tática e da estratégia podem aproveitar muito bem o tempo de um combate. Cada segundo de análise é uma vantagem a mais contra um oponente descuidado. Se essa cartada final não funciona, porém, mesmo o melhor estrategista fica em maus lençóis... *keikaku significa plano. Xeque-Mate pode ser usado apenas enquanto Análise Tática estiver ativa. Como uma ação extra, o usuário designa seu próximo ataque como o golpe decisivo que vai encerrar a luta. Esse ataque causa 1 ponto de dano a mais para cada rodada de duração da luta até o momento. Caso seu dano seja superior ao Limiar de Proteção do alvo, ele marca duas caixas de ferimentos em vez de uma. Se o oponente não for derrotado por esse ataque, faça uma jogada de Razão contra a Tensão. Se falhar, o usuário tem seus planos despedaçados e sofre desvantagem em todas as jogadas até o final da cena.</p>",
+    "ougi": "<p>Em vez de ganhar +1 no dano para cada rodada, você ganha +3 a cada 2 rodadas.</p>",
+    "sincronizacao": "<p>Você ganha uma vantagem na jogada de ataque para cada ponto de dano adicional recebido pela duração da luta.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!yJsy53pDofsvrHIr"
+}

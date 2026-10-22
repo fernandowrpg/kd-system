@@ -1,0 +1,43 @@
+{
+  "_id": "FaEuqBr8UriAxYT1",
+  "name": "Honra de Assassino",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Desde a mais tenra idade, você foi treinado nas práticas do assassinato. Mais do que apenas técnicas de combate e furtividade, você foi doutrinado para aceitar moralmente os crimes que comete e para valorizar esse ofício acima de todos os outros.</p>",
+    "eventos": [
+      {
+        "texto": "Deixar de matar alguém por não ter sido pago para isso.",
+        "marcado": false
+      },
+      {
+        "texto": "Matar um alvo sob contrato.",
+        "marcado": false
+      },
+      {
+        "texto": "Relativizar assassinatos que cometeu.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Deixar de ser um assassino.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!FaEuqBr8UriAxYT1"
+}

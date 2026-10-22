@@ -1,0 +1,54 @@
+{
+  "_id": "7cfINDkDivW593Xu",
+  "name": "Fúria Feroz",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "",
+    "acao": "livre",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": true,
+    "ritual": false,
+    "descricao": "<p>A raiva é uma emoção que se manifesta em todos os seres vivos, sendo comum tanto no Mundo dos Homens quanto no Outro Mundo. O nagen pode ser canalizado por meio dessa emoção, causando efeitos poderosíssimos. Ainda assim, grandes mestres e sábios sempre aconselham seus estudantes a controlar a própria raiva pelo temor do que essa força possa fazer quando descontrolada. No arquipélago de Des Sid, no Outro Mundo, a determinação é outra. Essa cultura extremamente bélica, pautada na sobrevivência do mais forte, vê a raiva como um degrau para atingir um ideal espiritual: a Fúria Feroz, um lampejo de ódio capaz de transformar qualquer guerreiro em um deus da guerra, mas apenas por um único momento. Esse shintai molda o corpo do shen a partir de suas emoções. Você pode declarar o uso dessa técnica assim que usar qualquer forma de ataque desarmado. Você recebe o benefício do poder da raiva com esse ataque.</p>",
+    "ougi": "<p>Some +2 ou sua aura no dano, o que for maior.</p>",
+    "sincronizacao": "<p>Escolha um benefício de splash e aplique-o ao ataque, além de quaisquer outros já obtidos pelo ataque.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "max(2, @aura)",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Hf5Fjh7IJzO92JNz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7cfINDkDivW593Xu"
+}

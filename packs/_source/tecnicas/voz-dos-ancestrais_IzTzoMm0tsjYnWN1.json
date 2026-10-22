@@ -1,0 +1,54 @@
+{
+  "_id": "IzTzoMm0tsjYnWN1",
+  "name": "Voz dos Ancestrais",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Aura 1, Instinto 3, Presença 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Para os guerreiros que honram seus ancestrais, o passado não é apenas um espelho para suas ações. Com o treinamento certo, eles podem ouvir a voz reconfortante dos seus ancestrais e receber seu conhecimento e sua sabedoria momentaneamente. Como uma ação extra, faça uma jogada de Presença (Místico) contra a Tensão. Caso tenha sucesso, um ancestral responde ao seu chamado. Ele sussurra os segredos de uma técnica cujos requisitos você preencha. Você pode usar a técnica até o começo do seu próximo turno, como se a soubesse.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Presença.</p>",
+    "sincronizacao": "<p>Além de poder utilizar a técnica, você recebe os benefícios de ougi dela.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!IzTzoMm0tsjYnWN1"
+}

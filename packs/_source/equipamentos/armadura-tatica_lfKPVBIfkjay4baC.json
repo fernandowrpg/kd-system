@@ -1,0 +1,37 @@
+{
+  "_id": "lfKPVBIfkjay4baC",
+  "name": "Armadura Tática",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/equipamento.svg",
+  "system": {
+    "categoria": "armadura",
+    "caracteristicas": [],
+    "descricao": "<p>Existe um tipo de traje de combate usado nas raras situações em que o confronto direto contra seres sobrenaturais é a única opção. Esse traje cinza de kevlar é protegido por placas de cerâmica e denadorita. Mas o mais importante é seu bônus de +1 no Limiar de Proteção e a vantagem que concede contra todas as jogadas para resistir aos efeitos de focus.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 1,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "RMFHkiqn8xE00yZV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!lfKPVBIfkjay4baC"
+}

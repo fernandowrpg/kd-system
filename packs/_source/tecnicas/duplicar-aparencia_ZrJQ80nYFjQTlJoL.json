@@ -1,0 +1,54 @@
+{
+  "_id": "ZrJQ80nYFjQTlJoL",
+  "name": "Duplicar Aparência",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Artista 2, Presença 3, Henshin",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Quando as pessoas discutem a possibilidade dos yokai causarem grandes danos às comunidades humanas por meio do roubo de identidade, é aos usuários desta técnica que estão se referindo. Vidas inteiras podem ser destruídas se essa técnica for dominada por alguém com péssimas intenções. Essa é a refinação da transformação básica, permitindo assumir outras formas humanoides. Para copiar um alvo, o yuza precisa estudá-lo com atenção durante pelo menos um minuto, sem fazer mais nada. A transformação também muda sua voz se ele ouvir a pessoa falando durante pelo menos um minuto. Também é possível improvisar formas completamente inventadas (mas ainda humanoides), mas é preciso jogar Presença (Artista) contra a Tensão para evitar que pareça estranho e artificial. A transformação dura uma cena.</p>",
+    "ougi": "<p>A transformação dura até você decidir trocar de forma.</p>",
+    "sincronizacao": "<p>Você tem vantagem em qualquer jogada para manter o disfarce.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ZrJQ80nYFjQTlJoL"
+}

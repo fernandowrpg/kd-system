@@ -1,0 +1,54 @@
+{
+  "_id": "LU5S1kaL5EMZx5fU",
+  "name": "Músculos de Aço",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": true,
+    "ritual": false,
+    "descricao": "<p>Alguns shen podem crescer de forma monstruosa usando focus. Eles ficam gigantescos, com a aparência de verdadeiros monstros — também ficam muito mais fortes. Ao ativar essa técnica como uma ação, os músculos do shen crescem até o final da cena. Ele sofre desvantagem em todas as jogadas de Agilidade e Presença, mas tem vantagem nas jogadas de Força. Além disso, o dano de qualquer técnica baseada em Força aumenta em dois pontos.</p>",
+    "ougi": "<p>Você usa seus músculos poderosos defensivamente. Você tem vantagem para usar técnicas de Bloqueio enquanto durar o efeito.</p>",
+    "sincronizacao": "<p>O aumento no dano é de 3 em vez de 2.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Hf5Fjh7IJzO92JNz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!LU5S1kaL5EMZx5fU"
+}

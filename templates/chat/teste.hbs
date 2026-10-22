@@ -1,0 +1,121 @@
+<div class="lenda-chat teste {{#if ataque}}ataque{{/if}}">
+  <header class="chat-cabecalho">
+    <img src="{{#if tecnica}}{{tecnica.img}}{{else}}{{actorImg}}{{/if}}" alt="">
+    <div>
+      <h3>{{titulo}}{{#if tecnica.ehOugi}} <span class="tag ougi">{{localize "LENDA.Ougi"}}</span>{{/if}}</h3>
+      <p class="subtitulo">
+        {{#if atributoNome}}{{atributoNome}}{{/if}}{{#if bonusNome}} + {{bonusNome}}{{/if}}
+        {{#if subtitulo}} · {{subtitulo}}{{/if}}
+        {{#if tecnica}}{{#if tecnica.acao}} · {{tecnica.acao}}{{/if}}{{#if tecnica.elemento}} · {{tecnica.elemento}}{{/if}}{{/if}}
+      </p>
+    </div>
+  </header>
+
+  {{#if custo}}
+  <div class="chat-custo">
+    <span data-tooltip="{{#each custo.partes}}{{rotulo}} {{lenda-sinal valor}}<br>{{/each}}"><i class="fas fa-fire"></i> {{localize "LENDA.Nagen"}} <strong>{{custo.custo}}</strong></span>
+    {{#if custo.sinc}}<span><i class="fas fa-dice-d10"></i> {{localize "LENDA.Custo.PagoSinc"}} <strong>{{custo.pagoSinc}}</strong>{{#if (lenda-gt custo.sinc custo.pagoSinc)}} (+{{localize "LENDA.Custo.DadosNaJogada"}}){{/if}}</span>{{/if}}
+    <span>{{localize "LENDA.Custo.Rodada"}} <strong>{{custo.depois}}/{{custo.limiar}}</strong></span>
+    {{#if custo.vigorPerdido}}<span class="perda"><i class="fas fa-heart-crack"></i> −{{custo.vigorPerdido}} {{localize "LENDA.Vigor"}}</span>{{/if}}
+  </div>
+  {{#if custo.sincAtivada}}<div class="chat-sinc-ativa"><i class="fas fa-bolt"></i> {{localize "LENDA.Custo.SincAtivada"}}</div>{{/if}}
+  {{/if}}
+
+  {{#unless semRolagem}}
+  <div class="chat-dados">
+    {{#each dados}}<span class="dado d{{faces}} {{estado}}{{#if (lenda-eq valor 1)}} um{{/if}}{{#if (lenda-gt valor 5)}} seis{{/if}}">{{valor}}</span>{{/each}}
+  </div>
+  <div class="chat-total">
+    <span class="total">{{total}}</span>
+    {{#if bonus}}<span class="detalhe">({{soma}} {{lenda-sinal bonus}})</span>{{/if}}
+    {{#if temDificuldade}}
+    <span class="resultado {{#if sucesso}}sucesso{{else}}falha{{/if}}">{{#if sucesso}}{{localize "LENDA.Sucesso"}}{{else}}{{localize "LENDA.Falha"}}{{/if}} ({{localize "LENDA.Teste.Dificuldade"}} {{dificuldade}})</span>
+    {{/if}}
+  </div>
+  <div class="chat-recursos">
+    {{#if ganhoTensao}}<span class="tensao"><i class="fas fa-bolt"></i> +{{ganhoTensao}} {{localize "LENDA.Tensao.Nome"}}</span>{{/if}}
+    {{#if ganhoSinc}}<span class="sinc"><i class="fas fa-dice-d10"></i> +{{ganhoSinc}} {{localize "LENDA.Sincronizacao"}}</span>{{/if}}
+    {{#if descartados}}<span class="descarte"><i class="fas fa-ban"></i> {{descartados}} {{localize "LENDA.Dado.descartados"}}</span>{{/if}}
+    {{#each avisos}}<span class="aviso">{{this}}</span>{{/each}}
+  </div>
+  {{/unless}}
+
+  {{#if defesa}}
+  <div class="chat-defesa"><i class="fas fa-shield"></i> {{defesa.rotulo}}: <strong>{{total}}</strong></div>
+  {{/if}}
+
+  {{#if ataque}}
+  <div class="chat-ataque">
+    <div class="resumo-ataque">
+      {{#if ataque.tipo}}<span>{{localize "LENDA.Ataque.Tipo"}}: <strong>{{ataque.tipoNome}}</strong></span>{{/if}}
+      <span>{{localize "LENDA.Dano"}}: <strong>{{ataque.dano}}</strong>{{#if ataque.bonusDescarte}} <em>(+{{ataque.bonusDescarte}} {{localize "LENDA.Dado.descartados"}})</em>{{/if}}</span>
+      {{#if (lenda-gt ataque.vigor 1)}}<span>{{localize "LENDA.Ataque.VigorPorAcerto"}}: <strong>{{ataque.vigor}}</strong></span>{{/if}}
+      {{#if ataque.penetracao}}<span>{{localize "LENDA.Caracteristica.penetrante"}} (−{{ataque.penetracao}} LP)</span>{{/if}}
+      {{#if ataque.arma}}<span><i class="fas fa-khanda"></i> {{ataque.arma}}</span>{{/if}}
+      {{#if ataque.acertoAutomatico}}<span class="tag">{{localize "LENDA.Ataque.Automatico"}}</span>{{/if}}
+    </div>
+
+    {{#if temAlvos}}
+    <ol class="alvos">
+      {{#each alvos}}
+      <li class="alvo {{#if acerto}}acerto{{else}}erro{{/if}} {{#if aplicado}}aplicado{{/if}}">
+        <div class="alvo-linha">
+          <img src="{{img}}" alt="">
+          <span class="nome">{{nome}}</span>
+          {{#unless ../ataque.acertoAutomatico}}<span class="ld" data-tooltip="{{localize 'LENDA.Limiar.Defesa'}}">LD {{ld}}</span>{{/unless}}
+          <span class="resultado">
+            {{#if acerto}}<strong>{{localize "LENDA.Ataque.Acerto"}}</strong>{{#unless ../ataque.acertoAutomatico}} ({{lenda-sinal margem}}){{/unless}}{{else}}<strong>{{localize "LENDA.Ataque.Erro"}}</strong>{{/if}}
+          </span>
+        </div>
+        {{#if acerto}}
+        <div class="alvo-detalhes">
+          <span>LP {{lp}} → {{#if fere}}<strong class="fere">{{localize "LENDA.Ataque.Ferimento"}}</strong>{{else}}{{localize "LENDA.Ataque.SoVigor"}}{{/if}}</span>
+          <span>−{{vigor}} {{localize "LENDA.Vigor"}}{{#if fraco}} <em>({{localize "LENDA.Chat.ElementoOposto"}})</em>{{/if}}</span>
+          {{#if splash}}<span class="splash"><i class="fas fa-burst"></i> {{localize "LENDA.Splash.Disponivel"}}</span>{{/if}}
+          {{#if aplicado}}<span class="aplicado-tag"><i class="fas fa-check"></i> {{localize "LENDA.Chat.Aplicado"}}</span>{{/if}}
+        </div>
+        <div class="alvo-botoes" data-alvo-dono="{{uuid}}">
+          <button type="button" data-lenda-acao="aplicar" data-alvo="{{uuid}}"><i class="fas fa-check"></i> {{localize "LENDA.Chat.Aplicar"}}</button>
+          <button type="button" data-lenda-acao="aplicar-bloqueio" data-alvo="{{uuid}}" data-tooltip="{{localize 'LENDA.Chat.AplicarBloqueioHint'}}"><i class="fas fa-shield"></i> LP…</button>
+          <button type="button" data-lenda-acao="aplicar-vigor" data-alvo="{{uuid}}" data-tooltip="{{localize 'LENDA.Chat.AplicarVigorHint'}}"><i class="fas fa-heart-pulse"></i></button>
+          {{#unless ../ataque.acertoAutomatico}}
+          <button type="button" data-lenda-acao="defesa" data-tipo="esquiva" data-alvo="{{uuid}}" data-tooltip="{{localize 'LENDA.Defesa.Esquiva'}}"><i class="fas fa-person-running"></i></button>
+          <button type="button" data-lenda-acao="defesa" data-tipo="bloqueio" data-alvo="{{uuid}}" data-tooltip="{{localize 'LENDA.Defesa.Bloqueio'}}"><i class="fas fa-shield-halved"></i></button>
+          {{/unless}}
+        </div>
+        {{else}}
+        {{#if retaliacao}}<div class="alvo-detalhes retaliacao"><i class="fas fa-reply"></i> {{localize "LENDA.Ataque.Retaliacao" tipo=retaliacao}}</div>{{/if}}
+        {{/if}}
+      </li>
+      {{/each}}
+    </ol>
+    {{else}}
+    {{#unless ataque.acertoAutomatico}}<p class="dica">{{localize "LENDA.Ataque.SemAlvosChat"}}</p>{{/unless}}
+    {{/if}}
+
+    {{#if splashEscolhido}}
+    <div class="chat-splash escolhido"><i class="fas fa-burst"></i> <strong>{{localize "LENDA.Splash.Nome"}}: {{splashEscolhido}}</strong> — {{splashTexto}}</div>
+    {{else if algumSplash}}
+    <div class="chat-splash somente-atacante">
+      <span><i class="fas fa-burst"></i> {{localize "LENDA.Splash.Escolher"}}</span>
+      <div class="botoes">
+        <button type="button" data-lenda-acao="splash" data-efeito="sincronizacao" data-tooltip="{{localize 'LENDA.Splash.sincronizacaoHint'}}">{{localize "LENDA.Splash.sincronizacao"}}</button>
+        <button type="button" data-lenda-acao="splash" data-efeito="decisivo" data-tooltip="{{localize 'LENDA.Splash.decisivoHint'}}">{{localize "LENDA.Splash.decisivo"}}</button>
+        <button type="button" data-lenda-acao="splash" data-efeito="empecilho" data-tooltip="{{localize 'LENDA.Splash.empecilhoHint'}}">{{localize "LENDA.Splash.empecilho"}}</button>
+        <button type="button" data-lenda-acao="splash" data-efeito="total" data-tooltip="{{localize 'LENDA.Splash.totalHint'}}">{{localize "LENDA.Splash.total"}}</button>
+      </div>
+      {{#if ataque.splashEfeito}}<p class="dica">{{localize "LENDA.Splash.Restrito"}}</p>{{/if}}
+    </div>
+    {{/if}}
+  </div>
+  {{/if}}
+
+  {{#if tecnica}}
+  {{#if tecnica.texto.sincronizacao}}<div class="chat-efeito sinc"><strong>{{localize "LENDA.Sincronizacao"}}:</strong> {{{tecnica.texto.sincronizacao}}}</div>{{/if}}
+  {{#if tecnica.texto.ougi}}<div class="chat-efeito ougi"><strong>{{localize "LENDA.Ougi"}}:</strong> {{{tecnica.texto.ougi}}}</div>{{/if}}
+  <details class="chat-descricao">
+    <summary>{{localize "LENDA.Chat.VerDescricao"}}</summary>
+    {{{tecnica.texto.descricao}}}
+  </details>
+  {{/if}}
+</div>

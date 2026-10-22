@@ -1,0 +1,54 @@
+{
+  "_id": "CvJqsUUxFfX1reef",
+  "name": "Supernova",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/fogo.svg",
+  "system": {
+    "requisitos": "Tocado ou Aceito, Vontade 5",
+    "tipos": [],
+    "elemento": "fogo",
+    "acao": "livre",
+    "nagen": 3,
+    "nagenNota": "3 (veja acima)",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Fogo projetado por yuzas às vezes assume tonalidades incomuns devido à sua aura. Chamas verdes, azuladas ou mesmo negras já foram registradas. Só uma cor de chamas, porém, é realmente temida em detrimento das outras. A chama branca, de calor mais intenso, é possível apenas para os yuzas espiritualmente conectados ao poder elemental do fogo. Esse poder é tão intenso que pode ferir o próprio usuário. A Supernova pode ser invocada como parte do uso de qualquer técnica de fogo, emprestando-lhe seu brilho branco. Qualquer jogada feita para realizar a técnica é feita com vantagem e qualquer jogada feita para resistir aos efeitos da técnica (incluindo defesas ativas) é feita com desvantagem. Caso a técnica cause dano, some sua Aura a esse valor. O custo em nagen aumenta em 3 pontos. Mesmo que o nagen usado fique abaixo do seu Limiar de Canalização, você perde pelo menos 1 ponto de Vigor ao usar essa técnica. Caso o dano causado seja maior que o seu Limiar de Proteção, você marca uma caixa de ferimento.</p>",
+    "ougi": "<p>Você não marca uma caixa de ferimento, não importa quanto dano tenha sido causado.</p>",
+    "sincronizacao": "<p>Aumente o dano em +2.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!CvJqsUUxFfX1reef"
+}

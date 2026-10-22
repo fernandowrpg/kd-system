@@ -1,0 +1,43 @@
+{
+  "_id": "SlHbPH802Cmm4PST",
+  "name": "Amnésia",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>O seu passado é uma folha em branco. Você não sabe de onde veio, como chegou, onde está, quem são seus amigos ou seus inimigos. É possível que nem se lembre do próprio nome.</p>",
+    "eventos": [
+      {
+        "texto": "Encontrar alguém que conhece você, mas que você não reconhece.",
+        "marcado": false
+      },
+      {
+        "texto": "Tentar descobrir mais sobre o seu passado.",
+        "marcado": false
+      },
+      {
+        "texto": "Não saber responder uma pergunta sobre o seu passado.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Descobrir o seu passado.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!SlHbPH802Cmm4PST"
+}

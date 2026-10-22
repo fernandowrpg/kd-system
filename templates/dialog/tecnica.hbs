@@ -1,0 +1,86 @@
+<div class="lenda-form tecnica-uso">
+  <div class="tecnica-topo">
+    <img src="{{item.img}}" alt="">
+    <div>
+      <h3>{{item.name}}{{#if ougi}} <span class="tag ougi">{{localize "LENDA.Ougi"}}</span>{{/if}}</h3>
+      <p class="info">{{localize "LENDA.Nagen"}}: <strong>{{custoBase}}</strong>{{#if nagenNota}} — <em>{{nagenNota}}</em>{{/if}}{{#if upgrades}} · {{localize "LENDA.Upgrades"}}: {{upgrades}}{{/if}}</p>
+      <p class="info">{{localize "LENDA.NagenRodada"}}: {{rodada}} / {{limiar}}</p>
+    </div>
+  </div>
+  {{#if alvos}}<p class="alvos"><i class="fas fa-crosshairs"></i> {{localize "LENDA.Ataque.Alvos"}}: <strong>{{alvos}}</strong></p>{{/if}}
+
+  <fieldset>
+    <legend>{{localize "LENDA.Tecnica.Custo"}}</legend>
+    <div class="form-linha">
+      <div class="form-group">
+        <label data-tooltip="{{localize 'LENDA.Tecnica.SincHint'}}">{{localize "LENDA.Teste.Sinc"}} <span class="max">(máx. {{sinc}})</span></label>
+        <input type="number" name="sinc" value="0" min="0" max="{{sinc}}">
+      </div>
+      <div class="form-group">
+        <label data-tooltip="{{localize 'LENDA.Tecnica.NagenExtraHint'}}">{{localize "LENDA.Tecnica.NagenExtra"}}</label>
+        <input type="number" name="nagenExtra" value="0" min="0">
+      </div>
+    </div>
+    <div class="form-linha opcoes">
+      <label class="caixa-opcao" data-tooltip="{{localize 'LENDA.Tecnica.KiaiHint'}}"><input type="checkbox" name="kiai"> {{localize "LENDA.Tecnica.Kiai"}}</label>
+      <div class="form-group">
+        <label>{{localize "LENDA.Ataque.Arma"}}</label>
+        <select name="arma">
+          <option value="">{{localize "LENDA.Ataque.Desarmado"}}</option>
+          {{#each armas}}<option value="{{value}}">{{label}}</option>{{/each}}
+        </select>
+      </div>
+    </div>
+    {{#if precisaElemento}}
+    <div class="form-group">
+      <label>{{localize "LENDA.Elemento.Nome"}}</label>
+      <select name="elemento">
+        <option value="">—</option>
+        {{#each elementos}}<option value="{{value}}" {{#if (lenda-eq value ../elemento)}}selected{{/if}}>{{label}}</option>{{/each}}
+      </select>
+    </div>
+    {{/if}}
+    <div class="custo-preview"></div>
+  </fieldset>
+
+  <fieldset>
+    <legend>{{localize "LENDA.Tecnica.AtaqueEDano"}}</legend>
+    <label class="caixa-opcao"><input type="checkbox" name="rolar" {{checked rolar}}> {{localize "LENDA.Tecnica.RolarAtaque"}}</label>
+    <div class="form-linha">
+      <div class="form-group">
+        <label>{{localize "LENDA.Ataque.Tipo"}}</label>
+        <select name="tipo">
+          {{#each tipos}}<option value="{{value}}" {{#if (lenda-eq value ../tipo)}}selected{{/if}}>{{label}}</option>{{/each}}
+        </select>
+      </div>
+      <div class="form-group">
+        <label>{{localize "LENDA.Atributo.Nome"}}</label>
+        <select name="atributo">
+          {{#each atributos}}<option value="{{value}}" {{#if (lenda-eq value ../atributo)}}selected{{/if}}>{{label}}</option>{{/each}}
+        </select>
+      </div>
+      <div class="form-group">
+        <label data-tooltip="{{localize 'LENDA.Ataque.AtributoDanoHint'}}">{{localize "LENDA.Ataque.AtributoDano"}}</label>
+        <select name="atributoDano">
+          <option value="">—</option>
+          <option value="agi">{{localize "LENDA.Atributo.agilidade"}}</option>
+          <option value="raz">{{localize "LENDA.Atributo.razao"}}</option>
+          <option value="ins">{{localize "LENDA.Atributo.instinto"}}</option>
+          <option value="pre">{{localize "LENDA.Atributo.presenca"}}</option>
+          <option value="von">{{localize "LENDA.Atributo.vontade"}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-linha">
+      <div class="form-group"><label>{{localize "LENDA.Teste.Vantagens"}}</label><input type="number" name="vantagens" value="0" min="0"></div>
+      <div class="form-group"><label>{{localize "LENDA.Teste.Desvantagens"}}</label><input type="number" name="desvantagens" value="0" min="0"></div>
+      <div class="form-group"><label>{{localize "LENDA.Teste.BonusExtra"}}</label><input type="number" name="bonusExtra" value="0"></div>
+    </div>
+    <div class="form-linha">
+      <div class="form-group"><label data-tooltip="{{localize 'LENDA.Teste.TrocasHint'}}">{{localize "LENDA.Teste.Trocas"}}</label><input type="number" name="trocas" value="0" min="0"></div>
+      <div class="form-group"><label>{{localize "LENDA.Ataque.DanoExtra"}}</label><input type="number" name="danoExtra" value="0"></div>
+      {{#if conceitoDisponivel}}<label class="caixa-opcao"><input type="checkbox" name="conceito"> {{localize "LENDA.Conceito"}} (+1d10)</label>{{/if}}
+    </div>
+    <p class="dica">{{localize "LENDA.Tecnica.DicaUso"}}</p>
+  </fieldset>
+</div>

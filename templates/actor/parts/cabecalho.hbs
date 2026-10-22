@@ -1,0 +1,73 @@
+<header class="lenda-cabecalho">
+  <div class="retrato-moldura">
+    <img class="retrato" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="{{actor.name}}" data-tooltip="{{localize 'LENDA.Cabecalho.Retrato'}}">
+    <div class="aura-selo" data-tooltip="{{localize 'LENDA.AuraHint'}}">
+      <label>{{localize "LENDA.Aura"}}</label>
+      <input type="number" name="system.aura" value="{{system.aura}}" min="0" max="10" {{#unless editable}}disabled{{/unless}}>
+    </div>
+  </div>
+
+  <div class="cabecalho-principal">
+    <input class="nome" type="text" name="name" value="{{actor.name}}" placeholder="{{localize 'LENDA.Cabecalho.Nome'}}" {{#unless editable}}disabled{{/unless}}>
+    <div class="linha-conceito">
+      <label>{{localize "LENDA.Conceito"}}</label>
+      <input type="text" name="system.conceito" value="{{system.conceito}}" placeholder="{{localize 'LENDA.ConceitoPlaceholder'}}" {{#unless editable}}disabled{{/unless}}>
+      {{#if (lenda-eq actor.type "protagonista")}}
+      <label class="conceito-usado" data-tooltip="{{localize 'LENDA.ConceitoUsadoHint'}}">
+        <input type="checkbox" name="system.conceitoUsado" {{checked system.conceitoUsado}} {{#unless editable}}disabled{{/unless}}>
+        <i class="fas fa-bookmark"></i>
+      </label>
+      {{/if}}
+    </div>
+
+    <div class="recursos">
+      {{!-- Barra de Vigor --}}
+      <div class="recurso vigor" data-tooltip="{{localize 'LENDA.VigorHint'}}">
+        <span class="rotulo"><i class="fas fa-heart-pulse"></i> {{localize "LENDA.Vigor"}}</span>
+        <div class="barra">
+          <div class="preenchimento" style="width: {{vigorPct}}%"></div>
+          <div class="valores">
+            <input type="number" name="system.vigor.value" value="{{system.vigor.value}}" {{#unless editable}}disabled{{/unless}}>
+            <span>/ {{system.vigor.max}}</span>
+          </div>
+        </div>
+        {{#if editable}}<a class="mini" data-action="vigorCheio" data-tooltip="{{localize 'LENDA.VigorCheio'}}"><i class="fas fa-rotate-left"></i></a>{{/if}}
+      </div>
+
+      {{!-- Ferimentos --}}
+      <div class="recurso ferimentos" data-tooltip="{{localize 'LENDA.FerimentosHint'}}">
+        <span class="rotulo"><i class="fas fa-droplet"></i> {{localize "LENDA.Ferimentos"}}</span>
+        <div class="caixas">
+          {{#each caixasFerimento}}
+          <a class="caixa {{#if marcada}}marcada{{/if}} {{#if extra}}extra{{/if}}" {{#if ../editable}}data-action="ferimento" data-indice="{{indice}}"{{/if}}></a>
+          {{/each}}
+        </div>
+        {{#if system.derrotado}}<span class="estado derrotado">{{localize "LENDA.Derrotado"}}</span>
+        {{else if system.ferido}}<span class="estado ferido">{{localize "LENDA.Ferido"}}</span>{{/if}}
+      </div>
+
+      {{!-- Sincronização --}}
+      <div class="recurso sinc" data-tooltip="{{localize 'LENDA.SincHint'}}">
+        <span class="rotulo"><i class="fas fa-dice-d10"></i> {{localize "LENDA.Sincronizacao"}}</span>
+        <div class="contador">
+          {{#if editable}}<a data-action="sinc" data-delta="-1"><i class="fas fa-minus"></i></a>{{/if}}
+          <input type="number" name="system.sincronizacao.value" value="{{system.sincronizacao.value}}" min="0" {{#unless editable}}disabled{{/unless}}>
+          {{#if editable}}<a data-action="sinc" data-delta="1"><i class="fas fa-plus"></i></a>{{/if}}
+        </div>
+      </div>
+
+      {{!-- Nagen da rodada --}}
+      <div class="recurso nagen" data-tooltip="{{localize 'LENDA.NagenHint'}}">
+        <span class="rotulo"><i class="fas fa-fire"></i> {{localize "LENDA.NagenRodada"}}</span>
+        <div class="barra nagen-barra {{#if system.nagen.excesso}}excesso{{/if}}">
+          <div class="preenchimento" style="width: {{nagenPct}}%"></div>
+          <div class="valores">
+            <input type="number" name="system.nagen.rodada" value="{{system.nagen.rodada}}" min="0" {{#unless editable}}disabled{{/unless}}>
+            <span>/ {{system.limiares.canalizacao.value}}</span>
+          </div>
+        </div>
+        {{#if editable}}<a class="mini" data-action="zerarNagen" data-tooltip="{{localize 'LENDA.ZerarNagen'}}"><i class="fas fa-rotate-left"></i></a>{{/if}}
+      </div>
+    </div>
+  </div>
+</header>

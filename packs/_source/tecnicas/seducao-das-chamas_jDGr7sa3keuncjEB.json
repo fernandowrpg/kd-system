@@ -1,0 +1,54 @@
+{
+  "_id": "jDGr7sa3keuncjEB",
+  "name": "Sedução das Chamas",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/fogo.svg",
+  "system": {
+    "requisitos": "Disparo Elemental",
+    "tipos": [],
+    "elemento": "fogo",
+    "acao": "acao",
+    "nagen": 2,
+    "nagenNota": "2, 4, 8 ou mais (ver acima).",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Os acidentes mais comuns entre yuzas com afinidade com o fogo envolvem o uso rudimentar desta técnica. Alinhando a sincronia da sua aura com uma chama próxima, o yuza pode dobrar sua intensidade ou apagá-la completamente. Influenciar uma chama menor que o yuza requer 2 de nagen, uma chama que seja do tamanho do yuza ou um pouco maior requer 4 de nagen, e uma chama que seja mais do que duas vezes maior que o yuza requer no mínimo 8 de nagen. Se usada para atacar, essa técnica causa dano igual à Vontade do usuário. Essa técnica pode ser usada em um ataque elemental de outro yuza. Caso aumente a intensidade, some sua Aura ao dano causado pelo yuza. Caso tente dissipar um ataque, faça uma defesa total com vantagem, usando seu Instinto contra a jogada de ataque.</p>",
+    "ougi": "<p>Seu controle é tão preciso que você pode escolher exatamente qual será a temperatura do fogo.</p>",
+    "sincronizacao": "<p>Some sua aura ao dano causado pelo fogo. Caso esteja aumentando o dano de outra técnica, some sua Aura duas vezes ao dano dela.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@von",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!jDGr7sa3keuncjEB"
+}

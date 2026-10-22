@@ -1,0 +1,54 @@
+{
+  "_id": "765pqza7GOMUC2s6",
+  "name": "Fogo de Raposa",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/fogo.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "fogo",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Fogo é o mais destrutivo dos elementos e carrega até um certo estigma depois do Desastre de 99. Porém, as kitsune da mitologia japonesa são a prova da sutileza do elemento. O Fogo de Raposa permite distorcer a luz por meio de alterações na temperatura do ar, o que torna difícil distinguir o yuza de uma pessoa qualquer ou objeto de mesmo tamanho ou menor. Essa técnica concede ao yuza vantagem em jogadas para se esconder ou passar despercebido de alguma forma. Em combate, isso faz com que qualquer ataque contra o yuza sofra desvantagem. Esse efeito do Fogo de Raposa dura até o começo do seu próximo turno. O yuza também pode fechar um pequeno objeto em seu punho e envolver a mão em Fogo de Raposa. Quando abrir a mão, o objeto terá outra aparência (mantendo as mesmas dimensões) até o final da cena.</p>",
+    "ougi": "<p>Você pode usar essa técnica como uma ação extra.</p>",
+    "sincronizacao": "<p>Você tem duas vantagens para se esconder ou passar despercebido. Ataques contra você sofrem duas desvantagens.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!765pqza7GOMUC2s6"
+}

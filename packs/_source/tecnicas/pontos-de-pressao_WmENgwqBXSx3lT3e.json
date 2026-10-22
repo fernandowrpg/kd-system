@@ -1,0 +1,54 @@
+{
+  "_id": "WmENgwqBXSx3lT3e",
+  "name": "Pontos de Pressão",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Aura 1, Médico 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>“Você já está morto.” – Kenshiro, Hokuto no Ken  Você conhece pontos de pressão secretos capazes de destruir um alvo. Você pode usar essa técnica como uma ação extra após forçar um alvo a marcar uma caixa de ferimento com um Golpe ou Combo desarmado. Faça um teste de Razão (Medicina) contra Vontade do alvo. Se tiver sucesso, o alvo sofre desvantagem em todas as jogadas até o final da cena e seu próximo ataque contra ele recebe um bônus no dano igual às desvantagens que o alvo tem em todas as jogadas.</p>",
+    "ougi": "<p>Você pode usar essa técnica com qualquer tipo de ataque, incluindo com armas.</p>",
+    "sincronizacao": "<p>O alvo sofre duas desvantagens em vez de uma.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!WmENgwqBXSx3lT3e"
+}

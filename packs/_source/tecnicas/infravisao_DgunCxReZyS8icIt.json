@@ -1,0 +1,54 @@
+{
+  "_id": "DgunCxReZyS8icIt",
+  "name": "Infravisão",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/fogo.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "fogo",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O yuza sincroniza o nagen dos próprios olhos com o calor do ambiente. Ele consegue ver o calor, mesmo que não exista luz. Essa técnica é chamada de “visão do predador” no Circuito Mundial de Lutas. Qualquer jogada para rastrear ou localizar alguma coisa escondida (que emita calor) é feita com vantagem. Além disso, em situações de calor extremo (como nos arredores de um vulcão em erupção, uma tarde de verão no Rio de Janeiro ou uma área sob efeito da técnica Onda de Calor), a infravisão é ainda mais precisa que a visão normal, concedendo vantagem para qualquer jogada que dependa da visão. A Infravisão não funciona em locais muito frios ou em criaturas de sangue frio. Ela também não permite distinguir cores ou detalhes. Depois de ativada, dura até o final da cena.</p>",
+    "ougi": "<p>Você pode ativar a infravisão como uma ação extra.</p>",
+    "sincronizacao": "<p>Qualquer situação em que a Infravisão concedia vantagem passa a conceder duas vantagens.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!DgunCxReZyS8icIt"
+}

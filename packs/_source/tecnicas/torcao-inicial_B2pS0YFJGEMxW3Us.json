@@ -1,0 +1,56 @@
+{
+  "_id": "B2pS0YFJGEMxW3Us",
+  "name": "Torção Inicial",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agarrao.svg",
+  "system": {
+    "requisitos": "Agilidade 3, Força 3",
+    "tipos": [
+      "agarrao"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Dizem que esta técnica foi desenvolvida para derrubar inimigos em cavalos. Os lutadores corriam para obter impulso, saltavam sobre o alvo, torciam seu corpo para soltá-lo da sela e depois arremessavam-no longe. Escolha um alvo próximo. Você se move até ele e faz uma jogada de ataque, causando dano igual à Força se acertar. Além disso, você pode fazer outro Agarrão como parte da mesma ação. Você ainda precisa fazer uma jogada de ataque para o segundo Agarrão, mas recebe vantagem nele.</p>",
+    "ougi": "<p>Você recebe uma vantagem a mais na jogada de ataque do segundo Agarrão.</p>",
+    "sincronizacao": "<p>Some sua Aura no dano de ambos os Agarrões.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@for",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!B2pS0YFJGEMxW3Us"
+}

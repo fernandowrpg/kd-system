@@ -1,0 +1,7 @@
+<div class="grade-formulario">
+  <div class="form-group">
+    <label>{{localize "LENDA.Upgrade.Chave"}}</label>
+    <select name="system.chave" {{#unless editable}}disabled{{/unless}}>{{selectOptions chaves selected=system.chave}}</select>
+  </div>
+  <p class="dica">{{localize "LENDA.Upgrade.Dica"}}</p>
+</div>

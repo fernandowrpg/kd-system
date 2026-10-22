@@ -1,0 +1,54 @@
+{
+  "_id": "HSj4Bi3xbD9TxvKe",
+  "name": "Filosofia Feral",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Henshin",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Alguns shen capazes de se transformar em animais adquirem maior afinidade com essas criaturas da natureza. Como uma ação extra, você pode sincronizar sua aura com a de um animal da espécie na qual você se transforma com Henshin. Até o final da cena, você consegue se comunicar com ele como se ele falasse e compreendesse tudo o que você diz. O animal ainda precisa ver e ouvir você para que a comunicação aconteça. Como uma ação, você pode assobiar para invocar um animal da espécie na qual você se transforma com Henshin. Faça uma jogada de Presença contra a Tensão. Caso tenha sucesso, o animal chega no começo do seu próximo turno. Caso não tenha sucesso, não há nenhum animal nas redondezas para atender seu chamado.</p>",
+    "ougi": "<p>O animal só precisa vê-lo ou ouvi-lo para entender a comunicação, em vez dos dois. Você tem vantagem na jogada de Presença para invocar animais.</p>",
+    "sincronizacao": "<p>Como uma ação, você divide sua aura com um animal, que se torna um parceiro de batalha. A aura fortalece o animal até o final da cena. Ele pode agir por conta própria como um espírito com Aura 1 ou pode lutar ao seu lado, dando vantagem em todas as suas jogadas e aumentando em 1 o dano de todos os seus ataques corpo a corpo.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!HSj4Bi3xbD9TxvKe"
+}

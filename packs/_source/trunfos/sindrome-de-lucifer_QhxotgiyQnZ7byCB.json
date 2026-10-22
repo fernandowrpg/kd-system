@@ -1,0 +1,55 @@
+{
+  "_id": "QhxotgiyQnZ7byCB",
+  "name": "Síndrome de Lúcifer",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "16 anos ou menos",
+    "descricao": "<p>A síndrome de Lúcifer é uma doença genética raríssima que ocorre somente entre aceitos de fogo. Aqueles que sofrem desse mal têm um tempo de vida muito curto, raramente sobrevivendo além dos 18 anos.</p><p>Além de ser um Aceito (com todos os benefícios e problemas do trunfo homônimo), suas chamas são mais intensas e perigosas que o normal; aumente o dano de qualquer técnica de fogo em 2 pontos. Toda essa intensidade frequentemente causa problemas. Em qualquer jogada, resultados 2 que não sejam usados para o resultado também aumentam a Tensão (em vez de somente resultados 1).</p>",
+    "afinidade": "aceito",
+    "elemento": "fogo",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 2,
+      "vigorPorCena": 0,
+      "tensaoComDois": true
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!QhxotgiyQnZ7byCB"
+}

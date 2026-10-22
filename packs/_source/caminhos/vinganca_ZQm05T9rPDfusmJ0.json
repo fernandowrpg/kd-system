@@ -1,0 +1,43 @@
+{
+  "_id": "ZQm05T9rPDfusmJ0",
+  "name": "Vingança",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Alguma coisa muito ruim aconteceu no seu passado. Agora você quer encontrar quem pisou no seu calo e dar o troco.</p>",
+    "eventos": [
+      {
+        "texto": "Deixar de fazer alguma coisa para se concentrar na sua vingança.",
+        "marcado": false
+      },
+      {
+        "texto": "Prejudicar o alvo da sua vingança.",
+        "marcado": false
+      },
+      {
+        "texto": "Explicar os motivos por trás da sua vingança.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Desistir da vingança.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ZQm05T9rPDfusmJ0"
+}

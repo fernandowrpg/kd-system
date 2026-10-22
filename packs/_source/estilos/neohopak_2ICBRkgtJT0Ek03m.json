@@ -1,0 +1,38 @@
+{
+  "_id": "2ICBRkgtJT0Ek03m",
+  "name": "Neohopak",
+  "type": "estilo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/estilo.svg",
+  "system": {
+    "descricao": "<p>As mulheres guerreiras de Asgarda desenvolveram um estilo de luta muito eficiente baseado em golpes decisivos, saltos acrobáticos e defesa impenetrável. Embora seja uma criação mais recente que outros estilos secretos, o Neohopak está em pé de igualdade até mesmo com técnicas milenares. (Estilo secreto.)</p><p><strong>Ougi:</strong> @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.Js3EcyPSf6j6AXSl]{Ginga de Batalha}, @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.2opQ8kofpbWnA92b]{Sorriso Selvagem}</p>",
+    "valores": {
+      "agarrao": 0,
+      "bloqueio": 2,
+      "combo": 1,
+      "evasao": 2,
+      "golpe": 2,
+      "projetil": 0
+    },
+    "ougis": [
+      "Ginga de Batalha",
+      "Sorriso Selvagem"
+    ],
+    "secreto": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2ICBRkgtJT0Ek03m"
+}

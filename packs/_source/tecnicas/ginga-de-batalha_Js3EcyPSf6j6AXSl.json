@@ -1,0 +1,54 @@
+{
+  "_id": "Js3EcyPSf6j6AXSl",
+  "name": "Ginga de Batalha",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Artista 2",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Você sabe se deixar levar pelo ritmo da música, dançando enquanto luta. Use uma ação para gingar; até o final da cena você ganha vantagem em jogadas de ataque para retaliar e +1 no Limiar de Defesa. Se fizer uma jogada de ataque de retaliação sem nenhum dado de vantagem, sua ginga é desfeita e você precisa gingar de novo.</p>",
+    "ougi": "<p>Você pode gingar como uma ação extra.</p>",
+    "sincronizacao": "<p>Some sua Aura no Limiar de Defesa.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Js3EcyPSf6j6AXSl"
+}

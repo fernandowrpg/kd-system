@@ -1,0 +1,26 @@
+<section class="bloco limiares">
+  <h3 class="titulo-bloco">{{localize "LENDA.Limiares"}}</h3>
+  <div class="grade-limiares">
+    <div class="limiar canalizacao" data-tooltip="{{localize 'LENDA.Limiar.CanalizacaoHint'}}">
+      <span class="valor">{{system.limiares.canalizacao.value}}</span>
+      <span class="nome">{{localize "LENDA.Limiar.Canalizacao"}}</span>
+      <label class="bonus">{{localize "LENDA.Bonus"}} <input type="number" name="system.limiares.canalizacao.bonus" value="{{source.limiares.canalizacao.bonus}}" {{#unless editable}}disabled{{/unless}}></label>
+    </div>
+    <div class="limiar defesa" data-tooltip="{{localize 'LENDA.Limiar.DefesaHint'}}">
+      <span class="valor">{{system.limiares.defesa.value}}</span>
+      <span class="nome">{{localize "LENDA.Limiar.Defesa"}}</span>
+      <label class="bonus">{{localize "LENDA.Bonus"}} <input type="number" name="system.limiares.defesa.bonus" value="{{source.limiares.defesa.bonus}}" {{#unless editable}}disabled{{/unless}}></label>
+    </div>
+    <div class="limiar protecao" data-tooltip="{{localize 'LENDA.Limiar.ProtecaoHint'}}">
+      <span class="valor">{{system.limiares.protecao.value}}</span>
+      <span class="nome">{{localize "LENDA.Limiar.Protecao"}}</span>
+      <label class="bonus">{{localize "LENDA.Bonus"}} <input type="number" name="system.limiares.protecao.bonus" value="{{source.limiares.protecao.bonus}}" {{#unless editable}}disabled{{/unless}}></label>
+    </div>
+  </div>
+  <div class="linha-bonus">
+    <label data-tooltip="{{localize 'LENDA.VigorBonusHint'}}">{{localize "LENDA.VigorMaxBonus"}} <input type="number" name="system.vigor.bonus" value="{{source.vigor.bonus}}" {{#unless editable}}disabled{{/unless}}></label>
+    <label data-tooltip="{{localize 'LENDA.FerimentosBonusHint'}}">{{localize "LENDA.FerimentosBonus"}} <input type="number" name="system.ferimentos.bonus" value="{{source.ferimentos.bonus}}" {{#unless editable}}disabled{{/unless}}></label>
+    <span class="info" data-tooltip="{{localize 'LENDA.AcoesExtrasHint'}}"><i class="fas fa-bolt"></i> {{localize "LENDA.AcoesExtras"}}: <strong>{{system.acoesExtras}}</strong></span>
+    {{#if system.sincronizacao.inicial includeZero=true}}<span class="info" data-tooltip="{{localize 'LENDA.SincInicialHint'}}"><i class="fas fa-dice-d10"></i> {{localize "LENDA.SincInicial"}}: <strong>{{system.sincronizacao.inicial}}</strong></span>{{/if}}
+  </div>
+</section>

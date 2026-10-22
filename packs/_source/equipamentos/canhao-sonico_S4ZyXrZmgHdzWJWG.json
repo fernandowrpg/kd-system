@@ -1,0 +1,39 @@
+{
+  "_id": "S4ZyXrZmgHdzWJWG",
+  "name": "Canhão Sônico",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/arma.svg",
+  "system": {
+    "categoria": "arma",
+    "caracteristicas": [
+      "projetil"
+    ],
+    "descricao": "<p>Essa arma pode facilmente ser confundida com uma escopeta; a diferença é o cano em forma de funil e os aros concêntricos que o rodeiam. A arma dispara uma onda vibratória (um Projétil) que prejudica o equilíbrio da vítima. Um alvo atingido pelo canhão sônico sofre desvantagem em jogadas de Agilidade até receber cuidados médicos. Os efeitos não são cumulativos. Uma vítima com Aura 1 ou mais pode usar uma ação extra para testar Vontade contra a tensão e ignorar os efeitos até o começo de seu próximo turno.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "RMFHkiqn8xE00yZV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!S4ZyXrZmgHdzWJWG"
+}

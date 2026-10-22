@@ -1,0 +1,56 @@
+{
+  "_id": "tgOQdJjx87hdfIPH",
+  "name": "Punho de Penitência",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "Telepatia, Vontade 4",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Sinta queimar em sua mente até sua alma. — Howard Mackie, Motoqueiro Fantasma  Para aqueles que dominam o poder da mente, um ataque físico pode ser apenas o começo de um tormento muito mais profundo. O yuza ataca o adversário com um Golpe, mas não causa dano, estabelecendo contato entre as auras como o primeiro passo de uma investida psíquica. Caso acerte o alvo, manipula sua mente e suas emoções, buscando quebrar o seu espírito. Faça um teste de Vontade contra a Vontade do alvo. Se vencer, o oponente recebe uma desvantagem em todas as suas jogadas até o fim da cena.</p>",
+    "ougi": "<p>O alvo recebe uma desvantagem adicional para cada ponto da sua Aura (no mínimo 1).</p>",
+    "sincronizacao": "<p>O oponente tem desvantagem no teste de Vontade.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!tgOQdJjx87hdfIPH"
+}

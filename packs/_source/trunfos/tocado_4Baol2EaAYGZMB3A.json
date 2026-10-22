@@ -1,0 +1,55 @@
+{
+  "_id": "4Baol2EaAYGZMB3A",
+  "name": "Tocado",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Você tem mais afinidade com um dos elementos primordiais do universo, mas ainda é capaz de usar outros. Escolha entre água, ar, fogo ou terra. Você pode utilizar com facilidade técnicas do elemento escolhido, gastando 1 nagen a menos com eles (até zero). Você não pode aprender técnicas do elemento oposto. Caso seja atingido pelo elemento oposto, você perde 2 pontos de Vigor em vez de um.</p>",
+    "afinidade": "tocado",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4Baol2EaAYGZMB3A"
+}

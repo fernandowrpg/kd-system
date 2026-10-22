@@ -1,0 +1,14 @@
+<div class="lenda-chat teste tensao-rolagem">
+  <header class="chat-cabecalho">
+    <i class="fas fa-bolt icone-grande"></i>
+    <div>
+      <h3>{{localize "LENDA.Tensao.Jogada"}}</h3>
+      <p class="subtitulo">{{localize "LENDA.Tensao.Pilha"}}: {{dados.length}}d6</p>
+    </div>
+  </header>
+  <div class="chat-dados">
+    {{#each dados}}<span class="dado d6 {{estado}}">{{valor}}</span>{{/each}}
+  </div>
+  <div class="chat-total"><span class="total">{{total}}</span></div>
+  {{#if terceiro}}<div class="chat-recursos"><span class="tensao">{{localize "LENDA.Tensao.TerceiroDado"}} → {{tensao}}</span></div>{{/if}}
+</div>

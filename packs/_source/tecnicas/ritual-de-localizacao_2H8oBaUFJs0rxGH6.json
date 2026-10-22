@@ -1,0 +1,54 @@
+{
+  "_id": "2H8oBaUFJs0rxGH6",
+  "name": "Ritual de Localização",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ritual.svg",
+  "system": {
+    "requisitos": "Aura 1, Vontade 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "ritual",
+    "nagen": 8,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": true,
+    "descricao": "<p>Uma das maiores vantagens dos espíritos é a facilidade de obter informação. Embora não consigam compreender tudo que veem e tenham uma comunicação muitas vezes rudimentar, os espíritos estão em quase todo lugar. Após um ritual de alguns minutos, o mago apresenta um objeto que pertença a uma pessoa que ele quer localizar e diz seu nome em voz alta. Os espíritos da região se dispersam em busca do alvo. Faça uma jogada de Presença contra a Tensão. Caso tenha sucesso e o alvo esteja dentro de um raio igual à Aura x 100 km, os espíritos apontam sua localização aproximada. Caso fracasse ou o alvo esteja além desse alcance, os espíritos não o encontram.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Vontade.</p>",
+    "sincronizacao": "<p>Os espíritos dão a localização exata do alvo, mostrando uma imagem (como uma foto espiritual) de onde ele está.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "BeNYeYti4lBDVwId",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2H8oBaUFJs0rxGH6"
+}

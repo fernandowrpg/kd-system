@@ -1,0 +1,54 @@
+{
+  "_id": "WqcSJV3UGgkIn9IQ",
+  "name": "Impacto Trovejante",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [],
+    "elemento": "ar",
+    "acao": "acaoExtra",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Especialmente comum entre os Piratas do Céu, esta técnica amplifica o som do impacto de um ataque desarmado até que se torne um trovão. Após atingir um alvo com um Golpe ou Combo, o yuza pode usar uma ação extra para soar o trovão. Dispute Vontade do yuza contra Força do alvo. Se tiver sucesso, o yuza atordoa o alvo e causa desvantagem em todas as suas jogadas em seu próximo turno.</p>",
+    "ougi": "<p>Você tem vantagem em sua jogada de Vontade na disputa.</p>",
+    "sincronizacao": "<p>A vítima sofre duas desvantagens, em vez de uma.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!WqcSJV3UGgkIn9IQ"
+}

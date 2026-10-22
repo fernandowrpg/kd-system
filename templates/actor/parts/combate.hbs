@@ -1,0 +1,38 @@
+<section class="bloco combate-rapido">
+  <h3 class="titulo-bloco">{{localize "LENDA.Combate.Acoes"}}</h3>
+  <div class="botoes-combate">
+    {{#each estilo}}{{#if ataque}}
+    <button type="button" class="botao-ataque" data-action="ataque" data-tipo="{{key}}"><img src="{{icon}}" alt=""> {{label}} <span class="bonus">{{lenda-sinal value}}</span></button>
+    {{/if}}{{/each}}
+  </div>
+  <div class="botoes-combate defesas">
+    <button type="button" data-action="defesa" data-tipo="esquiva"><img src="{{config.icones.evasao}}" alt=""> {{localize "LENDA.Defesa.Esquiva"}} <span class="bonus">{{lenda-sinal system.estilo.evasao}}</span></button>
+    <button type="button" data-action="defesa" data-tipo="bloqueio"><img src="{{config.icones.bloqueio}}" alt=""> {{localize "LENDA.Defesa.Bloqueio"}} <span class="bonus">{{lenda-sinal system.estilo.bloqueio}}</span></button>
+    {{#if owner}}<button type="button" data-action="novaCena" data-tooltip="{{localize 'LENDA.Cena.AtorHint'}}"><i class="fas fa-clapperboard"></i> {{localize "LENDA.Cena.Ator"}}</button>{{/if}}
+  </div>
+  <p class="dica">{{localize "LENDA.Combate.Dica"}}</p>
+</section>
+
+{{#if (lenda-eq actor.type "protagonista")}}
+<section class="bloco emocoes">
+  <h3 class="titulo-bloco">{{localize "LENDA.PoderEmocoes"}}</h3>
+  <div class="botoes-emocoes">
+    {{#each emocoes}}
+    <button type="button" class="emocao {{key}} {{#if usada}}usada{{/if}}" data-action="emocao" data-emocao="{{key}}" data-tooltip="{{hint}}"><i class="fas {{icon}}"></i> {{label}}</button>
+    {{/each}}
+  </div>
+  <p class="dica">{{localize "LENDA.Emocao.Dica"}}</p>
+</section>
+{{else}}
+{{#if isGM}}
+<section class="bloco tensao-npc">
+  <h3 class="titulo-bloco">{{localize "LENDA.Tensao.AjudarNPC"}} <span class="contagem">({{localize "LENDA.Tensao.Nome"}}: {{tensao}})</span></h3>
+  <div class="botoes-combate">
+    <button type="button" data-action="tensao" data-tipo="vantagem"><i class="fas fa-plus"></i> {{localize "LENDA.Tensao.ComprarVantagem"}}</button>
+    <button type="button" data-action="tensao" data-tipo="sincronizacao"><i class="fas fa-dice-d10"></i> {{localize "LENDA.Tensao.ComprarSinc"}}</button>
+  </div>
+</section>
+{{/if}}
+{{/if}}
+
+{{> "systems/lenda-dragao-fogo/templates/actor/parts/equipamentos.hbs"}}

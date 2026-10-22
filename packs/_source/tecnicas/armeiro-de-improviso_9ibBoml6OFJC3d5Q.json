@@ -1,0 +1,54 @@
+{
+  "_id": "9ibBoml6OFJC3d5Q",
+  "name": "Armeiro de Improviso",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Excelência Verdadeira, Engenheiro 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Bons armeiros criam armas lendárias em forjas ancestrais e laboratórios de altíssima tecnologia. Aproveitando-se do poder dos espíritos ou do progresso da civilização, eles são capazes de criar ferramentas de combate inigualáveis. Um armeiro excelente faz a mesma coisa em uma caverna com uma caixa de sucata. Como uma ação, você pode pegar uma arma e modificá-la com suas ferramentas. Ela recebe uma característica de arma adicional (p. 166) à sua escolha. Ao final da cena, faça uma jogada de Razão (Engenheiro) contra a Tensão. Em caso de sucesso, sua modificação se desmancha e a arma volta ao normal. Em caso de fracasso, a arma se desmancha junto com a modificação.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Razão.</p>",
+    "sincronizacao": "<p>Adicione uma característica adicional à arma.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9ibBoml6OFJC3d5Q"
+}

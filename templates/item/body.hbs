@@ -1,0 +1,19 @@
+<div class="lenda-item-corpo">
+  <nav class="lenda-abas tabs" data-group="primary">
+    {{#each abas}}
+    <a class="item {{#if active}}active{{/if}}" data-action="tab" data-group="primary" data-tab="{{id}}">{{label}}</a>
+    {{/each}}
+  </nav>
+  <div class="aba-corpo">
+    <section class="tab {{aba.detalhes}}" data-group="primary" data-tab="detalhes">
+      {{> (lookup this "template")}}
+    </section>
+    <section class="tab {{aba.descricao}}" data-group="primary" data-tab="descricao">
+      {{#if editable}}
+      <prose-mirror name="system.descricao" value="{{system.descricao}}" toggled>{{{enriched.descricao}}}</prose-mirror>
+      {{else}}
+      <div class="texto">{{{enriched.descricao}}}</div>
+      {{/if}}
+    </section>
+  </div>
+</div>

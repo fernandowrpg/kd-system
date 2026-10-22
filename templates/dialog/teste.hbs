@@ -1,0 +1,56 @@
+<div class="lenda-form">
+  {{#if titulo}}<p class="titulo-teste">{{titulo}}</p>{{/if}}
+  {{#if instantaneo}}<p class="dica">{{localize "LENDA.Instantaneo.DialogoDica"}}</p>{{/if}}
+  <div class="form-group">
+    <label>{{localize "LENDA.Atributo.Nome"}}</label>
+    <select name="atributo">
+      {{#each atributos}}<option value="{{value}}" {{#if (lenda-eq value ../atributo)}}selected{{/if}}>{{label}}</option>{{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "LENDA.Teste.Bonus"}}</label>
+    <select name="bonus">
+      <option value="">{{localize "LENDA.Teste.SemBonus"}}</option>
+      {{#each grupos}}
+      <optgroup label="{{label}}">
+        {{#each opcoes}}<option value="{{value}}" {{#if (lenda-eq value ../../bonus)}}selected{{/if}}>{{label}}</option>{{/each}}
+      </optgroup>
+      {{/each}}
+    </select>
+  </div>
+  <div class="form-linha">
+    <div class="form-group">
+      <label>{{localize "LENDA.Teste.Vantagens"}}</label>
+      <input type="number" name="vantagens" value="0" min="0">
+    </div>
+    <div class="form-group">
+      <label>{{localize "LENDA.Teste.Desvantagens"}}</label>
+      <input type="number" name="desvantagens" value="0" min="0">
+    </div>
+    <div class="form-group">
+      <label data-tooltip="{{localize 'LENDA.Teste.BonusExtraHint'}}">{{localize "LENDA.Teste.BonusExtra"}}</label>
+      <input type="number" name="bonusExtra" value="0">
+    </div>
+  </div>
+  <div class="form-linha">
+    <div class="form-group">
+      <label data-tooltip="{{localize 'LENDA.Teste.SincHint'}}">{{localize "LENDA.Teste.Sinc"}} <span class="max">(máx. {{sinc}})</span></label>
+      <input type="number" name="sinc" value="0" min="0" max="{{sinc}}">
+    </div>
+    <div class="form-group">
+      <label data-tooltip="{{localize 'LENDA.Teste.TrocasHint'}}">{{localize "LENDA.Teste.Trocas"}}</label>
+      <input type="number" name="trocas" value="0" min="0">
+    </div>
+    <div class="form-group">
+      <label data-tooltip="{{localize 'LENDA.Teste.DificuldadeHint'}}">{{localize "LENDA.Teste.Dificuldade"}}</label>
+      <input type="number" name="dificuldade" value="" placeholder="—">
+    </div>
+  </div>
+  <div class="form-linha opcoes">
+    {{#if conceitoDisponivel}}<label class="caixa-opcao" data-tooltip="{{localize 'LENDA.Teste.ConceitoHint'}}"><input type="checkbox" name="conceito"> {{localize "LENDA.Conceito"}} (+1d10)</label>{{/if}}
+    {{#if ehProtagonista}}<label class="caixa-opcao" data-tooltip="{{localize 'LENDA.Emocao.confiancaHint'}}"><input type="checkbox" name="confianca"> {{localize "LENDA.Emocao.confianca"}} (+2d10)</label>{{/if}}
+    <label class="caixa-opcao" data-tooltip="{{localize 'LENDA.Teste.TensaoComDoisHint'}}"><input type="checkbox" name="tensaoComDois"> {{localize "LENDA.Teste.TensaoComDois"}}</label>
+  </div>
+  {{#if amor}}<p class="dica amor"><i class="fas fa-heart"></i> {{localize "LENDA.Teste.AmorAtivo"}}</p>{{/if}}
+  {{#if grupo}}<p class="dica"><i class="fas fa-users"></i> {{localize "LENDA.Teste.GrupoAtivo" n=grupo}}</p>{{/if}}
+</div>

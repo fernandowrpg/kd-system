@@ -1,0 +1,65 @@
+<section class="bloco tecnicas">
+  <div class="titulo-acoes">
+    <h3 class="titulo-bloco">{{localize "LENDA.Tecnicas"}} <span class="contagem">({{numTecnicas}})</span></h3>
+    {{#if editable}}
+    <a class="botao-criar" data-action="itemCriar" data-type="tecnica"><i class="fas fa-plus"></i> {{localize "LENDA.Tecnica.Nova"}}</a>
+    {{/if}}
+  </div>
+  {{#unless temTecnicas}}
+  <p class="vazio"><i class="fas fa-hand-pointer"></i> {{localize "LENDA.Dica.ArrasteTecnicas"}}</p>
+  {{/unless}}
+
+  {{#each gruposTecnicas as |grupo|}}
+  {{#if grupo.lista.length}}
+  <h4 class="subtitulo">{{localize grupo.titulo}}</h4>
+  <ol class="lista-itens lista-tecnicas">
+    <li class="cabecalho-lista">
+      <span class="col-nome">{{localize "LENDA.Tecnica.Nome"}}</span>
+      <span class="col-tipo">{{localize "LENDA.Tecnica.Tipo"}}</span>
+      <span class="col-acao">{{localize "LENDA.Tecnica.Acao"}}</span>
+      <span class="col-custo" data-tooltip="{{localize 'LENDA.Tecnica.CustoHint'}}">{{localize "LENDA.Nagen"}}</span>
+      <span class="col-dano">{{localize "LENDA.Dano"}}</span>
+      <span class="col-ougi" data-tooltip="{{localize 'LENDA.Tecnica.OugiHint'}}">{{localize "LENDA.Ougi"}}</span>
+      <span class="col-controles"></span>
+    </li>
+    {{#each grupo.lista as |t|}}
+    <li class="item tecnica draggable {{#if t.system.ehOugi}}ougi{{/if}} {{#if t.system.ativa}}ativa{{/if}}" data-item-id="{{t.id}}" data-document-uuid="{{t.uuid}}" draggable="true">
+      <div class="linha">
+        <a class="col-nome" data-action="itemExpandir">
+          <img src="{{t.img}}" alt="">
+          <span class="nome">{{t.name}}</span>
+          {{#unless t.requisitosOk}}<i class="fas fa-triangle-exclamation aviso" data-tooltip="{{localize 'LENDA.Tecnica.RequisitosFaltando'}}: {{t.requisitosFaltando}}"></i>{{/unless}}
+          {{#if t.system.upgrades.length}}<i class="fas fa-angles-up upgrade" data-tooltip="{{t.upgrades}}"></i>{{/if}}
+          {{#if t.system.perfeicao}}<i class="fas fa-gem perfeicao" data-tooltip="{{localize 'LENDA.Tecnica.Perfeicao'}}"></i>{{/if}}
+        </a>
+        <span class="col-tipo icones">{{#each t.icones}}<img src="{{src}}" alt="{{label}}" data-tooltip="{{label}}">{{/each}}</span>
+        <span class="col-acao">{{t.acao}}</span>
+        <span class="col-custo" {{#if t.system.nagenNota}}data-tooltip="{{t.system.nagenNota}}"{{/if}}>{{t.custo}}</span>
+        <span class="col-dano">{{#if t.system.ataque.dano}}{{t.dano}}{{else}}—{{/if}}</span>
+        <span class="col-ougi"><input type="checkbox" data-item-campo="system.ehOugi" {{checked t.system.ehOugi}} {{#unless @root.editable}}disabled{{/unless}}></span>
+        <span class="col-controles">
+          {{#if @root.owner}}<a data-action="usarTecnica" data-tooltip="{{localize 'LENDA.Tecnica.UsarBotao'}}"><i class="fas fa-dice"></i></a>{{/if}}
+          <a data-action="itemAlternar" data-campo="system.ativa" data-tooltip="{{localize 'LENDA.Tecnica.Ativa'}}"><i class="fas {{#if t.system.ativa}}fa-toggle-on{{else}}fa-toggle-off{{/if}}"></i></a>
+          <a data-action="itemChat" data-tooltip="{{localize 'LENDA.ParaChat'}}"><i class="fas fa-comment"></i></a>
+          <a data-action="itemEditar" data-tooltip="{{localize 'LENDA.Editar'}}"><i class="fas fa-pen"></i></a>
+          {{#if @root.editable}}<a data-action="itemApagar" data-tooltip="{{localize 'LENDA.Apagar'}}"><i class="fas fa-trash"></i></a>{{/if}}
+        </span>
+      </div>
+      {{#if t.expandido}}
+      <div class="detalhes">
+        {{#if t.system.requisitos}}<p class="requisitos"><strong>{{localize "LENDA.Requisitos"}}:</strong> {{t.system.requisitos}}</p>{{/if}}
+        {{#if t.system.origem}}<p class="requisitos"><strong>{{localize "LENDA.Tecnica.Origem"}}:</strong> {{t.system.origem}}</p>{{/if}}
+        <div class="descricao">{{{t.descricaoHtml}}}</div>
+        {{#if t.ougiHtml}}<div class="efeito ougi"><strong>{{localize "LENDA.Ougi"}}:</strong> {{{t.ougiHtml}}}</div>{{/if}}
+        {{#if t.sincHtml}}<div class="efeito sinc"><strong>{{localize "LENDA.Sincronizacao"}}:</strong> {{{t.sincHtml}}}</div>{{/if}}
+        <p class="custo-linha"><strong>{{localize "LENDA.Nagen"}}:</strong> {{t.system.nagen}}{{#if t.system.nagenNota}} — {{t.system.nagenNota}}{{/if}}{{#if t.system.custoPorUso}} ({{localize "LENDA.Tecnica.UsosNaCena"}}: {{t.system.usos}}){{/if}}</p>
+        {{#if t.upgrades}}<p><strong>{{localize "LENDA.Upgrades"}}:</strong> {{t.upgrades}}</p>{{/if}}
+        {{#if t.system.limitacao}}<p><strong>{{localize "LENDA.Limitacao"}}:</strong> {{t.system.limitacao}}</p>{{/if}}
+      </div>
+      {{/if}}
+    </li>
+    {{/each}}
+  </ol>
+  {{/if}}
+  {{/each}}
+</section>

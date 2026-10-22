@@ -1,0 +1,56 @@
+{
+  "_id": "jqbWEE7bn8IsVDZG",
+  "name": "Destruir Espírito",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+  "system": {
+    "requisitos": "Vontade 4, Aura 1, Zanshin",
+    "tipos": [
+      "projetil"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Espíritos podem ser assustadores para a maioria da população e até mesmo para muitos yuzas. Normalmente só podem ser destruídos com ataques energéticos, o que faz com que se dissipem. Do contrário, seu nagen dissipado retorna com a mesma forma que possuía anteriomente. Existe uma técnica, porém, que permite eliminar um espírito completamente com um único ataque. Como uma ação, você dispara uma onda de nagen na frequência oposta à de um espírito distante, forçando-o a se dissipar. Faça uma jogada de Vontade contra a Aura do espírito; você tem vantagem nessa jogada se for Médium. Se obtiver sucesso, o espírito é dissipado. Essa técnica não surte efeito caso a Aura do espírito seja 3 pontos maior do que a sua. Essa técnica não pode ser aprendida por yuzas com auras desequilibradas, como os shen. Um aceito pode aprender Destruir Espírito, mas somente será capaz de destruir espíritos que tenham afinidade com o elemento antagônico ao seu.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Vontade.</p>",
+    "sincronizacao": "<p>Você pode usar a técnica contra qualquer espírito, independente da sua aura.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "von",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!jqbWEE7bn8IsVDZG"
+}

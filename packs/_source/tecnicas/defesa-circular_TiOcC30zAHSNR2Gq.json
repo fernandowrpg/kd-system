@@ -1,0 +1,57 @@
+{
+  "_id": "TiOcC30zAHSNR2Gq",
+  "name": "Defesa Circular",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/bloqueio.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "bloqueio",
+      "evasao"
+    ],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>A arte chinesa do baguazhang se baseia na caminhada em círculo para cobrir as posições das oito trigramas. Técnicas parecidas existem em várias outras tradições marciais ao redor do mundo. A Defesa Circular deve ser ativada como uma ação extra. Ao fazer isso, o yuza ganha um bônus em seus Limiares de Defesa e Proteção igual à sua Aura, além de usar quaisquer defesas totais com vantagem. Os efeitos duram até o final do próximo turno do yuza.</p>",
+    "ougi": "<p>Ao usar essa técnica, você recebe uma ação extra adicional que só pode ser usada para defesa total.</p>",
+    "sincronizacao": "<p>Os efeitos duram até o final da cena.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!TiOcC30zAHSNR2Gq"
+}

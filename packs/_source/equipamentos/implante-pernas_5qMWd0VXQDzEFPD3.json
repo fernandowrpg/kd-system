@@ -1,0 +1,37 @@
+{
+  "_id": "5qMWd0VXQDzEFPD3",
+  "name": "Implante: Pernas",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/implante.svg",
+  "system": {
+    "categoria": "implante",
+    "caracteristicas": [],
+    "descricao": "<p>Implantes nas pernas muitas vezes não são substituição total, mas aplicação de jatos e servomotores para movimento mais ágil. É extremamente popular em rocketball. Além de vantagem em testes de Agilidade, concedem +1 no Limiar de Defesa.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 1,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "dIDS7HXCwjSTyx6w",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5qMWd0VXQDzEFPD3"
+}

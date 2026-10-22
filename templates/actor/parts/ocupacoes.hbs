@@ -1,0 +1,12 @@
+<section class="bloco ocupacoes">
+  <h3 class="titulo-bloco">{{localize "LENDA.Ocupacoes"}}</h3>
+  <ol class="lista-ocupacoes">
+    {{#each ocupacoes}}
+    <li class="ocupacao {{#if value}}ativa{{/if}}">
+      <a class="rotulo rolavel" data-action="rolarOcupacao" data-ocupacao="{{key}}" data-tooltip="{{nivel}}">{{label}}</a>
+      <input class="nivel" type="number" name="system.ocupacoes.{{key}}.value" value="{{value}}" min="0" max="5" {{#unless ../editable}}disabled{{/unless}}>
+      <input class="especializacoes" type="text" name="system.ocupacoes.{{key}}.especializacoes" value="{{especializacoes}}" placeholder="{{localize 'LENDA.Especializacoes'}}" {{#unless ../editable}}disabled{{/unless}}>
+    </li>
+    {{/each}}
+  </ol>
+</section>

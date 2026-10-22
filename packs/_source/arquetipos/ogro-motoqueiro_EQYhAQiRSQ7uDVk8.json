@@ -1,0 +1,138 @@
+{
+  "_id": "EQYhAQiRSQ7uDVk8",
+  "name": "Ogro Motoqueiro",
+  "type": "coadjuvante",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 0,
+    "conceito": "Ogro Motoqueiro",
+    "atributos": {
+      "forca": 3,
+      "razao": 2,
+      "instinto": 3,
+      "agilidade": 3,
+      "presenca": 2,
+      "vontade": 2
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 2,
+        "especializacoes": "motos"
+      },
+      "trapaceiro": {
+        "value": 1,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 0,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 1,
+      "bloqueio": 0,
+      "combo": 0,
+      "evasao": 0,
+      "golpe": 1,
+      "projetil": 0
+    },
+    "vigor": {
+      "value": 5,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Alguns destes motoqueiros se envolvem com o crime, como os Hell’s Angels americanos e os bosozoku japoneses. O ogro motoqueiro é só bruto. Não é um ogro de verdade. Ou será que é?</p>",
+    "especial": "<strong>Anjo do Inferno:</strong> a moto é considerada uma arma, aumentando o dano em 1 para Golpes. Caso tenha se movido pelo menos um passo de distância na direção do alvo, o dano aumenta em +1. Pode sacrificar a moto durante um ataque, deixando-a inutilizável, mas mudando um erro para um acerto e um acerto para um splash.<br><strong>Tribo da Velocidade:</strong> enquanto estiver na sua moto, o Limiar de Defesa aumenta para 9 e pode se mover um passo de distância quando realiza uma ação. Pode optar por cair da moto em vez de ser ferido por um ataque. Um jogador pode fazer uma ação contra a Tensão para derrubar um motoqueiro da moto.",
+    "notas": "",
+    "grupo": {
+      "ativo": false,
+      "tamanho": 1
+    },
+    "instantaneo": {
+      "ativo": false,
+      "fazBem": "",
+      "fazMal": ""
+    }
+  },
+  "effects": [],
+  "folder": "yNAtDeilews3LsxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!EQYhAQiRSQ7uDVk8",
+  "items": [],
+  "prototypeToken": {
+    "name": "Ogro Motoqueiro",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

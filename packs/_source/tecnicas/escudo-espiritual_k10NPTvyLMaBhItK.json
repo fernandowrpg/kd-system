@@ -1,0 +1,56 @@
+{
+  "_id": "k10NPTvyLMaBhItK",
+  "name": "Escudo Espiritual",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/bloqueio.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [
+      "bloqueio"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O yuza solidifica sua Aura para se proteger. Faça uma jogada de Vontade (Bloqueio) e use como o Limiar de Proteção até o final de seu próximo turno. Essa técnica também pode ser usada como uma defesa total.</p>",
+    "ougi": "<p>Mesmo que não tenha ações extras restando depois do seu turno, você pode usar essa técnica como defesa total uma vez por rodada.</p>",
+    "sincronizacao": "<p>Dano abaixo do seu Limiar de Proteção não causa perda de Vigor.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!k10NPTvyLMaBhItK"
+}

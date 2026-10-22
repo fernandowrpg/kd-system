@@ -1,0 +1,55 @@
+{
+  "_id": "rIpw7LL1LhAQWLtD",
+  "name": "Mestre de Armas",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p><em>“Você não deve ter uma arma preferida. O hábito exagerado do uso de uma arma qualquer é tão prejudicial quanto o conhecimento inadequado dela.” – Miyamoto Musashi, o Livro dos Cinco Anéis</em></p><p>Você é um especialista no uso de armas. Seus ataques com armas causam dano +1. Escolha uma característica de arma (veja p. 166). Sempre que você usar uma arma que tiver essa característica e tiver vantagem no ataque, pode trocar um dado por um d10.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 1,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!rIpw7LL1LhAQWLtD"
+}

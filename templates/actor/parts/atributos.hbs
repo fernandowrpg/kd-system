@@ -1,0 +1,14 @@
+<section class="bloco atributos">
+  <h3 class="titulo-bloco">{{localize "LENDA.Atributos"}}{{#if mostrarTotal}} <span class="contagem">({{totalAtributos}})</span>{{/if}}</h3>
+  <div class="grade-atributos">
+    {{#each atributos}}
+    <div class="atributo">
+      <a class="rotulo rolavel" data-action="rolarAtributo" data-atributo="{{key}}" data-tooltip="{{localize 'LENDA.RolarAtributo'}}">
+        <span class="abrev">{{abbr}}</span>
+        <span class="nome">{{label}}</span>
+      </a>
+      <input type="number" name="system.atributos.{{key}}" value="{{value}}" min="0" max="10" {{#unless ../editable}}disabled{{/unless}}>
+    </div>
+    {{/each}}
+  </div>
+</section>

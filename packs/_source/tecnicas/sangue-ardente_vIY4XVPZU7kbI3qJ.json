@@ -1,0 +1,54 @@
+{
+  "_id": "vIY4XVPZU7kbI3qJ",
+  "name": "Sangue Ardente",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/fogo.svg",
+  "system": {
+    "requisitos": "Aura 1, Força 4, Vontade 4",
+    "tipos": [],
+    "elemento": "fogo",
+    "acao": "acaoExtra",
+    "nagen": 5,
+    "nagenNota": "5 por turno",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>“Olhou seu reflexo na lâmina polida. E viu a própria morte. Seu sangue era fogo.” – Leonel Caldela, O Inimigo do Mundo  Calor é energia. Levando esse raciocínio ao extremo, o yuza aumenta a temperatura do próprio sangue e acelera violentamente a própria circulação sanguínea, como uma ação extra. Por um curto período de tempo, a pele do yuza fica vermelha e ele passa a operar em um nível muito superior ao normal. Sua Aura aumenta em 1 ponto e ele imediatamente recebe um dado de sincronização. O sangue do yuza arde até o começo de seu próximo turno. No começo de cada turno, o yuza pode optar por manter o sangue ardendo sem usar ações, apenas pagando o custo em nagen. Durante esse período, as falhas do yuza são catastróficas. Quaisquer resultados 2 não utilizados aumentam a Tensão, como se o resultado fosse 1. Quando o sangue deixa de arder e a técnica é desativada, o yuza marca uma caixa de ferimento.</p>",
+    "ougi": "<p>Quando seu sangue parar de arder, dispute Vontade contra a Tensão. Se vencer, você não marca uma caixa de ferimento.</p>",
+    "sincronizacao": "<p>Sua Aura aumenta em 2 pontos, em vez de 1, durante este turno.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!vIY4XVPZU7kbI3qJ"
+}

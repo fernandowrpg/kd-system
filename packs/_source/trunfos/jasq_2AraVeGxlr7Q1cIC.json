@@ -1,0 +1,55 @@
+{
+  "_id": "2AraVeGxlr7Q1cIC",
+  "name": "Jasq",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Você é hospedeiro de um parasita do Outro Mundo, uma criatura conhecida como JASQ. Um jasq costuma se parecer com uma lesma grande, reluzente e prateada. Ele passa o tempo todo grudado à sua pele, normalmente sobre uma cicatriz ou ao longo da coluna vertebral. Pessoas com pouca afinidade espiritual às vezes não os veem.</p><p>O jasq consome sua energia constantemente. No começo de cada cena, você perde um ponto de Vigor. Você também perde um ponto de Vigor adicional sempre que excede seu Limiar de Canalização. Porém, o parasita constantemente refina essa energia absorvida. Você começa toda cena com um dado de sincronização adicional. Caso você também seja um aceito, o jasq permite que você aprenda e use técnicas de elementos diferentes do seu, mas sempre que faz isso você perde um ponto de Vigor (além de quaisquer perdas por exceder o Limiar de Canalização).</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 1,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 1,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": true,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2AraVeGxlr7Q1cIC"
+}

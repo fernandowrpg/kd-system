@@ -1,0 +1,23 @@
+<div class="grade-formulario">
+  <fieldset>
+    <legend>{{localize "LENDA.Eventos"}}</legend>
+    <ol class="eventos-edicao">
+      {{#each eventos}}
+      <li>
+        <input type="checkbox" name="system.eventos.{{indice}}.marcado" {{checked marcado}} {{#unless @root.editable}}disabled{{/unless}}>
+        <input type="text" name="system.eventos.{{indice}}.texto" value="{{texto}}" {{#unless @root.editable}}disabled{{/unless}}>
+        {{#if @root.editable}}<a data-action="eventoRemover" data-indice="{{indice}}"><i class="fas fa-trash"></i></a>{{/if}}
+      </li>
+      {{/each}}
+    </ol>
+    {{#if editable}}<a class="botao-criar" data-action="eventoAdicionar"><i class="fas fa-plus"></i> {{localize "LENDA.Evento.Adicionar"}}</a>{{/if}}
+  </fieldset>
+  <fieldset>
+    <legend>{{localize "LENDA.Reviravolta"}}</legend>
+    <div class="form-linha">
+      <input type="checkbox" name="system.reviravolta.marcado" {{checked system.reviravolta.marcado}} {{#unless editable}}disabled{{/unless}}>
+      <input type="text" name="system.reviravolta.texto" value="{{system.reviravolta.texto}}" {{#unless editable}}disabled{{/unless}}>
+    </div>
+  </fieldset>
+  <p class="dica">{{localize "LENDA.Dica.Caminho"}}</p>
+</div>

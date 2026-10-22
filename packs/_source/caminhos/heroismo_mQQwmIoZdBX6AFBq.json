@@ -1,0 +1,43 @@
+{
+  "_id": "mQQwmIoZdBX6AFBq",
+  "name": "Heroísmo",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você tem uma tendência a ajudar os outros, preocupando-se com o bem-estar alheio e exercitando o altruísmo sempre que possível.</p>",
+    "eventos": [
+      {
+        "texto": "Ajudar um desconhecido.",
+        "marcado": false
+      },
+      {
+        "texto": "Sofrer ferimentos ou contratempos por ajudar alguém.",
+        "marcado": false
+      },
+      {
+        "texto": "Atender a um pedido de ajuda.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Parar de se importar com os outros.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!mQQwmIoZdBX6AFBq"
+}

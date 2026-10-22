@@ -1,0 +1,56 @@
+{
+  "_id": "N4ZL0FA5D4TTaBn1",
+  "name": "Golpe Explosivo",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "variavel",
+    "acao": "acao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Você avança até um alvo próximo e desfere um ataque poderoso, geralmente um soco ou chute. O dano é igual à Aura + Força +2. Escolha um elemento quando aprender esta técnica: quando você acerta o Golpe, uma explosão do elemento engole o oponente. Qualquer tentativa de retaliação contra Golpe Explosivo é feita com vantagem.</p>",
+    "ougi": "<p>Caso o Golpe acerte, o alvo é arremessado para a distância próxima.</p>",
+    "sincronizacao": "<p>Multiplique sua Aura por dois antes de somá-la ao dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@aura + @for + 2",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!N4ZL0FA5D4TTaBn1"
+}

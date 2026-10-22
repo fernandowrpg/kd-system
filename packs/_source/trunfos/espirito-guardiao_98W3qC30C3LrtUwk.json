@@ -1,0 +1,55 @@
+{
+  "_id": "98W3qC30C3LrtUwk",
+  "name": "Espírito Guardião",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Um espírito poderoso, com aura igual à sua AURA +2, atua como seu guardião. Você pode ter uma relação amigável com o espírito ou não, mas ele o protege do perigo. O espírito não está sempre ao seu lado, mas surge para ajudar quando você fica ferido. Ele pode tanto agir separadamente quanto entrar no seu corpo, somando a força dele à sua. Nesse caso, o espírito desmarca uma caixa de ferimento quando é invocado e lhe concede uma vantagem em todos os testes até o final da cena, mas não pode agir como um espírito normal.</p><p>Perceba que sem o trunfo MÉDIUM sua comunicação com o espírito é confusa e inconstante! Veja mais sobre espíritos no capítulo 5 (p. 86).</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!98W3qC30C3LrtUwk"
+}

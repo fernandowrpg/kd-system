@@ -1,0 +1,37 @@
+{
+  "_id": "wMQgY0CkRsIcAcuh",
+  "name": "MMA",
+  "type": "estilo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/estilo.svg",
+  "system": {
+    "descricao": "<p>É um esporte de contato que permite o uso de golpes contundentes e agarrões, de pé e no chão, absorvendo técnicas de uma grande variedade de outros esportes de combate e artes marciais.</p><p><strong>Ougi:</strong> @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.YRyVJOlNDnv6Gydz]{Imobilização}</p>",
+    "valores": {
+      "agarrao": 2,
+      "bloqueio": 1,
+      "combo": 0,
+      "evasao": 1,
+      "golpe": 2,
+      "projetil": 0
+    },
+    "ougis": [
+      "Imobilização"
+    ],
+    "secreto": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!wMQgY0CkRsIcAcuh"
+}

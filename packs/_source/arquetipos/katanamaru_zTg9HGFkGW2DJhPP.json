@@ -1,0 +1,396 @@
+{
+  "_id": "zTg9HGFkGW2DJhPP",
+  "name": "Katanamaru",
+  "type": "antagonista",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 2,
+    "conceito": "Katanamaru",
+    "atributos": {
+      "forca": 4,
+      "razao": 2,
+      "instinto": 4,
+      "agilidade": 4,
+      "presenca": 1,
+      "vontade": 4
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 3,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 3,
+      "combo": 0,
+      "evasao": 0,
+      "golpe": 3,
+      "projetil": 0
+    },
+    "vigor": {
+      "value": 10,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>“Enquanto você se divertia, eu estudava a lâmina...” — Um katanamaru qualquer. Colecionando katanas e seguindo uma visão distorcida do bushido, esses indivíduos se tornam combatentes terríveis. Podem ser facilmente manipulados por organizações mal-intencionadas. Adoram uma oportunidade de demonstrar suas habilidades com a lâmina, independente do lado da briga que estão.</p>",
+    "especial": "Carrega uma katana Precisa e Letal. Tem uma vantagem adicional em ataques com essa arma, causa +1 de dano e a considera Muito Perigosa, removendo 3 pontos da Barra de Vigor com um acerto.",
+    "notas": "",
+    "avancos": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "fEuoGcRYBK9IuAFz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!zTg9HGFkGW2DJhPP",
+  "items": [
+    {
+      "_id": "JoZBu9YIkQ6w9CJJ",
+      "name": "Katana",
+      "type": "equipamento",
+      "img": "systems/lenda-dragao-fogo/assets/icons/arma.svg",
+      "system": {
+        "categoria": "arma",
+        "caracteristicas": [
+          "letal"
+        ],
+        "descricao": "<p>Arma comum com a característica <strong>Letal</strong>.</p><p><strong>Letal:</strong> Armas com essa qualidade são capazes de golpes especialmente perigosos e mortais. Você pode iniciar um splash quando vencer a defesa do alvo por 4 ou mais (em vez de 5 ou mais, como de costume), mas todos os splashes realizados com a arma só podem ter o efeito Ataque Decisivo.</p><p>O dano de ataques com a arma aumenta em 1 o atributo usado para o dano. Técnicas usadas com armas custam +1 nagen.</p>",
+        "equipado": true,
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0
+        },
+        "quantidade": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zTg9HGFkGW2DJhPP.JoZBu9YIkQ6w9CJJ"
+    },
+    {
+      "_id": "mAfzos2XInGGZndK",
+      "name": "Abre Alas",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+      "system": {
+        "requisitos": "Agilidade 3",
+        "tipos": [
+          "combo"
+        ],
+        "elemento": "",
+        "acao": "acaoExtra",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Fintas são formas muito práticas de abrir a guarda de um oponente. Algumas artes, como o silat indonésio, ensinam uma torrente de golpes cuja intenção não é ferir, apenas desestabilizar o oponente e permitir que o verdadeiro golpe seja aplicado. O yuza aplica essa técnica como uma ação extra. Caso acerte, ele não causa dano nenhum, mas seu próximo ataque contra aquele alvo é feito com vantagem.</p>",
+        "ougi": "<p>Além da vantagem, o próximo ataque tem seu dano aumentado em 1 ponto.</p>",
+        "sincronizacao": "<p>O próximo ataque recebe duas vantagens.</p>",
+        "ehOugi": true,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zTg9HGFkGW2DJhPP.mAfzos2XInGGZndK"
+    },
+    {
+      "_id": "O71fAYtaJ9a3TySi",
+      "name": "Ataque Trespassante",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+      "system": {
+        "requisitos": "Agilidade 4, Shunpo",
+        "tipos": [
+          "golpe"
+        ],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 3,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>O yuza avança em alta velocidade, atingindo o oponente com um ataque extremamente veloz e passando através dele. O personagem pode atacar um alvo próximo com esse ataque, causando dano igual à Força ou Agilidade (o que for maior) + 3. Após atacar, o yuza se move novamente, parando próximo ao alvo.</p>",
+        "ougi": "<p>Você pode atacar alvos distantes com essa técnica.</p>",
+        "sincronizacao": "<p>Some sua Aura no dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "max(@for, @agi) + 3",
+          "danoOugi": "",
+          "danoSinc": "@aura",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zTg9HGFkGW2DJhPP.O71fAYtaJ9a3TySi"
+    },
+    {
+      "_id": "fLefbLE7PKW283rX",
+      "name": "Bloqueio Agressivo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/bloqueio.svg",
+      "system": {
+        "requisitos": "Força 3",
+        "tipos": [
+          "bloqueio"
+        ],
+        "elemento": "",
+        "acao": "reacao",
+        "nagen": 3,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Nesta técnica típica de artes marciais tailandesas, o lutador bloqueia com a intenção de ferir os membros do atacante. Como uma reação após ser atingido com um Golpe ou Combo desarmado, o yuza causa ao atacante uma quantidade de dano igual à sua Força.</p>",
+        "ougi": "<p>Mesmo que não tenha ações extras restando depois do seu turno, você pode usar essa técnica uma vez por rodada.</p>",
+        "sincronizacao": "<p>Some sua Aura ao dano causado.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@for",
+          "danoOugi": "",
+          "danoSinc": "@aura",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zTg9HGFkGW2DJhPP.fLefbLE7PKW283rX"
+    },
+    {
+      "_id": "cht01EBZjLFmR2xZ",
+      "name": "Corte Perfeito",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+      "system": {
+        "requisitos": "",
+        "tipos": [
+          "golpe"
+        ],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 6,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>O Circuito Mundial de Lutas tornou tão popular a imagem do guerreiro de mãos nuas que o papel icônico do espadachim parece relegado ao passado. É mais difícil usar nagen com armas, afinal de contas. Por que dificultar o acesso ao verdadeiro poder? A resposta para isso reside nesta técnica, aperfeiçoada por gerações de samurais. O Corte Perfeito pode ser realizado apenas com uma arma cortante que tenha, pelo menos, o tamanho do braço do usuário. O yuza usa uma ação extra para se concentrar, respirando fundo, fechando os olhos e removendo qualquer distração da sua mente. Por fim, ele ataca com um único corte devastador. O dano causado é igual à soma de Força, Vontade e Aura. Qualquer bônus no Limiar de Proteção do alvo é ignorado; apenas seus valores naturais contam. Um objeto inanimado é cortado automaticamente; objetos maiores que a espada requerem uma jogada de Força ou Agilidade contra a Tensão. O Corte Perfeito requer emoções equilibradas. Essa técnica nunca pode ser usada em conjunto com o poder da raiva.</p>",
+        "ougi": "<p>Você tem vantagem na jogada de ataque.</p>",
+        "sincronizacao": "<p>Dobre a Vontade antes de somá-la ao dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 1,
+          "dano": "@for + @von + @aura",
+          "danoOugi": "",
+          "danoSinc": "@von",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zTg9HGFkGW2DJhPP.cht01EBZjLFmR2xZ"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Katanamaru",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

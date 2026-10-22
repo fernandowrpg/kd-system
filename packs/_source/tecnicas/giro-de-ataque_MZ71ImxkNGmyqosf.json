@@ -1,0 +1,54 @@
+{
+  "_id": "MZ71ImxkNGmyqosf",
+  "name": "Giro de Ataque",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Agilidade 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Várias artes marciais ensinam formas de girar para acumular força e aumentar o impacto de um ataque. Isso nem sempre é prático. Um giro completo cria pontos cegos e pode inclusive deixar um lutador de costas para seu oponente. Com a devida prática e muita flexibilidade, porém, um verdadeiro mestre consegue girar rápido o suficiente em combate. Como uma ação extra, você gira e soma sua Aura ao dano do próximo Agarrão, Golpe ou Combo usado neste mesmo turno. Esse golpe obtém um splash com um resultado um ponto menor do que o normal (ou seja, com uma margem de 4 em vez de 5).</p>",
+    "ougi": "<p>Você tem vantagem no ataque feito depois de girar.</p>",
+    "sincronizacao": "<p>Você não gasta nenhuma ação para girar.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!MZ71ImxkNGmyqosf"
+}

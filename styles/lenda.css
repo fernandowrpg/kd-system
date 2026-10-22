@@ -1,0 +1,492 @@
+/* =========================================================
+   A Lenda do Dragão de Fogo — estilos do sistema
+   ========================================================= */
+
+.lenda {
+  --lenda-vermelho: #a3201a;
+  --lenda-vermelho-escuro: #6e130f;
+  --lenda-dourado: #c9a227;
+  --lenda-tinta: #1b1b1b;
+  --lenda-papel: #f6f1e7;
+  --lenda-papel-2: #ece4d3;
+  --lenda-borda: #bfb39b;
+  --lenda-suave: #6b6256;
+  --lenda-azul: #1565c0;
+  --lenda-verde: #2e7d32;
+  --lenda-sinc: #0d7a8a;
+  --lenda-fonte-titulo: "Signika", "Arial Narrow", sans-serif;
+}
+
+/* ---------- Janela ---------- */
+.lenda.sheet .window-content,
+.lenda.lenda-assistente .window-content {
+  padding: 0;
+  background: var(--lenda-papel);
+  color: var(--lenda-tinta);
+}
+.lenda.sheet .window-content,
+.lenda-assistente .window-content { overflow: hidden; }
+
+.lenda input[type="text"],
+.lenda input[type="number"],
+.lenda input[type="search"],
+.lenda select {
+  background: #fffdf8;
+  color: var(--lenda-tinta);
+  border: 1px solid var(--lenda-borda);
+  border-radius: 3px;
+  height: 26px;
+  padding: 0 4px;
+}
+.lenda input[type="number"] { text-align: center; width: 3.2em; }
+.lenda input:disabled, .lenda select:disabled { background: transparent; border-color: transparent; color: var(--lenda-tinta); opacity: 1; }
+.lenda input[type="checkbox"] { margin: 0 4px 0 0; accent-color: var(--lenda-vermelho); }
+.lenda button {
+  background: #fffdf8;
+  color: var(--lenda-tinta);
+  border: 1px solid var(--lenda-borda);
+  border-radius: 4px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.lenda button:hover:not(:disabled) { border-color: var(--lenda-vermelho); box-shadow: 0 0 4px rgba(163, 32, 26, 0.4); }
+.lenda a { color: inherit; }
+.lenda a:hover { color: var(--lenda-vermelho); text-shadow: none; }
+.lenda .dica, .lenda .info { color: var(--lenda-suave); font-size: 0.85em; margin: 4px 0; }
+.lenda .vazio { color: var(--lenda-suave); font-style: italic; text-align: center; padding: 8px; }
+.lenda .tag {
+  display: inline-block; padding: 0 6px; border-radius: 8px; background: var(--lenda-papel-2);
+  border: 1px solid var(--lenda-borda); font-size: 0.8em; margin: 1px 2px; color: var(--lenda-tinta);
+}
+.lenda .tag.ougi { background: var(--lenda-dourado); color: #1b1b1b; border-color: #8a6d12; }
+
+/* ---------- Estrutura da ficha ---------- */
+.lenda-ficha { display: flex; flex-direction: column; height: 100%; }
+.lenda-ficha .aba-corpo { flex: 1; overflow-y: auto; padding: 8px 10px 16px; }
+.lenda-ficha .colunas { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: start; }
+.lenda-ficha.compacta .colunas { grid-template-columns: 1fr 1fr; }
+.lenda .tab { display: none; }
+.lenda .tab.active { display: block; }
+
+/* ---------- Cabeçalho ---------- */
+.lenda-cabecalho {
+  display: flex; gap: 10px; padding: 10px;
+  background: linear-gradient(135deg, var(--lenda-tinta) 0%, #2c0806 55%, var(--lenda-vermelho-escuro) 100%);
+  color: #fff; border-bottom: 3px solid var(--lenda-dourado);
+}
+.lenda-cabecalho .retrato-moldura { position: relative; flex: 0 0 110px; }
+.lenda-cabecalho .retrato {
+  width: 110px; height: 110px; object-fit: cover; border: 2px solid var(--lenda-dourado);
+  border-radius: 6px; background: #000; cursor: pointer;
+}
+.lenda-cabecalho .aura-selo {
+  position: absolute; bottom: -8px; right: -8px; width: 48px; height: 48px; border-radius: 50%;
+  background: radial-gradient(circle, #ffcf6b 0%, var(--lenda-vermelho) 70%); border: 2px solid #fff;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 0 10px #ff8a3d;
+}
+.lenda-cabecalho .aura-selo label { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: #fff; line-height: 1; }
+.lenda-cabecalho .aura-selo input { width: 30px; height: 20px; background: transparent; border: none; color: #fff; font-weight: bold; font-size: 16px; padding: 0; }
+.lenda-cabecalho .cabecalho-principal { flex: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.lenda-cabecalho input.nome {
+  font-family: var(--lenda-fonte-titulo); font-size: 24px; font-weight: bold; height: 34px;
+  background: transparent; color: #fff; border: none; border-bottom: 1px solid rgba(255, 255, 255, 0.3); border-radius: 0;
+}
+.lenda-cabecalho .linha-conceito { display: flex; align-items: center; gap: 6px; }
+.lenda-cabecalho .linha-conceito label { color: var(--lenda-dourado); font-size: 0.85em; text-transform: uppercase; }
+.lenda-cabecalho .linha-conceito input[type="text"] { flex: 1; background: rgba(255, 255, 255, 0.08); color: #fff; border-color: rgba(255, 255, 255, 0.2); }
+.lenda-cabecalho .linha-conceito .conceito-usado { color: #fff; display: flex; align-items: center; }
+.lenda-cabecalho .recursos { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 10px; }
+.lenda-cabecalho .recurso { display: flex; align-items: center; gap: 6px; }
+.lenda-cabecalho .recurso .rotulo { flex: 0 0 auto; font-size: 0.78em; text-transform: uppercase; color: #ffd9a0; min-width: 96px; }
+.lenda-cabecalho .recurso input { background: transparent; color: #fff; border: none; font-weight: bold; }
+.lenda-cabecalho .recurso .mini { color: #ffd9a0; font-size: 0.85em; }
+.lenda-cabecalho .barra {
+  position: relative; flex: 1; height: 22px; background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 11px; overflow: hidden;
+}
+.lenda-cabecalho .barra .preenchimento { position: absolute; inset: 0 auto 0 0; background: linear-gradient(90deg, #d32f2f, #ff7043); transition: width 0.3s; }
+.lenda-cabecalho .nagen-barra .preenchimento { background: linear-gradient(90deg, #ff8f00, #ffd54f); }
+.lenda-cabecalho .nagen-barra.excesso { box-shadow: 0 0 8px #ff1744; border-color: #ff1744; }
+.lenda-cabecalho .barra .valores { position: relative; display: flex; align-items: center; justify-content: center; height: 100%; gap: 2px; text-shadow: 0 0 3px #000; }
+.lenda-cabecalho .barra .valores input { width: 2.6em; height: 20px; padding: 0; }
+.lenda-cabecalho .caixas { display: flex; gap: 4px; }
+.lenda-cabecalho .caixa {
+  width: 18px; height: 18px; border: 2px solid #fff; border-radius: 3px; background: rgba(255, 255, 255, 0.1);
+}
+.lenda-cabecalho .caixa.marcada { background: #d50000; box-shadow: 0 0 6px #ff1744; }
+.lenda-cabecalho .caixa.extra { border-style: dashed; border-color: #ff8a80; }
+.lenda-cabecalho .estado { font-size: 0.75em; padding: 0 6px; border-radius: 8px; font-weight: bold; text-transform: uppercase; }
+.lenda-cabecalho .estado.ferido { background: #ff8f00; color: #000; }
+.lenda-cabecalho .estado.derrotado { background: #000; color: #ff5252; border: 1px solid #ff5252; }
+.lenda-cabecalho .contador { display: flex; align-items: center; gap: 4px; }
+.lenda-cabecalho .contador a { color: #ffd9a0; }
+.lenda-cabecalho .contador input { width: 2.6em; height: 22px; background: rgba(13, 122, 138, 0.6); border-radius: 4px; }
+.lenda-cabecalho .rolavel.grande { font-size: 18px; font-weight: bold; color: #fff; }
+
+/* ---------- Barra de ferramentas e abas ---------- */
+.lenda .barra-ferramentas {
+  display: flex; align-items: center; gap: 8px; padding: 4px 10px; background: var(--lenda-papel-2);
+  border-bottom: 1px solid var(--lenda-borda); flex-wrap: wrap;
+}
+.lenda .barra-ferramentas button { line-height: 22px; font-size: 0.85em; flex: 0 0 auto; width: auto; padding: 0 8px; }
+.lenda .barra-ferramentas button.assistente { background: var(--lenda-vermelho); color: #fff; border-color: var(--lenda-vermelho-escuro); }
+.lenda .barra-ferramentas .karma-resumo { margin-left: auto; }
+.lenda .barra-ferramentas label { display: flex; align-items: center; gap: 4px; font-size: 0.9em; }
+.lenda .lenda-abas {
+  display: flex; gap: 0; background: var(--lenda-tinta); border-bottom: 2px solid var(--lenda-vermelho); padding: 0 6px;
+}
+.lenda .lenda-abas .item {
+  padding: 6px 12px; color: #ccc; font-family: var(--lenda-fonte-titulo); text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.5px;
+  border-bottom: 3px solid transparent; margin-bottom: -2px;
+}
+.lenda .lenda-abas .item.active { color: #fff; border-bottom-color: var(--lenda-dourado); background: rgba(255, 255, 255, 0.06); }
+.lenda .lenda-abas .item:hover { color: #fff; }
+
+/* ---------- Blocos ---------- */
+.lenda .bloco {
+  background: #fffdf8; border: 1px solid var(--lenda-borda); border-radius: 6px; padding: 6px 8px 8px; margin-bottom: 10px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.lenda .titulo-bloco {
+  font-family: var(--lenda-fonte-titulo); font-size: 1.05em; text-transform: uppercase; letter-spacing: 1px;
+  margin: -6px -8px 6px; padding: 3px 8px; background: var(--lenda-tinta); color: #fff;
+  border-radius: 6px 6px 0 0; border: none; border-left: 5px solid var(--lenda-vermelho);
+}
+.lenda .titulo-bloco .contagem { color: var(--lenda-dourado); font-size: 0.85em; }
+.lenda .titulo-acoes { display: flex; align-items: center; gap: 6px; margin: -6px -8px 6px; background: var(--lenda-tinta); border-radius: 6px 6px 0 0; }
+.lenda .titulo-acoes .titulo-bloco { margin: 0; flex: 1; }
+.lenda .titulo-acoes .botao-criar { color: var(--lenda-dourado); padding: 0 8px; font-size: 0.85em; }
+.lenda .subtitulo { font-family: var(--lenda-fonte-titulo); color: var(--lenda-vermelho); margin: 8px 0 2px; border-bottom: 1px solid var(--lenda-borda); }
+.lenda .rolavel { cursor: pointer; }
+.lenda .rolavel:hover { color: var(--lenda-vermelho); }
+
+/* Atributos */
+.lenda .grade-atributos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.lenda .atributo {
+  display: flex; align-items: center; justify-content: space-between; background: var(--lenda-tinta); color: #fff;
+  border-radius: 4px; padding: 3px 4px 3px 8px; border-left: 4px solid var(--lenda-vermelho);
+}
+.lenda .atributo .rotulo { display: flex; flex-direction: column; line-height: 1.1; }
+.lenda .atributo .abrev { font-family: var(--lenda-fonte-titulo); font-size: 1.3em; font-weight: bold; letter-spacing: 1px; }
+.lenda .atributo .nome { font-size: 0.7em; text-transform: uppercase; color: #ccc; }
+.lenda .atributo input { width: 2.2em; height: 30px; font-size: 1.3em; font-weight: bold; background: #fff; border-radius: 4px; }
+.lenda .atributo input:disabled { color: #fff; }
+
+/* Ocupações */
+.lenda .lista-ocupacoes { list-style: none; margin: 0; padding: 0; }
+.lenda .ocupacao { display: grid; grid-template-columns: 7em 3em 1fr; gap: 4px; align-items: center; padding: 2px 0; border-bottom: 1px dotted var(--lenda-borda); }
+.lenda .ocupacao.ativa .rotulo { font-weight: bold; }
+.lenda .ocupacao .especializacoes { font-size: 0.85em; height: 22px; }
+
+/* Estilo */
+.lenda .nome-estilo { width: 100%; margin-bottom: 6px; font-weight: bold; }
+.lenda .grade-estilo { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 10px; }
+.lenda .grade-estilo .habilidade { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px dotted var(--lenda-borda); }
+.lenda .grade-estilo .rotulo { display: flex; align-items: center; gap: 4px; }
+.lenda .grade-estilo img { width: 20px; height: 20px; border: none; }
+.lenda .dica-drop { font-size: 0.8em; color: var(--lenda-suave); margin: 4px 0 0; }
+
+/* Limiares */
+.lenda .grade-limiares { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.lenda .limiar {
+  display: flex; flex-direction: column; align-items: center; padding: 4px; border-radius: 6px;
+  background: var(--lenda-papel-2); border: 2px solid var(--lenda-tinta); position: relative;
+}
+.lenda .limiar .valor { font-family: var(--lenda-fonte-titulo); font-size: 1.8em; font-weight: bold; line-height: 1.1; }
+.lenda .limiar .nome { font-size: 0.75em; text-transform: uppercase; }
+.lenda .limiar .bonus { font-size: 0.7em; color: var(--lenda-suave); display: flex; align-items: center; gap: 2px; }
+.lenda .limiar .bonus input { width: 2.4em; height: 18px; font-size: 1em; }
+.lenda .limiar.canalizacao { border-color: #ff8f00; }
+.lenda .limiar.defesa { border-color: var(--lenda-azul); }
+.lenda .limiar.protecao { border-color: var(--lenda-vermelho); }
+.lenda .linha-bonus { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; font-size: 0.85em; align-items: center; }
+.lenda .linha-bonus label { display: flex; align-items: center; gap: 4px; }
+
+/* Listas de itens */
+.lenda .lista-itens { list-style: none; margin: 0; padding: 0; }
+.lenda .lista-itens .item { border-bottom: 1px solid var(--lenda-papel-2); }
+.lenda .lista-itens .linha { display: flex; align-items: center; gap: 6px; min-height: 30px; }
+.lenda .lista-itens .col-nome { flex: 1; display: flex; align-items: center; gap: 6px; min-width: 0; cursor: pointer; }
+.lenda .lista-itens .col-nome img { width: 26px; height: 26px; border: none; flex: 0 0 26px; }
+.lenda .lista-itens .col-nome .nome { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lenda .lista-itens .col-controles { display: flex; gap: 6px; flex: 0 0 auto; color: var(--lenda-suave); }
+.lenda .lista-itens .detalhes { padding: 4px 8px 8px 38px; font-size: 0.9em; background: var(--lenda-papel); border-left: 3px solid var(--lenda-vermelho); }
+.lenda .lista-itens .detalhes p { margin: 2px 0; }
+.lenda .lista-tecnicas .cabecalho-lista, .lenda .lista-tecnicas .linha { display: grid; grid-template-columns: 1fr 64px 76px 42px 42px 36px 108px; gap: 4px; align-items: center; }
+.lenda .lista-tecnicas .cabecalho-lista { font-size: 0.72em; text-transform: uppercase; color: var(--lenda-suave); border-bottom: 1px solid var(--lenda-borda); }
+.lenda .lista-tecnicas .col-tipo img { width: 18px; height: 18px; border: none; margin-right: 1px; }
+.lenda .lista-tecnicas .col-acao { font-size: 0.78em; color: var(--lenda-suave); }
+.lenda .lista-tecnicas .col-custo, .lenda .lista-tecnicas .col-dano, .lenda .lista-tecnicas .col-ougi { text-align: center; font-weight: bold; }
+.lenda .lista-tecnicas .item.ougi { background: linear-gradient(90deg, rgba(201, 162, 39, 0.18), transparent 60%); }
+.lenda .lista-tecnicas .item.ativa .col-nome .nome { color: var(--lenda-sinc); font-weight: bold; }
+.lenda .lista-tecnicas .aviso { color: #d84315; }
+.lenda .lista-tecnicas .upgrade { color: #ef6c00; }
+.lenda .lista-tecnicas .perfeicao { color: #00838f; }
+.lenda .lista-tecnicas .efeito { margin: 4px 0; padding: 2px 6px; border-radius: 4px; }
+.lenda .lista-tecnicas .efeito.ougi { background: rgba(201, 162, 39, 0.15); }
+.lenda .lista-tecnicas .efeito.sinc { background: rgba(13, 122, 138, 0.12); }
+.lenda .lista-equipamentos .col-categoria { font-size: 0.8em; color: var(--lenda-suave); width: 70px; }
+.lenda .lista-equipamentos .desequipado { opacity: 0.55; }
+
+/* Combate */
+.lenda .botoes-combate { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0; }
+.lenda .botoes-combate button { flex: 1 1 auto; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 2px 8px; }
+.lenda .botoes-combate button img { width: 22px; height: 22px; border: none; }
+.lenda .botoes-combate .bonus { color: var(--lenda-vermelho); font-weight: bold; }
+.lenda .botao-ataque { font-weight: bold; }
+.lenda .botoes-emocoes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.lenda .botoes-emocoes .emocao { font-weight: bold; color: #fff; border: none; }
+.lenda .botoes-emocoes .emocao.amor { background: #c2185b; }
+.lenda .botoes-emocoes .emocao.esperanca { background: #f9a825; color: #1b1b1b; }
+.lenda .botoes-emocoes .emocao.confianca { background: #1565c0; }
+.lenda .botoes-emocoes .emocao.raiva { background: #b71c1c; }
+.lenda .botoes-emocoes .emocao.usada { opacity: 0.35; filter: grayscale(0.7); }
+
+/* Caminho e laços */
+.lenda .caminho-cartao { border: 2px solid var(--lenda-verde); border-radius: 6px; padding: 6px; }
+.lenda .caminho-cartao.riscado h4 { text-decoration: line-through; color: var(--lenda-suave); }
+.lenda .caminho-cabecalho { display: flex; align-items: center; gap: 6px; }
+.lenda .caminho-cabecalho img { width: 32px; height: 32px; border: none; }
+.lenda .caminho-cabecalho h4 { flex: 1; margin: 0; font-family: var(--lenda-fonte-titulo); font-size: 1.2em; border: none; }
+.lenda .caminho-cartao h5 { margin: 6px 0 2px; text-transform: uppercase; font-size: 0.8em; color: var(--lenda-verde); border-bottom: 1px solid var(--lenda-borda); }
+.lenda .caminho-cartao .eventos { margin: 0; padding-left: 4px; list-style: none; }
+.lenda .caminho-cartao label { display: flex; align-items: flex-start; gap: 4px; }
+.lenda .lista-lacos { list-style: none; margin: 0; padding: 0; }
+.lenda .laco { display: flex; align-items: center; gap: 6px; padding: 2px 0; }
+.lenda .laco input[type="text"] { flex: 1; }
+.lenda .laco.marcado input[type="text"] { border-color: var(--lenda-vermelho); background: #fff1ef; font-weight: bold; }
+.lenda .laco a { color: var(--lenda-vermelho); }
+.lenda .grade-karma { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.lenda .grade-karma label { display: flex; flex-direction: column; align-items: center; font-size: 0.8em; text-transform: uppercase; }
+.lenda .grade-karma input { width: 4em; height: 30px; font-size: 1.2em; font-weight: bold; }
+.lenda .tabela-avancos { width: 100%; font-size: 0.85em; border-collapse: collapse; margin-top: 6px; }
+.lenda .tabela-avancos th { background: var(--lenda-papel-2); text-align: left; }
+.lenda .tabela-avancos td, .lenda .tabela-avancos th { padding: 2px 4px; border-bottom: 1px solid var(--lenda-papel-2); }
+
+/* Biografia e texto rico */
+.lenda .grade-detalhes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.lenda .grade-detalhes label, .lenda .linha-inteira { display: flex; flex-direction: column; font-size: 0.8em; text-transform: uppercase; gap: 2px; }
+.lenda .linha-inteira { margin-top: 6px; }
+.lenda .texto-rico prose-mirror { min-height: 140px; display: block; }
+.lenda .texto-rico .editor-content, .lenda .texto-rico .texto { color: var(--lenda-tinta); }
+.lenda prose-mirror .editor-content { color: var(--lenda-tinta); }
+
+/* Coadjuvante */
+.lenda .opcoes-coadjuvante label { white-space: nowrap; }
+.lenda .instantaneo .grade-limiares { grid-template-columns: repeat(2, 1fr); margin-top: 6px; }
+
+/* ---------- Fichas de item ---------- */
+.lenda.item .window-content { display: flex; flex-direction: column; }
+.lenda-item-cabecalho {
+  display: flex; align-items: center; gap: 10px; padding: 8px 10px; color: #fff;
+  background: linear-gradient(135deg, var(--lenda-tinta), var(--lenda-vermelho-escuro)); border-bottom: 3px solid var(--lenda-dourado);
+}
+.lenda-item-cabecalho .retrato { width: 56px; height: 56px; border: 2px solid var(--lenda-dourado); border-radius: 6px; background: #000; cursor: pointer; }
+.lenda-item-cabecalho .titulos { flex: 1; display: flex; flex-direction: column; }
+.lenda-item-cabecalho input.nome { background: transparent; border: none; color: #fff; font-family: var(--lenda-fonte-titulo); font-size: 20px; font-weight: bold; height: 30px; }
+.lenda-item-cabecalho .tipo { font-size: 0.8em; color: #ffd9a0; text-transform: uppercase; }
+.lenda-item-cabecalho .para-chat { color: #ffd9a0; font-size: 1.2em; }
+.lenda-item-corpo { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.lenda-item-corpo .aba-corpo { flex: 1; overflow-y: auto; padding: 8px 10px; }
+.lenda .grade-formulario { display: flex; flex-direction: column; gap: 6px; }
+.lenda .grade-formulario .form-group { display: flex; flex-direction: column; gap: 2px; margin: 0; }
+.lenda .grade-formulario .form-group label { font-size: 0.8em; text-transform: uppercase; color: var(--lenda-suave); flex: none; }
+.lenda .grade-formulario .form-group input[type="text"] { width: 100%; }
+.lenda .form-linha { display: flex; gap: 8px; align-items: flex-end; flex-wrap: wrap; }
+.lenda .form-linha .form-group { flex: 1; }
+.lenda .form-linha.opcoes { align-items: center; }
+.lenda .caixas-selecao { display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.lenda .caixa-opcao { display: inline-flex; align-items: center; gap: 2px; font-size: 0.9em; white-space: nowrap; }
+.lenda fieldset { border: 1px solid var(--lenda-borda); border-radius: 6px; padding: 4px 8px 8px; margin: 0; }
+.lenda fieldset legend { font-family: var(--lenda-fonte-titulo); color: var(--lenda-vermelho); text-transform: uppercase; font-size: 0.9em; padding: 0 4px; }
+.lenda .grade-modificadores { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 8px; }
+.lenda .grade-modificadores label { display: flex; align-items: center; justify-content: space-between; font-size: 0.85em; }
+.lenda .eventos-edicao { list-style: none; padding: 0; margin: 0; }
+.lenda .eventos-edicao li { display: flex; align-items: center; gap: 4px; margin-bottom: 4px; }
+.lenda .eventos-edicao input[type="text"] { flex: 1; }
+.lenda .item-estilo { grid-template-columns: repeat(3, 1fr); }
+.lenda .atual { color: var(--lenda-vermelho); font-weight: bold; text-transform: none; }
+
+/* ---------- Diálogos ---------- */
+.lenda-dialog .window-content { background: var(--lenda-papel); color: var(--lenda-tinta); }
+.lenda-form { display: flex; flex-direction: column; gap: 6px; }
+.lenda-form .form-group { display: flex; flex-direction: column; gap: 2px; margin: 0; }
+.lenda-form .form-group label { font-size: 0.8em; text-transform: uppercase; color: var(--lenda-suave); }
+.lenda-form .form-group input[type="number"] { width: 100%; }
+.lenda-form .max { text-transform: none; color: var(--lenda-sinc); }
+.lenda-form .titulo-teste { font-family: var(--lenda-fonte-titulo); font-size: 1.2em; margin: 0; }
+.lenda-form .alvos { margin: 0; padding: 4px 6px; background: rgba(21, 101, 192, 0.1); border-radius: 4px; }
+.lenda-form .tecnica-topo { display: flex; gap: 8px; align-items: center; }
+.lenda-form .tecnica-topo img { width: 48px; height: 48px; border: none; }
+.lenda-form .tecnica-topo h3 { margin: 0; border: none; font-family: var(--lenda-fonte-titulo); }
+.lenda-form .tecnica-topo p { margin: 0; }
+.lenda-form .custo-preview { margin-top: 6px; padding: 6px; background: #fff; border: 1px dashed var(--lenda-borda); border-radius: 4px; font-size: 0.9em; }
+.lenda-form .custo-preview .perda { color: #c62828; }
+.lenda-form .custo-preview .ativo { color: var(--lenda-sinc); }
+.lenda-form .custo-preview .partes { font-size: 0.8em; color: var(--lenda-suave); margin-top: 2px; }
+.lenda-form .amor { color: #c2185b; }
+
+/* Seleção de dados */
+.lenda-selecao .dados-selecao { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 8px 0; }
+.lenda-selecao .dica { font-size: 0.85em; color: var(--lenda-suave); }
+.lenda .dado, .lenda-chat .dado {
+  display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px;
+  font-weight: bold; font-size: 1.1em; border-radius: 6px; border: 2px solid var(--lenda-tinta, #1b1b1b);
+  background: #fff; color: #1b1b1b; flex: 0 0 auto; line-height: 1; padding: 0;
+}
+.lenda .dado.d10, .lenda-chat .dado.d10 { border-radius: 50% 50% 8px 8px; border-color: #0d7a8a; color: #0d7a8a; }
+.lenda .dado.total, .lenda-chat .dado.total { background: #1b1b1b; color: #fff; border-color: #c9a227; box-shadow: 0 0 6px rgba(201, 162, 39, 0.8); }
+.lenda .dado.d10.total, .lenda-chat .dado.d10.total { background: #0d7a8a; color: #fff; }
+.lenda .dado.descartado, .lenda-chat .dado.descartado { opacity: 0.4; text-decoration: line-through; border-style: dashed; }
+.lenda .dado.livre.um, .lenda-chat .dado.livre.um { border-color: #c62828; color: #c62828; }
+.lenda .dado.livre.seis, .lenda-chat .dado.livre.seis { border-color: #0d7a8a; background: #e0f4f6; }
+.lenda-selecao .selecao-total { text-align: center; font-size: 1.3em; }
+.lenda-selecao .selecao-total .bonus { font-size: 0.7em; color: #6b6256; }
+.lenda-selecao .contagem { text-align: center; font-size: 0.8em; color: #6b6256; }
+.lenda-selecao p { text-align: center; }
+
+/* ---------- Chat ---------- */
+.lenda-chat { font-size: 0.95em; }
+.lenda-chat .chat-cabecalho { display: flex; gap: 6px; align-items: center; border-bottom: 2px solid #a3201a; padding-bottom: 4px; margin-bottom: 4px; }
+.lenda-chat .chat-cabecalho img { width: 36px; height: 36px; border: none; flex: 0 0 36px; }
+.lenda-chat .chat-cabecalho .icone-grande { font-size: 28px; color: #a3201a; width: 36px; text-align: center; }
+.lenda-chat .chat-cabecalho h3 { margin: 0; border: none; font-size: 1.15em; }
+.lenda-chat .chat-cabecalho .subtitulo { margin: 0; font-size: 0.8em; opacity: 0.8; }
+.lenda-chat .tag { display: inline-block; padding: 0 5px; border-radius: 6px; font-size: 0.75em; background: #ddd; color: #1b1b1b; }
+.lenda-chat .tag.ougi { background: #c9a227; }
+.lenda-chat .chat-custo { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 0.85em; padding: 2px 0; }
+.lenda-chat .chat-custo .perda { color: #e53935; font-weight: bold; }
+.lenda-chat .chat-sinc-ativa { background: #0d7a8a; color: #fff; padding: 3px 6px; border-radius: 4px; font-weight: bold; font-size: 0.9em; margin: 3px 0; }
+.lenda-chat .chat-dados { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; margin: 6px 0 2px; }
+.lenda-chat .dado { width: 28px; height: 28px; font-size: 1em; }
+.lenda-chat .chat-total { text-align: center; }
+.lenda-chat .chat-total .total { font-size: 2em; font-weight: bold; font-family: "Signika", sans-serif; }
+.lenda-chat .chat-total .detalhe { opacity: 0.7; }
+.lenda-chat .chat-total .resultado { display: block; font-weight: bold; }
+.lenda-chat .chat-total .resultado.sucesso { color: #2e7d32; }
+.lenda-chat .chat-total .resultado.falha { color: #c62828; }
+.lenda-chat .chat-recursos { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; font-size: 0.85em; }
+.lenda-chat .chat-recursos .tensao { color: #c62828; font-weight: bold; }
+.lenda-chat .chat-recursos .sinc { color: #0d7a8a; font-weight: bold; }
+.lenda-chat .chat-recursos .aviso { color: #ef6c00; }
+.lenda-chat .chat-defesa { text-align: center; font-size: 1.05em; margin: 4px 0; }
+.lenda-chat .chat-ataque { margin-top: 4px; border-top: 1px dashed #999; padding-top: 4px; }
+.lenda-chat .resumo-ataque { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 0.85em; }
+.lenda-chat .alvos { list-style: none; padding: 0; margin: 4px 0; }
+.lenda-chat .alvo { border: 1px solid #bbb; border-left: 4px solid #999; border-radius: 4px; padding: 3px 5px; margin-bottom: 4px; }
+.lenda-chat .alvo.acerto { border-left-color: #c62828; }
+.lenda-chat .alvo.erro { border-left-color: #607d8b; opacity: 0.9; }
+.lenda-chat .alvo.aplicado { opacity: 0.6; }
+.lenda-chat .alvo-linha { display: flex; align-items: center; gap: 6px; }
+.lenda-chat .alvo-linha img { width: 24px; height: 24px; border: none; }
+.lenda-chat .alvo-linha .nome { flex: 1; font-weight: bold; }
+.lenda-chat .alvo-linha .ld { font-size: 0.8em; opacity: 0.8; }
+.lenda-chat .alvo-detalhes { display: flex; flex-wrap: wrap; gap: 4px 8px; font-size: 0.82em; margin-top: 2px; }
+.lenda-chat .alvo-detalhes .fere { color: #c62828; }
+.lenda-chat .alvo-detalhes .splash { color: #ef6c00; font-weight: bold; }
+.lenda-chat .alvo-detalhes.retaliacao { color: #6a1b9a; }
+.lenda-chat .alvo-botoes { display: flex; gap: 3px; margin-top: 3px; }
+.lenda-chat .alvo-botoes button { flex: 1; line-height: 20px; font-size: 0.8em; padding: 0 2px; }
+.lenda-chat .chat-splash { background: rgba(239, 108, 0, 0.1); border: 1px solid #ef6c00; border-radius: 4px; padding: 4px; margin: 4px 0; font-size: 0.85em; }
+.lenda-chat .chat-splash .botoes { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; margin-top: 3px; }
+.lenda-chat .chat-splash button { line-height: 20px; font-size: 0.9em; }
+.lenda-chat .chat-efeito { padding: 3px 6px; border-radius: 4px; margin: 3px 0; font-size: 0.88em; }
+.lenda-chat .chat-efeito p { margin: 0; display: inline; }
+.lenda-chat .chat-efeito.sinc { background: rgba(13, 122, 138, 0.15); }
+.lenda-chat .chat-efeito.ougi { background: rgba(201, 162, 39, 0.2); }
+.lenda-chat .chat-descricao { font-size: 0.85em; margin-top: 4px; }
+.lenda-chat .chat-descricao summary { cursor: pointer; opacity: 0.8; }
+.lenda-chat.tensao-msg { text-align: center; }
+.lenda-chat.tensao-msg .motivo { font-size: 0.85em; opacity: 0.8; }
+.lenda-chat.cena-msg h3, .lenda-chat.sessao-msg h3, .lenda-chat.emocao h3 { margin: 0 0 4px; border-bottom: 2px solid #a3201a; }
+.lenda-chat.emocao.amor h3 { color: #c2185b; }
+.lenda-chat.emocao.esperanca h3 { color: #f9a825; }
+.lenda-chat.emocao.confianca h3 { color: #1565c0; }
+.lenda-chat.emocao.raiva h3 { color: #b71c1c; }
+
+/* ---------- Painel de Tensão ---------- */
+.lenda-painel {
+  position: fixed; left: 120px; bottom: 120px; z-index: 70; width: 120px;
+  background: linear-gradient(160deg, #1b1b1b, #3a0c09); color: #fff; border: 2px solid #c9a227; border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6); font-family: "Signika", sans-serif; user-select: none;
+}
+.lenda-painel header { background: #a3201a; padding: 2px 6px; font-size: 0.8em; text-transform: uppercase; letter-spacing: 1px; cursor: move; border-radius: 6px 6px 0 0; }
+.lenda-painel .valor { font-size: 2.6em; font-weight: bold; text-align: center; line-height: 1.2; text-shadow: 0 0 8px #ff5722; }
+.lenda-painel .valor.alta { color: #ff5252; animation: lenda-pulsar 1.2s infinite alternate; }
+.lenda-painel .botoes { display: flex; gap: 2px; padding: 2px 4px 4px; }
+.lenda-painel button {
+  flex: 1; background: rgba(255, 255, 255, 0.1); color: #fff; border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 4px; height: 24px; line-height: 22px; padding: 0; font-size: 0.8em; cursor: pointer;
+}
+.lenda-painel button:hover { background: #a3201a; }
+@keyframes lenda-pulsar { from { text-shadow: 0 0 6px #ff1744; } to { text-shadow: 0 0 16px #ff1744; } }
+
+.lenda-diretorio { padding: 4px; }
+.lenda-diretorio button { width: 100%; }
+
+/* ---------- Assistente de criação ---------- */
+.lenda-assistente .window-content { padding: 0; }
+.lenda-assistente .assistente { display: flex; height: 100%; }
+.lenda-assistente .assistente-passos { flex: 0 0 190px; background: #1b1b1b; padding: 8px 0; overflow-y: auto; }
+.lenda-assistente .passo { display: flex; align-items: center; gap: 8px; padding: 6px 10px; color: #bbb; border-left: 4px solid transparent; }
+.lenda-assistente .passo .numero {
+  width: 24px; height: 24px; border-radius: 50%; border: 2px solid #777; display: flex; align-items: center; justify-content: center; font-size: 0.8em; flex: 0 0 24px;
+}
+.lenda-assistente .passo.ok .numero { border-color: #43a047; color: #43a047; }
+.lenda-assistente .passo.ativo { color: #fff; background: rgba(163, 32, 26, 0.35); border-left-color: #c9a227; }
+.lenda-assistente .passo.ativo .numero { border-color: #c9a227; color: #c9a227; }
+.lenda-assistente .assistente-principal { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.lenda-assistente .assistente-conteudo { flex: 1; overflow-y: auto; padding: 10px 14px; }
+.lenda-assistente h2 { font-family: var(--lenda-fonte-titulo); color: var(--lenda-vermelho); border-bottom: 2px solid var(--lenda-vermelho); margin-top: 0; }
+.lenda-assistente h2 .contador { font-size: 0.7em; color: var(--lenda-verde); }
+.lenda-assistente h2 .contador.pendente { color: #d84315; }
+.lenda-assistente .explicacao { background: #fff; border-left: 4px solid var(--lenda-dourado); padding: 6px 10px; border-radius: 0 4px 4px 0; }
+.lenda-assistente .exemplo { font-style: italic; color: var(--lenda-suave); }
+.lenda-assistente .destaque { font-size: 1.4em; text-align: center; }
+.lenda-assistente .destaque .grande { font-size: 3em; font-weight: bold; color: var(--lenda-vermelho); }
+.lenda-assistente .form-group { margin-bottom: 8px; display: flex; flex-direction: column; }
+.lenda-assistente .grade-cartoes { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+.lenda-assistente .cartao { display: flex; flex-direction: column; gap: 3px; background: #fff; border: 2px solid var(--lenda-borda); border-radius: 6px; padding: 6px; cursor: pointer; font-size: 0.88em; }
+.lenda-assistente .cartao.selecionado { border-color: var(--lenda-vermelho); box-shadow: 0 0 6px rgba(163, 32, 26, 0.5); }
+.lenda-assistente .cartao.bloqueado { opacity: 0.7; }
+.lenda-assistente .cartao-titulo { font-weight: bold; font-size: 1.05em; display: flex; align-items: center; gap: 4px; }
+.lenda-assistente .cartao-titulo .ver { margin-left: auto; color: var(--lenda-suave); }
+.lenda-assistente .cartao .eventos { margin: 0; padding-left: 16px; }
+.lenda-assistente .cartao .reviravolta { color: var(--lenda-suave); font-style: italic; }
+.lenda-assistente .cartao input[type="radio"] { display: none; }
+.lenda-assistente .requisitos { font-size: 0.85em; color: var(--lenda-suave); }
+.lenda-assistente .requisitos.falta, .lenda-assistente .falta { color: #d84315; }
+.lenda-assistente .grade-ajuste { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.lenda-assistente .grade-ajuste.estilo { grid-template-columns: repeat(3, 1fr); }
+.lenda-assistente .ajuste { background: #fff; border: 1px solid var(--lenda-borda); border-radius: 6px; padding: 6px; }
+.lenda-assistente .ajuste-topo { display: flex; align-items: center; gap: 6px; }
+.lenda-assistente .ajuste-topo img { width: 22px; height: 22px; border: none; }
+.lenda-assistente .ajuste .controles { margin-left: auto; display: flex; align-items: center; gap: 4px; }
+.lenda-assistente .ajuste .controles a { color: var(--lenda-vermelho); }
+.lenda-assistente .ajuste .descricao { font-size: 0.8em; color: var(--lenda-suave); margin: 4px 0; }
+.lenda-assistente .ajuste input[type="text"] { width: 100%; }
+.lenda-assistente .lista-lacos li { display: flex; gap: 6px; align-items: center; margin-bottom: 4px; }
+.lenda-assistente .lista-lacos input { flex: 1; }
+.lenda-assistente .lista-estilos { padding-left: 16px; font-size: 0.9em; }
+.lenda-assistente .filtros { display: flex; gap: 8px; margin-bottom: 6px; }
+.lenda-assistente .filtros input { flex: 1; }
+.lenda-assistente .selecionadas { margin-bottom: 6px; }
+.lenda-assistente .tabela-tecnicas { width: 100%; border-collapse: collapse; font-size: 0.88em; background: #fff; }
+.lenda-assistente .tabela-tecnicas th { position: sticky; top: -10px; background: var(--lenda-tinta); color: #fff; text-align: left; padding: 3px 4px; z-index: 1; }
+.lenda-assistente .tabela-tecnicas td { padding: 2px 4px; border-bottom: 1px solid var(--lenda-papel-2); vertical-align: top; }
+.lenda-assistente .tabela-tecnicas tr.selecionado { background: rgba(163, 32, 26, 0.08); }
+.lenda-assistente .tabela-tecnicas tr.bloqueado td { opacity: 0.6; }
+.lenda-assistente .tabela-tecnicas .icones img { width: 18px; height: 18px; border: none; }
+.lenda-assistente .tabela-tecnicas .req { font-size: 0.85em; }
+.lenda-assistente .resumo-grade { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; margin-bottom: 8px; }
+.lenda-assistente .grade-limiares { grid-template-columns: repeat(6, 1fr); margin-bottom: 8px; }
+.lenda-assistente .erros-todos { background: #fff3e0; border: 1px solid #ef6c00; border-radius: 6px; padding: 6px 10px; }
+.lenda-assistente .erros-todos h3 { margin: 0; color: #d84315; border: none; }
+.lenda-assistente .tudo-ok { color: var(--lenda-verde); font-weight: bold; font-size: 1.1em; }
+.lenda-assistente .assistente-erros { background: #fff3e0; border-top: 1px solid #ef6c00; padding: 4px 12px; font-size: 0.85em; color: #d84315; max-height: 90px; overflow-y: auto; }
+.lenda-assistente .assistente-erros p { margin: 2px 0; }
+.lenda-assistente .assistente-rodape { display: flex; justify-content: space-between; padding: 8px 12px; border-top: 1px solid var(--lenda-borda); background: var(--lenda-papel-2); }
+.lenda-assistente .assistente-rodape button { width: auto; padding: 0 16px; }
+.lenda-assistente .assistente-rodape .aplicar { background: var(--lenda-vermelho); color: #fff; font-weight: bold; }
+.lenda .lista-tecnicas .efeito p { display: inline; margin: 0; }
+.lenda .lista-tecnicas .detalhes .descricao p { margin: 2px 0 4px; }

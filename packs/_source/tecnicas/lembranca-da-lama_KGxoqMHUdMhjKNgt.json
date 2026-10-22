@@ -1,0 +1,54 @@
+{
+  "_id": "KGxoqMHUdMhjKNgt",
+  "name": "Lembrança da Lama",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Amplificação Sensorial, Sentido Sísmico, Zanshin",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "4 para a mesma cena, 7 para o mesmo dia, 10 para o dia anterior, +10 para cada dia além dele. Se o solo for coberto (por exemplo, por asfalto) aumente o custo em +1. Caso não esteja no andar térreo, aumente o custo em +1.",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Usando todos os seis sentidos, você pode tocar o solo e ver o que aconteceu naquela região no passado. O alcance é igual à sua Aura x 10 em metros quadrados. As visões são borradas, imprecisas, como sombras vistas contra uma parede. Por exemplo, você pode saber que duas pessoas passaram correndo pelo local, mas não pode dizer detalhes de seu rosto ou quais roupas estavam usando.</p>",
+    "ougi": "<p>Você pode testar Razão (Vigilante) contra a Tensão. Caso tenha sucesso, o narrador lhe dirá um detalhe adicional sobre o que ocorreu.</p>",
+    "sincronizacao": "<p>Você tem uma visão muito mais clara, distinguindo detalhes específicos como formato, tamanho e peso. Ainda não é possível detectar cores.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!KGxoqMHUdMhjKNgt"
+}

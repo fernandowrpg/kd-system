@@ -1,0 +1,54 @@
+{
+  "_id": "6E9RXaNwTjbH1TH0",
+  "name": "Projeção Invisível",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Aura 1, Trapaceiro 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Dentre todas as técnicas de focus, poucas são mais desleais que a Projeção Invisível. O yuza aprende a suprimir temporariamente a conexão entre suas emoções e pensamentos com a sua aura, removendo qualquer cor ou imagem dela. Dessa forma, qualquer uma de suas técnicas pode ser usada sem nenhum efeito espiritual visível. Essa técnica é usada como uma ação extra ao realizar qualquer outra técnica. O efeito da técnica é invisível. Se a técnica for um ataque, ele é feito com vantagem, e qualquer tentativa de se defender contra ele é feita com desvantagem. Um yuza que tenha Zanshin consegue ver os efeitos espirituais normalmente. Como essa é uma técnica que depende de sutileza, seu custo em nagen nunca pode ser diminuído com um kiai.</p>",
+    "ougi": "<p>Você pode usar Projeção Invisível como parte da mesma ação que ativou outra técnica.</p>",
+    "sincronizacao": "<p>Os efeitos são invisíveis até mesmo para Zanshin.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6E9RXaNwTjbH1TH0"
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "AuBHE9hWjGUBpZXA",
+  "name": "Arma Espiritual",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [],
+    "elemento": "variavel",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Canalizando sua aura através de um objeto mundano, o yuza pode transformá-lo em uma arma mortal. Escolha uma característica da lista de armas (p. 166); você sabe imbuir objetos mundanos dessa característica e usá-los como se fossem armas. A forma como isso funciona varia de yuza para yuza: alguns endurecem origami para usar como projéteis, outros fazem com que cintos se movam como serpentes, outros simplesmente tornam objetos frágeis mais resistentes. Se o yuza tem afinidade com um elemento, pode usar esse próprio elemento em vez de um objeto. Se tem afinidade com ar, pode criar uma arma de vento cortante; se tem afinidade com água, pode fazer um chicote absorvendo umidade do ar; se tem afinidade com terra, pode arrancar do chão uma clava de pedra; se tem afinidade com fogo, pode transformar a chama de um isqueiro numa adaga flamejante. Uma arma criada com essa técnica dura até o final da cena.</p>",
+    "ougi": "<p>Você pode usar essa técnica como uma ação extra.</p>",
+    "sincronizacao": "<p>A arma recebe uma característica adicional.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!AuBHE9hWjGUBpZXA"
+}

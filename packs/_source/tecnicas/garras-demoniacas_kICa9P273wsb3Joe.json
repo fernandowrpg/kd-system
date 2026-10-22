@@ -1,0 +1,54 @@
+{
+  "_id": "kICa9P273wsb3Joe",
+  "name": "Garras Demoníacas",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": true,
+    "ritual": false,
+    "descricao": "<p>Alguns mons têm presas semelhantes aos animais terrestres, mas as garras mais afiadas do Outro Mundo advêm do focus. Shen e hanyo que dominam as Garras Demoníacas podem criar garras longas e afiadas, que funcionam como armas com a característica Letal, e causam 1 ponto adicional de dano. Uma vez ativadas, como uma ação extra, as garras duram até o final da cena.</p>",
+    "ougi": "<p>Ao custo de 3 de nagen você pode somar sua Aura no dano de qualquer ataque com as suas garras.</p>",
+    "sincronizacao": "<p>As garras causam um ponto adicional de dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Hf5Fjh7IJzO92JNz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!kICa9P273wsb3Joe"
+}

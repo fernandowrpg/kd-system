@@ -1,0 +1,54 @@
+{
+  "_id": "d4xgBDrzNXHcNxwP",
+  "name": "Sentido Sísmico",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/terra.svg",
+  "system": {
+    "requisitos": "Aura 1, Instinto 3",
+    "tipos": [],
+    "elemento": "terra",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O yuza se comunica diretamente com a terra, lendo com seu tato as vibrações do solo. Ele consegue perceber qualquer coisa que esteja em contato com o solo como se a enxergasse, desde que esteja próxima a ele. Se conseguir ver ao mesmo tempo que usa o sentido sísmico, o yuza tem vantagem em qualquer jogada que dependa da visão. Após ativado, o sentido sísmico dura por uma cena.</p>",
+    "ougi": "<p>Você pode ativar a técnica com uma ação extra.</p>",
+    "sincronizacao": "<p>O alcance do sentido sísmico aumenta para distante.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d4xgBDrzNXHcNxwP"
+}

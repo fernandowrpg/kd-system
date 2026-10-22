@@ -1,0 +1,55 @@
+{
+  "_id": "6BDtAqLiBFfg90IB",
+  "name": "Amigos Importantes",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Um dos coadjuvantes com quem você tem laços possui grande poder e influência. Talvez seja um senador, um alto executivo ou uma celebridade. Seu amigo fornece informações e, só de citar o nome dele, abre portas na situação certa. Porém, caso peça mais que isso, ele pode ou não ajudar, a critério do narrador. Mesmo que ele ajude, sempre que você pede ajuda diretamente a Tensão aumenta em 1.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6BDtAqLiBFfg90IB"
+}

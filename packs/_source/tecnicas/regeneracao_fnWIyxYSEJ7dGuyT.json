@@ -1,0 +1,54 @@
+{
+  "_id": "fnWIyxYSEJ7dGuyT",
+  "name": "Regeneração",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agua.svg",
+  "system": {
+    "requisitos": "Aura 1, Vontade 3",
+    "tipos": [],
+    "elemento": "agua",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Sintonizar o nagen do corpo com a água do ambiente para se curar é uma tarefa relativamente simples com o treinamento certo. Ainda assim, parece milagroso para a maior parte das pessoas. Ao usar essa técnica, o yuza desmarca uma caixa de ferimento.</p>",
+    "ougi": "<p>Você pode usar essa técnica como uma ação extra.</p>",
+    "sincronizacao": "<p>Recupere uma quantidade de pontos da sua Barra de Vigor igual à sua Aura.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fnWIyxYSEJ7dGuyT"
+}

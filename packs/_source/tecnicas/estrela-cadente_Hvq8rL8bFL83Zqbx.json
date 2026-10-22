@@ -1,0 +1,56 @@
+{
+  "_id": "Hvq8rL8bFL83Zqbx",
+  "name": "Estrela Cadente",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "Agilidade 3, Força 3",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O lutador salta para o alto e então desce com tudo sobre o seu oponente, usando o próprio corpo como míssil. A maior parte dos yuzas ataca o alvo com um soco ou chute, mas cabeçadas ou ombradas não são incomuns. O ataque pode atingir um alvo próximo e causa dano igual à Força + 2.</p>",
+    "ougi": "<p>Você pode usar essa técnica como uma ação extra se acertou o oponente com Dragão Nascente primeiro.</p>",
+    "sincronizacao": "<p>Some sua Aura no dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@for + 2",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Hvq8rL8bFL83Zqbx"
+}

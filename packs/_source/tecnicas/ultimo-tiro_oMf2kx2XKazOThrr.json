@@ -1,0 +1,56 @@
+{
+  "_id": "oMf2kx2XKazOThrr",
+  "name": "Último Tiro",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "projetil"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>\"Sobrou uma. Pode ser a minha especial.\" – Vash the Stampede, Trigun Contar munição é muito chato. Os únicos tiros que realmente importam são o que inicia um combate e o que termina. Porém, o último tiro de um verdadeiro atirador sempre é dramaticamente efetivo. Para usar essa técnica, o atirador precisa estar empunhando uma arma com a capacidade Projétil e precisa tê-la disparado pelo menos uma vez nessa cena. Você também pode usar Último Tiro com manobras de Projétil, como Disparo de Nagen. Nesse caso, não precisa de uma arma, mas depois de atirar não pode mais usar a técnica até o final da cena. Como uma ação, você faz seu último disparo. Esse tiro é feito com vantagem e, caso acerte, consegue um splash automaticamente. Porém, a arma ou técnica não pode mais ser usada até o final da cena. Essa técnica só pode ser usada uma vez por cena.</p>",
+    "ougi": "<p>Você pode fazer Últimos Tiros uma vez por cena para cada arma ou técnica de Projétil que tiver.</p>",
+    "sincronizacao": "<p>Some sua Aura ao dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 1,
+      "vantagensOugi": 0,
+      "dano": "@ins + 1",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!oMf2kx2XKazOThrr"
+}

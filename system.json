@@ -1,0 +1,206 @@
+{
+  "id": "lenda-dragao-fogo",
+  "title": "A Lenda do Dragão de Fogo (Karyu Densetsu)",
+  "description": "Sistema não oficial para jogar A Lenda do Dragão de Fogo: Karyu Densetsu no Foundry VTT. Fichas de protagonista, antagonista, coadjuvante e espírito; testes com seleção de dados, sincronização, nagen, Tensão; assistente de criação de personagem e compêndios.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "xuxagamer",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/lenda.mjs"
+  ],
+  "styles": [
+    "styles/lenda.css"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "protagonista": {
+        "htmlFields": [
+          "biografia",
+          "notas"
+        ]
+      },
+      "antagonista": {
+        "htmlFields": [
+          "biografia",
+          "notas",
+          "especial"
+        ]
+      },
+      "coadjuvante": {
+        "htmlFields": [
+          "biografia",
+          "notas",
+          "especial"
+        ]
+      },
+      "espirito": {
+        "htmlFields": [
+          "biografia",
+          "notas"
+        ]
+      }
+    },
+    "Item": {
+      "tecnica": {
+        "htmlFields": [
+          "descricao",
+          "ougi",
+          "sincronizacao"
+        ]
+      },
+      "trunfo": {
+        "htmlFields": [
+          "descricao"
+        ]
+      },
+      "caminho": {
+        "htmlFields": [
+          "descricao"
+        ]
+      },
+      "estilo": {
+        "htmlFields": [
+          "descricao"
+        ]
+      },
+      "equipamento": {
+        "htmlFields": [
+          "descricao"
+        ]
+      },
+      "upgrade": {
+        "htmlFields": [
+          "descricao"
+        ]
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "regras",
+      "label": "Regras e Passo a Passo",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caminhos",
+      "label": "Caminhos",
+      "path": "packs/caminhos",
+      "type": "Item",
+      "system": "lenda-dragao-fogo",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "trunfos",
+      "label": "Trunfos",
+      "path": "packs/trunfos",
+      "type": "Item",
+      "system": "lenda-dragao-fogo",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "estilos",
+      "label": "Estilos de Luta",
+      "path": "packs/estilos",
+      "type": "Item",
+      "system": "lenda-dragao-fogo",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tecnicas",
+      "label": "Técnicas",
+      "path": "packs/tecnicas",
+      "type": "Item",
+      "system": "lenda-dragao-fogo",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipamentos",
+      "label": "Equipamentos e Upgrades",
+      "path": "packs/equipamentos",
+      "type": "Item",
+      "system": "lenda-dragao-fogo",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arquetipos",
+      "label": "Coadjuvantes e Antagonistas",
+      "path": "packs/arquetipos",
+      "type": "Actor",
+      "system": "lenda-dragao-fogo",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "A Lenda do Dragão de Fogo",
+      "sorting": "m",
+      "color": "#7a1712",
+      "packs": [
+        "regras",
+        "caminhos",
+        "trunfos",
+        "estilos",
+        "tecnicas",
+        "equipamentos",
+        "arquetipos"
+      ]
+    }
+  ],
+  "socket": true,
+  "initiative": "@atributos.agilidade + @atributos.instinto / 10 + 1d6 / 100",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "vigor",
+  "url": "https://github.com/OWNER/REPO",
+  "manifest": "https://github.com/OWNER/REPO/releases/latest/download/system.json",
+  "download": "https://github.com/OWNER/REPO/releases/latest/download/lenda-dragao-fogo.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "flags": {}
+}

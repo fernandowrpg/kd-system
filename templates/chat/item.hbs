@@ -1,0 +1,18 @@
+<div class="lenda-chat item-card">
+  <header class="chat-cabecalho">
+    <img src="{{item.img}}" alt="">
+    <div>
+      <h3>{{item.name}}</h3>
+      <p class="subtitulo">{{tipoNome}}{{#if tipos}} · {{tipos}}{{/if}}{{#if elemento}} · {{elemento}}{{/if}}{{#if acao}} · {{acao}}{{/if}}{{#if caracteristicas}} · {{caracteristicas}}{{/if}}</p>
+    </div>
+  </header>
+  {{#if system.requisitos}}<p class="requisitos"><strong>{{localize "LENDA.Requisitos"}}:</strong> {{system.requisitos}}</p>{{/if}}
+  <div class="descricao">{{{descricao}}}</div>
+  {{#if ougi}}<div class="chat-efeito ougi"><strong>{{localize "LENDA.Ougi"}}:</strong> {{{ougi}}}</div>{{/if}}
+  {{#if sincronizacao}}<div class="chat-efeito sinc"><strong>{{localize "LENDA.Sincronizacao"}}:</strong> {{{sincronizacao}}}</div>{{/if}}
+  {{#if (lenda-eq item.type "tecnica")}}<p class="custo-linha"><strong>{{localize "LENDA.Nagen"}}:</strong> {{system.nagen}}{{#if system.nagenNota}} — {{system.nagenNota}}{{/if}}</p>{{/if}}
+  {{#if (lenda-eq item.type "caminho")}}
+  <ol>{{#each system.eventos}}<li>{{texto}}</li>{{/each}}</ol>
+  <p><strong>{{localize "LENDA.Reviravolta"}}:</strong> {{system.reviravolta.texto}}</p>
+  {{/if}}
+</div>

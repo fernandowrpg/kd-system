@@ -1,0 +1,54 @@
+{
+  "_id": "wJYoX726iRqXcDcZ",
+  "name": "Olho da Mente",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+  "system": {
+    "requisitos": "Telepatia",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": true,
+    "ritual": false,
+    "descricao": "<p>Os estudiosos do nagen frequentemente afirmam que um telepata não pode jamais controlar mentes. Segundo eles, é impossível; a telepatia é apenas uma ponte. Embora essa afirmação se aplique aos yuza da Terra e tenha tranquilizado muitas pessoas ao longo das décadas, ela não é verdade no que diz respeito aos shen. O perigoso shintai do Olho da Mente é temido em todo o Outro Mundo. Ao usá-lo, o shen cria um olho falso em sua testa. Esse olho permite que ele copie as ondas cerebrais de qualquer pessoa com quem esteja conectado telepaticamente, fazendo com que o cérebro da vítima se confunda com o seu. Dessa forma, o shen pode enviar comandos mentais para a vítima, que fará o que ele desejar. Faça uma disputa de Vontade entre o shen e a vítima. Caso o shen ganhe, ele pode decidir todas as ações que a vítima realizará na próxima rodada. Quaisquer jogadas de dados realizadas pela vítima sofrem uma desvantagem.</p>",
+    "ougi": "<p>As jogadas realizadas pela vítima não sofrem desvantagem.</p>",
+    "sincronizacao": "<p>Você assume o controle da vítima até o final da cena.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Hf5Fjh7IJzO92JNz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!wJYoX726iRqXcDcZ"
+}

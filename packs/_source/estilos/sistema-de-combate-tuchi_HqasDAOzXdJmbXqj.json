@@ -1,0 +1,38 @@
+{
+  "_id": "HqasDAOzXdJmbXqj",
+  "name": "Sistema de Combate Tuchi",
+  "type": "estilo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/estilo.svg",
+  "system": {
+    "descricao": "<p>A tribo mexicana Tuchi possui um estilo próprio, uma rara combinação de controle espiritual e força bruta, aliando a invocação de totens animais ancestrais com um estilo reminiscente da lucha libre. (Estilo secreto.)</p><p><strong>Ougi:</strong> @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.UVddqLFMJm7qG6Qf]{Dragão Nascente}, @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.NW1PGYmfwBtuY16q]{Aura de Batalha}</p>",
+    "valores": {
+      "agarrao": 2,
+      "bloqueio": 1,
+      "combo": 1,
+      "evasao": 1,
+      "golpe": 2,
+      "projetil": 0
+    },
+    "ougis": [
+      "Dragão Nascente",
+      "Aura de Batalha"
+    ],
+    "secreto": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!HqasDAOzXdJmbXqj"
+}

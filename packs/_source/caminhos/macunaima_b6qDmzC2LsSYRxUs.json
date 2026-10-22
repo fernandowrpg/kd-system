@@ -1,0 +1,43 @@
+{
+  "_id": "b6qDmzC2LsSYRxUs",
+  "name": "Macunaíma",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você pode até ser um herói, mas não tem nenhum caráter. Sempre procura uma forma de ter menos trabalho e de se dar bem.</p>",
+    "eventos": [
+      {
+        "texto": "Enganar alguém.",
+        "marcado": false
+      },
+      {
+        "texto": "Encontrar uma forma de evitar trabalhar.",
+        "marcado": false
+      },
+      {
+        "texto": "Conseguir que outra pessoa resolva um problema que você criou.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Tomar vergonha na cara.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b6qDmzC2LsSYRxUs"
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "8ThxQBEZi6eKzpWz",
+  "name": "Vitória Magnética",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Você tem uma forte capacidade de se relacionar com as pessoas que derrota. Pode ser que você converse com os punhos ou com as palavras, mas depois de derrotar alguém em combate, você pode gastar um dado de sincronização para formar um laço com essa pessoa. Se era só um coadjuvante, você pode dar um nome para ele e inventar algum passado.</p><p>Repare que a pessoa não necessariamente gosta de você, ela só vai estar por perto. Você pode conseguir um novo aliado ou um novo inimigo, depende de como vai tratar quem você derrota!</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8ThxQBEZi6eKzpWz"
+}

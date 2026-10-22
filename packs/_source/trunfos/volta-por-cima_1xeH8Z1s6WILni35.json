@@ -1,0 +1,55 @@
+{
+  "_id": "1xeH8Z1s6WILni35",
+  "name": "Volta por Cima",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p><em>“Impossível não é um fato. Impossível é uma opinião.” – Muhammad Ali</em></p><p>Quando o mundo joga seu pior contra você, é aí que você pode jogar o seu melhor contra o mundo. Você não se dá por vencido facilmente e consegue tirar forças de onde não tem para enfrentar qualquer desafio. Quanto pior é a situação, mais forte você fica. Quando está ferido, você pode escolher somar o valor de Tensão nas suas jogadas, em vez de uma ocupação ou estilo de luta.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1xeH8Z1s6WILni35"
+}

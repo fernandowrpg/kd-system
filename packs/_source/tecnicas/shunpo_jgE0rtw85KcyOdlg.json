@@ -1,0 +1,54 @@
+{
+  "_id": "jgE0rtw85KcyOdlg",
+  "name": "Shunpo",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Aura 1, Agilidade 4",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>A maestria da movimentação em combate, Shunpo (“passo instantâneo”), é uma técnica que permite cobrir distâncias rapidamente, aproximando-se ou afastando-se do oponente com facilidade. Com a prática, essa técnica permite se mover mais rápido do que a visão consegue acompanhar. Você pode se mover dois passos de distância (de engajado para distante, por exemplo) como uma ação extra.</p>",
+    "ougi": "<p>Quando um oponente o ataca e erra, você pode usar Shunpo como uma reação para se mover um passo de distância.</p>",
+    "sincronizacao": "<p>Assuma a iniciativa.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!jgE0rtw85KcyOdlg"
+}

@@ -1,0 +1,466 @@
+{
+  "_id": "G1Tswf6sY5WiUV8H",
+  "name": "Pirata do Céu",
+  "type": "coadjuvante",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 1,
+    "conceito": "Pirata do Céu",
+    "atributos": {
+      "forca": 2,
+      "razao": 2,
+      "instinto": 3,
+      "agilidade": 4,
+      "presenca": 2,
+      "vontade": 3
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 0,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 0,
+      "combo": 1,
+      "evasao": 2,
+      "golpe": 1,
+      "projetil": 2
+    },
+    "vigor": {
+      "value": 6,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Os misteriosos Piratas do Céu sequestram aviões para roubar seus reatores. Eles podem ser usados para ousadas batalhas aéreas ou podem ser aliados inesperados. São católicos fervorosos e ostentam orgulhosamente uma cruz de malta azul em seus trajes. Por algum motivo inexplicável, sua sorte parece ligada ao número dois.</p>",
+    "especial": "",
+    "notas": "",
+    "grupo": {
+      "ativo": false,
+      "tamanho": 1
+    },
+    "instantaneo": {
+      "ativo": false,
+      "fazBem": "",
+      "fazMal": ""
+    }
+  },
+  "effects": [],
+  "folder": "yNAtDeilews3LsxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!G1Tswf6sY5WiUV8H",
+  "items": [
+    {
+      "_id": "8wKXNvpv6tVZnAG1",
+      "name": "Tocado",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p>Você tem mais afinidade com um dos elementos primordiais do universo, mas ainda é capaz de usar outros. Escolha entre água, ar, fogo ou terra. Você pode utilizar com facilidade técnicas do elemento escolhido, gastando 1 nagen a menos com eles (até zero). Você não pode aprender técnicas do elemento oposto. Caso seja atingido pelo elemento oposto, você perde 2 pontos de Vigor em vez de um.</p>",
+        "afinidade": "tocado",
+        "elemento": "ar",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 0,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 0,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!G1Tswf6sY5WiUV8H.8wKXNvpv6tVZnAG1"
+    },
+    {
+      "_id": "OArInGduijSh9RTd",
+      "name": "Amplificação Sensorial",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [],
+        "elemento": "ar",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>O yuza canaliza nagen para aprimorar seu olfato como o de um lobo e sua audição como a de uma águia. Isso concede vantagem em todos os testes para perceber, identificar ou rastrear através desses sentidos até o final da cena.</p>",
+        "ougi": "<p>Você pode ativar essa técnica como uma ação extra.</p>",
+        "sincronizacao": "<p>Some seu Instinto no seu Limiar de Defesa até o começo do seu próximo turno.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!G1Tswf6sY5WiUV8H.OArInGduijSh9RTd"
+    },
+    {
+      "_id": "eLTwL0AzpVn6udZB",
+      "name": "Aura de Batalha",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 5,
+        "nagenNota": "",
+        "custoPorUso": 5,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Esta técnica é necessária para participar de competições no Circuito Mundial de Lutas. O yuza manifesta sua aura, tornando-a visível ao redor de seu corpo, brilhando como uma tocha. A aura permanece ao seu redor até o final da cena ou até ser dissipada. Enquanto tiver sua Aura de Batalha ativa, o yuza soma sua Aura como um bônus ao seu Limiar de Proteção. Quando for atingido por um ataque que o faria marcar uma caixa de ferimento, ele não marca a caixa, mas sua aura se dissipa. Usar essa técnica é extremamente cansativo. Cada ativação depois da primeira, na mesma cena, aumenta em 5 pontos o gasto de nagen.</p>",
+        "ougi": "<p>Você soma +1 no seu Limiar de Proteção com a aura ativa.</p>",
+        "sincronizacao": "<p>Ative a técnica como uma ação extra e ignore os aumentos de custo por número de ativações.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!G1Tswf6sY5WiUV8H.eLTwL0AzpVn6udZB"
+    },
+    {
+      "_id": "uX6nLfLRd5zfAKSs",
+      "name": "Disparo Elemental",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "projetil"
+        ],
+        "elemento": "ar",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Uma das técnicas de focus mais famosas entre o público em geral. No Disparo Elemental, o yuza separa um pedaço da sua aura, canaliza nele a energia de um elemento e o lança como um Projétil. É comum que o disparo assuma a forma de uma esfera, mas pode ser qualquer outra coisa, como uma lança ou uma miniatura do seu avatar. Escolha um elemento quando aprender essa técnica, essa será a afinidade dela. O dano é igual à Vontade + Aura + 2 e atinge alvos distantes.</p>",
+        "ougi": "<p>Se você errar o ataque, pode gastar um dado de sincronização para guiá-lo de volta contra o alvo, fazendo a jogada de ataque novamente.</p>",
+        "sincronizacao": "<p>Em vez de um disparo único, você lança seu nagen na forma de um Projétil contínuo, um verdadeiro canhão. Você pode aumentar o dano em 1 para cada nagen extra usado. O único limite é a sua Barra de Vigor.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@von + @aura + 2",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!G1Tswf6sY5WiUV8H.uX6nLfLRd5zfAKSs"
+    },
+    {
+      "_id": "p1m122qfeBDXiTrs",
+      "name": "Salto Duplo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+      "system": {
+        "requisitos": "Aura 1, Atleta 1",
+        "tipos": [],
+        "elemento": "ar",
+        "acao": "acaoExtra",
+        "nagen": 3,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>É comum que filmes de Bollywood mostrem aceitos do ar voando pelos céus. Todo yuza que se preza sabe que isso é coisa de cinema, mas existem aqueles que chegam bem perto. O salto duplo acontece quando um yuza salta e, chegando no ápice do movimento, concentra nagen nos pés, fazendo uma plataforma de ar para saltar novamente. É muito prático para ultrapassar obstáculos e se mover em combate, fazendo dois passos como uma ação extra.</p>",
+        "ougi": "<p>Você pode usar Salto Duplo como uma defesa total. Jogue Agilidade (Evasão) com vantagem quando fizer isso.</p>",
+        "sincronizacao": "<p>Você pode saltar de novo uma terceira vez, cobrindo três passos com uma ação extra e podendo alcançar locais muito altos.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!G1Tswf6sY5WiUV8H.p1m122qfeBDXiTrs"
+    },
+    {
+      "_id": "I6d8rD4gnAmiuL4g",
+      "name": "Telecinese",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+      "system": {
+        "requisitos": "Disparo Elemental",
+        "tipos": [],
+        "elemento": "ar",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Não é raro encontrar pessoas que afirmam ser capazes de manipular objetos com a força da mente. Qualquer iniciado em focus sabe que isso é impossível. Quando objetos são de fato movidos ao longe, é o resultado da aplicação da aura para controlar o ar. Quando usa essa técnica como uma ação, o yuza pode manipular os ventos para manipular objetos, como se fosse uma pessoa com Força igual à Vontade do yuza e Agilidade igual ao Instinto do yuza. Ele ainda precisa ver para saber o que está fazendo. Essa técnica pode ser usada para atacar oponentes distantes com Golpes, usando o ar como um aríete. Esse tipo de ataque, porém, não pode ser combinado com nenhuma outra técnica.</p>",
+        "ougi": "<p>Além de Golpes, você pode usar a técnica para fazer Agarrões e Combos.</p>",
+        "sincronizacao": "<p>Some sua Aura na Força efetiva da Telecinese.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!G1Tswf6sY5WiUV8H.I6d8rD4gnAmiuL4g"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Pirata do Céu",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

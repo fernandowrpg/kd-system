@@ -1,0 +1,56 @@
+{
+  "_id": "oxehjeaZKFpjJfpD",
+  "name": "Rasteira Deslizante",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Deslizando rente ao chão, de pé ou agachado, o lutador atinge as pernas de um oponente próximo, desequilibrando-o; esta técnica costuma ser realizada com chutes, mas qualquer golpe nas pernas funciona. Um alvo atingido sofre dano igual à Força e se desequilibra, sofrendo desvantagem em seu próximo ataque.</p>",
+    "ougi": "<p>O alvo sofre duas desvantagens em seu próximo ataque.</p>",
+    "sincronizacao": "<p>Some sua Aura ao dano causado.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@for",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!oxehjeaZKFpjJfpD"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "TvxuWEeTY5SeXRPH",
+  "name": "Onda de Choque",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [
+      "projetil"
+    ],
+    "elemento": "terra",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Com um violento golpe no chão, o yuza pode emitir uma onda de choque que atinge todos que estejam próximos dele. Isso fere seus oponentes na mesma medida que os desequilibra. A onda de choque causa dano igual à Vontade + Aura. Contra um grupo de coadjuvantes, a Onda de Choque pode iniciar um splash de ataque decisivo mesmo com um acerto normal. Um alvo atingido pela onda de choque deve disputar Agilidade com a Força do yuza. Se o yuza vencer, o alvo fica desequilibrado e sofre desvantagem na próxima jogada de dados que fizer. Você pode somar seu valor de Golpe em vez do seu valor de Projétil no total de um ataque com Onda de Choque.</p>",
+    "ougi": "<p>Descarte um dado 5+ para aumentar o dano em um ponto.</p>",
+    "sincronizacao": "<p>Aumente o dano causado em dois pontos.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@von + @aura",
+      "danoOugi": "",
+      "danoSinc": "2",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!TvxuWEeTY5SeXRPH"
+}

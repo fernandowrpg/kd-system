@@ -1,0 +1,56 @@
+{
+  "_id": "GWEsaEAazq4dkWoM",
+  "name": "Ranbu",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>“ORA ORA ORA ORA ORA ORA ORA!” – Jotaro Kujo, Jojo’s Bizarre Adventures O lutador golpeia o oponente ferozmente, numa avassaladora sequência de socos ou chutes. O dano dessa técnica pode ser aumentado descartando dados; cada resultado 5 ou mais descartado aumenta o dano em +1. O dano causado é igual à Força ou Agilidade, o que for maior.</p>",
+    "ougi": "<p>Quando você usar essa manobra como componente do ataque total de um splash (p. 184), você causa dano igual à Força + Agilidade.</p>",
+    "sincronizacao": "<p>Some sua Aura no dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "max(@for, @agi)",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 1,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!GWEsaEAazq4dkWoM"
+}

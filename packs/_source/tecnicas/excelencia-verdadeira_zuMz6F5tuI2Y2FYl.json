@@ -1,0 +1,54 @@
+{
+  "_id": "zuMz6F5tuI2Y2FYl",
+  "name": "Excelência Verdadeira",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "qualquer ocupação 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "livre",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Além da luta, existem aqueles que se superam nas mais variadas artes. Poucas são os que conseguem portar a excelência genuína, mas logo são reconhecidos pelas mais belas peças, músicas e pinturas. Alguns dizem que esses grandes mestres, de forma consciente ou não, acabam por impregnar seu nagen em suas peças usando focus. Sempre que usa sua especialização, você pode usar essa técnica para trocar um dos dados jogados por um d10. Excelência Verdadeira não requer ações, sendo parte do uso da habilidade. Muitos usuários dessa técnica nem sabem que estão usando focus.</p>",
+    "ougi": "<p>Você recebe uma segunda especialização na ocupação.</p>",
+    "sincronizacao": "<p>Jogue um d10 adicional.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!zuMz6F5tuI2Y2FYl"
+}

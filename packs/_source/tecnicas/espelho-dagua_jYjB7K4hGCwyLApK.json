@@ -1,0 +1,54 @@
+{
+  "_id": "jYjB7K4hGCwyLApK",
+  "name": "Espelho d’Água",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agua.svg",
+  "system": {
+    "requisitos": "Aura 1, Razão 3",
+    "tipos": [],
+    "elemento": "agua",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Uma técnica muito utilizada em organizações secretas, o Espelho d’Água permite que o yuza use sua aura em um corpo d'água, como uma poça ou uma bacia, para que ela revele imagens de um ser vivo, em tempo real. Para que a técnica seja utilizada, é necessário possuir uma parte do alvo, como uma mecha de cabelo ou uma unha, para que ela possa ser despejada na água. O yuza deve fazer uma jogada de Razão contra a Tensão e, caso seja bem-sucedido, a imagem é formada por aproximadamente 5 minutos.</p>",
+    "ougi": "<p>Você não precisa de uma parte do alvo para utilizar essa técnica.</p>",
+    "sincronizacao": "<p>A imagem tem duração de 10 minutos.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!jYjB7K4hGCwyLApK"
+}

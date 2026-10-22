@@ -1,0 +1,54 @@
+{
+  "_id": "M8h9iDT9vTtV6NKh",
+  "name": "Incorporar",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Médium, Presença 4, Vontade 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Quase todas as tradições que lidam com espíritos incluem técnicas para incorporá-los. Isso é considerado extremamente perigoso pelo Círculo do Dragão, já que a ressonância de nagen pode fazer com que o espírito assuma o controle. Incorporar requer uma ação do médium e do espírito e dura até o final da cena. Quando o processo é realizado, o médium pode usar as técnicas que o espírito conhece como se as conhecesse. Caso a aura do espírito seja maior que o Limiar de Canalização do médium, jogue Presença (Místico) contra a Tensão. Com um sucesso, a aura do médium aumenta temporariamente em um ponto. Com uma falha, o espírito assume forte influência sobre as ações do médium. Isso impede que o médium invoque laços, marque caminhos ou use o poder das emoções. Repita o teste no final da cena. Em caso de falha, o espírito consome um laço do médium antes de ir embora. Caso o médium não tenha mais laços, ele perde um ponto de Vontade permanentemente.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Presença.</p>",
+    "sincronizacao": "<p>Se a aura do espírito for menor que o Limiar de Canalização do médium, sua aura aumenta em um ponto. Se a aura for maior que o Limiar de Canalização, o médium passa automaticamente na jogada de Presença, mas ainda precisa repetir a jogada no final da cena.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!M8h9iDT9vTtV6NKh"
+}

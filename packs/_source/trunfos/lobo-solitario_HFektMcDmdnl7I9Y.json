@@ -1,0 +1,55 @@
+{
+  "_id": "HFektMcDmdnl7I9Y",
+  "name": "Lobo Solitário",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p><em>“Eu vim sem perguntar. E eu vou sem avisar.” – Noção de Nada, Power Mono</em></p><p>Diferente da maior parte das pessoas, você genuinamente trabalha melhor sozinho. Sempre que começa uma cena em que você é o único protagonista, você recebe um dado de sincronização adicional.</p><p>Mesmo quando está junto de outras pessoas, você age melhor sozinho. Em uma cena em que esteja acompanhado, você pode recusar ajuda ou resmungar abertamente que trabalha melhor sozinho. Se fizer isso, pode trocar um dado em uma jogada por um d10. Você só pode fazer isso uma vez por cena.</p><p>Sua tendência à solidão se reflete diretamente nos seus relacionamentos. Você seleciona apenas dois laços durante a criação do personagem e precisa de dois avanços para adquirir um novo laço, em vez de um.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": -1,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!HFektMcDmdnl7I9Y"
+}

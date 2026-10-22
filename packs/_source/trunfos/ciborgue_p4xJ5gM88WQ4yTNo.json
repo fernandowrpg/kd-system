@@ -1,0 +1,55 @@
+{
+  "_id": "p4xJ5gM88WQ4yTNo",
+  "name": "Ciborgue",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p><em>“Senhores, nós podemos reconstruí-lo. (...) Muito melhor do que era. Mais forte, mais rápido.” — O Homem de Seis Milhões de Dólares</em></p><p>A tecnologia de próteses cibernéticas é difundida pelo mundo todo, muito útil para garantir mais acessibilidade e autonomia para pessoas com deficiência. No entanto, você teve acesso a procedimentos experimentais que não se limitam em substituir o corpo, e sim aprimorá-lo.</p><p>Ciborgues têm o esqueleto reforçado por metal e chips integrados com o sistema nervoso para controlar seus implantes. Devido a essas alterações, ciborgues têm +3 no Limiar de Proteção, +3 na Barra de Vigor e uma caixa adicional de ferimento. Além disso, eles recebem vantagem em todos os testes para usar dispositivos eletrônicos.</p><p>Infelizmente, ser um ciborgue não é só alegria. Os implantes prejudicam o fluxo do nagen e a sincronização com o ambiente. Isso dificulta o uso de focus, com um redutor de -1 no Limiar de Canalização. Você começa toda cena com um dado de sincronização a menos, mas essa não é a pior parte. Caso chegue a Limiar de Canalização 0, o ciborgue perde a conexão natural que as pessoas têm umas com as outras por meio de suas auras, parecendo distante e alienígena, e sofre desvantagem em todas as jogadas de Presença.</p><p>Um ciborgue ferido pode ser tratado com as ocupações Médico ou Engenheiro, mas, caso seja derrotado, somente alguém treinado em ambas as ocupações pode ajudá-lo — já que se trata de um caso mais grave.</p><p>Implantes adicionais (p. 170) podem ser adquiridos apenas por meio dos trunfos Arsenal e Agente ou com avanços.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 3,
+      "defesa": 0,
+      "protecao": 3,
+      "canalizacao": -1,
+      "ferimentos": 1,
+      "sincInicial": -1,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!p4xJ5gM88WQ4yTNo"
+}

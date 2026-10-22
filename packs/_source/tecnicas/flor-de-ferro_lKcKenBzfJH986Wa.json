@@ -1,0 +1,56 @@
+{
+  "_id": "lKcKenBzfJH986Wa",
+  "name": "Flor de Ferro",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "Pontos de Pressão, Instinto 3",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Estilos tradicionais de karatê incluem vários golpes usando superfícies de impacto pequenas. Embora efetivos por si só, esses golpes são realmente mortais quando combinados com conhecimento avançado de pontos de pressão e usados em rápida sucessão. O nome da técnica não vem do método de ataque, mas sim do efeito que o ataque costuma ter em seus alvos, fazendo florescer uma torrente de sangue. O dano causado é igual à Agilidade ou Instinto (o que for maior) do yuza + sua Aura. Se a técnica Pontos de Pressão for usada depois, o yuza tem vantagem em sua jogada de Razão.</p>",
+    "ougi": "<p>Aumente o dano em 1 ponto.</p>",
+    "sincronizacao": "<p>Você pode usar Pontos de Pressão como parte da ação do ataque, sem precisar usar uma ação extra.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "max(@agi, @ins) + @aura",
+      "danoOugi": "1",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!lKcKenBzfJH986Wa"
+}

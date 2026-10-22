@@ -1,0 +1,55 @@
+{
+  "_id": "rDDBJJemii1qbrvC",
+  "name": "Aceito",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Sua aura está em forte sintonia com uma das forças elementais primordiais do universo. Escolha entre água, ar, fogo ou terra. Você tem facilidade para usar as técnicas desse elemento, gastando 1 ponto de nagen a menos (podendo chegar a zero) e recebendo um dado de vantagem em testes para usá-las. Você não pode aprender técnicas de outros elementos.</p><p>Você é bastante fraco contra o seu elemento oposto. Caso seja atingido por ele, você perde 2 pontos de Vigor em vez de 1. Se for derrotado por um golpe que usa o elemento oposto, você precisa gastar 2 dados de sincronização para invocar o poder da esperança (p. 188).</p>",
+    "afinidade": "aceito",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!rDDBJJemii1qbrvC"
+}

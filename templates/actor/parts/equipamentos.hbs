@@ -1,0 +1,29 @@
+<section class="bloco equipamentos">
+  <div class="titulo-acoes">
+    <h3 class="titulo-bloco">{{localize "LENDA.Equipamentos"}}</h3>
+    {{#if editable}}<a class="botao-criar" data-action="itemCriar" data-type="equipamento" data-categoria="arma"><i class="fas fa-plus"></i> {{localize "LENDA.Equipamento.Novo"}}</a>{{/if}}
+  </div>
+  {{#unless equipamentos.length}}<p class="vazio"><i class="fas fa-hand-pointer"></i> {{localize "LENDA.Dica.ArrasteEquipamentos"}}</p>{{/unless}}
+  <ol class="lista-itens lista-equipamentos">
+    {{#each equipamentos as |e|}}
+    <li class="item equipamento draggable {{#unless e.system.equipado}}desequipado{{/unless}}" data-item-id="{{e.id}}" data-document-uuid="{{e.uuid}}" draggable="true">
+      <div class="linha">
+        <a class="col-nome" data-action="itemExpandir">
+          <img src="{{e.img}}" alt="">
+          <span class="nome">{{e.name}}</span>
+        </a>
+        <span class="col-categoria">{{e.categoriaNome}}</span>
+        <span class="col-caracteristicas">{{#each e.caracteristicas}}<span class="tag" data-tooltip="{{hint}}">{{label}}</span>{{/each}}</span>
+        <span class="col-controles">
+          <a data-action="itemAlternar" data-campo="system.equipado" data-tooltip="{{localize 'LENDA.Equipamento.Equipado'}}"><i class="fas {{#if e.system.equipado}}fa-shield-halved{{else}}fa-box{{/if}}"></i></a>
+          <a data-action="itemChat" data-tooltip="{{localize 'LENDA.ParaChat'}}"><i class="fas fa-comment"></i></a>
+          <a data-action="itemEditar" data-tooltip="{{localize 'LENDA.Editar'}}"><i class="fas fa-pen"></i></a>
+          {{#if @root.editable}}<a data-action="itemApagar" data-tooltip="{{localize 'LENDA.Apagar'}}"><i class="fas fa-trash"></i></a>{{/if}}
+        </span>
+      </div>
+      {{#if e.expandido}}<div class="detalhes"><div class="descricao">{{{e.descricaoHtml}}}</div></div>{{/if}}
+    </li>
+    {{/each}}
+  </ol>
+  {{#if (lenda-eq actor.type "protagonista")}}<p class="dica"><i class="fas fa-wand-magic-sparkles"></i> {{localize "LENDA.Dica.ItemIndeterminado"}}</p>{{/if}}
+</section>

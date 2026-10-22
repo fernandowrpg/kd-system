@@ -1,0 +1,43 @@
+{
+  "_id": "5rRZ1gGueSNYeSYk",
+  "name": "Ganância",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você tem como objetivo adquirir mais riqueza, mais poder e/ou mais influência que os outros a qualquer custo.</p>",
+    "eventos": [
+      {
+        "texto": "Encontrar uma forma de tirar vantagem de uma situação ruim.",
+        "marcado": false
+      },
+      {
+        "texto": "Se arriscar por riqueza/poder/influência.",
+        "marcado": false
+      },
+      {
+        "texto": "Prejudicar uma pessoa em nome da sua ganância.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Abrir mão de sua riqueza/poder/influência.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5rRZ1gGueSNYeSYk"
+}

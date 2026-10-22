@@ -1,0 +1,56 @@
+{
+  "_id": "Py78LYBwXYVP5fSo",
+  "name": "Liquefação",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "evasao"
+    ],
+    "elemento": "agua",
+    "acao": "reacao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": true,
+    "ritual": false,
+    "descricao": "<p>Os shen conseguem mudar a forma do próprio corpo, mas mesmo para eles há limites. Transformar-se completamente em um líquido ou gás não é possível, ou pelo menos nunca foi registrado nos estudos do Círculo do Dragão. Mas alguns podem fazê-lo parcialmente. Você pode dissolver seu corpo no local de um impacto, tornando-se líquido e fazendo com que ataques físicos passem sem fazer efeito. Como uma reação, você transforma um acerto contra você em um erro ou um splash em um acerto normal. Não funciona contra ataques de fogo. Você também pode transformar partes pequenas do corpo (uma mão, ou um pé) por uma rodada, permitindo passá-los por frestas, afetar dispositivos eletrônicos e similares. Caso qualquer força violenta se aplique sobre a separação nesses casos (como uma porta se fechando em uma mão transformada em líquido), o efeito termina, seu corpo volta ao normal e você marca uma caixa de ferimento.</p>",
+    "ougi": "<p>Você não sofre desvantagem nas jogadas de Agilidade.</p>",
+    "sincronizacao": "<p>Some sua Aura no Limiar de Proteção.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Hf5Fjh7IJzO92JNz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Py78LYBwXYVP5fSo"
+}

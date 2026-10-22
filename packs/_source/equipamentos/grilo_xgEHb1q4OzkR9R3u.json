@@ -1,0 +1,37 @@
+{
+  "_id": "xgEHb1q4OzkR9R3u",
+  "name": "Grilo",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/equipamento.svg",
+  "system": {
+    "categoria": "outro",
+    "caracteristicas": [],
+    "descricao": "<p>Esse pequeno dispositivo se parece com um pendrive com um botão vermelho. Quando conectado a uma fonte de energia (qualquer entrada USB) e seu botão é pressionado, o grilo preenche todas as ligações telefônicas num raio de trinta metros com estática, tornando a comunicação impossível.</p>",
+    "equipado": false,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "RMFHkiqn8xE00yZV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!xgEHb1q4OzkR9R3u"
+}

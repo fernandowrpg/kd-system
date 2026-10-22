@@ -1,0 +1,56 @@
+{
+  "_id": "ggnflEATsBgJXWZl",
+  "name": "Abraço de Morfeus",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agarrao.svg",
+  "system": {
+    "requisitos": "Imobilização, Pontos de Pressão",
+    "tipos": [
+      "agarrao"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Manter um oponente imobilizado é uma grande vantagem mas também consome muito tempo e energia. Técnicas avançadas de pontos de pressão, desenvolvidas principalmente na tradição chinesa qinna, permitem atrapalhar o fluxo de nagen de um oponente. Quando começa um turno com um alvo imobilizado, você pode usar essa técnica como parte da mesma ação de manter a imobilização. O alvo sofre dano igual à sua Força. Além disso, deve fazer uma jogada de Vontade contra a sua Vontade. Caso o alvo falhe, fica inconsciente até o final da cena ou até sofrer dano.</p>",
+    "ougi": "<p>Some sua Aura ao dano.</p>",
+    "sincronizacao": "<p>Você tem vantagem na jogada de Vontade e o alvo tem desvantagem na jogada de Vontade dele.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@for",
+      "danoOugi": "@aura",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ggnflEATsBgJXWZl"
+}

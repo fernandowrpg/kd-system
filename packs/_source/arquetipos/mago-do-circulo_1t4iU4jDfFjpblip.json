@@ -1,0 +1,462 @@
+{
+  "_id": "1t4iU4jDfFjpblip",
+  "name": "Mago do Círculo",
+  "type": "antagonista",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 2,
+    "conceito": "Mago do Círculo",
+    "atributos": {
+      "forca": 2,
+      "razao": 4,
+      "instinto": 2,
+      "agilidade": 2,
+      "presenca": 4,
+      "vontade": 5
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 1,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 1,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 2,
+      "combo": 0,
+      "evasao": 1,
+      "golpe": 0,
+      "projetil": 3
+    },
+    "vigor": {
+      "value": 9,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": -2
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>O Círculo do Dragão foi em grande parte responsável pela popularização do focus, além de ter feito um trabalho essencial de proteção durante o Desastre de 99. Isso torna membros do Círculo extremamente arrogantes, com a convicção de que mandam no mundo por trás das cortinas. De fato, sua missão é importante e necessária para proteger as vidas das pessoas do Mundo dos Homens.</p>",
+    "especial": "Magos frequentemente usam uma arma especial, com duas qualidades. Usando essa arma, atacam com vantagem. Também conhecem pelo menos dois rituais.",
+    "notas": "",
+    "avancos": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "fEuoGcRYBK9IuAFz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!1t4iU4jDfFjpblip",
+  "items": [
+    {
+      "_id": "PyCrvNs8sIySHXJF",
+      "name": "Médium",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p>Você é capaz de entender os espíritos, mesmo aqueles que estão ocultos. Você pode percebê-los, entender se estão dóceis ou agressivos e conversar com eles. Em vez de ter desvantagem em testes de Presença com espíritos, você tem vantagem para lidar com os mesmos. Você também sabe um Ritual de Invocação (veja p. 146) para um tipo específico de espírito e pode aprender outros normalmente.</p>",
+        "afinidade": "",
+        "elemento": "",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 0,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 0,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 1
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1t4iU4jDfFjpblip.PyCrvNs8sIySHXJF"
+    },
+    {
+      "_id": "b9Kfq6rGPgC7xJ5D",
+      "name": "Disparo Elemental",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "projetil"
+        ],
+        "elemento": "fogo",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Uma das técnicas de focus mais famosas entre o público em geral. No Disparo Elemental, o yuza separa um pedaço da sua aura, canaliza nele a energia de um elemento e o lança como um Projétil. É comum que o disparo assuma a forma de uma esfera, mas pode ser qualquer outra coisa, como uma lança ou uma miniatura do seu avatar. Escolha um elemento quando aprender essa técnica, essa será a afinidade dela. O dano é igual à Vontade + Aura + 2 e atinge alvos distantes.</p>",
+        "ougi": "<p>Se você errar o ataque, pode gastar um dado de sincronização para guiá-lo de volta contra o alvo, fazendo a jogada de ataque novamente.</p>",
+        "sincronizacao": "<p>Em vez de um disparo único, você lança seu nagen na forma de um Projétil contínuo, um verdadeiro canhão. Você pode aumentar o dano em 1 para cada nagen extra usado. O único limite é a sua Barra de Vigor.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@von + @aura + 2",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1t4iU4jDfFjpblip.b9Kfq6rGPgC7xJ5D"
+    },
+    {
+      "_id": "mydKyLw1bTGffOF2",
+      "name": "Escudo Espiritual",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/bloqueio.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "bloqueio"
+        ],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>O yuza solidifica sua Aura para se proteger. Faça uma jogada de Vontade (Bloqueio) e use como o Limiar de Proteção até o final de seu próximo turno. Essa técnica também pode ser usada como uma defesa total.</p>",
+        "ougi": "<p>Mesmo que não tenha ações extras restando depois do seu turno, você pode usar essa técnica como defesa total uma vez por rodada.</p>",
+        "sincronizacao": "<p>Dano abaixo do seu Limiar de Proteção não causa perda de Vigor.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1t4iU4jDfFjpblip.mydKyLw1bTGffOF2"
+    },
+    {
+      "_id": "hs0wThYDb6Q5Qr8b",
+      "name": "Zanshin",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1, Instinto 3",
+        "tipos": [],
+        "elemento": "",
+        "acao": "passiva",
+        "nagen": 0,
+        "nagenNota": "0 (pode ser potencializada com um dado de sincronização)",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>“A flecha já se foi, mas o seu lançamento continua. Zanshin é uma atitude da mente.” — Michael Random  Esta técnica é um estado de alerta em repouso cultivado com afinco e disciplina por muitos artistas marciais, especialmente as artes japonesas, desde os primeiros samurais. Zanshin (“a mente que permanece”) evolui a simples atenção dos arredores para um aumento da percepção por meio da sensibilidade ao fluxo do nagen. É como se fosse um sexto sentido. A técnica permite que você detecte flutuações nas auras e perceba a presença de outros seres vivos próximos. Essa pode ser a diferença entre a vida e a morte. Você ganha vantagem em testes de Instinto para reagir com prontidão. Além disso, você sempre sabe quando uma pessoa próxima é espiritualmente ativa, qual o valor da Aura dela e sua afinidade. Essa técnica está sempre ativa, mas pode ser potencializada com um dado de sincronização.</p>",
+        "ougi": "<p>Você sabe esconder a sua própria aura. Com uma ação, pode se concentrar e fazer com que sua aura seja registrada como 0 para o Zanshin de outros yuzas. O efeito dura até você usar focus.</p>",
+        "sincronizacao": "<p>Some sua Aura no seu Limiar de Defesa. Você ganha vantagem em todos os testes de Instinto. Os efeitos duram até o final do seu próximo turno.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1t4iU4jDfFjpblip.hs0wThYDb6Q5Qr8b"
+    },
+    {
+      "_id": "PQKXIXDhjSx7lHzv",
+      "name": "Ritual de Invocação",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/ritual.svg",
+      "system": {
+        "requisitos": "Aura 1, Médium",
+        "tipos": [],
+        "elemento": "",
+        "acao": "ritual",
+        "nagen": 4,
+        "nagenNota": "4 por ponto de aura (ver acima).",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": true,
+        "descricao": "<p>Esta técnica é a principal forma de invocar espíritos (p. 86). O yuza realiza um ritual de alguns minutos, normalmente oferecendo ao espírito algo que seria de seu agrado. O yuza determina a polaridade e a afinidade do nagen do espírito que quer invocar. Ele também pode escolher a intensidade da sua aura, mas espíritos maiores são mais exigentes. Cada ponto da Aura do espírito demanda 4 de nagen do yuza. O espírito invocado fica a serviço do yuza por uma cena. Se ele foi invocado em uma cena de transição, ele ajuda na próxima cena de ação. O espírito é amigável, mas qualquer ação que faça o espírito gastar nagen requer que ele seja convencido com uma disputa de Presença contra Vontade, como uma ação extra. Se o yuza tiver um laço com o espírito ou se oferecer algo de que o espírito gosta, ele tem vantagem na jogada.</p>",
+        "ougi": "<p>Você pode usar essa técnica para criar artefatos descartáveis (p. 170).</p>",
+        "sincronizacao": "<p>O espírito tem vantagem em todas as ações até o final da cena.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1t4iU4jDfFjpblip.PQKXIXDhjSx7lHzv"
+    },
+    {
+      "_id": "M6s34G7emUdQYvQv",
+      "name": "Ritual de Contenção",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/ritual.svg",
+      "system": {
+        "requisitos": "Vontade 3, Aura 1",
+        "tipos": [],
+        "elemento": "",
+        "acao": "ritual",
+        "nagen": 8,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": true,
+        "descricao": "<p>Muitas vezes espíritos podem ser tão perigosos quanto são úteis. Por meio desta técnica, um mago pode realizar um ritual de alguns minutos para traçar um círculo no chão. Um espírito que entre nesse círculo está preso. Caso a aura do espírito seja 3 pontos ou maior que a do mago, ele pode tentar escapar. Faça uma jogada de aura do espírito contra Vontade do mago. Caso o espírito vença, o ritual é quebrado, o círculo desaparece e o espírito fica livre. Caso o mago vença, a aura do espírito cai um ponto. Um espírito pode se autodestruir enquanto tenta escapar da contenção, mas enquanto não vencer a disputa continuará se reconstituindo dentro do círculo. Um círculo de contenção dura uma hora. Um mago pode gastar nagen adicional para fazer com que dure mais tempo: 2 nagen para cada hora adicional. A quantidade máxima de horas adicionais é igual à aura do mago.</p>",
+        "ougi": "<p>Você tem vantagem na jogada de Vontade.</p>",
+        "sincronizacao": "<p>O círculo de contenção é permanente.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1t4iU4jDfFjpblip.M6s34G7emUdQYvQv"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Mago do Círculo",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

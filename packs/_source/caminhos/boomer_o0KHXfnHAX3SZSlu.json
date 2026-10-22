@@ -1,0 +1,43 @@
+{
+  "_id": "o0KHXfnHAX3SZSlu",
+  "name": "Boomer",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você era um jovem que tinha grandes planos, mas agora é só um velho paia. Você não se diverte e odeia tudo. O mundo te deve, então que se dane.</p>",
+    "eventos": [
+      {
+        "texto": "Desprezar abertamente os ideais ou atitudes dos mais jovens.",
+        "marcado": false
+      },
+      {
+        "texto": "Dizer que está velho demais pra isso.",
+        "marcado": false
+      },
+      {
+        "texto": "Apontar para os mais jovens a falência moral do mundo.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Descobrir que você ainda tem um punhado de ideais e que não está tão distante dos jovens.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!o0KHXfnHAX3SZSlu"
+}

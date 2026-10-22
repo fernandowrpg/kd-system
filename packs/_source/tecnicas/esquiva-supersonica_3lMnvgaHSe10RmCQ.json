@@ -1,0 +1,56 @@
+{
+  "_id": "3lMnvgaHSe10RmCQ",
+  "name": "Esquiva Supersônica",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/evasao.svg",
+  "system": {
+    "requisitos": "Agilidade 5, Instinto 4, Shunpo, Zanshin",
+    "tipos": [
+      "evasao"
+    ],
+    "elemento": "",
+    "acao": "reacao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O rompante de velocidade do Shunpo normalmente exige tremenda concentração, impedindo que seja usado de forma puramente defensiva. Porém, existem yuzas que, além de grande velocidade, têm uma espécie de sexto sentido que os permite desviar de ataques. Essa técnica só pode ser usada como defesa total. Ela desvia automaticamente qualquer ataque realizado por um ofensor com Aura menor que a do yuza. Para atacantes com Aura igual ou maior que a do yuza, faça uma jogada de Agilidade (Evasão) para a defesa, com uma vantagem para cada ponto de Aura.</p>",
+    "ougi": "<p>Você tem uma vantagem adicional na jogada de defesa.</p>",
+    "sincronizacao": "<p>Você deixa uma miragem de velocidade para trás após se esquivar, confundindo o atacante. Se atacá-lo em seu próximo turno, você tem vantagem.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3lMnvgaHSe10RmCQ"
+}

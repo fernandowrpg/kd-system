@@ -1,0 +1,195 @@
+{
+  "_id": "vTaInhpESF06MW6O",
+  "name": "Aluno Cinder",
+  "type": "coadjuvante",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 1,
+    "conceito": "Aluno Cinder",
+    "atributos": {
+      "forca": 3,
+      "razao": 2,
+      "instinto": 2,
+      "agilidade": 3,
+      "presenca": 2,
+      "vontade": 3
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 0,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 1,
+      "combo": 1,
+      "evasao": 1,
+      "golpe": 1,
+      "projetil": 0
+    },
+    "vigor": {
+      "value": 7,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Um aluno do método Cinder não é páreo para os protagonistas. Porém, muitos deles não sabem disso.</p>",
+    "especial": "Se estiverem em grupo, conte todos como um personagem só. O grupo faz todas as jogadas com vantagem e, sempre que seria ferido, um membro é nocauteado. Quando sobrar apenas um, ele não faz mais jogadas com vantagem.",
+    "notas": "",
+    "grupo": {
+      "ativo": false,
+      "tamanho": 1
+    },
+    "instantaneo": {
+      "ativo": false,
+      "fazBem": "",
+      "fazMal": ""
+    }
+  },
+  "effects": [],
+  "folder": "yNAtDeilews3LsxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!vTaInhpESF06MW6O",
+  "items": [
+    {
+      "_id": "ER7fuXa911GU1gGA",
+      "name": "Golpe Explosivo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "golpe"
+        ],
+        "elemento": "variavel",
+        "acao": "acao",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Você avança até um alvo próximo e desfere um ataque poderoso, geralmente um soco ou chute. O dano é igual à Aura + Força +2. Escolha um elemento quando aprender esta técnica: quando você acerta o Golpe, uma explosão do elemento engole o oponente. Qualquer tentativa de retaliação contra Golpe Explosivo é feita com vantagem.</p>",
+        "ougi": "<p>Caso o Golpe acerte, o alvo é arremessado para a distância próxima.</p>",
+        "sincronizacao": "<p>Multiplique sua Aura por dois antes de somá-la ao dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@aura + @for + 2",
+          "danoOugi": "",
+          "danoSinc": "@aura",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!vTaInhpESF06MW6O.ER7fuXa911GU1gGA"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Aluno Cinder",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

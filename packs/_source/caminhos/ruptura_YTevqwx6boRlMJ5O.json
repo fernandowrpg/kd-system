@@ -1,0 +1,43 @@
+{
+  "_id": "YTevqwx6boRlMJ5O",
+  "name": "Ruptura",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Nascido em uma antiga e tradicional linhagem, treinado em um monastério milenar ou por ser último herdeiro de um estilo de artes marciais, você quer se afastar daquilo que o criou. Você pode discordar do que aprendeu, pode querer irritar seus mentores, considerar seu passado imoral ou só ser um rebeldezinho mimado.</p>",
+    "eventos": [
+      {
+        "texto": "Explicar por que seus mentores estão errados.",
+        "marcado": false
+      },
+      {
+        "texto": "Usar a reputação de seus mentores a seu favor.",
+        "marcado": false
+      },
+      {
+        "texto": "Entrar em confusão por causa dos ideais/práticas dos seus mentores.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Voltar ao ninho.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!YTevqwx6boRlMJ5O"
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "DGlbDgZBgkPaQqz4",
+  "name": "Coreografia Holográfica",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/fogo.svg",
+  "system": {
+    "requisitos": "Ginga de Batalha, Artista 3",
+    "tipos": [],
+    "elemento": "fogo",
+    "acao": "livre",
+    "nagen": 2,
+    "nagenNota": "2 por holograma",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Considerada uma verdadeira manifestação artística, esta técnica costuma ser usada para além do combate, como em performances de música e de teatro. Quando ativa sua Ginga de Batalha, o yuza usa sua aura para criar cópias holográficas de si mesmo, manipulando o espectro visível de luz. Elas emanam um brilho leve, que pode ser percebido pelo olho treinado, e não podem interagir com o ambiente, servindo apenas para confundir o inimigo. Você cria até 3 hologramas e cada um concede uma vantagem em jogadas de ataque. Enquanto tiver hologramas, como reação quando for atingido por um ataque, você pode confundir o inimigo jogando sua Presença (Artista) contra a Vontade (Vigilante) dele. Caso vença, ele acerta uma de suas cópias, que é dissipada. Se um ataque te atingir, as cópias desaparecem.</p>",
+    "ougi": "<p>Você pode fazer uma cópia adicional para cada ponto de aura.</p>",
+    "sincronizacao": "<p>Os clones tornam-se indistinguíveis de uma pessoa e podem interagir com objetos leves, como uma caneca ou maçaneta.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!DGlbDgZBgkPaQqz4"
+}

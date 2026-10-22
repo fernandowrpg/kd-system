@@ -1,0 +1,43 @@
+{
+  "_id": "Tb8sANWQ4zlmc93r",
+  "name": "Missão",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você tem um objetivo específico que precisa concluir acima de qualquer outra coisa.</p>",
+    "eventos": [
+      {
+        "texto": "Explicar sua missão e a importância dela.",
+        "marcado": false
+      },
+      {
+        "texto": "Procurar informações relacionadas à sua missão.",
+        "marcado": false
+      },
+      {
+        "texto": "Correr riscos para facilitar o progresso da sua missão.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Abandonar a missão.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Tb8sANWQ4zlmc93r"
+}

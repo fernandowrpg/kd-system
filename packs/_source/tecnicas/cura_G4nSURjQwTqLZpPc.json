@@ -1,0 +1,54 @@
+{
+  "_id": "G4nSURjQwTqLZpPc",
+  "name": "Cura",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agua.svg",
+  "system": {
+    "requisitos": "Médico 2, Regeneração",
+    "tipos": [],
+    "elemento": "agua",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>A maior parte do corpo humano é feita de água. Ela é conhecida como o elemento que traz a vida. Sintonizando seu nagen com a água, o yuza pode curar os ferimentos de outras pessoas com o toque das mãos. Com uma ação, jogue Razão (Médico) contra a Tensão. Com um sucesso, você restaura Aura x3 pontos de Vigor do alvo. Com uma falha, você não consegue ajudar e só pode tentar de novo na próxima cena.</p>",
+    "ougi": "<p>Você pode usar essa técnica como uma ação extra.</p>",
+    "sincronizacao": "<p>Cura um ferimento do paciente.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!G4nSURjQwTqLZpPc"
+}

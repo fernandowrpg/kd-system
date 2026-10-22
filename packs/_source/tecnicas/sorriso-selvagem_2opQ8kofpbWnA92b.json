@@ -1,0 +1,54 @@
+{
+  "_id": "2opQ8kofpbWnA92b",
+  "name": "Sorriso Selvagem",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Ginga de Batalha, Presença 4",
+    "tipos": [],
+    "elemento": "",
+    "acao": "livre",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>A alegria de dançar enquanto luta parece ser o combustível para vários lutadores, como as Mulheres Guerreiras de Asgarda. Em seu hopak de combate, a expressividade é tão fundamental quanto força física ou velocidade de reação. O que mais marca os oponentes é o sorriso marcado em seu rosto, de um furor tão intenso que chega a ser selvagem. Ao começar um turno sob o efeito de Ginga de Batalha, você pode usar essa técnica e sorrir, sem usar ações. Até o começo do seu próximo turno, você pode usar Presença para ataque e dano de qualquer manobra.</p>",
+    "ougi": "<p>Você recebe vantagem em testes de Presença (exceto para ataque) enquanto estiver sorrindo.</p>",
+    "sincronizacao": "<p>Você soma Presença no dano do primeiro ataque que acertar nesse turno, em vez de substituí-la por outro atributo.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2opQ8kofpbWnA92b"
+}

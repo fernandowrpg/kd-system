@@ -1,0 +1,54 @@
+{
+  "_id": "Qqn6MVbSNTdsGYQz",
+  "name": "Toque Tóxico",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agua.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "agua",
+    "acao": "acaoExtra",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Alterando o próprio metabolismo, o yuza passa a secretar um veneno mortal pelo suor e pela saliva. Além de venenoso, o toque é corrosivo. Muitos ninjas aprendem essa técnica, usando-a para envenenar a bebida de alvos com cuspe e derreter fechaduras com o suor das mãos. O toque pode ser ativado como uma ação extra e dura até o começo do próximo turno do yuza. Qualquer ataque desarmado com Golpes, Agarrões ou Combos causa 1 ponto de dano adicional e força a vítima a disputar Força contra a Vontade do yuza. Em caso de falha, a vítima fica ferida e sofre desvantagem em todas as suas jogadas até o final de seu próximo turno.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Vontade para envenenar a vítima.</p>",
+    "sincronizacao": "<p>Some sua Aura no dano adicional causado.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Qqn6MVbSNTdsGYQz"
+}

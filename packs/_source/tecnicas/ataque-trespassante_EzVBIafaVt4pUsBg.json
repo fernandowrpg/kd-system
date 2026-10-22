@@ -1,0 +1,56 @@
+{
+  "_id": "EzVBIafaVt4pUsBg",
+  "name": "Ataque Trespassante",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "Agilidade 4, Shunpo",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O yuza avança em alta velocidade, atingindo o oponente com um ataque extremamente veloz e passando através dele. O personagem pode atacar um alvo próximo com esse ataque, causando dano igual à Força ou Agilidade (o que for maior) + 3. Após atacar, o yuza se move novamente, parando próximo ao alvo.</p>",
+    "ougi": "<p>Você pode atacar alvos distantes com essa técnica.</p>",
+    "sincronizacao": "<p>Some sua Aura no dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "max(@for, @agi) + 3",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!EzVBIafaVt4pUsBg"
+}

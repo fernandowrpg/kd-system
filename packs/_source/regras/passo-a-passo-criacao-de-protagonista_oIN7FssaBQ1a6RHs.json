@@ -1,0 +1,56 @@
+{
+  "_id": "oIN7FssaBQ1a6RHs",
+  "name": "Passo a Passo: Criação de Protagonista",
+  "pages": [
+    {
+      "_id": "7rXFB2Ei0qvNY0s2",
+      "name": "Passo a passo de criação",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Criando seu protagonista</h1>\n<p>Antes de mexer nos números, pense em quem é o seu protagonista. Uma frase basta: <em>“artista marcial em busca de vingança”</em>, <em>“estudante descobrindo sua herança sobrenatural”</em>, <em>“ciborgue cínico e mercenário”</em>. Você pode mudar de ideia durante o processo — e não precisa seguir a ordem abaixo à risca.</p>\n<p><strong>Dica:</strong> na ficha de protagonista existe o botão <strong><i class=\"fas fa-hat-wizard\"></i> Assistente de Criação</strong>, que conduz você por todos estes passos, controla os pontos gastos e verifica requisitos automaticamente.</p>\n<h2>Resumo</h2>\n<ol>\n<li>Defina o seu <strong>Conceito</strong>;</li>\n<li>Registre sua <strong>Aura (1)</strong>;</li>\n<li>Escolha seu <strong>Caminho</strong>;</li>\n<li>Escolha seus <strong>3 Laços</strong>;</li>\n<li>Distribua <strong>18 pontos</strong> entre seus <strong>Atributos</strong>;</li>\n<li>Distribua <strong>6 pontos</strong> entre as <strong>Ocupações</strong>;</li>\n<li>Distribua <strong>6 pontos</strong> entre as habilidades do seu <strong>Estilo de Luta</strong> (e escolha um <strong>ougi</strong>);</li>\n<li>Escolha <strong>2 Trunfos</strong>;</li>\n<li>Escolha <strong>6 Técnicas</strong>;</li>\n<li>Calcule os <strong>Atributos Derivados</strong>.</li>\n</ol>\n\n<h2>1. Conceito</h2>\n<p>Um registro rápido do que define o personagem — um resumo das características mais marcantes ou uma frase que ele repete (“Com quem você pensa que está falando?”). <strong>Uma vez por capítulo</strong>, ao realizar uma ação relacionada ao seu conceito, você pode adicionar <strong>um dado de sincronização</strong> à jogada (opção “Conceito” na janela de teste).</p>\n<p><em>Exemplos:</em> Herdeira Indecisa; “Já acabou?”; Ninja Rockstar.</p>\n\n<h2>2. Aura e Sincronização</h2>\n<p>Pessoas comuns têm Aura 0. Protagonistas começam com <strong>Aura 1</strong>. No começo de cada cena você recebe <strong>dados de sincronização iguais à sua Aura</strong>, e você nunca pode fazer mais ações extras por rodada que o seu valor de Aura. A Aura também entra no cálculo dos atributos derivados e no efeito de muitas técnicas. A cada <strong>5 avanços</strong> comprados, a Aura sobe 1.</p>\n\n<h2>3. Caminho</h2>\n<p>O caminho mostra de onde o personagem veio e para onde vai, e é a principal fonte de <strong>karma</strong>. Cada caminho lista três <strong>eventos</strong>: quando um acontece, marque a caixa. Ao fim da sessão, cada caixa marcada vale 1 ponto de karma. Todo caminho tem uma <strong>reviravolta</strong>: quando ela acontece, risque o caminho; ao fim da sessão escolha um novo caminho e ganhe 2 de karma.</p>\n<p>Escolha <strong>apenas um</strong> caminho no compêndio <strong><i class=\"fas fa-atlas\"></i> Caminhos</strong> e arraste-o para a ficha.</p>\n\n<h2>4. Laços</h2>\n<p>Laços representam relacionamentos (pessoas, grupos ou ideais — inclusive emoções negativas, como ódio a um rival). Comece com <strong>três laços</strong> (Rede de Contatos: 4; Lobo Solitário: 2).</p>\n<ul>\n<li>Quando interagir de forma significativa com um laço durante a cena, <strong>marque</strong> a caixa dele.</li>\n<li>Para ganhar um <strong>dado de sincronização</strong>, desmarque um laço marcado e justifique como ele ajuda (botão <i class=\"fas fa-fire\"></i> ao lado do laço).</li>\n<li>Laços marcados ao fim da sessão também geram karma.</li>\n</ul>\n\n<h2>5. Atributos (18 pontos)</h2>\n<p>Valores de <strong>1 a 5</strong> (6 apenas com o trunfo Prodígio). Pessoas normais ficam entre 1 e 2; 3 é raro.</p>\n<table>\n<tr><th>Valor</th><th>Descrição</th></tr>\n<tr><td>1</td><td>Ruim</td></tr><tr><td>2</td><td>Mediano</td></tr><tr><td>3</td><td>Bom</td></tr><tr><td>4</td><td>Excelente</td></tr><tr><td>5</td><td>Extraordinário</td></tr><tr><td>6</td><td>Sobre-humano</td></tr>\n</table>\n<ul>\n<li><strong>Força (FOR):</strong> poder físico e capacidade muscular — força bruta.</li>\n<li><strong>Razão (RAZ):</strong> raciocínio, conhecimento, atenção a detalhes. Se você tem tempo para pensar, é Razão.</li>\n<li><strong>Instinto (INS):</strong> percepção, impulsos, o lado animal. Se precisa de uma solução agora, é Instinto.</li>\n<li><strong>Agilidade (AGI):</strong> destreza, coordenação, precisão. É o atributo das jogadas de ataque.</li>\n<li><strong>Presença (PRE):</strong> força da personalidade, carisma, influência.</li>\n<li><strong>Vontade (VON):</strong> resistência mental, perseverança, obstinação.</li>\n</ul>\n\n<h2>6. Ocupações (6 pontos)</h2>\n<p>Níveis de 0 a 3: <strong>0</strong> leigo, <strong>1</strong> aprendiz, <strong>2</strong> proficiente, <strong>3</strong> mestre. Quando um teste faz sentido com a ocupação, some o nível ao total. Ocupações também representam contatos e renome na área.</p>\n<p><strong>Especializações:</strong> ao chegar a Proficiente, gaste 1 ponto adicional para escolher uma especialização (um campo menor). Ao usá-la, troque um dado normal por um dado de sincronização (d10) antes de rolar. Como Mestre, pode gastar mais 1 ponto para uma segunda especialização.</p>\n<p>Ocupações: Artista, Atleta, Cientista, Diplomata, Engenheiro, Médico, Místico, Piloto, Trapaceiro e Vigilante (veja o diário <em>Ocupações</em>).</p>\n\n<h2>7. Estilo de Luta (6 pontos) e Ougi</h2>\n<p>O estilo tem seis habilidades, de 0 a 3: <strong>Agarrão, Bloqueio, Combo, Evasão, Golpe e Projétil</strong>. Elas são somadas às jogadas do tipo de ataque equivalente; <strong>Evasão</strong> soma no Limiar de Defesa e <strong>Bloqueio</strong> no Limiar de Proteção. Protagonistas e vilões distribuem 6 pontos (Perito: 4, máximo 2; Estilo Secreto: +1 ponto e dois ougi).</p>\n<p>Escolha uma técnica para ser o seu <strong>ougi</strong> — a técnica de sucessão do estilo. Ao usá-la, aplique o texto “Ougi” da técnica (marque a caixa <em>Ougi</em> na técnica dentro da ficha).</p>\n<p>Exemplos prontos no compêndio <strong><i class=\"fas fa-atlas\"></i> Estilos de Luta</strong> (arraste para a ficha para copiar os valores).</p>\n\n<h2>8. Trunfos (escolha 2)</h2>\n<p>Habilidades especiais que tornam o protagonista único — afinidades elementais, implantes cibernéticos, sangue yokai, espíritos guardiões e mais. Veja o compêndio <strong><i class=\"fas fa-atlas\"></i> Trunfos</strong>. Muitos trunfos alteram valores da ficha automaticamente (Ciborgue, Incansável, Jasq...).</p>\n\n<h2>9. Técnicas (escolha 6)</h2>\n<p>Técnicas são manobras de combate ou aplicações de focus. Verifique os <strong>requisitos</strong> (atributos, Aura, ocupações ou outras técnicas). Você pode escolher menos técnicas para comprar <strong>upgrades</strong> (cada upgrade conta como uma técnica; no máximo um por técnica). Ajustes: Caminho da Perfeição (5 técnicas), Ritualista (3 rituais + 2 técnicas), Hanyo (+1 shintai), Médium (+ Ritual de Invocação).</p>\n<p>Compêndios: <strong><i class=\"fas fa-atlas\"></i> Técnicas</strong> e <strong><i class=\"fas fa-atlas\"></i> Equipamentos e Upgrades</strong>.</p>\n\n<h2>10. Atributos Derivados</h2>\n<table>\n<tr><th>Derivado</th><th>Fórmula</th></tr>\n<tr><td>Barra de Vigor</td><td>Aura + Vontade + Força</td></tr>\n<tr><td>Limiar de Canalização</td><td>Aura + 2</td></tr>\n<tr><td>Limiar de Defesa</td><td>Aura + Agilidade + (Razão ou Instinto, o maior) + Evasão</td></tr>\n<tr><td>Limiar de Proteção</td><td>Aura + Força + Bloqueio</td></tr>\n<tr><td>Caixas de ferimento</td><td>1 (+ trunfos e avanços)</td></tr>\n</table>\n<p>O sistema calcula tudo automaticamente; os campos “bônus” servem para efeitos especiais.</p>\n\n<h2>Equipamento</h2>\n<p>Todo protagonista tem acesso a itens normais ligados às suas ocupações e pode começar com <strong>uma arma</strong>. Arsenal e Agente concedem equipamentos adicionais (artefatos, implantes). Uma vez por sessão, todo protagonista pode ter um <strong>item indeterminado</strong> — exatamente aquilo de que precisa, desde que haja uma explicação.</p>\n\n<h2>Pronto!</h2>\n<p>Que tal fazer um desenho do seu protagonista ou escrever um parágrafo sobre seu passado?</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!oIN7FssaBQ1a6RHs.7rXFB2Ei0qvNY0s2"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "categories": [],
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!oIN7FssaBQ1a6RHs"
+}

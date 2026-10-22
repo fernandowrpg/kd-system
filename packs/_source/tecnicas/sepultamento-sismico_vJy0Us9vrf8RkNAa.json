@@ -1,0 +1,54 @@
+{
+  "_id": "vJy0Us9vrf8RkNAa",
+  "name": "Sepultamento Sísmico",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/terra.svg",
+  "system": {
+    "requisitos": "Aura 1, Vontade 4",
+    "tipos": [],
+    "elemento": "terra",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "5 (3 para manter)",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Alguns yuzas conseguem fazer com que a própria terra se erga contra seus alvos, montando armadilhas de vinhas ou terra que prendem seus alvos no mesmo lugar. É uma tática especialmente popular entre grupos organizados de yuza, como o culto Thuggee. Essa técnica consiste em canalizar a própria Aura pelo solo, usando-o como uma extensão da sua vontade para prender o oponente. Você toca o solo e usa a terra para prender um alvo que esteja próximo. Faça uma jogada de Vontade contra a Força ou Agilidade do oponente, o que for maior. Caso você vença, o alvo não pode se mover até o final de seu próximo turno, recebe dano igual à sua Vontade e tem duas desvantagens em qualquer jogada nesse período. Caso o alvo vença com Força, ainda sofre uma desvantagem em todas as suas jogadas no período. O alvo pode usar uma técnica que use nagen para se mover (como Shunpo) para refazer a disputa, mas não recebe o efeito normal da técnica. No começo do seu próximo turno, você pode gastar 3 nagen para manter a técnica como uma ação extra. Nesse caso, repita o teste de Vontade contra Força (Agilidade só é permitida para evitar o impacto inicial) e aplique os mesmos efeitos.</p>",
+    "ougi": "<p>Você pode usar essa técnica em oponentes distantes.</p>",
+    "sincronizacao": "<p>Some sua aura ao dano causado.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "von",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@von",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!vJy0Us9vrf8RkNAa"
+}

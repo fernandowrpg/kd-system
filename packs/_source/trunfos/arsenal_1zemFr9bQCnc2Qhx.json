@@ -1,0 +1,55 @@
+{
+  "_id": "1zemFr9bQCnc2Qhx",
+  "name": "Arsenal",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Você tem acesso a uma enorme variedade de armas e equipamentos. Talvez seja muito rico, talvez você mesmo tenha feito os itens, talvez você seja agente de alguma organização poderosa. Independente do motivo, seu personagem começa com dois equipamentos (personagens normais só podem começar com uma arma), que podem ser: Armas, Artefatos ou implantes adicionais no caso de Ciborgues. Você também tem um item indeterminado adicional (veja Equipamento, capítulo 6).</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 1,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1zemFr9bQCnc2Qhx"
+}

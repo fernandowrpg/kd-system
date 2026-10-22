@@ -1,0 +1,41 @@
+{
+  "_id": "e1Rc9jLrccxhJERO",
+  "name": "Linha Vermelha",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/artefato.svg",
+  "system": {
+    "categoria": "artefato",
+    "caracteristicas": [
+      "dupla",
+      "flexivel",
+      "arremessavel"
+    ],
+    "descricao": "<p>Esse artefato é uma kusarigama, combinação de duas foices e uma grande corda vermelha. Lendas dizem que o vermelho da corda é a tintura do sangue de todos já derrotados por essa arma Dupla e Flexível. Ambas as foices são Arremessáveis e podem ser recuperadas ao puxar a corda vermelha com uma ação extra.</p><p>As lendas dizem que a corda vermelha pode ser desamarrada por duas entidades com laços significativos. Quando isso acontecer, essas entidades estão vinculadas de uma forma única e além da compreensão comum. Dois personagens podem desmarcar o laço que possuem um com o outro para que a Linha Vermelha se torne dois artefatos separados; em combate, isso requer uma ação extra. Esse novo artefato não possui as suas características originais, mas ainda é Arremessável e se torna Veloz. Qualquer um dos usuários pode pagar o custo em nagen de uma técnica usada pelo outro.</p><p>As foices podem ser amarradas à corda de novo em uma cena de recuperação.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "YKEAOb2LYMG1G1gC",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e1Rc9jLrccxhJERO"
+}

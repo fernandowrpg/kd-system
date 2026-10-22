@@ -1,0 +1,356 @@
+{
+  "_id": "wURLyGVh7K1k1mvZ",
+  "name": "Asgardiana",
+  "type": "coadjuvante",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 1,
+    "conceito": "Asgardiana",
+    "atributos": {
+      "forca": 3,
+      "razao": 2,
+      "instinto": 3,
+      "agilidade": 4,
+      "presenca": 3,
+      "vontade": 3
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 2,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 2,
+      "combo": 1,
+      "evasao": 2,
+      "golpe": 2,
+      "projetil": 0
+    },
+    "vigor": {
+      "value": 7,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Esta é uma das mulheres guerreiras de Asgarda, que luta pelos ensinamentos valorosos do grupo. Essa ficha representa aquelas que já concluíram seu treinamento básico, mas que não são verdadeiras mestras de neohopak ainda. Elas costumam viajar para outros países para participar de lutas ou fazer demonstrações e treinamentos para curiosos, sempre pensando em disseminar a palavra para novas meninas e mulheres.</p>",
+    "especial": "",
+    "notas": "",
+    "grupo": {
+      "ativo": false,
+      "tamanho": 1
+    },
+    "instantaneo": {
+      "ativo": false,
+      "fazBem": "",
+      "fazMal": ""
+    }
+  },
+  "effects": [],
+  "folder": "yNAtDeilews3LsxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!wURLyGVh7K1k1mvZ",
+  "items": [
+    {
+      "_id": "P63kB8UKesIqRm8D",
+      "name": "Estilo Secreto",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p>Você foi treinado em um dos mais poderosos, misteriosos e restritos estilos de luta do mundo. Essas artes antigas guardam grandes poderes e segredos, mas justamente por isso podem chamar atenção indesejada. Estilos secretos têm dois ougi em vez de um; você também ganha um ponto adicional para somar em uma das habilidades do seu estilo.</p><p><strong>Exemplos de estilos secretos:</strong> Sistema de Combate Tuchi, Karyujutsu e Neohopak (veja o compêndio de Estilos de Luta).</p>",
+        "afinidade": "",
+        "elemento": "",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 1,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 1,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wURLyGVh7K1k1mvZ.P63kB8UKesIqRm8D"
+    },
+    {
+      "_id": "dty1ZB14cTbIw79V",
+      "name": "Finta Desconcertante",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Presença 3, Trapaceiro 1",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acaoExtra",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Você engana seu oponente de alguma forma, posicionando-o para acertar com outro golpe. Pode ser um drible de corpo, um chute do lado da cabeça para acertar na nuca com o calcanhar, fingir que vai atacar com uma mão mas usar a outra ou qualquer outra forma de enganação. Usar essa técnica é uma ação extra: teste Presença contra Instinto do alvo. Caso tenha sucesso, o próximo ataque é feito com vantagem e você pode somar sua ocupação Trapaceiro na jogada de ataque em vez do bônus de estilo de luta.</p>",
+        "ougi": "<p>Você tem vantagem no teste de Presença para usar a técnica.</p>",
+        "sincronizacao": "<p>Você tem duas vantagens no ataque feito após o uso da técnica.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wURLyGVh7K1k1mvZ.dty1ZB14cTbIw79V"
+    },
+    {
+      "_id": "FRXo26AcC2nL3m43",
+      "name": "Ginga de Batalha",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Artista 2",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Você sabe se deixar levar pelo ritmo da música, dançando enquanto luta. Use uma ação para gingar; até o final da cena você ganha vantagem em jogadas de ataque para retaliar e +1 no Limiar de Defesa. Se fizer uma jogada de ataque de retaliação sem nenhum dado de vantagem, sua ginga é desfeita e você precisa gingar de novo.</p>",
+        "ougi": "<p>Você pode gingar como uma ação extra.</p>",
+        "sincronizacao": "<p>Some sua Aura no Limiar de Defesa.</p>",
+        "ehOugi": true,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wURLyGVh7K1k1mvZ.FRXo26AcC2nL3m43"
+    },
+    {
+      "_id": "zvgkM8iN8SeQt3TZ",
+      "name": "Shunpo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1, Agilidade 4",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acaoExtra",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>A maestria da movimentação em combate, Shunpo (“passo instantâneo”), é uma técnica que permite cobrir distâncias rapidamente, aproximando-se ou afastando-se do oponente com facilidade. Com a prática, essa técnica permite se mover mais rápido do que a visão consegue acompanhar. Você pode se mover dois passos de distância (de engajado para distante, por exemplo) como uma ação extra.</p>",
+        "ougi": "<p>Quando um oponente o ataca e erra, você pode usar Shunpo como uma reação para se mover um passo de distância.</p>",
+        "sincronizacao": "<p>Assuma a iniciativa.</p>",
+        "ehOugi": true,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wURLyGVh7K1k1mvZ.zvgkM8iN8SeQt3TZ"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Asgardiana",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

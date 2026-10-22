@@ -1,0 +1,33 @@
+{{#if (lenda-eq actor.type "protagonista")}}
+<section class="bloco detalhes-personagem">
+  <div class="grade-detalhes">
+    <label>{{localize "LENDA.Detalhes.Jogador"}} <input type="text" name="system.detalhes.jogador" value="{{system.detalhes.jogador}}" {{#unless editable}}disabled{{/unless}}></label>
+    <label>{{localize "LENDA.Detalhes.Idade"}} <input type="text" name="system.detalhes.idade" value="{{system.detalhes.idade}}" {{#unless editable}}disabled{{/unless}}></label>
+    <label>{{localize "LENDA.Detalhes.Origem"}} <input type="text" name="system.detalhes.origem" value="{{system.detalhes.origem}}" {{#unless editable}}disabled{{/unless}}></label>
+  </div>
+  <label class="linha-inteira" data-tooltip="{{localize 'LENDA.LimitacoesHint'}}">{{localize "LENDA.Limitacoes"}} <input type="text" name="system.limitacoes" value="{{system.limitacoes}}" {{#unless editable}}disabled{{/unless}}></label>
+</section>
+{{/if}}
+
+{{#if (lenda-ne actor.type "protagonista")}}
+<section class="bloco texto-rico">
+  <h3 class="titulo-bloco">{{localize "LENDA.Especial"}}</h3>
+  {{#if editable}}
+  <prose-mirror name="system.especial" value="{{system.especial}}" toggled>{{{enriched.especial}}}</prose-mirror>
+  {{else}}<div class="texto">{{{enriched.especial}}}</div>{{/if}}
+</section>
+{{/if}}
+
+<section class="bloco texto-rico">
+  <h3 class="titulo-bloco">{{localize "LENDA.Biografia"}}</h3>
+  {{#if editable}}
+  <prose-mirror name="system.biografia" value="{{system.biografia}}" toggled>{{{enriched.biografia}}}</prose-mirror>
+  {{else}}<div class="texto">{{{enriched.biografia}}}</div>{{/if}}
+</section>
+
+<section class="bloco texto-rico">
+  <h3 class="titulo-bloco">{{localize "LENDA.Notas"}}</h3>
+  {{#if editable}}
+  <prose-mirror name="system.notas" value="{{system.notas}}" toggled>{{{enriched.notas}}}</prose-mirror>
+  {{else}}<div class="texto">{{{enriched.notas}}}</div>{{/if}}
+</section>

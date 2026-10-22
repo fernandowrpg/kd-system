@@ -1,0 +1,56 @@
+{
+  "_id": "LKPqOXZpdfzMyQpV",
+  "name": "Abre Alas",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "Agilidade 3",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Fintas são formas muito práticas de abrir a guarda de um oponente. Algumas artes, como o silat indonésio, ensinam uma torrente de golpes cuja intenção não é ferir, apenas desestabilizar o oponente e permitir que o verdadeiro golpe seja aplicado. O yuza aplica essa técnica como uma ação extra. Caso acerte, ele não causa dano nenhum, mas seu próximo ataque contra aquele alvo é feito com vantagem.</p>",
+    "ougi": "<p>Além da vantagem, o próximo ataque tem seu dano aumentado em 1 ponto.</p>",
+    "sincronizacao": "<p>O próximo ataque recebe duas vantagens.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!LKPqOXZpdfzMyQpV"
+}

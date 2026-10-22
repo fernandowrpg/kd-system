@@ -1,0 +1,462 @@
+{
+  "_id": "ZmFy3A7zP9YFbF80",
+  "name": "Assassino Tendou",
+  "type": "antagonista",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 2,
+    "conceito": "Assassino Tendou",
+    "atributos": {
+      "forca": 3,
+      "razao": 3,
+      "instinto": 4,
+      "agilidade": 5,
+      "presenca": 3,
+      "vontade": 3
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 3,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 1,
+      "combo": 0,
+      "evasao": 3,
+      "golpe": 3,
+      "projetil": 1
+    },
+    "vigor": {
+      "value": 8,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": -1
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Este arquétipo representa um dos assassinos de elite da família Tendou — o clã de assassinos mais perigoso do mundo. Apesar da fama, um assassino Tendou nunca foi pego por um crime. Sempre sabem como apagar seus rastros e colocar a culpa em outra pessoa — normalmente, uma pessoa específica. Você também pode usar essa ficha para outros assassinos de elite, principalmente se trocar as técnicas por outras mais do seu agrado. Um coadjuvante que use essas estatísticas é treinado para matar sem ser visto!</p>",
+    "especial": "",
+    "notas": "",
+    "avancos": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "fEuoGcRYBK9IuAFz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ZmFy3A7zP9YFbF80",
+  "items": [
+    {
+      "_id": "D3tmSZEvips71UGR",
+      "name": "Estilo Secreto",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p>Você foi treinado em um dos mais poderosos, misteriosos e restritos estilos de luta do mundo. Essas artes antigas guardam grandes poderes e segredos, mas justamente por isso podem chamar atenção indesejada. Estilos secretos têm dois ougi em vez de um; você também ganha um ponto adicional para somar em uma das habilidades do seu estilo.</p><p><strong>Exemplos de estilos secretos:</strong> Sistema de Combate Tuchi, Karyujutsu e Neohopak (veja o compêndio de Estilos de Luta).</p>",
+        "afinidade": "",
+        "elemento": "",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 1,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 1,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZmFy3A7zP9YFbF80.D3tmSZEvips71UGR"
+    },
+    {
+      "_id": "S3ywDELpMd1yzJpV",
+      "name": "Zankouken",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+      "system": {
+        "requisitos": "Agilidade 4, Shunpo",
+        "tipos": [
+          "golpe"
+        ],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 3,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>O yuza avança em alta velocidade, atingindo o oponente com um ataque extremamente veloz e passando através dele. O personagem pode atacar um alvo próximo com esse ataque, causando dano igual à Força ou Agilidade (o que for maior) + 3. Após atacar, o yuza se move novamente, parando próximo ao alvo.</p>",
+        "ougi": "<p>Você pode atacar alvos distantes com essa técnica.</p>",
+        "sincronizacao": "<p>Some sua Aura no dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "Ataque Trespassante",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "max(@for, @agi) + 3",
+          "danoOugi": "",
+          "danoSinc": "@aura",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZmFy3A7zP9YFbF80.S3ywDELpMd1yzJpV"
+    },
+    {
+      "_id": "NgfOTVJTNr56ccDM",
+      "name": "Aura de Batalha",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 5,
+        "nagenNota": "",
+        "custoPorUso": 5,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Esta técnica é necessária para participar de competições no Circuito Mundial de Lutas. O yuza manifesta sua aura, tornando-a visível ao redor de seu corpo, brilhando como uma tocha. A aura permanece ao seu redor até o final da cena ou até ser dissipada. Enquanto tiver sua Aura de Batalha ativa, o yuza soma sua Aura como um bônus ao seu Limiar de Proteção. Quando for atingido por um ataque que o faria marcar uma caixa de ferimento, ele não marca a caixa, mas sua aura se dissipa. Usar essa técnica é extremamente cansativo. Cada ativação depois da primeira, na mesma cena, aumenta em 5 pontos o gasto de nagen.</p>",
+        "ougi": "<p>Você soma +1 no seu Limiar de Proteção com a aura ativa.</p>",
+        "sincronizacao": "<p>Ative a técnica como uma ação extra e ignore os aumentos de custo por número de ativações.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZmFy3A7zP9YFbF80.NgfOTVJTNr56ccDM"
+    },
+    {
+      "_id": "s67ZWD8ubEfr7xCS",
+      "name": "Disparo Elemental",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "projetil"
+        ],
+        "elemento": "variavel",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Uma das técnicas de focus mais famosas entre o público em geral. No Disparo Elemental, o yuza separa um pedaço da sua aura, canaliza nele a energia de um elemento e o lança como um Projétil. É comum que o disparo assuma a forma de uma esfera, mas pode ser qualquer outra coisa, como uma lança ou uma miniatura do seu avatar. Escolha um elemento quando aprender essa técnica, essa será a afinidade dela. O dano é igual à Vontade + Aura + 2 e atinge alvos distantes.</p>",
+        "ougi": "<p>Se você errar o ataque, pode gastar um dado de sincronização para guiá-lo de volta contra o alvo, fazendo a jogada de ataque novamente.</p>",
+        "sincronizacao": "<p>Em vez de um disparo único, você lança seu nagen na forma de um Projétil contínuo, um verdadeiro canhão. Você pode aumentar o dano em 1 para cada nagen extra usado. O único limite é a sua Barra de Vigor.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@von + @aura + 2",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZmFy3A7zP9YFbF80.s67ZWD8ubEfr7xCS"
+    },
+    {
+      "_id": "Bq9kgtJxYp9CaFoA",
+      "name": "Salto Duplo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+      "system": {
+        "requisitos": "Aura 1, Atleta 1",
+        "tipos": [],
+        "elemento": "ar",
+        "acao": "acaoExtra",
+        "nagen": 3,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>É comum que filmes de Bollywood mostrem aceitos do ar voando pelos céus. Todo yuza que se preza sabe que isso é coisa de cinema, mas existem aqueles que chegam bem perto. O salto duplo acontece quando um yuza salta e, chegando no ápice do movimento, concentra nagen nos pés, fazendo uma plataforma de ar para saltar novamente. É muito prático para ultrapassar obstáculos e se mover em combate, fazendo dois passos como uma ação extra.</p>",
+        "ougi": "<p>Você pode usar Salto Duplo como uma defesa total. Jogue Agilidade (Evasão) com vantagem quando fizer isso.</p>",
+        "sincronizacao": "<p>Você pode saltar de novo uma terceira vez, cobrindo três passos com uma ação extra e podendo alcançar locais muito altos.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZmFy3A7zP9YFbF80.Bq9kgtJxYp9CaFoA"
+    },
+    {
+      "_id": "TcmlO8o5uSc1c11o",
+      "name": "Shunpo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1, Agilidade 4",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acaoExtra",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>A maestria da movimentação em combate, Shunpo (“passo instantâneo”), é uma técnica que permite cobrir distâncias rapidamente, aproximando-se ou afastando-se do oponente com facilidade. Com a prática, essa técnica permite se mover mais rápido do que a visão consegue acompanhar. Você pode se mover dois passos de distância (de engajado para distante, por exemplo) como uma ação extra.</p>",
+        "ougi": "<p>Quando um oponente o ataca e erra, você pode usar Shunpo como uma reação para se mover um passo de distância.</p>",
+        "sincronizacao": "<p>Assuma a iniciativa.</p>",
+        "ehOugi": true,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZmFy3A7zP9YFbF80.TcmlO8o5uSc1c11o"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Assassino Tendou",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

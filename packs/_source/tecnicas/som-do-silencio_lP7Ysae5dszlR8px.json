@@ -1,0 +1,54 @@
+{
+  "_id": "lP7Ysae5dszlR8px",
+  "name": "Som do Silêncio",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+  "system": {
+    "requisitos": "Razão 4, Impacto Trovejante",
+    "tipos": [],
+    "elemento": "ar",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Esta técnica exige muito controle e concentração. O yuza reverte os princípios do trovão, absorvendo com sua aura todas as vibrações sonoras ao seu redor. Ele pode ficar completamente silencioso, o que concede vantagem em jogadas para passar despercebido. Uma vez ativada, os efeitos duram até o final da cena ou até o yuza falar. Caso ele fale, o Som do Silêncio é quebrado e todos os efeitos da técnica são interrompidos.</p>",
+    "ougi": "<p>Você pode expandir sua aura de silêncio, cobrindo uma área maior, grande o bastante para abrigar um carro popular.</p>",
+    "sincronizacao": "<p>Você aumenta o alcance da sua aura de silêncio. Se não é o seu ougi, passa a ser grande o bastante para um carro popular. Se for o seu ougi, passa a ser grande o bastante para um pequeno avião – por exemplo, o Komet dos Piratas do Céu.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!lP7Ysae5dszlR8px"
+}

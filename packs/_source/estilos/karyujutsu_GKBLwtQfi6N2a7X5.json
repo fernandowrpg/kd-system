@@ -1,0 +1,38 @@
+{
+  "_id": "GKBLwtQfi6N2a7X5",
+  "name": "Karyujutsu",
+  "type": "estilo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/estilo.svg",
+  "system": {
+    "descricao": "<p>As técnicas de defesa pessoal da família Karyu são uma mistura de karatê, kenpô, ninjutsu e judô. O estilo é ensinado a praticamente todos os membros do clã, para autodefesa e cultivo espiritual. É um estilo extremamente ágil e defensivo, mas também é poderoso no ataque. (Estilo secreto.)</p><p><strong>Ougi:</strong> @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.Xm3hUWIgkKQYgxzA]{Telepatia}, @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.LdCGTlQFAHrJk6VX]{Disparo Elemental}</p>",
+    "valores": {
+      "agarrao": 1,
+      "bloqueio": 1,
+      "combo": 1,
+      "evasao": 1,
+      "golpe": 1,
+      "projetil": 2
+    },
+    "ougis": [
+      "Telepatia",
+      "Disparo Elemental"
+    ],
+    "secreto": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!GKBLwtQfi6N2a7X5"
+}

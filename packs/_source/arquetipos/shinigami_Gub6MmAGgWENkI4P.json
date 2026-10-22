@@ -1,0 +1,407 @@
+{
+  "_id": "Gub6MmAGgWENkI4P",
+  "name": "Shinigami",
+  "type": "antagonista",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 3,
+    "conceito": "Shinigami",
+    "atributos": {
+      "forca": 4,
+      "razao": 3,
+      "instinto": 3,
+      "agilidade": 4,
+      "presenca": 3,
+      "vontade": 5
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 0,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 2,
+      "combo": 0,
+      "evasao": 0,
+      "golpe": 2,
+      "projetil": 2
+    },
+    "vigor": {
+      "value": 12,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Muitas culturas têm lendas sobre seres responsáveis por fazer a passagem entre a vida e a morte. Várias delas são oriundas dos shen conhecidos como shinigami. Eles enxergam a morte vindoura e se aproximam para consumir o espírito, a impressão de nagen deixada depois da morte. Costumam se apresentar como humanoides atraentes vestidos de preto e branco, sempre portando uma lâmina. São considerados perigosíssimos pelo Círculo do Dragão.</p>",
+    "especial": "",
+    "notas": "",
+    "avancos": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "fEuoGcRYBK9IuAFz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!Gub6MmAGgWENkI4P",
+  "items": [
+    {
+      "_id": "lPqSGjIv3f2b4ECk",
+      "name": "Corte Tumular",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+      "system": {
+        "requisitos": "Agilidade 4, Shunpo",
+        "tipos": [
+          "golpe"
+        ],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 3,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>O yuza avança em alta velocidade, atingindo o oponente com um ataque extremamente veloz e passando através dele. O personagem pode atacar um alvo próximo com esse ataque, causando dano igual à Força ou Agilidade (o que for maior) + 3. Após atacar, o yuza se move novamente, parando próximo ao alvo.</p>",
+        "ougi": "<p>Você pode atacar alvos distantes com essa técnica.</p>",
+        "sincronizacao": "<p>Some sua Aura no dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "Ataque Trespassante",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "max(@for, @agi) + 3",
+          "danoOugi": "",
+          "danoSinc": "@aura",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Gub6MmAGgWENkI4P.lPqSGjIv3f2b4ECk"
+    },
+    {
+      "_id": "x5yYXjmhaKcWlonX",
+      "name": "Sopro do Além",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "projetil"
+        ],
+        "elemento": "agua",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Uma das técnicas de focus mais famosas entre o público em geral. No Disparo Elemental, o yuza separa um pedaço da sua aura, canaliza nele a energia de um elemento e o lança como um Projétil. É comum que o disparo assuma a forma de uma esfera, mas pode ser qualquer outra coisa, como uma lança ou uma miniatura do seu avatar. Escolha um elemento quando aprender essa técnica, essa será a afinidade dela. O dano é igual à Vontade + Aura + 2 e atinge alvos distantes.</p>",
+        "ougi": "<p>Se você errar o ataque, pode gastar um dado de sincronização para guiá-lo de volta contra o alvo, fazendo a jogada de ataque novamente.</p>",
+        "sincronizacao": "<p>Em vez de um disparo único, você lança seu nagen na forma de um Projétil contínuo, um verdadeiro canhão. Você pode aumentar o dano em 1 para cada nagen extra usado. O único limite é a sua Barra de Vigor.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "Disparo Elemental",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@von + @aura + 2",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Gub6MmAGgWENkI4P.x5yYXjmhaKcWlonX"
+    },
+    {
+      "_id": "OUoPDOMctueS1Ut6",
+      "name": "Shunpo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1, Agilidade 4",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acaoExtra",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>A maestria da movimentação em combate, Shunpo (“passo instantâneo”), é uma técnica que permite cobrir distâncias rapidamente, aproximando-se ou afastando-se do oponente com facilidade. Com a prática, essa técnica permite se mover mais rápido do que a visão consegue acompanhar. Você pode se mover dois passos de distância (de engajado para distante, por exemplo) como uma ação extra.</p>",
+        "ougi": "<p>Quando um oponente o ataca e erra, você pode usar Shunpo como uma reação para se mover um passo de distância.</p>",
+        "sincronizacao": "<p>Assuma a iniciativa.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Gub6MmAGgWENkI4P.OUoPDOMctueS1Ut6"
+    },
+    {
+      "_id": "XDqLAmpDD5ZVr6n8",
+      "name": "Zanshin",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1, Instinto 3",
+        "tipos": [],
+        "elemento": "",
+        "acao": "passiva",
+        "nagen": 0,
+        "nagenNota": "0 (pode ser potencializada com um dado de sincronização)",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>“A flecha já se foi, mas o seu lançamento continua. Zanshin é uma atitude da mente.” — Michael Random  Esta técnica é um estado de alerta em repouso cultivado com afinco e disciplina por muitos artistas marciais, especialmente as artes japonesas, desde os primeiros samurais. Zanshin (“a mente que permanece”) evolui a simples atenção dos arredores para um aumento da percepção por meio da sensibilidade ao fluxo do nagen. É como se fosse um sexto sentido. A técnica permite que você detecte flutuações nas auras e perceba a presença de outros seres vivos próximos. Essa pode ser a diferença entre a vida e a morte. Você ganha vantagem em testes de Instinto para reagir com prontidão. Além disso, você sempre sabe quando uma pessoa próxima é espiritualmente ativa, qual o valor da Aura dela e sua afinidade. Essa técnica está sempre ativa, mas pode ser potencializada com um dado de sincronização.</p>",
+        "ougi": "<p>Você sabe esconder a sua própria aura. Com uma ação, pode se concentrar e fazer com que sua aura seja registrada como 0 para o Zanshin de outros yuzas. O efeito dura até você usar focus.</p>",
+        "sincronizacao": "<p>Some sua Aura no seu Limiar de Defesa. Você ganha vantagem em todos os testes de Instinto. Os efeitos duram até o final do seu próximo turno.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Gub6MmAGgWENkI4P.XDqLAmpDD5ZVr6n8"
+    },
+    {
+      "_id": "1qBuCri9pyIVVH5P",
+      "name": "Lâmina do Ceifador",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [],
+        "elemento": "agua",
+        "acao": "acao",
+        "nagen": 5,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Canalizando sua aura através de um objeto mundano, o yuza pode transformá-lo em uma arma mortal. Escolha uma característica da lista de armas (p. 166); você sabe imbuir objetos mundanos dessa característica e usá-los como se fossem armas. A forma como isso funciona varia de yuza para yuza: alguns endurecem origami para usar como projéteis, outros fazem com que cintos se movam como serpentes, outros simplesmente tornam objetos frágeis mais resistentes. Se o yuza tem afinidade com um elemento, pode usar esse próprio elemento em vez de um objeto. Se tem afinidade com ar, pode criar uma arma de vento cortante; se tem afinidade com água, pode fazer um chicote absorvendo umidade do ar; se tem afinidade com terra, pode arrancar do chão uma clava de pedra; se tem afinidade com fogo, pode transformar a chama de um isqueiro numa adaga flamejante. Uma arma criada com essa técnica dura até o final da cena.</p>",
+        "ougi": "<p>Você pode usar essa técnica como uma ação extra.</p>",
+        "sincronizacao": "<p>A arma recebe uma característica adicional.</p>",
+        "ehOugi": true,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "Arma Espiritual",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Gub6MmAGgWENkI4P.1qBuCri9pyIVVH5P"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Shinigami",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

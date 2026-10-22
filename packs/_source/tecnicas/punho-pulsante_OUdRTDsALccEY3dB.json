@@ -1,0 +1,56 @@
+{
+  "_id": "OUdRTDsALccEY3dB",
+  "name": "Punho Pulsante",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "Disparo Elemental, Ranbu",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "variavel",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Muitos yuzas disparam energia elemental com o movimento de um soco ou chute. Depois de treinar tanto esses movimentos, torna-se mais natural canalizar nagen dessa forma. Esses são Disparos Elementais mais comuns. Alguns yuzas, porém, aprendem a disparar uma verdadeira metralhadora de pulsos de nagen com uma sequência de ataques. Isso pode ser usado até mesmo para anular outros projéteis. Apesar do nome, essa técnica é executada com chutes tão frequentemente quanto é executada com socos. Essa técnica tem a mesma afinidade que seu Disparo Elemental. Você pode usá-la contra um oponente próximo, causando dano igual a à Agilidade ou Força (o que for maior) + Vontade. Punho Pulsante pode ser usado como contra-ataque contra Projéteis, resultando em uma disputa de Projéteis, apesar de não ser um Projétil. Você pode aumentar o dano dessa técnica descartando dados: cada resultado 5 ou mais descartado aumenta o dano em +1.</p>",
+    "ougi": "<p>Você tem vantagem em ataques contra grupos.</p>",
+    "sincronizacao": "<p>Em vez de pulsos individuais, você faz uma série de feixes contínuos. Você pode gastar mais nagen para aumentar o dano, com +1 ponto de dano para cada nagen extra usado, até um máximo limitado pela sua Barra de Vigor.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "max(@agi, @for) + @von",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 1,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!OUdRTDsALccEY3dB"
+}

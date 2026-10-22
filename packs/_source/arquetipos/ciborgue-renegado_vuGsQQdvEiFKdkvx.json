@@ -1,0 +1,194 @@
+{
+  "_id": "vuGsQQdvEiFKdkvx",
+  "name": "Ciborgue Renegado",
+  "type": "coadjuvante",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 1,
+    "conceito": "Ciborgue Renegado",
+    "atributos": {
+      "forca": 3,
+      "razao": 3,
+      "instinto": 2,
+      "agilidade": 3,
+      "presenca": 1,
+      "vontade": 3
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 1,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 0,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 2,
+      "combo": 0,
+      "evasao": 0,
+      "golpe": 2,
+      "projetil": 0
+    },
+    "vigor": {
+      "value": 10,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Use este arquétipo para ciborgues independentes, possivelmente envolvidos com o submundo.</p>",
+    "especial": "2 caixas de ferimento.",
+    "notas": "",
+    "grupo": {
+      "ativo": false,
+      "tamanho": 1
+    },
+    "instantaneo": {
+      "ativo": false,
+      "fazBem": "",
+      "fazMal": ""
+    }
+  },
+  "effects": [],
+  "folder": "yNAtDeilews3LsxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!vuGsQQdvEiFKdkvx",
+  "items": [
+    {
+      "_id": "llJ5gPLpVuASB5ts",
+      "name": "Ciborgue",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p><em>“Senhores, nós podemos reconstruí-lo. (...) Muito melhor do que era. Mais forte, mais rápido.” — O Homem de Seis Milhões de Dólares</em></p><p>A tecnologia de próteses cibernéticas é difundida pelo mundo todo, muito útil para garantir mais acessibilidade e autonomia para pessoas com deficiência. No entanto, você teve acesso a procedimentos experimentais que não se limitam em substituir o corpo, e sim aprimorá-lo.</p><p>Ciborgues têm o esqueleto reforçado por metal e chips integrados com o sistema nervoso para controlar seus implantes. Devido a essas alterações, ciborgues têm +3 no Limiar de Proteção, +3 na Barra de Vigor e uma caixa adicional de ferimento. Além disso, eles recebem vantagem em todos os testes para usar dispositivos eletrônicos.</p><p>Infelizmente, ser um ciborgue não é só alegria. Os implantes prejudicam o fluxo do nagen e a sincronização com o ambiente. Isso dificulta o uso de focus, com um redutor de -1 no Limiar de Canalização. Você começa toda cena com um dado de sincronização a menos, mas essa não é a pior parte. Caso chegue a Limiar de Canalização 0, o ciborgue perde a conexão natural que as pessoas têm umas com as outras por meio de suas auras, parecendo distante e alienígena, e sofre desvantagem em todas as jogadas de Presença.</p><p>Um ciborgue ferido pode ser tratado com as ocupações Médico ou Engenheiro, mas, caso seja derrotado, somente alguém treinado em ambas as ocupações pode ajudá-lo — já que se trata de um caso mais grave.</p><p>Implantes adicionais (p. 170) podem ser adquiridos apenas por meio dos trunfos Arsenal e Agente ou com avanços.</p>",
+        "afinidade": "",
+        "elemento": "",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 3,
+          "defesa": 0,
+          "protecao": 3,
+          "canalizacao": -1,
+          "ferimentos": 1,
+          "sincInicial": -1,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 0,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 0,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!vuGsQQdvEiFKdkvx.llJ5gPLpVuASB5ts"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Ciborgue Renegado",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

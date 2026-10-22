@@ -1,0 +1,54 @@
+{
+  "_id": "tWPNTgYgaJiNzT0K",
+  "name": "Postura de Três Espadas",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Mestre de Armas",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Para que se contentar com apenas duas armas? Alguns lutadores fazem malabarismo com suas armas, outros têm uma cauda forte para empunhar uma espada adicional, alguns conseguem manipular instrumentos com os dedos dos pés e alguns acabam até mesmo colocando o cabo de uma espada na boca e fazendo isso funcionar de algum jeito! Você pode assumir essa postura como uma ação extra; enquanto ela estiver ativa e você tiver uma terceira arma, pode adicionar uma característica adicional para suas armas dentre as seguintes: Letal, Perigosa ou Precisa.</p>",
+    "ougi": "<p>Escolha uma segunda característica adicional para sua arma. Caso ela já seja Perigosa, pode em vez disso se tornar Muito Perigosa, removendo três pontos da Barra de Vigor com um acerto.</p>",
+    "sincronizacao": "<p>Você não gasta nenhuma ação para assumir a postura.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!tWPNTgYgaJiNzT0K"
+}

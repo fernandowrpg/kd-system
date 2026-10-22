@@ -1,0 +1,56 @@
+{
+  "_id": "0umGwqbWG4FWFFOc",
+  "name": "Defesa do Deserto",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/evasao.svg",
+  "system": {
+    "requisitos": "Onda de Choque, Sentido Sísmico",
+    "tipos": [
+      "evasao"
+    ],
+    "elemento": "terra",
+    "acao": "reacao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Quando está prestes a ser atingido, o yuza pisa no chão com toda a sua força. O nagen concentrado ressoa com a terra, desintegrando-a em uma nuvem de areia. A areia então dispara como um jato na direção do ataque do oponente, defendendo o yuza. Como uma reação, substitua o Limiar de Defesa do yuza por uma jogada de Vontade, somando o bônus de Evasão. Se a técnica for usada em um terreno arenoso, a jogada de Vontade é feita com vantagem.</p>",
+    "ougi": "<p>Uma vez por rodada, você pode usar essa técnica mesmo se não tiver nenhuma ação extra sobrando.</p>",
+    "sincronizacao": "<p>Some sua Aura na sua jogada de defesa ativa.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0umGwqbWG4FWFFOc"
+}

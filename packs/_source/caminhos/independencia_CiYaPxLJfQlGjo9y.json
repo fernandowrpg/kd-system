@@ -1,0 +1,43 @@
+{
+  "_id": "CiYaPxLJfQlGjo9y",
+  "name": "Independência",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você se vira sozinho e não precisa da ajuda de ninguém.</p>",
+    "eventos": [
+      {
+        "texto": "Recusar ajuda.",
+        "marcado": false
+      },
+      {
+        "texto": "Prejudicar-se por ter recusado ajuda.",
+        "marcado": false
+      },
+      {
+        "texto": "Conseguir fazer algo difícil sozinho.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Passar a aceitar ajuda.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!CiYaPxLJfQlGjo9y"
+}

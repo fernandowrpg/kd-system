@@ -1,0 +1,39 @@
+{
+  "_id": "IdyolzfgPMr9suKf",
+  "name": "Sai / Jitte",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/arma.svg",
+  "system": {
+    "categoria": "arma",
+    "caracteristicas": [
+      "vingativa"
+    ],
+    "descricao": "<p>Arma comum com a característica <strong>Vingativa</strong>.</p><p><strong>Vingativa:</strong> A arma é feita para aproveitar brechas rápidas na guarda do oponente. Quaisquer ataques feitos com uma arma vingativa recebem vantagem.</p><p>O dano de ataques com a arma aumenta em 1 o atributo usado para o dano. Técnicas usadas com armas custam +1 nagen.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "k6Uu36xiDMpbHc32",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!IdyolzfgPMr9suKf"
+}

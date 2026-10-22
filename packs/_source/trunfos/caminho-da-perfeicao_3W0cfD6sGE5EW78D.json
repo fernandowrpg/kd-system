@@ -1,0 +1,55 @@
+{
+  "_id": "3W0cfD6sGE5EW78D",
+  "name": "Caminho da Perfeição",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Você se especializou em uma técnica de ataque acima de todas as outras. Você a refinou e poliu até o limite, tornando-se incrivelmente habilidoso em seu uso. Quando você usa essa técnica, pode iniciar um splash se tiver uma margem de 4 ou mais em relação ao oponente. O dano da técnica também é aumentado em um ponto e você tem vantagem nas jogadas de ataque com ela. Por fim, você pode ter dois upgrades nessa técnica, em vez de um.</p><p>Toda essa dedicação torna mais difícil aprender novas técnicas. Você escolhe somente cinco técnicas durante a criação do personagem.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": -1,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3W0cfD6sGE5EW78D"
+}

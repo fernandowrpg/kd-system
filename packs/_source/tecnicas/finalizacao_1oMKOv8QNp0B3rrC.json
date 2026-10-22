@@ -1,0 +1,56 @@
+{
+  "_id": "1oMKOv8QNp0B3rrC",
+  "name": "Finalização",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "Agilidade 3, Força 3",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>“Esse é o fim da linha!” ー Kyo Kusanagi, The King of Fighters  Você prepara um golpe decisivo, concentrando todo seu nagen em um único ataque devastador. O dano é igual à Força x2, mas o ataque é feito com duas desvantagens.</p>",
+    "ougi": "<p>O ataque é feito com apenas uma desvantagem.</p>",
+    "sincronizacao": "<p>Após atingir um oponente com um Combo, você pode usar Finalização como uma ação extra.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": -2,
+      "vantagensOugi": 1,
+      "dano": "@for * 2",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1oMKOv8QNp0B3rrC"
+}

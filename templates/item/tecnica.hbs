@@ -1,0 +1,121 @@
+<div class="grade-formulario">
+  <div class="form-group">
+    <label>{{localize "LENDA.Requisitos"}}</label>
+    <input type="text" name="system.requisitos" value="{{system.requisitos}}" {{#unless editable}}disabled{{/unless}}>
+  </div>
+  <div class="form-group">
+    <label>{{localize "LENDA.Tecnica.Tipo"}}</label>
+    <div class="caixas-selecao">
+      {{#each tipos}}
+      <label class="caixa-opcao"><input type="checkbox" name="system.tipos.{{key}}" {{checked checked}} {{#unless @root.editable}}disabled{{/unless}}> {{label}}</label>
+      {{/each}}
+    </div>
+  </div>
+  <div class="form-linha">
+    <div class="form-group">
+      <label>{{localize "LENDA.Elemento.Nome"}}</label>
+      <select name="system.elemento" {{#unless editable}}disabled{{/unless}}>{{selectOptions elementos selected=system.elemento}}</select>
+    </div>
+    <div class="form-group">
+      <label>{{localize "LENDA.Tecnica.Acao"}}</label>
+      <select name="system.acao" {{#unless editable}}disabled{{/unless}}>{{selectOptions acoes selected=system.acao}}</select>
+    </div>
+  </div>
+  <div class="form-linha">
+    <div class="form-group">
+      <label>{{localize "LENDA.Nagen"}}</label>
+      <input type="number" name="system.nagen" value="{{system.nagen}}" min="0" {{#unless editable}}disabled{{/unless}}>
+    </div>
+    <div class="form-group">
+      <label data-tooltip="{{localize 'LENDA.Tecnica.CustoPorUsoHint'}}">{{localize "LENDA.Tecnica.CustoPorUso"}}</label>
+      <input type="number" name="system.custoPorUso" value="{{system.custoPorUso}}" min="0" {{#unless editable}}disabled{{/unless}}>
+    </div>
+    <div class="form-group">
+      <label>{{localize "LENDA.Tecnica.UsosNaCena"}}</label>
+      <input type="number" name="system.usos" value="{{system.usos}}" min="0" {{#unless editable}}disabled{{/unless}}>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>{{localize "LENDA.Tecnica.NagenNota"}}</label>
+    <input type="text" name="system.nagenNota" value="{{system.nagenNota}}" {{#unless editable}}disabled{{/unless}}>
+  </div>
+  <div class="form-linha opcoes">
+    <label class="caixa-opcao"><input type="checkbox" name="system.ehOugi" {{checked system.ehOugi}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Tecnica.EhOugi"}}</label>
+    <label class="caixa-opcao" data-tooltip="{{localize 'LENDA.Tecnica.PerfeicaoHint'}}"><input type="checkbox" name="system.perfeicao" {{checked system.perfeicao}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Tecnica.Perfeicao"}}</label>
+    <label class="caixa-opcao"><input type="checkbox" name="system.ativa" {{checked system.ativa}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Tecnica.Ativa"}}</label>
+    <label class="caixa-opcao"><input type="checkbox" name="system.shintai" {{checked system.shintai}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Tecnica.Shintai"}}</label>
+    <label class="caixa-opcao"><input type="checkbox" name="system.ritual" {{checked system.ritual}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Tecnica.Ritual"}}</label>
+  </div>
+
+  <fieldset>
+    <legend>{{localize "LENDA.Tecnica.AtaqueEDano"}}</legend>
+    <div class="form-linha">
+      <label class="caixa-opcao"><input type="checkbox" name="system.ataque.rolar" {{checked system.ataque.rolar}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Tecnica.RolarAtaque"}}</label>
+      <div class="form-group">
+        <label>{{localize "LENDA.Tecnica.AtributoAtaque"}}</label>
+        <select name="system.ataque.atributo" {{#unless editable}}disabled{{/unless}}>{{selectOptions atributosAbrev selected=system.ataque.atributo}}</select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label data-tooltip="{{localize 'LENDA.Tecnica.FormulaHint'}}">{{localize "LENDA.Tecnica.Dano"}}{{#if danoAtual includeZero=true}} <span class="atual">= {{danoAtual}}</span>{{/if}}</label>
+      <input type="text" name="system.ataque.dano" value="{{system.ataque.dano}}" placeholder="@for + @aura + 2" {{#unless editable}}disabled{{/unless}}>
+    </div>
+    <div class="form-linha">
+      <div class="form-group">
+        <label data-tooltip="{{localize 'LENDA.Tecnica.FormulaHint'}}">{{localize "LENDA.Tecnica.DanoOugi"}}</label>
+        <input type="text" name="system.ataque.danoOugi" value="{{system.ataque.danoOugi}}" {{#unless editable}}disabled{{/unless}}>
+      </div>
+      <div class="form-group">
+        <label data-tooltip="{{localize 'LENDA.Tecnica.FormulaHint'}}">{{localize "LENDA.Tecnica.DanoSinc"}}</label>
+        <input type="text" name="system.ataque.danoSinc" value="{{system.ataque.danoSinc}}" {{#unless editable}}disabled{{/unless}}>
+      </div>
+    </div>
+    <div class="form-linha">
+      <div class="form-group">
+        <label>{{localize "LENDA.Tecnica.Vantagens"}}</label>
+        <input type="number" name="system.ataque.vantagens" value="{{system.ataque.vantagens}}" {{#unless editable}}disabled{{/unless}}>
+      </div>
+      <div class="form-group">
+        <label>{{localize "LENDA.Tecnica.VantagensOugi"}}</label>
+        <input type="number" name="system.ataque.vantagensOugi" value="{{system.ataque.vantagensOugi}}" {{#unless editable}}disabled{{/unless}}>
+      </div>
+      <div class="form-group">
+        <label data-tooltip="{{localize 'LENDA.Tecnica.VigorPorAcertoHint'}}">{{localize "LENDA.Tecnica.VigorPorAcerto"}}</label>
+        <input type="number" name="system.ataque.vigorPorAcerto" value="{{system.ataque.vigorPorAcerto}}" min="0" {{#unless editable}}disabled{{/unless}}>
+      </div>
+      <div class="form-group">
+        <label data-tooltip="{{localize 'LENDA.Tecnica.DanoPorDescarteHint'}}">{{localize "LENDA.Tecnica.DanoPorDescarte"}}</label>
+        <input type="number" name="system.ataque.danoPorDescarte" value="{{system.ataque.danoPorDescarte}}" min="0" {{#unless editable}}disabled{{/unless}}>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>{{localize "LENDA.Upgrades"}}</legend>
+    <div class="caixas-selecao">
+      {{#each upgrades}}
+      <label class="caixa-opcao" data-tooltip="{{hint}}"><input type="checkbox" name="system.upgrades.{{key}}" {{checked checked}} {{#unless @root.editable}}disabled{{/unless}}> {{label}}</label>
+      {{/each}}
+    </div>
+    <div class="form-group">
+      <label data-tooltip="{{localize 'LENDA.LimitacoesHint'}}">{{localize "LENDA.Limitacao"}}</label>
+      <input type="text" name="system.limitacao" value="{{system.limitacao}}" {{#unless editable}}disabled{{/unless}}>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>{{localize "LENDA.Ougi"}}</legend>
+    {{#if editable}}<prose-mirror name="system.ougi" value="{{system.ougi}}" toggled compact>{{{enriched.ougi}}}</prose-mirror>
+    {{else}}<div class="texto">{{{enriched.ougi}}}</div>{{/if}}
+  </fieldset>
+  <fieldset>
+    <legend>{{localize "LENDA.Sincronizacao"}}</legend>
+    {{#if editable}}<prose-mirror name="system.sincronizacao" value="{{system.sincronizacao}}" toggled compact>{{{enriched.sincronizacao}}}</prose-mirror>
+    {{else}}<div class="texto">{{{enriched.sincronizacao}}}</div>{{/if}}
+  </fieldset>
+  {{#if system.origem}}<p class="dica">{{localize "LENDA.Tecnica.Origem"}}: {{system.origem}}</p>{{/if}}
+  <div class="form-group">
+    <label>{{localize "LENDA.Tecnica.Origem"}}</label>
+    <input type="text" name="system.origem" value="{{system.origem}}" {{#unless editable}}disabled{{/unless}}>
+  </div>
+</div>

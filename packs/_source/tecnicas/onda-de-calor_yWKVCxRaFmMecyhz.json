@@ -1,0 +1,54 @@
+{
+  "_id": "yWKVCxRaFmMecyhz",
+  "name": "Onda de Calor",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/fogo.svg",
+  "system": {
+    "requisitos": "Aura 1, Vontade 3",
+    "tipos": [],
+    "elemento": "fogo",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Você emite uma onda de calor que torna qualquer ambiente fechado extremamente desconfortável. Até o final da cena, todos no ambiente sofrem uma desvantagem em todas as jogadas. Personagens com afinidade com fogo não são afetados.</p>",
+    "ougi": "<p>Você não sofre desvantagem com a Onda de Calor, mesmo que não tenha afinidade com fogo. Se tiver, ganha um dado de vantagem em todas as ações.</p>",
+    "sincronizacao": "<p>Suas vítimas sofrem dois dados de desvantagem.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!yWKVCxRaFmMecyhz"
+}

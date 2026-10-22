@@ -1,0 +1,358 @@
+{
+  "_id": "zujEN3VrDgQvOQPF",
+  "name": "Yokai",
+  "type": "coadjuvante",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 1,
+    "conceito": "Yokai",
+    "atributos": {
+      "forca": 3,
+      "razao": 3,
+      "instinto": 3,
+      "agilidade": 3,
+      "presenca": 3,
+      "vontade": 3
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 1,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 1,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 0,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 1,
+      "bloqueio": 1,
+      "combo": 0,
+      "evasao": 1,
+      "golpe": 0,
+      "projetil": 3
+    },
+    "vigor": {
+      "value": 7,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Os shen humanoides, yokai, estão quase sempre envolvidos em problemas. Eles vivem permanentemente em tempos interessantes. Talvez por isso, entre outras coisas, costumem se envolver tanto com os seres humanos — até mesmo romanticamente. Yokai tendem muito a extremos. O poder de suas auras e sua capacidade de quebrar os limites do corpo com seu focus os tornam alvos para qualquer organização com más intenções.</p>",
+    "especial": "",
+    "notas": "",
+    "grupo": {
+      "ativo": false,
+      "tamanho": 1
+    },
+    "instantaneo": {
+      "ativo": false,
+      "fazBem": "",
+      "fazMal": ""
+    }
+  },
+  "effects": [],
+  "folder": "yNAtDeilews3LsxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!zujEN3VrDgQvOQPF",
+  "items": [
+    {
+      "_id": "kQxidruoNGIEkBof",
+      "name": "Tocado",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p>Você tem mais afinidade com um dos elementos primordiais do universo, mas ainda é capaz de usar outros. Escolha entre água, ar, fogo ou terra. Você pode utilizar com facilidade técnicas do elemento escolhido, gastando 1 nagen a menos com eles (até zero). Você não pode aprender técnicas do elemento oposto. Caso seja atingido pelo elemento oposto, você perde 2 pontos de Vigor em vez de um.</p>",
+        "afinidade": "tocado",
+        "elemento": "ar",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 0,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 0,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zujEN3VrDgQvOQPF.kQxidruoNGIEkBof"
+    },
+    {
+      "_id": "WKCg1PDUmZQjEG38",
+      "name": "Aura de Batalha",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 5,
+        "nagenNota": "",
+        "custoPorUso": 5,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Esta técnica é necessária para participar de competições no Circuito Mundial de Lutas. O yuza manifesta sua aura, tornando-a visível ao redor de seu corpo, brilhando como uma tocha. A aura permanece ao seu redor até o final da cena ou até ser dissipada. Enquanto tiver sua Aura de Batalha ativa, o yuza soma sua Aura como um bônus ao seu Limiar de Proteção. Quando for atingido por um ataque que o faria marcar uma caixa de ferimento, ele não marca a caixa, mas sua aura se dissipa. Usar essa técnica é extremamente cansativo. Cada ativação depois da primeira, na mesma cena, aumenta em 5 pontos o gasto de nagen.</p>",
+        "ougi": "<p>Você soma +1 no seu Limiar de Proteção com a aura ativa.</p>",
+        "sincronizacao": "<p>Ative a técnica como uma ação extra e ignore os aumentos de custo por número de ativações.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zujEN3VrDgQvOQPF.WKCg1PDUmZQjEG38"
+    },
+    {
+      "_id": "8eHmG8IWb2wsvfrc",
+      "name": "Disparo Elemental",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "projetil"
+        ],
+        "elemento": "ar",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Uma das técnicas de focus mais famosas entre o público em geral. No Disparo Elemental, o yuza separa um pedaço da sua aura, canaliza nele a energia de um elemento e o lança como um Projétil. É comum que o disparo assuma a forma de uma esfera, mas pode ser qualquer outra coisa, como uma lança ou uma miniatura do seu avatar. Escolha um elemento quando aprender essa técnica, essa será a afinidade dela. O dano é igual à Vontade + Aura + 2 e atinge alvos distantes.</p>",
+        "ougi": "<p>Se você errar o ataque, pode gastar um dado de sincronização para guiá-lo de volta contra o alvo, fazendo a jogada de ataque novamente.</p>",
+        "sincronizacao": "<p>Em vez de um disparo único, você lança seu nagen na forma de um Projétil contínuo, um verdadeiro canhão. Você pode aumentar o dano em 1 para cada nagen extra usado. O único limite é a sua Barra de Vigor.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@von + @aura + 2",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zujEN3VrDgQvOQPF.8eHmG8IWb2wsvfrc"
+    },
+    {
+      "_id": "jvQMgDBuaph1yidO",
+      "name": "Garras Demoníacas",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+      "system": {
+        "requisitos": "",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acaoExtra",
+        "nagen": 5,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": true,
+        "ritual": false,
+        "descricao": "<p>Alguns mons têm presas semelhantes aos animais terrestres, mas as garras mais afiadas do Outro Mundo advêm do focus. Shen e hanyo que dominam as Garras Demoníacas podem criar garras longas e afiadas, que funcionam como armas com a característica Letal, e causam 1 ponto adicional de dano. Uma vez ativadas, como uma ação extra, as garras duram até o final da cena.</p>",
+        "ougi": "<p>Ao custo de 3 de nagen você pode somar sua Aura no dano de qualquer ataque com as suas garras.</p>",
+        "sincronizacao": "<p>As garras causam um ponto adicional de dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zujEN3VrDgQvOQPF.jvQMgDBuaph1yidO"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Yokai",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

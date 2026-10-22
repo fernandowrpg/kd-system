@@ -1,0 +1,39 @@
+{
+  "_id": "WUqBBZPqL5CUSafL",
+  "name": "Soneca (Pistola TTV2 .45)",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/arma.svg",
+  "system": {
+    "categoria": "arma",
+    "caracteristicas": [
+      "projetil"
+    ],
+    "descricao": "<p>A pistola TTV2 calibre .45 é um modelo das indústrias Tolwyn que não se tornou muito popular devido ao seu altíssimo custo de produção. Essa arma versátil dispara balas por meio de cargas magnéticas, permitindo o uso de tipos exóticos de munição. Atualmente, é a arma padrão da Divisão Pandora, apelidada de Soneca devido a seu potencial não-letal.</p><p>Soneca é uma arma de Projétil que usa munições exóticas; trocar o pente requer uma ação extra e concede efeitos dependendo do material, como Debilitante (borracha), Flexível (espuma expansiva), Letal (diamante), Longa (alumínio) ou Perigosa (fósforo).</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "RMFHkiqn8xE00yZV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!WUqBBZPqL5CUSafL"
+}

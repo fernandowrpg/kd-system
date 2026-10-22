@@ -1,0 +1,7 @@
+node_modules/
+dist/
+# Bancos LevelDB compilados (gerados por `npm run build` e incluídos no zip de release)
+packs/*
+!packs/_source/
+.DS_Store
+*.log

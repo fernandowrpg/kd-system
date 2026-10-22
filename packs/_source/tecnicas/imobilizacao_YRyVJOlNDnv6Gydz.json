@@ -1,0 +1,56 @@
+{
+  "_id": "YRyVJOlNDnv6Gydz",
+  "name": "Imobilização",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agarrao.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "agarrao"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Às vezes agarrar um oponente não é o bastante. Imobilizar alguém cria oportunidades que não poderiam ser aproveitadas de outra forma. O yuza agarra seu oponente e o prende em uma chave. Se acertar, faça uma disputa de Força (Atletismo) contra Força (Atletismo) do alvo. Se você vencer a disputa, o alvo não pode se afastar de você até o começo do seu próximo turno e sofre dano igual à sua Força. Caso o alvo use uma técnica que permita movimento (por exemplo, Shunpo), a disputa deve ser repetida; se você vencer, a técnica do alvo falha.</p>",
+    "ougi": "<p>Você ganha uma vantagem na disputa de Força.</p>",
+    "sincronizacao": "<p>Some sua Aura ao dano causado.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@for",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!YRyVJOlNDnv6Gydz"
+}

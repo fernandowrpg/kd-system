@@ -1,0 +1,54 @@
+{
+  "_id": "pS25XzESHnYdgMlz",
+  "name": "Salto Duplo",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+  "system": {
+    "requisitos": "Aura 1, Atleta 1",
+    "tipos": [],
+    "elemento": "ar",
+    "acao": "acaoExtra",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>É comum que filmes de Bollywood mostrem aceitos do ar voando pelos céus. Todo yuza que se preza sabe que isso é coisa de cinema, mas existem aqueles que chegam bem perto. O salto duplo acontece quando um yuza salta e, chegando no ápice do movimento, concentra nagen nos pés, fazendo uma plataforma de ar para saltar novamente. É muito prático para ultrapassar obstáculos e se mover em combate, fazendo dois passos como uma ação extra.</p>",
+    "ougi": "<p>Você pode usar Salto Duplo como uma defesa total. Jogue Agilidade (Evasão) com vantagem quando fizer isso.</p>",
+    "sincronizacao": "<p>Você pode saltar de novo uma terceira vez, cobrindo três passos com uma ação extra e podendo alcançar locais muito altos.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!pS25XzESHnYdgMlz"
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "hQwAKDXQ3g0A0fsZ",
+  "name": "Romance",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você se preocupa principalmente com o romance. Talvez só queira dar uns amassos por aí, talvez esteja procurando sua cara metade. O que importa é que você procura a companhia de outras pessoas e curte uma pegação.</p>",
+    "eventos": [
+      {
+        "texto": "Falar abertamente sobre a beleza de outro personagem.",
+        "marcado": false
+      },
+      {
+        "texto": "Flertar com outro personagem.",
+        "marcado": false
+      },
+      {
+        "texto": "Encrencar-se por causa dos seus flertes.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Sossegar o facho.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!hQwAKDXQ3g0A0fsZ"
+}

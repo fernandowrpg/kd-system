@@ -1,0 +1,56 @@
+<div class="lenda-ficha compacta espirito">
+  <header class="lenda-cabecalho">
+    <div class="retrato-moldura">
+      <img class="retrato" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="{{actor.name}}">
+      <div class="aura-selo">
+        <label>{{localize "LENDA.Aura"}}</label>
+        <input type="number" name="system.aura" value="{{system.aura}}" min="0" max="10" {{#unless editable}}disabled{{/unless}}>
+      </div>
+    </div>
+    <div class="cabecalho-principal">
+      <input class="nome" type="text" name="name" value="{{actor.name}}" {{#unless editable}}disabled{{/unless}}>
+      <div class="recursos">
+        <div class="recurso vigor" data-tooltip="{{localize 'LENDA.Espirito.ReservaHint'}}">
+          <span class="rotulo"><i class="fas fa-ghost"></i> {{localize "LENDA.Espirito.Reserva"}}</span>
+          <div class="barra">
+            <div class="preenchimento" style="width: {{reservaPct}}%"></div>
+            <div class="valores">
+              <input type="number" name="system.reserva.value" value="{{system.reserva.value}}" {{#unless editable}}disabled{{/unless}}>
+              <span>/ {{system.reserva.max}}</span>
+            </div>
+          </div>
+          {{#if editable}}<a class="mini" data-action="vigorCheio"><i class="fas fa-rotate-left"></i></a>{{/if}}
+        </div>
+        <div class="recurso">
+          <span class="rotulo"><i class="fas fa-dice"></i> {{localize "LENDA.Espirito.Dados"}}</span>
+          <a class="rolavel grande" data-action="rolarEspirito">{{system.dados}}d6</a>
+        </div>
+        <div class="recurso">
+          <span class="rotulo">{{localize "LENDA.Bonus"}}</span>
+          <input type="number" name="system.reserva.bonus" value="{{source.reserva.bonus}}" {{#unless editable}}disabled{{/unless}}>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="aba-corpo">
+    <section class="bloco">
+      <div class="grade-detalhes">
+        <label>{{localize "LENDA.Espirito.Afinidade"}}
+          <select name="system.afinidade" {{#unless editable}}disabled{{/unless}}>
+            {{selectOptions config.elementos selected=system.afinidade localize=true}}
+          </select>
+        </label>
+        <label>{{localize "LENDA.Espirito.Polaridade"}} <input type="text" name="system.polaridade" value="{{system.polaridade}}" {{#unless editable}}disabled{{/unless}}></label>
+      </div>
+      <p class="dica">{{localize "LENDA.Espirito.Regras"}}</p>
+    </section>
+    {{> "systems/lenda-dragao-fogo/templates/actor/parts/tecnicas.hbs"}}
+    <section class="bloco texto-rico">
+      <h3 class="titulo-bloco">{{localize "LENDA.Biografia"}}</h3>
+      {{#if editable}}
+      <prose-mirror name="system.biografia" value="{{system.biografia}}" toggled>{{{enriched.biografia}}}</prose-mirror>
+      {{else}}<div class="texto">{{{enriched.biografia}}}</div>{{/if}}
+    </section>
+  </div>
+</div>

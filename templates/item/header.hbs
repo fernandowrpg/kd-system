@@ -1,0 +1,8 @@
+<header class="lenda-item-cabecalho">
+  <img class="retrato" src="{{item.img}}" data-edit="img" data-action="editImage" alt="{{item.name}}">
+  <div class="titulos">
+    <input class="nome" type="text" name="name" value="{{item.name}}" {{#unless editable}}disabled{{/unless}}>
+    <span class="tipo">{{tipoNome}}{{#if item.parent}} — {{item.parent.name}}{{/if}}</span>
+  </div>
+  <a class="para-chat" data-action="paraChat" data-tooltip="{{localize 'LENDA.ParaChat'}}"><i class="fas fa-comment"></i></a>
+</header>

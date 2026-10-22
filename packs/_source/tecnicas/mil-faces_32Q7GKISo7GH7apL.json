@@ -1,0 +1,54 @@
+{
+  "_id": "32Q7GKISo7GH7apL",
+  "name": "Mil Faces",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Excelência Verdadeira, Trapaceiro 3, especialização em disfarce",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Qualquer pessoa munida de tempo e artifícios adequados pode se disfarçar. Um verdadeiro mestre do disfarce, porém, pode fazê-lo com precisão incrível ou com uma velocidade impressionante. Caso disponha de uma quantidade de tempo que permita um disfarce realizado com calma (como uma cena de recuperação), você pode usar essa técnica para se disfarçar perfeitamente de qualquer outra pessoa. Jogadas não são necessárias, exceto no caso de diferenças muito grandes de tamanho ou características sobrenaturais; nesse caso, jogue Presença contra a Tensão. Caso não disponha de tempo, você pode improvisar um disfarce como uma ação. Sem testes isso garante que você não seja reconhecido. Para se passar por outra pessoa, é necessário uma jogada de Presença contra a Tensão. Em qualquer dos casos, contato prolongado com pessoas que conheçam o alvo permite que façam uma jogada de Razão ou Instinto contra sua Presença para identificar a farsa.</p>",
+    "ougi": "<p>Você tem vantagem nas jogadas de Presença.</p>",
+    "sincronizacao": "<p>Você consegue fazer um disfarce perfeito em uma ação, dispensando testes.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!32Q7GKISo7GH7apL"
+}

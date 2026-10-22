@@ -1,0 +1,39 @@
+{
+  "_id": "JavZzQWEaeCfCJ2N",
+  "name": "Pistola",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/arma.svg",
+  "system": {
+    "categoria": "arma",
+    "caracteristicas": [
+      "projetil"
+    ],
+    "descricao": "<p>Arma comum com a característica <strong>Projétil</strong>.</p><p>Arma de fogo padrão de policiais e bandidos (dano 4 para um usuário com Instinto 3).</p><p><strong>Projétil:</strong> Uma arma de projétil pode ser usada contra um alvo distante. Se usada contra um alvo próximo, sofre desvantagem. Ataques com essas armas são normalmente Projéteis; você pode usar Golpes e Combos contra alvos engajados de forma improvisada, mas sofre desvantagem. O dano de uma arma de projétil é igual a Instinto +1.</p><p>O dano de ataques com a arma aumenta em 1 o atributo usado para o dano. Técnicas usadas com armas custam +1 nagen.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "k6Uu36xiDMpbHc32",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!JavZzQWEaeCfCJ2N"
+}

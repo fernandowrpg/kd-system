@@ -1,0 +1,56 @@
+{
+  "_id": "jDrp4zpEN7MxZBy5",
+  "name": "Fulgor Flamejante",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+  "system": {
+    "requisitos": "Disparo Elemental",
+    "tipos": [
+      "projetil"
+    ],
+    "elemento": "fogo",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Bolas de fogo são o primeiro truque que muitos aceitos e tocados pelo fogo aprendem. Para aqueles que dominam o Fulgor Flamejante, é apenas isso que elas são, porém — um truque. Concentrando todo o calor de sua aura nas mãos, o yuza é capaz de disparar um feixe laser destruidor, um Projétil contínuo tão quente e concentrado que corta metal com facilidade. Qualquer superfície atingida pelo Fulgor é destruída. Blindagem antitanque ou equivalente exige pelo menos duas rodadas ininterruptas de fogo para ser penetrada. Estruturas especialmente preparadas podem resistir pela mesma quantidade de tempo ou até um pouco mais, mas nada resiste a mais que três rodadas seguidas de Fulgor Flamejante. Em combate, o dano causado é igual ao dobro da Vontade, mais Aura do yuza. Uma vítima atingida tem um item em sua posse destruído além de sofrer dano.</p>",
+    "ougi": "<p>Você gasta uma rodada a menos para destruir estruturas mais resistentes.</p>",
+    "sincronizacao": "<p>Calcule o dano com Vontade x3.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@von * 2 + @aura",
+      "danoOugi": "",
+      "danoSinc": "@von",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!jDrp4zpEN7MxZBy5"
+}

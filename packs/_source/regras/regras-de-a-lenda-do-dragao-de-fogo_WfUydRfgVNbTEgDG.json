@@ -1,0 +1,396 @@
+{
+  "_id": "WfUydRfgVNbTEgDG",
+  "name": "Regras de A Lenda do Dragão de Fogo",
+  "pages": [
+    {
+      "_id": "MM3QwXChFHE3EGCg",
+      "name": "Mecânica Central e Testes",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Mecânica central</h1>\n<p>Quando o narrador pede um <strong>teste</strong>, role uma quantidade de <strong>d6 igual ao atributo</strong>, separe <strong>dois dados</strong> (normalmente os maiores) e some-os. Some também uma <strong>Ocupação</strong> ou o bônus do <strong>Estilo</strong> (em combate). Esse é o <strong>total</strong>. O narrador faz uma jogada parecida (normalmente contra a <strong>Tensão</strong>): o maior resultado vence e <strong>empates favorecem o protagonista</strong>.</p>\n<ul>\n<li>Dados com resultado <strong>1</strong> que ficaram de fora do total aumentam a <strong>Tensão</strong> em 1 cada.</li>\n<li>Dados com resultado <strong>6 ou mais</strong> que ficaram de fora geram um <strong>dado de sincronização</strong> (d10) cada.</li>\n</ul>\n<h2>Disputas</h2>\n<p>Quando o sucesso de um depende da ação de outro (queda de braço, corrida), cada um faz seu teste e o maior total vence.</p>\n<h2>Vantagens e desvantagens</h2>\n<p>Cada fator favorável dá <strong>+1 dado</strong>; cada fator desfavorável, <strong>−1 dado</strong>. Se as desvantagens deixarem você com 1 dado ou nenhum, role <strong>2 dados</strong>, mas a Tensão aumenta imediatamente. Em caso de dúvida, a palavra final é do narrador — mas você pode apagar uma marca de laço para ter a palavra final.</p>\n<h2>Sincronização</h2>\n<p>Dados de sincronização são <strong>d10</strong> que podem ser rolados junto dos d6 para melhorar jogadas e que diminuem o custo em nagen das técnicas (1 dado = 1 nagen). Protagonistas começam cada cena com um dado por ponto de Aura; todos são descartados no final da cena.</p>\n<h2>Descartar dados</h2>\n<p>Algumas técnicas ativam efeitos ao <strong>descartar</strong> dados (normalmente 5+). Depois de separar os dois dados do total, escolha o resultado entre os dados restantes e descarte-o. Um dado descartado não gera sincronização. Na janela de seleção de dados do sistema, clique em um dado para alternar entre <em>total</em>, <em>livre</em> e <em>descartado</em>.</p>\n<h2>Quando rolar?</h2>\n<p>Role apenas se: o sucesso influencia a história, existe chance de falha e existe consequência para o fracasso. Muitas vezes a resposta deve ser “sim” ou “sim, mas...”.</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.MM3QwXChFHE3EGCg"
+    },
+    {
+      "_id": "G01iUescKBHDW6oO",
+      "name": "Tempo, Cenas e Sessões",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Tempo</h1>\n<p><strong>Cena:</strong> unidade abstrata em que os protagonistas buscam um objetivo; normalmente um combate é uma cena. No começo da cena, cada protagonista recebe dados de sincronização iguais à Aura; no fim, eles são descartados e a Barra de Vigor é recuperada.</p>\n<p><strong>Sessão:</strong> cada reunião para jogar. A Tensão começa em <strong>2</strong> em toda sessão. No fim da sessão conta-se o karma.</p>\n<p>No Foundry, use o painel de <strong>Tensão</strong> (canto da tela) para <em>Nova Cena</em> (redefine sincronização, vigor, nagen da rodada e emoções usadas) e <em>Nova Sessão</em> (Tensão volta a 2).</p>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.G01iUescKBHDW6oO"
+    },
+    {
+      "_id": "kw1faV9Hn99a2a5e",
+      "name": "Poder Espiritual",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Poder Espiritual</h1>\n<h2>Nagen</h2>\n<p>Nome científico da energia espiritual (pronuncia-se “NÁ-guem”), homenagem ao Dr. Angelo Van Nagen. Todo ser vivo possui nagen em maior ou menor quantidade.</p>\n<h2>Focus</h2>\n<p>O conjunto de técnicas para manipular nagen, termo popularizado por Santiago Cinder. Efeitos internos se chamam <strong>jin</strong> (invisíveis — o “talento”); efeitos externos se chamam <strong>emissão</strong> e usam a aura para efeitos visíveis, como bolas de fogo.</p>\n<h2>Aura e Avatar</h2>\n<p><strong>Aura</strong> é o nagen que vaza do corpo, a energia que não está sendo usada pelas funções vitais. Durante a emissão ela brilha; quando muito nagen é emitido, parte da aura se molda num <strong>avatar</strong>, representação visual do espírito (animais, seres mitológicos... até um tanque panzer).</p>\n<h2>Canalização</h2>\n<p>Concentração para mover nagen do corpo para a aura. Em jogo, usar uma técnica é <strong>gastar nagen</strong>. Você pode gastar por rodada, com segurança, nagen igual ao seu <strong>Limiar de Canalização (Aura + 2)</strong>. Cada ponto acima disso na mesma rodada custa <strong>1 ponto de Vigor</strong>. O sistema controla automaticamente o nagen gasto por rodada (zerado quando a rodada do combate avança).</p>\n<p><em>Exemplo:</em> Asura dispara um Karyudan de custo 5 com Limiar 3: perde 2 de Vigor.</p>\n<h2>Sincronização</h2>\n<p>A forma mais poderosa de focus: alinhar a própria aura ao nagen do ambiente. Cada dado de sincronização gasto reduz o custo da técnica em 1 e é rolado junto do ataque. <strong>Se o custo for pago todo com sincronização (pelo menos 1 dado) sem perder Vigor, o efeito “Sincronização” da técnica é ativado.</strong></p>\n<h2>Kiai</h2>\n<p>Um grito (ou sussurro dramático, gesto icônico...) capaz de evocar emoção reduz o custo em nagen da técnica em 1.</p>\n<h2>Afinidades</h2>\n<p>A frequência mais comum do nagen é o <strong>éter</strong>. Algumas auras vibram em frequências elementais:</p>\n<ul>\n<li><strong>Tocados</strong> (leve afinidade): −1 nagen nas técnicas do elemento, não podem aprender técnicas do elemento oposto e perdem 2 de Vigor quando atingidos por ele.</li>\n<li><strong>Aceitos</strong> (grande afinidade): −1 nagen e +1 vantagem nas técnicas do elemento, não podem aprender técnicas de outros elementos, perdem 2 de Vigor quando atingidos pelo oposto.</li>\n</ul>\n<h2>Elementos</h2>\n<ul>\n<li><strong>Água:</strong> líquido, frio, ácido, sangue e veneno. Apaga fogo, é bloqueada pela terra.</li>\n<li><strong>Ar:</strong> vento, vácuo e eletricidade. Espalha a terra, é consumido pelo fogo.</li>\n<li><strong>Fogo:</strong> chamas, luz e sombras (inclui ilusões). Consome o ar, é apagado pela água.</li>\n<li><strong>Terra:</strong> pedras, metais e gravidade. Bloqueia a água, é espalhada pelo ar.</li>\n<li><strong>Éter:</strong> mente, espírito e nagen equilibrado. Sem vantagem ou desvantagem contra os demais; não existe afinidade com éter.</li>\n</ul>\n<p>Opostos: <strong>Água × Fogo</strong> e <strong>Ar × Terra</strong>.</p>\n<h2>O limite do corpo e Shintai</h2>\n<p>Focus não pode modificar o corpo humano (apenas pequenas mudanças estéticas). Os shen, porém, usam técnicas <strong>shintai</strong> para alterar completamente o próprio corpo. Humanos não aprendem shintai; hanyo podem aprender um.</p>\n<h2>Espíritos</h2>\n<p>Espíritos não são almas: são impressões de nagen com consciência rudimentar. Podem ser subornados com atos e objetos que ressoam com seu nagen.</p>\n<ul>\n<li>Jogadas de Presença contra espíritos têm desvantagem (Médium: vantagem).</li>\n<li>Um espírito tem apenas <strong>Aura</strong> (rola Aura + 2 dados) e <strong>Reserva</strong> (normalmente Aura × 3), que funciona como Limiar de Proteção e Barra de Vigor. Conhece uma técnica por ponto de Aura, sem requisitos, sem sincronização e sem ougi.</li>\n<li>Ataques contra espíritos são disputas contra a Aura. Todo nagen que usa sai da reserva. Quando ficaria ferido, a Aura cai 1; com Aura 0 passa uma rodada se recompondo (imune a ataques físicos, mas destruído por ataques de nagen).</li>\n<li>Aura 1: frágeis; Aura 2: ligados a emoções extremas; Aura 3: poderosos e perigosos; Aura 4+: raríssimos, nascidos de catástrofes.</li>\n</ul>\n<p>Use a ficha de <strong>Espírito</strong> do sistema para representá-los.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.kw1faV9Hn99a2a5e"
+    },
+    {
+      "_id": "2PRRCXNhYAlJz4mq",
+      "name": "Ocupações",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Ocupações</h1>\n<p>Níveis: 0 leigo · 1 aprendiz · 2 proficiente · 3 mestre. Especializações (a partir de proficiente) permitem trocar um d6 por um d10 antes de rolar.</p>\n<dl>\n<dt><strong>Artista</strong></dt><dd>Cria, inspira e diverte. Todas as artes. Especializações: balé, pintura a óleo, poesia abstrata, hardcore melódico...</dd>\n<dt><strong>Atleta</strong></dt><dd>Salta, nada e age: saltar, correr, nadar, escalar, praticar esportes, conhecer regras e esportistas. Especializações: basquete, futebol, parkour, natação...</dd>\n<dt><strong>Cientista</strong></dt><dd>Pesquisa, descobre e questiona. Ciências formais e contatos na comunidade científica. Especializações: anatomia humana, linguística aplicada, física quântica...</dd>\n<dt><strong>Diplomata</strong></dt><dd>Entende o que as pessoas sentem e diz o que querem ouvir; também evita ser enganado. Especializações: mesa de bar, reunião de negócios, tribunal, discussões online...</dd>\n<dt><strong>Engenheiro</strong></dt><dd>Constrói, repara e projeta máquinas. Especializações: mecânica de automóveis, próteses cibernéticas, forja tradicional...</dd>\n<dt><strong>Médico</strong></dt><dd>Examina, trata e cura; inclui outros profissionais de saúde. Especializações: psiquiatria, cardiologia, oftalmologia...</dd>\n<dt><strong>Místico</strong></dt><dd>Conhecimento não científico: xamanismo, religião, clarividência; comunicar-se com espíritos, rituais, interpretar o fluxo de nagen. Especializações: runas futhark, tarot, astrologia, feng shui...</dd>\n<dt><strong>Piloto</strong></dt><dd>Dirige, pilota e navega; conhece as ruas e leis de trânsito. Sem ao menos Aprendiz você não sabe dirigir. Especializações: avião bimotor, carro de passeio, lancha, moto...</dd>\n<dt><strong>Trapaceiro</strong></dt><dd>Engana, enrola e se esconde; conhece o submundo. Especializações: falsificação, disfarce, furtividade, lábia...</dd>\n<dt><strong>Vigilante</strong></dt><dd>Observa, investiga e protege; encontra detalhes ocultos e pistas. Especializações: os cinco sentidos, prontidão, intuição...</dd>\n</dl>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.2PRRCXNhYAlJz4mq"
+    },
+    {
+      "_id": "8EX4WmvbvXpE3393",
+      "name": "Combate",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Combate</h1>\n<h2>Turnos e rodadas</h2>\n<p>No seu turno você faz <strong>uma ação</strong> e uma quantidade de <strong>ações extras igual à sua Aura</strong>. Reações também gastam ações extras — guarde uma se quiser reagir no turno dos outros.</p>\n<h2>Iniciativa</h2>\n<p>Quem toma a iniciativa começa; em caso de dúvida, a maior Agilidade (depois Instinto, depois um dado). Quem agiu escolhe o próximo, e o último da rodada escolhe quem abre a seguinte (não pode escolher a si mesmo). Para simplificar, mantenha a mesma ordem a cada rodada. Técnicas que “assumem a iniciativa” agem sempre primeiro. <em>No Foundry, a iniciativa padrão é Agilidade (com Instinto como desempate); reorganize a ordem conforme a regra do “passe”.</em></p>\n<h2>Ações extras</h2>\n<p>Todo personagem pode, com uma ação extra: <strong>sacar uma arma</strong>, <strong>usar um item</strong> ou <strong>mover-se um passo</strong>. Muitas técnicas também são ações extras. Tudo que é ação extra pode ser feito com uma ação.</p>\n<h2>Ataques</h2>\n<p>Role <strong>Agilidade</strong> + o bônus do estilo (Agarrão, Combo, Golpe ou Projétil). Se o total for <strong>maior que o Limiar de Defesa</strong> do alvo, acerta: o alvo perde <strong>1 de Vigor</strong>. Compare o <strong>dano</strong> com o <strong>Limiar de Proteção</strong>: se for <strong>maior</strong>, o alvo fica <strong>ferido</strong> (marca uma caixa). Ataque simples: dano = Força (Combo: Força ou Agilidade; Projétil físico: Instinto; projétil espiritual: Vontade).</p>\n<h2>Triângulo de ataque e retaliação</h2>\n<p>Ao <strong>errar ou empatar</strong> um Golpe, Combo ou Agarrão, o alvo pode <strong>retaliar</strong> (reação) com o tipo que tem prioridade:</p>\n<ul>\n<li><strong>Golpe</strong> retalia <strong>Agarrão</strong> (mas abre a guarda para Combos).</li>\n<li><strong>Combo</strong> retalia <strong>Golpe</strong> (mas abre a guarda para Agarrões).</li>\n<li><strong>Agarrão</strong> retalia <strong>Combo</strong> (mas abre a guarda para Golpes).</li>\n<li><strong>Projéteis</strong> ficam fora do triângulo: não sofrem nem causam retaliação.</li>\n</ul>\n<h2>Disputa de projéteis</h2>\n<p>Atacado por um Projétil, você pode usar outro como defesa total: compare as jogadas. Diferença menor que 5: ambos se dissipam. Maior que 5: splash — o mais forte engole o outro e atinge o alvo. Projétil de nagen que vence um físico sempre causa splash; projéteis contínuos têm vantagem e sempre causam splash quando vencem.</p>\n<h2>Defesa total (reação)</h2>\n<ul>\n<li><strong>Esquiva:</strong> depois que o ataque supera o Limiar de Defesa, role Agilidade + Evasão; o resultado substitui o Limiar de Defesa contra aquele ataque.</li>\n<li><strong>Bloqueio:</strong> depois de atingido, role Força + Bloqueio; o resultado substitui o Limiar de Proteção contra aquele ataque.</li>\n</ul>\n<p>Técnicas de Evasão são usadas antes da comparação com o Limiar de Proteção; técnicas de Bloqueio podem ser usadas depois.</p>\n<h2>Splash</h2>\n<p>Se o ataque vence o Limiar de Defesa por <strong>5 ou mais</strong> e você <strong>descarta um dado de sincronização</strong>, escolha um efeito:</p>\n<ul>\n<li><strong>Sincronização</strong> (não exige descarte): ganhe um dado de sincronização.</li>\n<li><strong>Ataque Decisivo:</strong> dano +5.</li>\n<li><strong>Empecilho:</strong> o alvo tem desvantagem em todas as jogadas até o fim do próximo turno dele.</li>\n<li><strong>Ataque Total:</strong> faça um novo ataque como ação extra; se errar, o defensor retalia com vantagem.</li>\n</ul>\n<h2>Distância</h2>\n<p>Abstrata: <strong>engajado</strong>, <strong>próximo</strong> ou <strong>distante</strong>. Mover um passo custa uma ação extra. Golpes físicos alcançam alvos engajados; Projéteis alcançam alvos distantes (com desvantagem contra engajados).</p>\n<h2>Ferimentos e derrota</h2>\n<p>Dano acima do Limiar de Proteção marca uma caixa de ferimento: <strong>ferido</strong>. Esgotar a Barra de Vigor também marca uma caixa. Se precisar marcar uma caixa e não houver nenhuma livre, o personagem é <strong>derrotado</strong> — pode ser superado com o <strong>poder da esperança</strong>. A morte só acontece se fizer sentido na história (e pode ser evitada com 1 de karma).</p>\n<h2>Recuperação</h2>\n<p>No fim de uma cena a Barra de Vigor volta ao máximo. Um derrotado acorda na cena seguinte, ainda ferido. A condição <strong>ferido</strong> só sai com técnicas específicas, karma (Acelerar Recuperação) ou uma <strong>cena de recuperação</strong>, de preferência interagindo com outro personagem ou um laço.</p>\n<h2>Acumulando efeitos</h2>\n<p>Via de regra, efeitos se acumulam (por exemplo, Aura somada duas vezes ao dano por técnicas diferentes).</p>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.8EX4WmvbvXpE3393"
+    },
+    {
+      "_id": "gy3UpjlH1qLEaqaW",
+      "name": "O Poder das Emoções",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>O Poder das Emoções</h1>\n<p>Gaste <strong>um dado de sincronização</strong> e justifique a emoção (se não tiver dados, desmarque um laço para ganhar um). Cada emoção só pode ser invocada <strong>uma vez por cena</strong>.</p>\n<ul>\n<li><strong>Amor:</strong> só pode ser invocado com um dado obtido desmarcando um laço. Até o fim da cena, some um dado de sincronização em todas as suas ações.</li>\n<li><strong>Esperança:</strong> ignore seus ferimentos: remova a condição ferido e recupere toda a Barra de Vigor (Incansável: duas vezes por cena).</li>\n<li><strong>Confiança:</strong> some dois dados de sincronização em uma jogada.</li>\n<li><strong>Raiva:</strong> transforme um erro em acerto ou um acerto em splash.</li>\n</ul>\n<p>Os botões de emoção ficam na aba <em>Combate</em> da ficha.</p>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.gy3UpjlH1qLEaqaW"
+    },
+    {
+      "_id": "9qdJKYaOpz6fvJvE",
+      "name": "Karma e Avanços",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Karma</h1>\n<h2>Ganhando karma</h2>\n<ul>\n<li><strong>Caminhos:</strong> cada evento marcado = 1 karma ao fim da sessão.</li>\n<li><strong>Laços:</strong> cada laço marcado = 1 karma ao fim da sessão.</li>\n<li><strong>Aprendizado:</strong> derrotado ou fracasso catastrófico = 1 karma ao fim da cena.</li>\n<li><strong>Leitor:</strong> cartas de elogio, teoria e pedido.</li>\n<li><strong>Tensão:</strong> sempre que o narrador aumenta voluntariamente a Tensão, todos os protagonistas em cena ganham 1.</li>\n<li><strong>Veto:</strong> quando o narrador veta um uso legítimo de karma, o protagonista ganha 1.</li>\n<li><strong>Fim da sessão:</strong> todos ganham 1.</li>\n</ul>\n<p>O botão <strong>Encerrar Sessão</strong> na ficha soma eventos + laços marcados + 1 e limpa as marcas.</p>\n<h2>Usando karma (1 ponto cada)</h2>\n<ul>\n<li><strong>Acelerar Recuperação:</strong> entre cenas, saia da condição ferido.</li>\n<li><strong>Anular Complicação:</strong> proponha uma solução e faça um teste simples para resolvê-la rapidamente.</li>\n<li><strong>Ativar Ambiente:</strong> faça as qualidades do local se manifestarem (pode dar vantagem/desvantagem).</li>\n<li><strong>Declarar Duelo:</strong> combate um contra um sem interferência (ambos com Vigor cheio e sem ferimentos); +1 para encher o Vigor do oponente.</li>\n<li><strong>Epifania:</strong> converta karma em avanços imediatamente.</li>\n<li><strong>Editar Cena:</strong> altere um detalhe da cena (sem desfazer eventos).</li>\n<li><strong>Evitar Morte Certa.</strong></li>\n<li><strong>Inspiração:</strong> receba uma dica do narrador.</li>\n</ul>\n<h1>Avanços</h1>\n<p>Ao fim da sessão, cada <strong>5 de karma</strong> compra <strong>1 avanço</strong>. A cada 5 avanços comprados, a <strong>Aura sobe 1</strong>.</p>\n<table>\n<tr><th>Melhoria</th><th>Avanços</th></tr>\n<tr><td>Aumentar ocupação</td><td>1</td></tr>\n<tr><td>Nova ocupação</td><td>1</td></tr>\n<tr><td>Trocar trunfo</td><td>1</td></tr>\n<tr><td>Trocar caminho</td><td>1</td></tr>\n<tr><td>Redistribuir estilo de luta</td><td>1</td></tr>\n<tr><td>Novo laço</td><td>1</td></tr>\n<tr><td>Mestre</td><td>1</td></tr>\n<tr><td>Nova técnica</td><td>2</td></tr>\n<tr><td>Novo ougi</td><td>2</td></tr>\n<tr><td>Novo equipamento</td><td>2</td></tr>\n<tr><td>Novo upgrade</td><td>2</td></tr>\n<tr><td>Aumentar atributo (até 5)</td><td>3</td></tr>\n<tr><td>Caixa de ferimento adicional</td><td>3</td></tr>\n</table>\n<p>Melhorias de 3 avanços só podem ser escolhidas uma vez por nível de Aura.</p>\n<h2>Mestres</h2>\n<p>Um mestre (coadjuvante) pode ensinar um estilo. Iniciar o treinamento exige uma cena e 1 avanço: o discípulo ganha um laço com o mestre, pode adotar o estilo do mestre (mantendo seu ougi) e trocar uma técnica por uma do mestre. Se o laço com o mestre for marcado, na sessão seguinte pode treinar de novo e reconfigurar o estilo (inclusive o ougi). Após três treinamentos e duas técnicas do mestre aprendidas, mais 1 avanço concede a maestria do estilo e um ougi adicional.</p>\n<h2>Pactos e sacrifícios</h2>\n<p>Shen podem conceder poder em troca de nagen equilibrado. Role Presença com desvantagem contra a Tensão; falha: o shen recusa e pode ficar hostil; sucesso por margem maior que 5: +1 avanço. A aura do yuza fica desequilibrada para sempre.</p>\n<table>\n<tr><th>Sacrifício</th><th>Recompensa</th></tr>\n<tr><td>Um laço</td><td>1 avanço</td></tr>\n<tr><td>1 ponto de Limiar de Canalização</td><td>1 avanço</td></tr>\n<tr><td>1 ponto de Atributo</td><td>2 avanços</td></tr>\n<tr><td>1 ponto de Aura</td><td>3 avanços</td></tr>\n</table>\n<p>Quebrar o limite do corpo (aprender shintai e parar de envelhecer) custa uma recompensa de dois avanços.</p>\n<h2>O Leitor</h2>\n<p>Jogadores cujos protagonistas não estão em cena podem enviar cartas: <strong>Elogio</strong> (1×/cena, dá 1 karma ao protagonista elogiado), <strong>Teoria</strong> (1×/cena, se acatada o leitor ganha 1 karma) e <strong>Pedido</strong> (1×/sessão, se incluído o leitor ganha 1 karma).</p>\n"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.9qdJKYaOpz6fvJvE"
+    },
+    {
+      "_id": "8hkOsBUAeXKH9Afj",
+      "name": "Tensão",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Tensão</h1>\n<p>A Tensão é uma pilha de dados do narrador. Começa com <strong>2</strong> no início da sessão e aumenta em 1 sempre que um jogador tira <strong>1</strong> que fica de fora do total.</p>\n<ul>\n<li><strong>Jogada contra a Tensão:</strong> ações não direcionadas a um personagem específico. Role todos os dados da pilha e some os dois maiores. Depois de ver os dados, o narrador pode somar um <strong>terceiro dado</strong>, reduzindo a Tensão em 1.</li>\n<li><strong>Ajudar coadjuvantes/antagonistas:</strong> −1 Tensão = uma vantagem; −2 Tensão = um dado de sincronização para eles.</li>\n<li><strong>Aumentar a Tensão:</strong> o narrador pode aumentar a Tensão em 1 quando quiser (boa ideia quando cai para 2). Cada jogador com protagonista em cena ganha 1 karma.</li>\n<li>Antagonistas e coadjuvantes não acumulam sincronização: cada 6+ deles fora do total aumenta a Tensão em 1.</li>\n</ul>\n<p>O painel de Tensão do sistema faz tudo isso: rolar a pilha (com opção de terceiro dado), +1 voluntário com karma automático, comprar vantagens/sincronização para NPCs.</p>\n"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.8hkOsBUAeXKH9Afj"
+    },
+    {
+      "_id": "YDfuyqiIk1IdV7Jp",
+      "name": "Coadjuvantes e Antagonistas",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Coadjuvantes e Antagonistas</h1>\n<h2>Antagonistas</h2>\n<p>Opõem-se aos protagonistas em pé de igualdade, sempre têm nome e maneirismos marcantes. Crie-os como protagonistas, mas <strong>sem caminhos ou laços</strong> (não acumulam karma). Podem receber avanços para ficar mais poderosos. Normalmente têm um ou dois trunfos.</p>\n<h2>Coadjuvantes</h2>\n<ul>\n<li>Sem trunfos (exceto casos específicos, como hordas de ciborgues).</li>\n<li>Atributos: distribua entre <strong>12 e 15 pontos</strong>; raramente acima de 3.</li>\n<li>Ocupações: de 0 a 3 pontos.</li>\n<li>Estilo: no máximo <strong>4 pontos</strong> (alguns, nenhum).</li>\n<li>A maioria não tem técnicas (alguns têm uma ou duas). <strong>Nunca têm ougi.</strong></li>\n</ul>\n<h2>Grupos de coadjuvantes</h2>\n<p>Um grupo age apenas uma vez por rodada, como um único personagem. Para cada coadjuvante além do primeiro ganha <strong>uma vantagem</strong> em todas as jogadas (máximo 5). Quando o grupo é ferido, remova uma vantagem (um membro saiu do combate). A ficha de coadjuvante tem o campo <em>Grupo</em> que aplica isso automaticamente.</p>\n<h2>Coadjuvantes instantâneos</h2>\n<p>Defina só a Aura. Para qualquer ação, role <strong>Aura + 2</strong> dados. Os limiares são a quantidade de dados + a Tensão atual. Anote algo que faz bem (+1 dado) e algo que faz mal (−1 dado). Qualquer referência a atributos (como dano) usa a quantidade de dados. Ative a opção <em>Instantâneo</em> na ficha de coadjuvante.</p>\n<h2>Arquétipos</h2>\n<p>Qualquer arquétipo pode usar o próprio nome como conceito, ganhando um dado de sincronização para uma ação relacionada por cena. Veja o compêndio <strong><i class=\"fas fa-atlas\"></i> Coadjuvantes e Antagonistas</strong>.</p>\n<h2>Criando aventuras</h2>\n<p>Descubra o que os jogadores querem (olhe as fichas), escolha um antagonista e crie <strong>caminhos de aventura</strong>: três eventos que você gostaria que acontecessem. Cada evento só pode ser marcado uma vez; anote o nome do protagonista que o ativou para distribuir o karma.</p>\n"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.YDfuyqiIk1IdV7Jp"
+    },
+    {
+      "_id": "QbDQUqQCyBFk59fM",
+      "name": "Equipamentos, Armas e Upgrades",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Equipamentos</h1>\n<h2>Armas</h2>\n<p>Todo personagem pode ter uma arma. O dano com a arma aumenta em 1 o atributo usado (Força 2 com espada = dano como Força 3). Técnicas usadas com armas custam <strong>+1 nagen</strong>. Ao conseguir um splash com uma arma, você pode quebrá-la em vez de gastar o dado de sincronização. Uma arma comum tem uma característica; armas especiais, duas; artefatos raríssimos, três.</p>\n<dl>\n<dt>Arremessável</dt><dd>Pode ser lançada como Projétil contra alvo distante; recuperar exige uma ação extra. (machadinha)</dd>\n<dt>Debilitante</dt><dd>Splash com margem 4+, mas só com o efeito Empecilho. (chicote)</dd>\n<dt>Defensiva</dt><dd>+1 no Limiar de Proteção enquanto a usa. (escudo)</dd>\n<dt>Dupla</dt><dd>Vantagem em Combos. (tonfas)</dd>\n<dt>Flexível</dt><dd>Pode ser usada para Agarrões, com vantagem. (correntes)</dd>\n<dt>Letal</dt><dd>Splash com margem 4+, mas só com o efeito Ataque Decisivo. (katana)</dd>\n<dt>Longa</dt><dd>Ataca alvos próximos; desvantagem contra engajados, a menos que tenha descartado um 5+ no ataque anterior. (lança)</dd>\n<dt>Penetrante</dt><dd>Reduz em 1 o Limiar de Proteção do alvo. (taser)</dd>\n<dt>Perigosa</dt><dd>Um acerto remove 2 pontos de Vigor em vez de 1. (adaga kris)</dd>\n<dt>Pesada</dt><dd>+2 de dano, mas não pode ser usada em Combos e nunca inicia splash de ataque total. (marreta)</dd>\n<dt>Precisa</dt><dd>Vantagem em Golpes. (rapieira)</dd>\n<dt>Projétil</dt><dd>Ataca alvos distantes (desvantagem contra próximos). Ataques são Projéteis; dano = Instinto + 1. (arco e flecha)</dd>\n<dt>Veloz</dt><dd>Splash com margem 4+, mas só com o efeito Ataque Total. (faca)</dd>\n<dt>Vingativa</dt><dd>Todos os ataques recebem vantagem. (sai/jitte)</dd>\n</dl>\n<h2>Artefatos</h2>\n<p>Itens que alojam espíritos. Normalmente concedem uma técnica a mais, um upgrade para uma técnica ou uma arma especial com até três características. Apenas Arsenal e Agente permitem começar com artefatos (depois, via avanços). Um Ritual de Invocação (ougi) cria <strong>artefatos descartáveis</strong>, que duram uma cena após ativados.</p>\n<h2>Implantes adicionais</h2>\n<p>Para ciborgues. Cada implante depois do primeiro reduz o Limiar de Canalização em 1; abaixo de zero, o ciborgue perde o livre arbítrio. Braços (+1 LP, vantagem em Força), Computador (2 vantagens em Razão), Exotraje (vantagem em Força e Agilidade, +1 caixa de ferimento, +2 LP), Gerador (+1 sincronização por cena, 1 Vigor por vantagem uma vez por rodada), Pernas (vantagem em Agilidade, +1 LD), Arma Implantada (arma especial).</p>\n<h2>Upgrades</h2>\n<p>Cada técnica pode ter um upgrade (Caminho da Perfeição: dois). Para aprendizado e custo, um upgrade conta como uma técnica. Finesse, Invencibilidade, Poder, Precisão, Preparação, Quebra de Guarda, Ressonância, Retribuição e Versatilidade. Arraste um upgrade do compêndio para a ficha para aplicá-lo a uma técnica, ou marque-o na própria técnica.</p>\n<h2>Limitação voluntária</h2>\n<p>Uma condição autoimposta (“não funciona à luz do sol”, “só uma vez por dia”) que seja inconveniente pelo menos metade das vezes concede um upgrade gratuito. Uma limitação por ponto de Aura. Poder e Ressonância obtidos por limitações podem ser escolhidos mais de uma vez e se acumulam.</p>\n"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.QbDQUqQCyBFk59fM"
+    },
+    {
+      "_id": "La0QnrWXdOM8Tckb",
+      "name": "Usando o Sistema no Foundry",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "\n<h1>Usando o sistema</h1>\n<h2>Fichas</h2>\n<ul>\n<li><strong>Protagonista:</strong> ficha completa com caminho, laços, karma, emoções, técnicas e o Assistente de Criação.</li>\n<li><strong>Antagonista:</strong> como protagonista, sem caminho/laços/karma.</li>\n<li><strong>Coadjuvante:</strong> ficha compacta, com opções de <em>Grupo</em> e <em>Instantâneo</em>.</li>\n<li><strong>Espírito:</strong> Aura e Reserva.</li>\n</ul>\n<h2>Testes</h2>\n<p>Clique no nome de um atributo para abrir a janela de teste: escolha ocupação ou estilo, vantagens, desvantagens, dados de sincronização, especialização, conceito, confiança. Após rolar, selecione os dois dados do total (o sistema sugere os maiores): o que sobrar gera Tensão (1) e Sincronização (6+) automaticamente.</p>\n<h2>Técnicas</h2>\n<p>Clique no ícone de dado de uma técnica: escolha quantos dados de sincronização gastar, kiai, arma, etc. O sistema calcula o custo (afinidade, Ressonância, Aura de Batalha repetida), soma o nagen da rodada, desconta Vigor ao exceder o Limiar de Canalização, informa se o efeito de Sincronização foi ativado e rola o ataque com os d10 gastos. Com alvos selecionados, o cartão no chat compara com o Limiar de Defesa e indica acerto, erro, retaliação e splash, com botões para aplicar o resultado.</p>\n<h2>Painel de Tensão</h2>\n<p>Mostra a Tensão atual para todos. O narrador pode ajustar, rolar a pilha, aumentar voluntariamente (karma automático), iniciar nova cena e nova sessão.</p>\n"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "src": null,
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!WfUydRfgVNbTEgDG.La0QnrWXdOM8Tckb"
+    }
+  ],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "categories": [],
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!WfUydRfgVNbTEgDG"
+}

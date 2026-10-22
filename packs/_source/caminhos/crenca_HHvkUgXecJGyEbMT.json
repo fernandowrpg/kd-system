@@ -1,0 +1,43 @@
+{
+  "_id": "HHvkUgXecJGyEbMT",
+  "name": "Crença",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você acredita em algo com todas as forças. Pode ser uma religião (como catolicismo), um ideal (como liberdade) ou outra coisa. Você provavelmente vai estabelecer um laço com essa crença.</p>",
+    "eventos": [
+      {
+        "texto": "Explicar seus ideais para outra pessoa.",
+        "marcado": false
+      },
+      {
+        "texto": "Entrar em confusão por causa dos seus ideais.",
+        "marcado": false
+      },
+      {
+        "texto": "Acatar a decisão de uma autoridade relacionada à sua crença.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Abandonar sua crença.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!HHvkUgXecJGyEbMT"
+}

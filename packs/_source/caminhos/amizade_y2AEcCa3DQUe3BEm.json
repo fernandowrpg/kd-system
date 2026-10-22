@@ -1,0 +1,43 @@
+{
+  "_id": "y2AEcCa3DQUe3BEm",
+  "name": "Amizade",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Seus amigos são sua maior preocupação. Você faz de tudo por eles.</p>",
+    "eventos": [
+      {
+        "texto": "Se arriscar para ajudar um amigo.",
+        "marcado": false
+      },
+      {
+        "texto": "Conversar com um amigo.",
+        "marcado": false
+      },
+      {
+        "texto": "Falar sobre a importância da amizade.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Decidir se virar sozinho.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!y2AEcCa3DQUe3BEm"
+}

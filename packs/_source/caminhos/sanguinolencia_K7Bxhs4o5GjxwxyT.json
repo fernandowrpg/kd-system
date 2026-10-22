@@ -1,0 +1,43 @@
+{
+  "_id": "K7Bxhs4o5GjxwxyT",
+  "name": "Sanguinolência",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você se deleita com violência. Você tira prazer do combate, ao causar e sofrer dor; você preza a batalha acima de tudo, mesmo que não admita.</p>",
+    "eventos": [
+      {
+        "texto": "Falar abertamente sobre sua sede de sangue.",
+        "marcado": false
+      },
+      {
+        "texto": "Entrar em combate.",
+        "marcado": false
+      },
+      {
+        "texto": "Espancar alguém brutalmente.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Desistir de lutar.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!K7Bxhs4o5GjxwxyT"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "Dcpj0TaQuHjRvJCO",
+  "name": "Ímpeto Infinito",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "Força 4, Agilidade 4",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "3 por ataque",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Alguns yuzas desenvolvem a capacidade de atacar seus oponentes, empurrá-los para trás e continuar com os ataques em sequência. Isso pode ser especialmente perigoso em lutas em grupo, quando uma série de ataques pode afastar um oponente de seus aliados. Faça um ataque normal, como se tivesse usado um Combo sem nenhuma técnica especial. Caso acerte, você e o alvo se afastam um passo de quaisquer pessoas ao redor. Você pode gastar mais 3 nagen para fazer um novo ataque como uma ação extra, com vantagem e +1 no dano. Ao final do ataque, você pode optar por ficar engajado ou próximo ao alvo. Ímpeto Infinito não causa dano por si só, apenas usa ataques Combo normais. O dano desses ataques não pode ser aumentado por upgrades.</p>",
+    "ougi": "<p>Você pode fazer um terceiro ataque depois de acertar o segundo, com os mesmos efeitos.</p>",
+    "sincronizacao": "<p>Você tem vantagem no ataque e soma sua aura no dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "max(@for, @agi)",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Dcpj0TaQuHjRvJCO"
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "JYVMB5X9mC2z9piL",
+  "name": "Upgrade: Finesse",
+  "type": "upgrade",
+  "img": "systems/lenda-dragao-fogo/assets/icons/upgrade.svg",
+  "system": {
+    "chave": "finesse",
+    "descricao": "<p>Em vez de força bruta, você usa elegância e destreza para executar o ataque. Só pode ser aplicado a técnicas que causam dano e calculam esse dano com Força. O dano passa a ser calculado com Agilidade.</p><p><em>Arraste este upgrade para a ficha de um personagem para aplicá-lo a uma técnica. Para aprendizado e custo, um upgrade conta como uma técnica.</em></p>"
+  },
+  "effects": [],
+  "folder": "B0EYpNKOylAHv0xc",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!JYVMB5X9mC2z9piL"
+}

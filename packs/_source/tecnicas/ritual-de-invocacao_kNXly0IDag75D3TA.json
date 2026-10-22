@@ -1,0 +1,54 @@
+{
+  "_id": "kNXly0IDag75D3TA",
+  "name": "Ritual de Invocação",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ritual.svg",
+  "system": {
+    "requisitos": "Aura 1, Médium",
+    "tipos": [],
+    "elemento": "",
+    "acao": "ritual",
+    "nagen": 4,
+    "nagenNota": "4 por ponto de aura (ver acima).",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": true,
+    "descricao": "<p>Esta técnica é a principal forma de invocar espíritos (p. 86). O yuza realiza um ritual de alguns minutos, normalmente oferecendo ao espírito algo que seria de seu agrado. O yuza determina a polaridade e a afinidade do nagen do espírito que quer invocar. Ele também pode escolher a intensidade da sua aura, mas espíritos maiores são mais exigentes. Cada ponto da Aura do espírito demanda 4 de nagen do yuza. O espírito invocado fica a serviço do yuza por uma cena. Se ele foi invocado em uma cena de transição, ele ajuda na próxima cena de ação. O espírito é amigável, mas qualquer ação que faça o espírito gastar nagen requer que ele seja convencido com uma disputa de Presença contra Vontade, como uma ação extra. Se o yuza tiver um laço com o espírito ou se oferecer algo de que o espírito gosta, ele tem vantagem na jogada.</p>",
+    "ougi": "<p>Você pode usar essa técnica para criar artefatos descartáveis (p. 170).</p>",
+    "sincronizacao": "<p>O espírito tem vantagem em todas as ações até o final da cena.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "BeNYeYti4lBDVwId",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!kNXly0IDag75D3TA"
+}

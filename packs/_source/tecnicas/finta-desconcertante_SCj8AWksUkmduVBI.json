@@ -1,0 +1,54 @@
+{
+  "_id": "SCj8AWksUkmduVBI",
+  "name": "Finta Desconcertante",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Presença 3, Trapaceiro 1",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Você engana seu oponente de alguma forma, posicionando-o para acertar com outro golpe. Pode ser um drible de corpo, um chute do lado da cabeça para acertar na nuca com o calcanhar, fingir que vai atacar com uma mão mas usar a outra ou qualquer outra forma de enganação. Usar essa técnica é uma ação extra: teste Presença contra Instinto do alvo. Caso tenha sucesso, o próximo ataque é feito com vantagem e você pode somar sua ocupação Trapaceiro na jogada de ataque em vez do bônus de estilo de luta.</p>",
+    "ougi": "<p>Você tem vantagem no teste de Presença para usar a técnica.</p>",
+    "sincronizacao": "<p>Você tem duas vantagens no ataque feito após o uso da técnica.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!SCj8AWksUkmduVBI"
+}

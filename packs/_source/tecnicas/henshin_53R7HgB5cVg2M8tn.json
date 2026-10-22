@@ -1,0 +1,54 @@
+{
+  "_id": "53R7HgB5cVg2M8tn",
+  "name": "Henshin",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": true,
+    "ritual": false,
+    "descricao": "<p>Uma das habilidades que mais surpreendem os humanos é quando os shen assumem outra forma. Muitos se desesperam pensando nos crimes que poderiam acontecer ao acolher um yokai em suas comunidades, mas poucos são os yokai capazes de assumir a forma de outra pessoa. O que é comum é a habilidade de assumir a forma de um animal. Com esse shintai, o shen se torna capaz de se transformar em um animal, escolhido quando aprende o shintai. Na forma de animal, ele não pode falar nem usar técnicas, mas tem facilidade para tarefas relacionadas ao animal em questão, recebendo vantagem quando as realiza. Por exemplo, um shen que assuma forma de cachorro teria vantagem para farejar.</p>",
+    "ougi": "<p>Você pode usar suas técnicas normalmente na forma animal, adaptando-as para a nova forma. Uma cobra não pode chutar, obviamente, mas pode fazer um golpe veloz com a parte traseira.</p>",
+    "sincronizacao": "<p>Você assume uma forma híbrida entre humano e animal. Além das vantagens relacionadas ao animal escolhido, você se alinha melhor com o nagen ao redor. Aumente sua Aura em 1 ponto até o final da cena. Nessa forma, você pode usar todas as suas técnicas normalmente e falar.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Hf5Fjh7IJzO92JNz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!53R7HgB5cVg2M8tn"
+}

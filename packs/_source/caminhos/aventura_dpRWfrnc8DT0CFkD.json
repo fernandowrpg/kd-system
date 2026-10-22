@@ -1,0 +1,43 @@
+{
+  "_id": "dpRWfrnc8DT0CFkD",
+  "name": "Aventura",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você está cansado de rotina, da vida normal, de se conformar. Gosta de correr riscos e fazer coisas imprevisíveis.</p>",
+    "eventos": [
+      {
+        "texto": "Agir sem pensar.",
+        "marcado": false
+      },
+      {
+        "texto": "Correr perigo sem motivo.",
+        "marcado": false
+      },
+      {
+        "texto": "Reclamar sobre uma situação chata.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Parar de se aventurar.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dpRWfrnc8DT0CFkD"
+}

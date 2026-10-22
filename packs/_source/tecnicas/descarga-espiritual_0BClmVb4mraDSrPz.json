@@ -1,0 +1,54 @@
+{
+  "_id": "0BClmVb4mraDSrPz",
+  "name": "Descarga Espiritual",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [],
+    "elemento": "variavel",
+    "acao": "acaoExtra",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Após acertar um alvo com um Agarrão, o yuza pode usar essa técnica como uma ação extra, liberando uma explosão de nagen no alvo. Se o yuza tem afinidade com algum elemento, essa técnica assume o mesmo elemento. O dano causado é igual a Vontade + 1.</p>",
+    "ougi": "<p>Você pode usar a Descarga Espiritual como parte da mesma ação usada para agarrar.</p>",
+    "sincronizacao": "<p>Some sua Aura ao dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@von + 1",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0BClmVb4mraDSrPz"
+}

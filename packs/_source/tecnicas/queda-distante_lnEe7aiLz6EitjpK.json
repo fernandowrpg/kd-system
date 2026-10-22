@@ -1,0 +1,56 @@
+{
+  "_id": "lnEe7aiLz6EitjpK",
+  "name": "Queda Distante",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agarrao.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "agarrao"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Frequentemente um agarrão envolve usar contra os inimigos a maior arma disponível: o chão. A Queda Distante leva esse raciocínio ao extremo, não só jogando o oponente no chão, como jogando-o longe. A vítima sofre dano igual à Força, é afastada um passo de distância e fica desequilibrada, sofrendo uma desvantagem na sua próxima jogada.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de ataque.</p>",
+    "sincronizacao": "<p>A vítima é afastada 2 passos de distância.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 1,
+      "dano": "@for",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!lnEe7aiLz6EitjpK"
+}

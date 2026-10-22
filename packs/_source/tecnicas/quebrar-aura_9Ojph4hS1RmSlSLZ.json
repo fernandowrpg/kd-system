@@ -1,0 +1,54 @@
+{
+  "_id": "9Ojph4hS1RmSlSLZ",
+  "name": "Quebrar Aura",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Zanshin, Pontos de Pressão",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O yuza consegue interferir no fluxo de nagen de um alvo. Escolha um tipo de ataque (Agarrão, Combo, Golpe ou Projétil). Depois de acertar com um ataque desse tipo, o yuza pode usar uma ação extra para quebrar a aura do alvo. Dispute Vontade contra a Vontade do alvo. Em caso de sucesso do yuza, remova um dado de sincronização do alvo e encerre imediatamente qualquer técnica que ele tenha ativa. Se não tiver nenhum dado de sincronização nem técnica ativa, o alvo marca uma caixa de ferimento.</p>",
+    "ougi": "<p>Você pode remover um dado de sincronização e encerrar uma técnica ao mesmo tempo.</p>",
+    "sincronizacao": "<p>Caso vença a disputa, além dos efeitos normais, o alvo marca uma caixa de ferimento.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9Ojph4hS1RmSlSLZ"
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "VFi6YGLgziZLm7dY",
+  "name": "Proteção",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Existe alguém que você precisa defender e proteger a todo o custo. Pode ser um irmão, um amante, outro protagonista, um filho ou até mesmo uma pessoa que nem vai com a sua cara! Você provavelmente vai estabelecer um laço com o seu protegido.</p>",
+    "eventos": [
+      {
+        "texto": "Conversar com o seu protegido.",
+        "marcado": false
+      },
+      {
+        "texto": "Mudar seu curso de ação por causa do seu protegido.",
+        "marcado": false
+      },
+      {
+        "texto": "Salvar seu protegido do perigo.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Perceber que essa pessoa não precisa da sua proteção.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!VFi6YGLgziZLm7dY"
+}

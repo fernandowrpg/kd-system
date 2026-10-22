@@ -1,0 +1,56 @@
+{
+  "_id": "KLOQzCFxOC8WdSET",
+  "name": "Palma Seca",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "agua",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Com um toque, você pode absorver a umidade do corpo de um oponente. O que causa o ferimento não é o impacto. A área atingida resseca totalmente. Faça sua jogada de ataque com vantagem. O dano é igual à Aura + Vontade + 2. Caso marque uma caixa de ferimento devido ao ataque, o alvo sofre uma desvantagem em sua próxima jogada.</p>",
+    "ougi": "<p>Descarte um dado 5+ para causar uma desvantagem na próxima ação do alvo.</p>",
+    "sincronizacao": "<p>Qualquer desvantagem causada pelo ataque dura até o final do próximo turno do alvo.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 1,
+      "vantagensOugi": 0,
+      "dano": "@aura + @von + 2",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!KLOQzCFxOC8WdSET"
+}

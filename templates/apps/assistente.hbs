@@ -1,0 +1,223 @@
+<div class="assistente">
+  <nav class="assistente-passos">
+    {{#each passos}}
+    <a class="passo {{#if ativo}}ativo{{/if}} {{#if ok}}ok{{/if}}" data-action="passo" data-indice="{{indice}}">
+      <span class="numero">{{#if ok}}<i class="fas fa-check"></i>{{else}}{{numero}}{{/if}}</span>
+      <span class="rotulo">{{label}}</span>
+    </a>
+    {{/each}}
+  </nav>
+
+  <div class="assistente-principal">
+    <div class="assistente-conteudo">
+
+      {{#if passo_conceito}}
+      <h2>1. {{localize "LENDA.Assistente.Passo.conceito"}}</h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.conceito"}}</p>
+      <div class="form-group"><label>{{localize "LENDA.Cabecalho.Nome"}}</label><input type="text" name="nome" value="{{estado.nome}}"></div>
+      <div class="form-group"><label>{{localize "LENDA.Conceito"}}</label><input type="text" name="conceito" value="{{estado.conceito}}" placeholder="{{localize 'LENDA.ConceitoPlaceholder'}}"></div>
+      <p class="exemplo">{{localize "LENDA.Assistente.Exemplo.conceito"}}</p>
+      {{/if}}
+
+      {{#if passo_aura}}
+      <h2>2. {{localize "LENDA.Assistente.Passo.aura"}}</h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.aura"}}</p>
+      <div class="destaque"><span class="grande">1</span> {{localize "LENDA.Aura"}}</div>
+      {{/if}}
+
+      {{#if passo_caminho}}
+      <h2>3. {{localize "LENDA.Assistente.Passo.caminho"}}</h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.caminho"}}</p>
+      <div class="grade-cartoes">
+        {{#each caminhos}}
+        <label class="cartao {{#if selecionado}}selecionado{{/if}}">
+          <input type="radio" name="caminho" value="{{_id}}" {{checked selecionado}}>
+          <span class="cartao-titulo">{{name}} <a class="ver" data-action="verItem" data-uuid="{{uuid}}"><i class="fas fa-eye"></i></a></span>
+          <ul class="eventos">{{#each system.eventos}}<li>{{texto}}</li>{{/each}}</ul>
+          <span class="reviravolta"><i class="fas fa-rotate"></i> {{system.reviravolta.texto}}</span>
+        </label>
+        {{/each}}
+      </div>
+      {{/if}}
+
+      {{#if passo_lacos}}
+      <h2>4. {{localize "LENDA.Assistente.Passo.lacos"}} <span class="contador">({{limites.lacos}})</span></h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.lacos"}}</p>
+      <ol class="lista-lacos">
+        {{#each estado.lacos}}
+        <li><input type="text" name="lacos.{{@index}}" value="{{this}}" placeholder="{{localize 'LENDA.Laco.Placeholder'}}"> <a data-action="lacoRemover" data-indice="{{@index}}"><i class="fas fa-trash"></i></a></li>
+        {{/each}}
+      </ol>
+      <a class="botao-criar" data-action="lacoAdicionar"><i class="fas fa-plus"></i> {{localize "LENDA.Laco.Adicionar"}}</a>
+      <p class="exemplo">{{localize "LENDA.Assistente.Exemplo.lacos"}}</p>
+      {{/if}}
+
+      {{#if passo_atributos}}
+      <h2>5. {{localize "LENDA.Assistente.Passo.atributos"}} <span class="contador {{#if restAtr}}pendente{{/if}}">{{localize "LENDA.Assistente.Restantes" n=restAtr}}</span></h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.atributos"}}</p>
+      <div class="grade-ajuste">
+        {{#each atributos}}
+        <div class="ajuste">
+          <div class="ajuste-topo">
+            <strong>{{abbr}}</strong> {{label}}
+            <span class="controles">
+              <a data-action="ajustar" data-grupo="atributos" data-chave="{{key}}" data-delta="-1"><i class="fas fa-minus"></i></a>
+              <input type="number" name="atributos.{{key}}" value="{{value}}" min="1" max="5">
+              <a data-action="ajustar" data-grupo="atributos" data-chave="{{key}}" data-delta="1"><i class="fas fa-plus"></i></a>
+            </span>
+            {{#if (lenda-ne final value)}}<span class="tag">→ {{final}}</span>{{/if}}
+          </div>
+          <p class="descricao">{{descricao}}</p>
+        </div>
+        {{/each}}
+      </div>
+      {{/if}}
+
+      {{#if passo_ocupacoes}}
+      <h2>6. {{localize "LENDA.Assistente.Passo.ocupacoes"}} <span class="contador {{#if restOc}}pendente{{/if}}">{{localize "LENDA.Assistente.Restantes" n=restOc}}</span></h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.ocupacoes"}}</p>
+      {{#if limites.especializacoesGratis}}<p class="dica">{{localize "LENDA.Assistente.EspecializacoesGratis" n=limites.especializacoesGratis}}</p>{{/if}}
+      <div class="grade-ajuste">
+        {{#each ocupacoes}}
+        <div class="ajuste">
+          <div class="ajuste-topo">
+            <strong>{{label}}</strong>
+            <span class="controles">
+              <a data-action="ajustar" data-grupo="ocupacoes" data-chave="{{key}}" data-delta="-1"><i class="fas fa-minus"></i></a>
+              <input type="number" name="ocupacoes.{{key}}" value="{{value}}" min="0" max="3">
+              <a data-action="ajustar" data-grupo="ocupacoes" data-chave="{{key}}" data-delta="1"><i class="fas fa-plus"></i></a>
+            </span>
+          </div>
+          <p class="descricao">{{descricao}}</p>
+          {{#if podeEspecializar}}<input type="text" name="especializacoes.{{key}}" value="{{especializacoes}}" placeholder="{{localize 'LENDA.Assistente.EspecializacaoPlaceholder'}}">{{/if}}
+        </div>
+        {{/each}}
+      </div>
+      {{/if}}
+
+      {{#if passo_estilo}}
+      <h2>7. {{localize "LENDA.Assistente.Passo.estilo"}} <span class="contador {{#if restEst}}pendente{{/if}}">{{localize "LENDA.Assistente.Restantes" n=restEst}}</span></h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.estilo"}}</p>
+      <div class="form-group"><label>{{localize "LENDA.EstiloNomePlaceholder"}}</label><input type="text" name="estiloNome" value="{{estado.estiloNome}}"></div>
+      <div class="grade-ajuste estilo">
+        {{#each estilo}}
+        <div class="ajuste">
+          <div class="ajuste-topo">
+            <img src="{{icon}}" alt=""> <strong>{{label}}</strong>
+            <span class="controles">
+              <a data-action="ajustar" data-grupo="estilo" data-chave="{{key}}" data-delta="-1"><i class="fas fa-minus"></i></a>
+              <input type="number" name="estilo.{{key}}" value="{{value}}" min="0" max="{{../limites.estiloMax}}">
+              <a data-action="ajustar" data-grupo="estilo" data-chave="{{key}}" data-delta="1"><i class="fas fa-plus"></i></a>
+            </span>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+      <h3>{{localize "LENDA.Assistente.EstilosProntos"}}</h3>
+      <ul class="lista-estilos">
+        {{#each estilos}}
+        <li><a data-action="estiloPreset" data-id="{{_id}}"><i class="fas fa-download"></i> <strong>{{name}}</strong></a>{{#if system.secreto}} <span class="tag">{{localize "LENDA.Estilo.Secreto"}}</span>{{/if}} — {{resumo}} · {{localize "LENDA.Ougi"}}: {{ougis}}</li>
+        {{/each}}
+      </ul>
+      <p class="dica">{{localize "LENDA.Assistente.Texto.ougi"}}</p>
+      {{/if}}
+
+      {{#if passo_trunfos}}
+      <h2>8. {{localize "LENDA.Assistente.Passo.trunfos"}} <span class="contador">({{estado.trunfos.length}}/2)</span></h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.trunfos"}}</p>
+      {{#if temProdigio}}
+      <div class="form-group"><label>{{localize "LENDA.Assistente.ProdigioAtributo"}}</label>
+        <select name="prodigio"><option value="">—</option>{{#each opcoesProdigio}}<option value="{{value}}" {{#if selecionado}}selected{{/if}}>{{label}}</option>{{/each}}</select>
+      </div>
+      {{/if}}
+      <div class="grade-cartoes">
+        {{#each trunfos}}
+        <div class="cartao {{#if selecionado}}selecionado{{/if}} {{#unless reqOk}}bloqueado{{/unless}}">
+          <label class="cartao-titulo"><input type="checkbox" name="trunfos.{{_id}}" {{checked selecionado}}> {{name}} <a class="ver" data-action="verItem" data-uuid="{{uuid}}"><i class="fas fa-eye"></i></a></label>
+          {{#if system.requisitos}}<span class="requisitos {{#unless reqOk}}falta{{/unless}}">{{localize "LENDA.Requisitos"}}: {{system.requisitos}}</span>{{/if}}
+          {{#if precisaElemento}}{{#if selecionado}}
+          <select name="elementos.{{_id}}"><option value="">{{localize "LENDA.Assistente.EscolhaElemento"}}</option>{{#each @root.elementos}}<option value="{{value}}" {{#if (lenda-eq value ../elemento)}}selected{{/if}}>{{label}}</option>{{/each}}</select>
+          {{/if}}{{/if}}
+        </div>
+        {{/each}}
+      </div>
+      {{/if}}
+
+      {{#if passo_tecnicas}}
+      <h2>9. {{localize "LENDA.Assistente.Passo.tecnicas"}} <span class="contador">({{numTecnicas}} · {{localize "LENDA.Assistente.LimiteTecnicas" n=limites.tecnicas}})</span></h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.tecnicas"}}</p>
+      <div class="filtros">
+        <input type="search" name="filtro" value="{{estado.filtro}}" placeholder="{{localize 'LENDA.Assistente.Buscar'}}">
+        <select name="categoria">{{#each categorias}}<option value="{{value}}" {{#if selecionado}}selected{{/if}}>{{label}}</option>{{/each}}</select>
+      </div>
+      {{#if selecionadasNomes.length}}
+      <div class="selecionadas">
+        <strong>{{localize "LENDA.Assistente.Escolhidas"}}:</strong>
+        {{#each selecionadasNomes}}<span class="tag {{#if ougi}}ougi{{/if}}">{{name}}{{#if ougi}} ★{{/if}}</span>{{/each}}
+      </div>
+      {{/if}}
+      <table class="tabela-tecnicas">
+        <thead><tr><th></th><th>{{localize "LENDA.Tecnica.Nome"}}</th><th>{{localize "LENDA.Tecnica.Tipo"}}</th><th>{{localize "LENDA.Nagen"}}</th><th>{{localize "LENDA.Requisitos"}}</th><th data-tooltip="{{localize 'LENDA.Tecnica.OugiHint'}}">{{localize "LENDA.Ougi"}}</th></tr></thead>
+        <tbody>
+          {{#each tecnicas}}
+          <tr class="{{#if selecionado}}selecionado{{/if}} {{#unless reqOk}}falta{{/unless}} {{#if bloqueio}}bloqueado{{/if}}">
+            <td><input type="checkbox" name="tecnicas.{{_id}}" {{checked selecionado}}></td>
+            <td><a data-action="verItem" data-uuid="{{uuid}}">{{name}}</a><br><small>{{acao}}</small></td>
+            <td class="icones">{{#each icones}}<img src="{{src}}" alt="{{label}}" data-tooltip="{{label}}">{{/each}}</td>
+            <td>{{s.nagen}}</td>
+            <td class="req">{{s.requisitos}}{{#unless reqOk}}<br><span class="falta"><i class="fas fa-triangle-exclamation"></i> {{faltando}}</span>{{/unless}}{{#if bloqueio}}<br><span class="falta"><i class="fas fa-ban"></i> {{bloqueio}}</span>{{/if}}</td>
+            <td>{{#if selecionado}}<input type="checkbox" name="ougis.{{_id}}" {{checked ougi}}>{{/if}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      {{/if}}
+
+      {{#if passo_resumo}}
+      <h2>10. {{localize "LENDA.Assistente.Passo.resumo"}}</h2>
+      <p class="explicacao">{{localize "LENDA.Assistente.Texto.resumo"}}</p>
+      <div class="resumo-grade">
+        <div><strong>{{localize "LENDA.Cabecalho.Nome"}}:</strong> {{estado.nome}}</div>
+        <div><strong>{{localize "LENDA.Conceito"}}:</strong> {{estado.conceito}}</div>
+        <div><strong>{{localize "LENDA.Caminho"}}:</strong> {{caminhoNome}}</div>
+        <div><strong>{{localize "LENDA.Trunfos"}}:</strong> {{trunfosNomes}}</div>
+        <div><strong>{{localize "LENDA.EstiloDeLuta"}}:</strong> {{estado.estiloNome}}</div>
+        <div><strong>{{localize "LENDA.Tecnicas"}}:</strong> {{#each selecionadasNomes}}{{name}}{{#if ougi}} ★{{/if}}{{#unless @last}}, {{/unless}}{{/each}}</div>
+      </div>
+      <div class="grade-limiares">
+        <div class="limiar"><span class="valor">{{derivados.vigor}}</span><span class="nome">{{localize "LENDA.Vigor"}}</span></div>
+        <div class="limiar"><span class="valor">{{derivados.canalizacao}}</span><span class="nome">{{localize "LENDA.Limiar.Canalizacao"}}</span></div>
+        <div class="limiar"><span class="valor">{{derivados.defesa}}</span><span class="nome">{{localize "LENDA.Limiar.Defesa"}}</span></div>
+        <div class="limiar"><span class="valor">{{derivados.protecao}}</span><span class="nome">{{localize "LENDA.Limiar.Protecao"}}</span></div>
+        <div class="limiar"><span class="valor">{{derivados.ferimentos}}</span><span class="nome">{{localize "LENDA.Ferimentos"}}</span></div>
+        <div class="limiar"><span class="valor">{{derivados.sinc}}</span><span class="nome">{{localize "LENDA.SincInicial"}}</span></div>
+      </div>
+      <label class="caixa-opcao"><input type="checkbox" name="substituir" {{checked estado.substituir}}> {{localize "LENDA.Assistente.Substituir"}}</label>
+      {{#if todosErros.length}}
+      <div class="erros-todos">
+        <h3><i class="fas fa-triangle-exclamation"></i> {{localize "LENDA.Assistente.Pendencias"}}</h3>
+        <ul>{{#each todosErros}}<li>{{this}}</li>{{/each}}</ul>
+      </div>
+      {{else}}
+      <p class="tudo-ok"><i class="fas fa-circle-check"></i> {{localize "LENDA.Assistente.TudoOk"}}</p>
+      {{/if}}
+      <p class="dica">{{localize "LENDA.Assistente.Texto.equipamento"}}</p>
+      {{/if}}
+    </div>
+
+    {{#if erros.length}}
+    <div class="assistente-erros">
+      {{#each erros}}<p><i class="fas fa-circle-exclamation"></i> {{this}}</p>{{/each}}
+    </div>
+    {{/if}}
+
+    <footer class="assistente-rodape">
+      <button type="button" data-action="anterior" {{#if primeiro}}disabled{{/if}}><i class="fas fa-arrow-left"></i> {{localize "LENDA.Assistente.Anterior"}}</button>
+      {{#if ultimo}}
+      <button type="button" class="aplicar" data-action="aplicar"><i class="fas fa-check"></i> {{localize "LENDA.Assistente.Aplicar"}}</button>
+      {{else}}
+      <button type="button" data-action="proximo">{{localize "LENDA.Assistente.Proximo"}} <i class="fas fa-arrow-right"></i></button>
+      {{/if}}
+    </footer>
+  </div>
+</div>

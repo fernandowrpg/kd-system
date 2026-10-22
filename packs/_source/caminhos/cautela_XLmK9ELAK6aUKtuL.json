@@ -1,0 +1,43 @@
+{
+  "_id": "XLmK9ELAK6aUKtuL",
+  "name": "Cautela",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você só quer salvar a própria pele e se manter fora de encrenca. Evita o perigo como um gato foge de água fria.</p>",
+    "eventos": [
+      {
+        "texto": "Evitar participar de uma cena por causa do risco envolvido.",
+        "marcado": false
+      },
+      {
+        "texto": "Aconselhar outra pessoa a não correr riscos.",
+        "marcado": false
+      },
+      {
+        "texto": "Planejar cuidadosamente antes de agir.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Enfrentar o perigo de frente.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!XLmK9ELAK6aUKtuL"
+}

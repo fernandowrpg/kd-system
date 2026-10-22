@@ -1,0 +1,56 @@
+{
+  "_id": "M4UtGel5KXBETLdb",
+  "name": "Ciclone Humano",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "Agilidade 3",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 3,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O lutador gira sobre o seu próprio eixo, acertando todos os alvos engajados. Faça um ataque e compare o resultado com o Limiar de Defesa de todos os alvos. Se estiver enfrentando um grupo de coadjuvantes, essa técnica pode iniciar um splash de ataque total mesmo num acerto normal. O dano é igual à Força ou Agilidade (o que for maior).</p>",
+    "ougi": "<p>Você não gasta sincronização para criar um splash de ataque total com esta técnica, desde que use a mesma técnica para o segundo ataque.</p>",
+    "sincronizacao": "<p>Some sua Aura ao dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "max(@for, @agi)",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!M4UtGel5KXBETLdb"
+}

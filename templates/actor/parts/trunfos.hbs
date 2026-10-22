@@ -1,0 +1,25 @@
+<section class="bloco trunfos">
+  <div class="titulo-acoes">
+    <h3 class="titulo-bloco">{{localize "LENDA.Trunfos"}} <span class="contagem">({{trunfos.length}})</span></h3>
+    {{#if editable}}<a class="botao-criar" data-action="itemCriar" data-type="trunfo"><i class="fas fa-plus"></i></a>{{/if}}
+  </div>
+  {{#unless trunfos.length}}<p class="vazio"><i class="fas fa-hand-pointer"></i> {{localize "LENDA.Dica.ArrasteTrunfos"}}</p>{{/unless}}
+  <ol class="lista-itens lista-trunfos">
+    {{#each trunfos as |t|}}
+    <li class="item trunfo draggable" data-item-id="{{t.id}}" data-document-uuid="{{t.uuid}}" draggable="true">
+      <div class="linha">
+        <a class="col-nome" data-action="itemExpandir">
+          <img src="{{t.img}}" alt="">
+          <span class="nome">{{t.name}}{{#if t.elementoNome}} <em>({{t.elementoNome}})</em>{{/if}}</span>
+        </a>
+        <span class="col-controles">
+          <a data-action="itemChat" data-tooltip="{{localize 'LENDA.ParaChat'}}"><i class="fas fa-comment"></i></a>
+          <a data-action="itemEditar" data-tooltip="{{localize 'LENDA.Editar'}}"><i class="fas fa-pen"></i></a>
+          {{#if @root.editable}}<a data-action="itemApagar" data-tooltip="{{localize 'LENDA.Apagar'}}"><i class="fas fa-trash"></i></a>{{/if}}
+        </span>
+      </div>
+      {{#if t.expandido}}<div class="detalhes"><div class="descricao">{{{t.descricaoHtml}}}</div></div>{{/if}}
+    </li>
+    {{/each}}
+  </ol>
+</section>

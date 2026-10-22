@@ -1,0 +1,56 @@
+{
+  "_id": "xdNLGOydvQlFNI0x",
+  "name": "Punho Gravitacional",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "Aura 1, Força 4",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "terra",
+    "acao": "acao",
+    "nagen": 5,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>A partir de uma postura sólida, o yuza absorve a energia da terra e a acumula no próprio punho. A quantidade de nagen é tamanha que o punho chega a brilhar. Essa conexão com a terra aumenta a atração gravitacional sobre o punho no momento exato do impacto, aumentando a massa sem diminuir a velocidade, transformando um soco normal em um golpe devastador. O dano é igual à Força + Vontade + Aura, e a vítima é arremessada para uma distância próxima por causa do impacto.</p>",
+    "ougi": "<p>A vítima é arremessada mais longe ainda, ficando distante.</p>",
+    "sincronizacao": "<p>Multiplique Aura por dois antes de calcular o dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@for + @von + @aura",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!xdNLGOydvQlFNI0x"
+}

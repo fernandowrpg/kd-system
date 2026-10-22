@@ -1,0 +1,55 @@
+{
+  "_id": "gkwgD1JuDpYBjH7F",
+  "name": "Conhecimento Efêmero",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Você pode acessar temporariamente conhecimentos que não possui. Talvez você tenha perdido a memória, talvez tenha acesso a um banco de dados cibernético, talvez comungue com espíritos ancestrais.</p><p>Você pode, uma vez por sessão de jogo, declarar que possui uma ocupação em nível 2, uma especialização de ocupação ou uma técnica para a qual cumpra os requisitos. Assim que o fizer, a Tensão aumenta em 1. O efeito dura até o final da cena; depois você perde o conhecimento, mas pode comprá-lo permanentemente pelo custo normal em avanços se quiser.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 0,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!gkwgD1JuDpYBjH7F"
+}

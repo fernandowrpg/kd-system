@@ -1,0 +1,56 @@
+{
+  "_id": "E5KnKox4hjCDYoR3",
+  "name": "Asterisco Aéreo",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "Agilidade 5, Ataque Trespassante, Salto Duplo, Shunpo",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "ar",
+    "acao": "acao",
+    "nagen": 7,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Esta técnica terrível é dominada por poucos fora das fileiras dos Piratas do Céu. O yuza se lança contra um oponente próximo como em um Ataque Trespassante normal, mas após ultrapassar seu alvo, cria um colchão de ar aproveitando os conceitos de Salto Aéreo e retorna para um novo ataque. O movimento em linha reta de alta velocidade, repetido em uma variedade de ângulos, parece um asterisco desenhado em pleno ar, tendo o oponente como seu centro. Asterisco Aéreo causa dano igual à Agilidade x2. Caso obtenha um splash, não precisa gastar sincronização para fazer um ataque total, desde que ataque com Asterisco Aéreo novamente. Isso pode ser repetido no caso de outro splash, até um máximo de ataques totais igual à Aura do yuza. Contra grupos de inimigos, a jogada de ataque é feita com vantagem.</p>",
+    "ougi": "<p>Some sua Aura no dano.</p>",
+    "sincronizacao": "<p>Um acerto normal causa um splash.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@agi * 2",
+      "danoOugi": "@aura",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!E5KnKox4hjCDYoR3"
+}

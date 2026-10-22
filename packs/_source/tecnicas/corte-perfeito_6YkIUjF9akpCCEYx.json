@@ -1,0 +1,56 @@
+{
+  "_id": "6YkIUjF9akpCCEYx",
+  "name": "Corte Perfeito",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "golpe"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O Circuito Mundial de Lutas tornou tão popular a imagem do guerreiro de mãos nuas que o papel icônico do espadachim parece relegado ao passado. É mais difícil usar nagen com armas, afinal de contas. Por que dificultar o acesso ao verdadeiro poder? A resposta para isso reside nesta técnica, aperfeiçoada por gerações de samurais. O Corte Perfeito pode ser realizado apenas com uma arma cortante que tenha, pelo menos, o tamanho do braço do usuário. O yuza usa uma ação extra para se concentrar, respirando fundo, fechando os olhos e removendo qualquer distração da sua mente. Por fim, ele ataca com um único corte devastador. O dano causado é igual à soma de Força, Vontade e Aura. Qualquer bônus no Limiar de Proteção do alvo é ignorado; apenas seus valores naturais contam. Um objeto inanimado é cortado automaticamente; objetos maiores que a espada requerem uma jogada de Força ou Agilidade contra a Tensão. O Corte Perfeito requer emoções equilibradas. Essa técnica nunca pode ser usada em conjunto com o poder da raiva.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de ataque.</p>",
+    "sincronizacao": "<p>Dobre a Vontade antes de somá-la ao dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 1,
+      "dano": "@for + @von + @aura",
+      "danoOugi": "",
+      "danoSinc": "@von",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6YkIUjF9akpCCEYx"
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "nihGxD3vtLp3m2V2",
+  "name": "Upgrade: Quebra de Guarda",
+  "type": "upgrade",
+  "img": "systems/lenda-dragao-fogo/assets/icons/upgrade.svg",
+  "system": {
+    "chave": "quebraGuarda",
+    "descricao": "<p>Você aprendeu a usar essa técnica para derrubar as defesas do seu alvo. A defesa total de Bloqueio normal não funciona contra essa técnica. Técnicas de Bloqueio ainda podem ser usadas, mas sofrem desvantagem.</p><p><em>Arraste este upgrade para a ficha de um personagem para aplicá-lo a uma técnica. Para aprendizado e custo, um upgrade conta como uma técnica.</em></p>"
+  },
+  "effects": [],
+  "folder": "B0EYpNKOylAHv0xc",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!nihGxD3vtLp3m2V2"
+}

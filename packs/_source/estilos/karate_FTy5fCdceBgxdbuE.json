@@ -1,0 +1,37 @@
+{
+  "_id": "FTy5fCdceBgxdbuE",
+  "name": "Karatê",
+  "type": "estilo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/estilo.svg",
+  "system": {
+    "descricao": "<p>Karatê é uma arte marcial japonesa que se desenvolveu sob a influência do chuan fa chinês e dos koryu japoneses, incorporando aspectos das disciplinas guerreiras, ou budô. O repertório técnico da arte marcial abrange, principalmente, golpes contundentes como pontapés, socos e joelhadas, executados sem armas. Apesar de todo o marketing feito em cima do método Cinder, trata-se apenas de uma variante do karatê.</p><p><strong>Ougi:</strong> @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.N4ZL0FA5D4TTaBn1]{Golpe Explosivo}</p>",
+    "valores": {
+      "agarrao": 1,
+      "bloqueio": 1,
+      "combo": 1,
+      "evasao": 1,
+      "golpe": 1,
+      "projetil": 1
+    },
+    "ougis": [
+      "Golpe Explosivo"
+    ],
+    "secreto": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!FTy5fCdceBgxdbuE"
+}

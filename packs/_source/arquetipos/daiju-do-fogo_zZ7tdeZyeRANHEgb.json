@@ -1,0 +1,464 @@
+{
+  "_id": "zZ7tdeZyeRANHEgb",
+  "name": "Daiju do Fogo",
+  "type": "antagonista",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 3,
+    "conceito": "Daiju do Fogo",
+    "atributos": {
+      "forca": 6,
+      "razao": 2,
+      "instinto": 4,
+      "agilidade": 2,
+      "presenca": 2,
+      "vontade": 5
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 0,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 1,
+      "bloqueio": 3,
+      "combo": 1,
+      "evasao": 0,
+      "golpe": 2,
+      "projetil": 3
+    },
+    "vigor": {
+      "value": 14,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 2
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 1
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Estes são os pequenos, de seis metros. São os únicos que vêm à Terra.</p>",
+    "especial": "3 caixas de ferimento.",
+    "notas": "",
+    "avancos": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "fEuoGcRYBK9IuAFz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!zZ7tdeZyeRANHEgb",
+  "items": [
+    {
+      "_id": "AHv4QFJ5EINPkCY9",
+      "name": "Aceito",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p>Sua aura está em forte sintonia com uma das forças elementais primordiais do universo. Escolha entre água, ar, fogo ou terra. Você tem facilidade para usar as técnicas desse elemento, gastando 1 ponto de nagen a menos (podendo chegar a zero) e recebendo um dado de vantagem em testes para usá-las. Você não pode aprender técnicas de outros elementos.</p><p>Você é bastante fraco contra o seu elemento oposto. Caso seja atingido por ele, você perde 2 pontos de Vigor em vez de 1. Se for derrotado por um golpe que usa o elemento oposto, você precisa gastar 2 dados de sincronização para invocar o poder da esperança (p. 188).</p>",
+        "afinidade": "aceito",
+        "elemento": "fogo",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 0,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 0,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zZ7tdeZyeRANHEgb.AHv4QFJ5EINPkCY9"
+    },
+    {
+      "_id": "79rJv19CyroNee4M",
+      "name": "Aura de Batalha",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 5,
+        "nagenNota": "",
+        "custoPorUso": 5,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Esta técnica é necessária para participar de competições no Circuito Mundial de Lutas. O yuza manifesta sua aura, tornando-a visível ao redor de seu corpo, brilhando como uma tocha. A aura permanece ao seu redor até o final da cena ou até ser dissipada. Enquanto tiver sua Aura de Batalha ativa, o yuza soma sua Aura como um bônus ao seu Limiar de Proteção. Quando for atingido por um ataque que o faria marcar uma caixa de ferimento, ele não marca a caixa, mas sua aura se dissipa. Usar essa técnica é extremamente cansativo. Cada ativação depois da primeira, na mesma cena, aumenta em 5 pontos o gasto de nagen.</p>",
+        "ougi": "<p>Você soma +1 no seu Limiar de Proteção com a aura ativa.</p>",
+        "sincronizacao": "<p>Ative a técnica como uma ação extra e ignore os aumentos de custo por número de ativações.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zZ7tdeZyeRANHEgb.79rJv19CyroNee4M"
+    },
+    {
+      "_id": "h803LJQ57sWK3mKM",
+      "name": "Disparo Elemental",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "projetil"
+        ],
+        "elemento": "fogo",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Uma das técnicas de focus mais famosas entre o público em geral. No Disparo Elemental, o yuza separa um pedaço da sua aura, canaliza nele a energia de um elemento e o lança como um Projétil. É comum que o disparo assuma a forma de uma esfera, mas pode ser qualquer outra coisa, como uma lança ou uma miniatura do seu avatar. Escolha um elemento quando aprender essa técnica, essa será a afinidade dela. O dano é igual à Vontade + Aura + 2 e atinge alvos distantes.</p>",
+        "ougi": "<p>Se você errar o ataque, pode gastar um dado de sincronização para guiá-lo de volta contra o alvo, fazendo a jogada de ataque novamente.</p>",
+        "sincronizacao": "<p>Em vez de um disparo único, você lança seu nagen na forma de um Projétil contínuo, um verdadeiro canhão. Você pode aumentar o dano em 1 para cada nagen extra usado. O único limite é a sua Barra de Vigor.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@von + @aura + 2",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zZ7tdeZyeRANHEgb.h803LJQ57sWK3mKM"
+    },
+    {
+      "_id": "nULDCemI1rNbWZvh",
+      "name": "Golpe Explosivo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "golpe"
+        ],
+        "elemento": "fogo",
+        "acao": "acao",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Você avança até um alvo próximo e desfere um ataque poderoso, geralmente um soco ou chute. O dano é igual à Aura + Força +2. Escolha um elemento quando aprender esta técnica: quando você acerta o Golpe, uma explosão do elemento engole o oponente. Qualquer tentativa de retaliação contra Golpe Explosivo é feita com vantagem.</p>",
+        "ougi": "<p>Caso o Golpe acerte, o alvo é arremessado para a distância próxima.</p>",
+        "sincronizacao": "<p>Multiplique sua Aura por dois antes de somá-la ao dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@aura + @for + 2",
+          "danoOugi": "",
+          "danoSinc": "@aura",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zZ7tdeZyeRANHEgb.nULDCemI1rNbWZvh"
+    },
+    {
+      "_id": "6QY2lfOhLNneXMMD",
+      "name": "Fulgor Flamejante",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+      "system": {
+        "requisitos": "Disparo Elemental",
+        "tipos": [
+          "projetil"
+        ],
+        "elemento": "fogo",
+        "acao": "acao",
+        "nagen": 6,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Bolas de fogo são o primeiro truque que muitos aceitos e tocados pelo fogo aprendem. Para aqueles que dominam o Fulgor Flamejante, é apenas isso que elas são, porém — um truque. Concentrando todo o calor de sua aura nas mãos, o yuza é capaz de disparar um feixe laser destruidor, um Projétil contínuo tão quente e concentrado que corta metal com facilidade. Qualquer superfície atingida pelo Fulgor é destruída. Blindagem antitanque ou equivalente exige pelo menos duas rodadas ininterruptas de fogo para ser penetrada. Estruturas especialmente preparadas podem resistir pela mesma quantidade de tempo ou até um pouco mais, mas nada resiste a mais que três rodadas seguidas de Fulgor Flamejante. Em combate, o dano causado é igual ao dobro da Vontade, mais Aura do yuza. Uma vítima atingida tem um item em sua posse destruído além de sofrer dano.</p>",
+        "ougi": "<p>Você gasta uma rodada a menos para destruir estruturas mais resistentes.</p>",
+        "sincronizacao": "<p>Calcule o dano com Vontade x3.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@von * 2 + @aura",
+          "danoOugi": "",
+          "danoSinc": "@von",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zZ7tdeZyeRANHEgb.6QY2lfOhLNneXMMD"
+    },
+    {
+      "_id": "RUqKOCJeFwJ06y5Q",
+      "name": "Músculos de Aço",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/shintai.svg",
+      "system": {
+        "requisitos": "",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 6,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": true,
+        "ritual": false,
+        "descricao": "<p>Alguns shen podem crescer de forma monstruosa usando focus. Eles ficam gigantescos, com a aparência de verdadeiros monstros — também ficam muito mais fortes. Ao ativar essa técnica como uma ação, os músculos do shen crescem até o final da cena. Ele sofre desvantagem em todas as jogadas de Agilidade e Presença, mas tem vantagem nas jogadas de Força. Além disso, o dano de qualquer técnica baseada em Força aumenta em dois pontos.</p>",
+        "ougi": "<p>Você usa seus músculos poderosos defensivamente. Você tem vantagem para usar técnicas de Bloqueio enquanto durar o efeito.</p>",
+        "sincronizacao": "<p>O aumento no dano é de 3 em vez de 2.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zZ7tdeZyeRANHEgb.RUqKOCJeFwJ06y5Q"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Daiju do Fogo",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

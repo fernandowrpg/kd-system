@@ -1,0 +1,54 @@
+{
+  "_id": "BxUvsUD8tAdsNueU",
+  "name": "Mestre da Morte",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Excelência Verdadeira, Trapaceiro 3, especialização em furtividade",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Todos sabem que o clã Tendou é composto de assassinos. Ninguém jamais conseguiu provar a culpa de um Tendou em seus vários assassinatos. As histórias, quase lendas, descrevem como surgem do nada, golpeando suas vítimas quando surgem das sombras, desaparecendo sem deixar vestígios. Ao receber o treinamento adequado, um yuza pode se tornar uma dessas lendas urbanas. Quando começa uma cena oculto da visão de um alvo, você pode usar essa técnica como uma ação extra para realizar um golpe mortal. Troque um dos dados da jogada de ataque por um d10, como se tivesse usado Excelência Verdadeira nela. Caso o ataque force o alvo a marcar uma caixa de ferimento, em vez disso ele morre.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de ataque.</p>",
+    "sincronizacao": "<p>Você soma o resultado do d10 ao dano do seu ataque.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!BxUvsUD8tAdsNueU"
+}

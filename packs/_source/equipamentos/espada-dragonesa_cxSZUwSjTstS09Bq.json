@@ -1,0 +1,40 @@
+{
+  "_id": "cxSZUwSjTstS09Bq",
+  "name": "Espada Dragonesa",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/artefato.svg",
+  "system": {
+    "categoria": "artefato",
+    "caracteristicas": [
+      "letal",
+      "perigosa"
+    ],
+    "descricao": "<p>Uma katana passada de geração para geração do clã Karyu, a Espada Dragonesa tem um leve brilho vermelho na lâmina sob luz indireta. Além de ser uma arma Letal e Perigosa, ela serve de foco para canalização de poderes mentais, concedendo o upgrade Ressonância à técnica Telepatia de seu usuário.</p><p>Quando empunhada por um aceito do fogo que esteja ferido, a espada pode demonstrar seu verdadeiro poder. Ao usar uma ação extra para abrir seu coração, o espadachim recebe um dado de sincronização por cada laço que tem com um personagem presente na cena. Esses dados duram até o final da cena e, se forem usados com uma técnica de fogo, o usuário pode optar por dobrar o resultado de um dos dados. Caso o faça, marca uma caixa de ferimento.</p><p>A espada dragonesa foi vista pela última vez em posse de Sakura Karyu, heroína do combate contra Ifrit. Com idade avançada, está procurando alguém digno para passar adiante a lâmina.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "YKEAOb2LYMG1G1gC",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cxSZUwSjTstS09Bq"
+}

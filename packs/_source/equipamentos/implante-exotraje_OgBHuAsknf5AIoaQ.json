@@ -1,0 +1,37 @@
+{
+  "_id": "OgBHuAsknf5AIoaQ",
+  "name": "Implante: Exotraje",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/implante.svg",
+  "system": {
+    "categoria": "implante",
+    "caracteristicas": [],
+    "descricao": "<p>Um exotraje não é exatamente um implante. É um traje que se conecta aos implantes normais de um ciborgue e aprimora suas habilidades. Existem exotrajes especializados para vários tipos diferentes de tarefa. Os mais comuns são os modelos de rocketball e de uso militar, que são extremamente parecidos (a única diferença é que os militares costumam ter armas). Esses exotrajes concedem vantagem em testes de Força e Agilidade, uma caixa adicional de ferimento e aumentam o Limiar de Proteção em 2.</p>",
+    "equipado": true,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 2,
+      "canalizacao": 0,
+      "ferimentos": 1,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "dIDS7HXCwjSTyx6w",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!OgBHuAsknf5AIoaQ"
+}

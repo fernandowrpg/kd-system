@@ -1,0 +1,54 @@
+{
+  "_id": "EzPEFCSRJgNc0CEX",
+  "name": "Telecinese",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+  "system": {
+    "requisitos": "Disparo Elemental",
+    "tipos": [],
+    "elemento": "ar",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Não é raro encontrar pessoas que afirmam ser capazes de manipular objetos com a força da mente. Qualquer iniciado em focus sabe que isso é impossível. Quando objetos são de fato movidos ao longe, é o resultado da aplicação da aura para controlar o ar. Quando usa essa técnica como uma ação, o yuza pode manipular os ventos para manipular objetos, como se fosse uma pessoa com Força igual à Vontade do yuza e Agilidade igual ao Instinto do yuza. Ele ainda precisa ver para saber o que está fazendo. Essa técnica pode ser usada para atacar oponentes distantes com Golpes, usando o ar como um aríete. Esse tipo de ataque, porém, não pode ser combinado com nenhuma outra técnica.</p>",
+    "ougi": "<p>Além de Golpes, você pode usar a técnica para fazer Agarrões e Combos.</p>",
+    "sincronizacao": "<p>Some sua Aura na Força efetiva da Telecinese.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!EzPEFCSRJgNc0CEX"
+}

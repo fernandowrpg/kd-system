@@ -1,0 +1,18 @@
+{
+  "name": "lenda-dragao-fogo",
+  "version": "1.0.0",
+  "description": "Sistema não oficial de A Lenda do Dragão de Fogo (Karyu Densetsu) para Foundry VTT v13/v14.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-packs.mjs",
+    "extract": "node tools/extract-packs.mjs",
+    "lint": "node tools/check.mjs",
+    "zip": "node tools/build-packs.mjs && node tools/zip.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0",
+    "handlebars": "^4.7.8"
+  },
+  "license": "MIT"
+}

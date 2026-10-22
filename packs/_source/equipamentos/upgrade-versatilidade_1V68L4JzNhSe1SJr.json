@@ -1,0 +1,26 @@
+{
+  "_id": "1V68L4JzNhSe1SJr",
+  "name": "Upgrade: Versatilidade",
+  "type": "upgrade",
+  "img": "systems/lenda-dragao-fogo/assets/icons/upgrade.svg",
+  "system": {
+    "chave": "versatilidade",
+    "descricao": "<p>Você pode alterar a afinidade elemental da técnica. Esse upgrade funciona de duas formas diferentes: para manobras que possam ter afinidade com uma variedade de elementos (como Disparo Elemental), você pode escolher o elemento no momento da utilização. Para manobras com apenas um elemento, você escolhe a nova afinidade elemental da técnica no momento da aplicação do upgrade.</p><p><em>Arraste este upgrade para a ficha de um personagem para aplicá-lo a uma técnica. Para aprendizado e custo, um upgrade conta como uma técnica.</em></p>"
+  },
+  "effects": [],
+  "folder": "B0EYpNKOylAHv0xc",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1V68L4JzNhSe1SJr"
+}

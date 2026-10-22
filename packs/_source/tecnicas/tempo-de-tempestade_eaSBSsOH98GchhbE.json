@@ -1,0 +1,54 @@
+{
+  "_id": "eaSBSsOH98GchhbE",
+  "name": "Tempo de Tempestade",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [],
+    "elemento": "ar",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O yuza envia seu nagen para a atmosfera, carregando-a com partículas elétricas. Uma aura elétrica o envolve, emitindo um forte cheiro de ozônio. Quando ativado, qualquer oponente engajado com o yuza sofre dano igual à Vontade + Aura (não é preciso fazer uma jogada de ataque). Esse mesmo dano também é causado automaticamente a qualquer um que atinja o yuza com um Agarrão, Golpe ou Combo desarmado. Até o final da cena, o yuza pode descartar um resultado 5+ para atordoar um alvo atingido por um de seus ataques desarmados, causando desvantagem na próxima jogada dele.</p>",
+    "ougi": "<p>Uma vez atordoada por essa técnica, a vítima sofre desvantagem em todas as jogadas até o final da cena. Isso conta como atordoamento para usar Relâmpago Inevitável.</p>",
+    "sincronizacao": "<p>O dano causado pela aura é igual a Vontade + Aura + 2.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "@von + @aura",
+      "danoOugi": "",
+      "danoSinc": "2",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!eaSBSsOH98GchhbE"
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "smYI6ZUk0y7KCO4c",
+  "name": "Risadas",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você não leva nada a sério, acha que todos ao seu redor são idiotas ou ambos. Seja com sarcasmo, trocadilhos ou piadas, você é definido pela falta de seriedade. Ou, pelo menos, por um sorriso de canto de boca.</p>",
+    "eventos": [
+      {
+        "texto": "Fazer uma piada, trocadilho ou comentário sarcástico.",
+        "marcado": false
+      },
+      {
+        "texto": "Importunar outro personagem por meio do humor.",
+        "marcado": false
+      },
+      {
+        "texto": "Fazer outro jogador (não personagem, jogador!) rir.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Abandonar o escudo do humor e passar a encarar a vida de forma mais séria.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!smYI6ZUk0y7KCO4c"
+}

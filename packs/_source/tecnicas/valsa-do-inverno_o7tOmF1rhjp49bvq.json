@@ -1,0 +1,54 @@
+{
+  "_id": "o7tOmF1rhjp49bvq",
+  "name": "Valsa do Inverno",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agua.svg",
+  "system": {
+    "requisitos": "Aura 1",
+    "tipos": [],
+    "elemento": "agua",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Sintonizando sua aura com a água, o yuza diminui a temperatura ao seu redor. Flocos de neves e cristais de gelo surgem à sua volta, se movendo de forma harmoniosa enquanto ele dança. O efeito dura até o final da cena. Além de ser visualmente impressionante, qualquer oponente engajado tem os movimentos retardados pelo frio. Isso causa desvantagem em ataques contra o yuza e também o força a se mover um passo de distância adicional para se afastar dele. Quando ataca com Golpes, Combos ou Agarrões, o yuza pode descartar um resultado 5+ depois de acertar um oponente. Se o fizer, ele fica parcialmente congelado e sofre desvantagem na próxima jogada.</p>",
+    "ougi": "<p>Para cada dado descartado, aumente o dano em 1, além do efeito normal.</p>",
+    "sincronizacao": "<p>Oponentes engajados sofrem duas desvantagens em jogadas de ataque contra você. Oponentes próximos sofrem uma desvantagem. Um personagem próximo precisa se mover dois passos de distância para se aproximar de você.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!o7tOmF1rhjp49bvq"
+}

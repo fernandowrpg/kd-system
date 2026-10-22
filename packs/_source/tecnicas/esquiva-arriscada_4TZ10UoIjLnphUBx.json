@@ -1,0 +1,56 @@
+{
+  "_id": "4TZ10UoIjLnphUBx",
+  "name": "Esquiva Arriscada",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/evasao.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [
+      "evasao"
+    ],
+    "elemento": "",
+    "acao": "reacao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Embora artes marciais necessitem de disciplina, o caos do campo de batalha às vezes requer medidas drásticas. Para evitar sofrer um ataque, um yuza por vezes pode acabar criando um problema maior. Essa técnica é usada como uma defesa total. Faça a jogada com duas vantagens. Resultados 1 e 2 aumentam a Tensão nessa jogada.</p>",
+    "ougi": "<p>Você recebe uma vantagem adicional na jogada.</p>",
+    "sincronizacao": "<p>Você recebe uma vantagem adicional na jogada.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4TZ10UoIjLnphUBx"
+}

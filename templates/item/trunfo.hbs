@@ -1,0 +1,53 @@
+<div class="grade-formulario">
+  <div class="form-group">
+    <label>{{localize "LENDA.Requisitos"}}</label>
+    <input type="text" name="system.requisitos" value="{{system.requisitos}}" {{#unless editable}}disabled{{/unless}}>
+  </div>
+  <div class="form-linha">
+    <div class="form-group">
+      <label>{{localize "LENDA.Afinidade.Nome"}}</label>
+      <select name="system.afinidade" {{#unless editable}}disabled{{/unless}}>{{selectOptions afinidades selected=system.afinidade}}</select>
+    </div>
+    <div class="form-group">
+      <label>{{localize "LENDA.Elemento.Nome"}}</label>
+      <select name="system.elemento" {{#unless editable}}disabled{{/unless}}>{{selectOptions elementos selected=system.elemento}}</select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label data-tooltip="{{localize 'LENDA.Trunfo.EscolhaHint'}}">{{localize "LENDA.Trunfo.Escolha"}}</label>
+    <input type="text" name="system.escolha" value="{{system.escolha}}" {{#unless editable}}disabled{{/unless}}>
+  </div>
+  <div class="form-linha opcoes">
+    <label class="caixa-opcao"><input type="checkbox" name="system.jasq" {{checked system.jasq}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Trunfo.Jasq"}}</label>
+    <label class="caixa-opcao"><input type="checkbox" name="system.modificadores.tensaoComDois" {{checked system.modificadores.tensaoComDois}} {{#unless editable}}disabled{{/unless}}> {{localize "LENDA.Trunfo.TensaoComDois"}}</label>
+  </div>
+  <fieldset>
+    <legend>{{localize "LENDA.Modificadores"}}</legend>
+    <div class="grade-modificadores">
+      <label>{{localize "LENDA.Vigor"}} <input type="number" name="system.modificadores.vigor" value="{{system.modificadores.vigor}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Limiar.Defesa"}} <input type="number" name="system.modificadores.defesa" value="{{system.modificadores.defesa}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Limiar.Protecao"}} <input type="number" name="system.modificadores.protecao" value="{{system.modificadores.protecao}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Limiar.Canalizacao"}} <input type="number" name="system.modificadores.canalizacao" value="{{system.modificadores.canalizacao}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Ferimentos"}} <input type="number" name="system.modificadores.ferimentos" value="{{system.modificadores.ferimentos}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.SincInicial"}} <input type="number" name="system.modificadores.sincInicial" value="{{system.modificadores.sincInicial}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Trunfo.DanoArmas"}} <input type="number" name="system.modificadores.danoArmas" value="{{system.modificadores.danoArmas}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Trunfo.DanoFogo"}} <input type="number" name="system.modificadores.danoFogo" value="{{system.modificadores.danoFogo}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Trunfo.VigorPorCena"}} <input type="number" name="system.modificadores.vigorPorCena" value="{{system.modificadores.vigorPorCena}}" {{#unless editable}}disabled{{/unless}}></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend data-tooltip="{{localize 'LENDA.Trunfo.CriacaoHint'}}">{{localize "LENDA.Trunfo.Criacao"}}</legend>
+    <div class="grade-modificadores">
+      <label>{{localize "LENDA.Lacos"}} <input type="number" name="system.criacao.lacos" value="{{system.criacao.lacos}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Tecnicas"}} <input type="number" name="system.criacao.tecnicas" value="{{system.criacao.tecnicas}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.EstiloDeLuta"}} <input type="number" name="system.criacao.estilo" value="{{system.criacao.estilo}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Trunfo.EstiloMax"}} <input type="number" name="system.criacao.estiloMax" value="{{system.criacao.estiloMax}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Ocupacoes"}} <input type="number" name="system.criacao.ocupacoes" value="{{system.criacao.ocupacoes}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Especializacoes"}} <input type="number" name="system.criacao.especializacoes" value="{{system.criacao.especializacoes}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Ougi"}} <input type="number" name="system.criacao.ougis" value="{{system.criacao.ougis}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Equipamentos"}} <input type="number" name="system.criacao.equipamentos" value="{{system.criacao.equipamentos}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Tecnica.Shintai"}} <input type="number" name="system.criacao.shintai" value="{{system.criacao.shintai}}" {{#unless editable}}disabled{{/unless}}></label>
+      <label>{{localize "LENDA.Tecnica.Rituais"}} <input type="number" name="system.criacao.rituais" value="{{system.criacao.rituais}}" {{#unless editable}}disabled{{/unless}}></label>
+    </div>
+  </fieldset>
+</div>

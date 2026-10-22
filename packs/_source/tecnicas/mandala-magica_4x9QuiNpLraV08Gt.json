@@ -1,0 +1,54 @@
+{
+  "_id": "4x9QuiNpLraV08Gt",
+  "name": "Mandala Mágica",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O Círculo do Dragão possui um conjunto de técnicas secretas destinado a enfrentar shen perigosos. Elas permitem que seus caçadores de shen criem mandalas capazes de emular determinados elementos, mudando sua afinidade elemental momentaneamente. Fazer uma mandala requer uma ação e acesso ao elemento escolhido (ar fresco, fogo aceso, terra pura, água limpa) e sucesso em uma jogada de Vontade contra a Tensão. Até o final da cena, você é considerado tocado pelo elemento escolhido. A mandala se manifesta nitidamente na sua aura; sua afinidade elemental é evidente.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Vontade.</p>",
+    "sincronizacao": "<p>Você é considerado aceito pelo elemento escolhido.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4x9QuiNpLraV08Gt"
+}

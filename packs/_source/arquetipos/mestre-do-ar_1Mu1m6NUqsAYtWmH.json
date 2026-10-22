@@ -1,0 +1,408 @@
+{
+  "_id": "1Mu1m6NUqsAYtWmH",
+  "name": "Mestre do Ar",
+  "type": "antagonista",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 3,
+    "conceito": "Mestre do Ar",
+    "atributos": {
+      "forca": 4,
+      "razao": 3,
+      "instinto": 3,
+      "agilidade": 4,
+      "presenca": 3,
+      "vontade": 5
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 0,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 1,
+      "combo": 1,
+      "evasao": 1,
+      "golpe": 0,
+      "projetil": 3
+    },
+    "vigor": {
+      "value": 12,
+      "bonus": 0
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Um mestre do ar costuma viver isolado. Esses poderosos artistas marciais podem causar peregrinação de discípulos ou serem a única chance de povoados remotos contra grandes corporações.</p>",
+    "especial": "",
+    "notas": "",
+    "avancos": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "fEuoGcRYBK9IuAFz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!1Mu1m6NUqsAYtWmH",
+  "items": [
+    {
+      "_id": "BN67ih8Gue4oKYv4",
+      "name": "Aceito",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p>Sua aura está em forte sintonia com uma das forças elementais primordiais do universo. Escolha entre água, ar, fogo ou terra. Você tem facilidade para usar as técnicas desse elemento, gastando 1 ponto de nagen a menos (podendo chegar a zero) e recebendo um dado de vantagem em testes para usá-las. Você não pode aprender técnicas de outros elementos.</p><p>Você é bastante fraco contra o seu elemento oposto. Caso seja atingido por ele, você perde 2 pontos de Vigor em vez de 1. Se for derrotado por um golpe que usa o elemento oposto, você precisa gastar 2 dados de sincronização para invocar o poder da esperança (p. 188).</p>",
+        "afinidade": "aceito",
+        "elemento": "ar",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 0,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 0,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1Mu1m6NUqsAYtWmH.BN67ih8Gue4oKYv4"
+    },
+    {
+      "_id": "DoYW7vxdCJZTj87N",
+      "name": "Aura de Batalha",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 5,
+        "nagenNota": "",
+        "custoPorUso": 5,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Esta técnica é necessária para participar de competições no Circuito Mundial de Lutas. O yuza manifesta sua aura, tornando-a visível ao redor de seu corpo, brilhando como uma tocha. A aura permanece ao seu redor até o final da cena ou até ser dissipada. Enquanto tiver sua Aura de Batalha ativa, o yuza soma sua Aura como um bônus ao seu Limiar de Proteção. Quando for atingido por um ataque que o faria marcar uma caixa de ferimento, ele não marca a caixa, mas sua aura se dissipa. Usar essa técnica é extremamente cansativo. Cada ativação depois da primeira, na mesma cena, aumenta em 5 pontos o gasto de nagen.</p>",
+        "ougi": "<p>Você soma +1 no seu Limiar de Proteção com a aura ativa.</p>",
+        "sincronizacao": "<p>Ative a técnica como uma ação extra e ignore os aumentos de custo por número de ativações.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1Mu1m6NUqsAYtWmH.DoYW7vxdCJZTj87N"
+    },
+    {
+      "_id": "GxoSebZ1oIYgKSLf",
+      "name": "Ímpeto Infinito",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+      "system": {
+        "requisitos": "Força 4, Agilidade 4",
+        "tipos": [
+          "combo"
+        ],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 3,
+        "nagenNota": "3 por ataque",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Alguns yuzas desenvolvem a capacidade de atacar seus oponentes, empurrá-los para trás e continuar com os ataques em sequência. Isso pode ser especialmente perigoso em lutas em grupo, quando uma série de ataques pode afastar um oponente de seus aliados. Faça um ataque normal, como se tivesse usado um Combo sem nenhuma técnica especial. Caso acerte, você e o alvo se afastam um passo de quaisquer pessoas ao redor. Você pode gastar mais 3 nagen para fazer um novo ataque como uma ação extra, com vantagem e +1 no dano. Ao final do ataque, você pode optar por ficar engajado ou próximo ao alvo. Ímpeto Infinito não causa dano por si só, apenas usa ataques Combo normais. O dano desses ataques não pode ser aumentado por upgrades.</p>",
+        "ougi": "<p>Você pode fazer um terceiro ataque depois de acertar o segundo, com os mesmos efeitos.</p>",
+        "sincronizacao": "<p>Você tem vantagem no ataque e soma sua aura no dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "max(@for, @agi)",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1Mu1m6NUqsAYtWmH.GxoSebZ1oIYgKSLf"
+    },
+    {
+      "_id": "8g7lCmHFkbo56FiC",
+      "name": "Trovão Celeste",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/projetil.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [
+          "projetil"
+        ],
+        "elemento": "ar",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Uma das técnicas de focus mais famosas entre o público em geral. No Disparo Elemental, o yuza separa um pedaço da sua aura, canaliza nele a energia de um elemento e o lança como um Projétil. É comum que o disparo assuma a forma de uma esfera, mas pode ser qualquer outra coisa, como uma lança ou uma miniatura do seu avatar. Escolha um elemento quando aprender essa técnica, essa será a afinidade dela. O dano é igual à Vontade + Aura + 2 e atinge alvos distantes.</p>",
+        "ougi": "<p>Se você errar o ataque, pode gastar um dado de sincronização para guiá-lo de volta contra o alvo, fazendo a jogada de ataque novamente.</p>",
+        "sincronizacao": "<p>Em vez de um disparo único, você lança seu nagen na forma de um Projétil contínuo, um verdadeiro canhão. Você pode aumentar o dano em 1 para cada nagen extra usado. O único limite é a sua Barra de Vigor.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "Disparo Elemental",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "@von + @aura + 2",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1Mu1m6NUqsAYtWmH.8g7lCmHFkbo56FiC"
+    },
+    {
+      "_id": "SuBsPRHU1TRq8pYA",
+      "name": "Salto Duplo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/ar.svg",
+      "system": {
+        "requisitos": "Aura 1, Atleta 1",
+        "tipos": [],
+        "elemento": "ar",
+        "acao": "acaoExtra",
+        "nagen": 3,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>É comum que filmes de Bollywood mostrem aceitos do ar voando pelos céus. Todo yuza que se preza sabe que isso é coisa de cinema, mas existem aqueles que chegam bem perto. O salto duplo acontece quando um yuza salta e, chegando no ápice do movimento, concentra nagen nos pés, fazendo uma plataforma de ar para saltar novamente. É muito prático para ultrapassar obstáculos e se mover em combate, fazendo dois passos como uma ação extra.</p>",
+        "ougi": "<p>Você pode usar Salto Duplo como uma defesa total. Jogue Agilidade (Evasão) com vantagem quando fizer isso.</p>",
+        "sincronizacao": "<p>Você pode saltar de novo uma terceira vez, cobrindo três passos com uma ação extra e podendo alcançar locais muito altos.</p>",
+        "ehOugi": true,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1Mu1m6NUqsAYtWmH.SuBsPRHU1TRq8pYA"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Mestre do Ar",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

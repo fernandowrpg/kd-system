@@ -1,0 +1,54 @@
+{
+  "_id": "lyoZ1nNA5fCCQsUZ",
+  "name": "Prontidão Perpétua",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Excelência Verdadeira, Vigilante 3",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acaoExtra",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Muitos yuzas consideram o Zanshin como o ápice da percepção humana. O uso de um sexto sentido indicaria a transcendência dos limites da humanidade. Dentre os usuários de focus mais mundanos, especialmente aqueles que ativaram suas auras sem sequer perceber, os cinco sentidos são mais valorizados. A Prontidão Perpétua indica esse estado avançado de percepção, parecido com o de um predador em busca de sua presa. Como uma ação extra, todos os seus sentidos ficam mais aguçados. Até o final da cena, o usuário tem vantagem em qualquer jogada para perceber alguma coisa.</p>",
+    "ougi": "<p>Você tem uma vantagem adicional em jogadas para perceber.</p>",
+    "sincronizacao": "<p>Você assume a iniciativa.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!lyoZ1nNA5fCCQsUZ"
+}

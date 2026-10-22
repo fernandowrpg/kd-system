@@ -1,0 +1,43 @@
+{
+  "_id": "9drGAGqFMW1sujlW",
+  "name": "Orgulho",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você é extremamente orgulhoso e se vê como superior aos demais.</p>",
+    "eventos": [
+      {
+        "texto": "Explicar em detalhes sua superioridade.",
+        "marcado": false
+      },
+      {
+        "texto": "Racionalizar como alguém tão superior pode falhar.",
+        "marcado": false
+      },
+      {
+        "texto": "Ser bem-sucedido em uma tarefa importante.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Perceber que não é melhor que os outros.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9drGAGqFMW1sujlW"
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "uYGCZRhqlCRnWmXY",
+  "name": "Policarpo",
+  "type": "caminho",
+  "img": "systems/lenda-dragao-fogo/assets/icons/caminho.svg",
+  "system": {
+    "descricao": "<p>Você é um verdadeiro patriota e ama o Brasil acima de tudo. Por causa disso, tem dificuldade em admitir os problemas do país.</p>",
+    "eventos": [
+      {
+        "texto": "Mencionar a grandiosidade do seu país.",
+        "marcado": false
+      },
+      {
+        "texto": "Dar argumentos fracos a respeito de alguma crítica contra o Brasil ou suas instituições.",
+        "marcado": false
+      },
+      {
+        "texto": "Meter-se em confusão para defender a imagem do país.",
+        "marcado": false
+      }
+    ],
+    "reviravolta": {
+      "texto": "Perceber que uma bandeira é apenas um pedaço de pano.",
+      "marcado": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!uYGCZRhqlCRnWmXY"
+}

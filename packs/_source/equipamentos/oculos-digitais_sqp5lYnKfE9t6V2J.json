@@ -1,0 +1,37 @@
+{
+  "_id": "sqp5lYnKfE9t6V2J",
+  "name": "Óculos Digitais",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/equipamento.svg",
+  "system": {
+    "categoria": "outro",
+    "caracteristicas": [],
+    "descricao": "<p>Esse par de óculos escuros inclui uma discreta tela interna que permite contato com o controle de missão, exibição de mapas, realização de chamadas telefônicas e acesso à internet. Uma pequena câmera permite tirar fotos com uma piscada sugestiva. Agentes que usam os óculos digitais como uma espécie de celular hands-free fora do horário de trabalho recebem chamadas disciplinares, mas é difícil resistir à tentação.</p>",
+    "equipado": false,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "RMFHkiqn8xE00yZV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!sqp5lYnKfE9t6V2J"
+}

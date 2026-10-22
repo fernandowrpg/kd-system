@@ -1,0 +1,56 @@
+{
+  "_id": "NBvlAtLwHoOZCrGn",
+  "name": "Beijo Letal",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/agarrao.svg",
+  "system": {
+    "requisitos": "Regeneração",
+    "tipos": [
+      "agarrao"
+    ],
+    "elemento": "agua",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Esta técnica é ilegal na maior parte do mundo. O yuza agarra o alvo e suga uma porção de sua energia vital pela boca aberta. Faça uma disputa de Vontade entre o yuza e o alvo. Caso o yuza vença, o alvo marca uma caixa de ferimento e o yuza desmarca uma caixa de ferimento (se estava ferido). Apesar do nome, a maioria dos yuza não beija seus alvos quando usam a técnica, apenas puxam a boca do alvo para perto. Uma variação comum entre os shen é morder o pescoço das vítimas.</p>",
+    "ougi": "<p>Você tem vantagem na disputa de Vontade.</p>",
+    "sincronizacao": "<p>Você drena Vigor do alvo numa quantidade igual à margem pela qual ganhar a disputa. O alvo perde essa quantidade de Vigor e você recupera a mesma quantidade.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!NBvlAtLwHoOZCrGn"
+}

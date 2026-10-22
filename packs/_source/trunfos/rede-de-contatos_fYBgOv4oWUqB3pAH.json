@@ -1,0 +1,55 @@
+{
+  "_id": "fYBgOv4oWUqB3pAH",
+  "name": "Rede de Contatos",
+  "type": "trunfo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+  "system": {
+    "requisitos": "",
+    "descricao": "<p>Você conhece pessoas em vários lugares diferentes e consegue obter muitas informações importantes. Você escolhe quatro laços em vez de três na criação do personagem. Todos os coadjuvantes com quem você tem laços são boas fontes de informação em suas respectivas áreas de influência. Dificilmente seus contatos podem oferecer mais do que informação, mas a informação que eles oferecem é confiável e eles são acessíveis. Quando você pede informação para seus contatos, dificilmente eles conseguem uma resposta na mesma cena.</p>",
+    "afinidade": "",
+    "elemento": "",
+    "escolha": "",
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0,
+      "danoArmas": 0,
+      "danoFogo": 0,
+      "vigorPorCena": 0,
+      "tensaoComDois": false
+    },
+    "criacao": {
+      "lacos": 1,
+      "tecnicas": 0,
+      "estilo": 0,
+      "estiloMax": 0,
+      "ocupacoes": 0,
+      "especializacoes": 0,
+      "ougis": 0,
+      "equipamentos": 0,
+      "shintai": 0,
+      "rituais": 0
+    },
+    "jasq": false,
+    "prodigio": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fYBgOv4oWUqB3pAH"
+}

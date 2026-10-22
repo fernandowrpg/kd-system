@@ -1,0 +1,54 @@
+{
+  "_id": "DbhuhntsKgHHIBOG",
+  "name": "Túnel Instantâneo",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/terra.svg",
+  "system": {
+    "requisitos": "Disparo Elemental",
+    "tipos": [],
+    "elemento": "terra",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Muitos yuzas que dominam esta técnica manifestam uma toupeira ou outra criatura dos subterrâneos como sua aura. O yuza abre o chão à frente como uma ação, criando um túnel que se estende por uma quantidade de metros igual à sua Vontade. Usos subsequentes podem fazer o túnel se estender mais, mas ele desmorona se qualquer outra pessoa adentrar. Usar essa técnica sem Sentido Sísmico pode ser muito perigoso, atingindo tubulações de água ou gás!</p>",
+    "ougi": "<p>Você pode usar os túneis para se mover um passo de distância por baixo da terra como uma ação extra.</p>",
+    "sincronizacao": "<p>O túnel é estável o suficiente para que outras pessoas passem por ele.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "crG9ssuzFcGkihwl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!DbhuhntsKgHHIBOG"
+}

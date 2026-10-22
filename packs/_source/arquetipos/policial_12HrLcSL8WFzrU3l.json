@@ -1,0 +1,178 @@
+{
+  "_id": "12HrLcSL8WFzrU3l",
+  "name": "Policial",
+  "type": "coadjuvante",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 0,
+    "conceito": "Policial",
+    "atributos": {
+      "forca": 3,
+      "razao": 2,
+      "instinto": 3,
+      "agilidade": 2,
+      "presenca": 2,
+      "vontade": 2
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 1,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 0,
+      "combo": 0,
+      "evasao": 0,
+      "golpe": 1,
+      "projetil": 1
+    },
+    "vigor": {
+      "value": 2,
+      "bonus": -3
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 0
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>No mundo da Lenda do Dragão de Fogo, muitas vezes policiais são uma fonte de segurança e abrigo para vítimas de criminosos e vilões. Porém, alguns deles podem se tornar motivo para preocupação se seguirem o caminho da corrupção.</p>",
+    "especial": "Pistola (Projétil, dano 4).",
+    "notas": "",
+    "grupo": {
+      "ativo": false,
+      "tamanho": 1
+    },
+    "instantaneo": {
+      "ativo": false,
+      "fazBem": "",
+      "fazMal": ""
+    }
+  },
+  "effects": [],
+  "folder": "yNAtDeilews3LsxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!12HrLcSL8WFzrU3l",
+  "items": [
+    {
+      "_id": "G5lCsbxmKbInXizA",
+      "name": "Pistola",
+      "type": "equipamento",
+      "img": "systems/lenda-dragao-fogo/assets/icons/arma.svg",
+      "system": {
+        "categoria": "arma",
+        "caracteristicas": [
+          "projetil"
+        ],
+        "descricao": "<p>Arma comum com a característica <strong>Projétil</strong>.</p><p>Arma de fogo padrão de policiais e bandidos (dano 4 para um usuário com Instinto 3).</p><p><strong>Projétil:</strong> Uma arma de projétil pode ser usada contra um alvo distante. Se usada contra um alvo próximo, sofre desvantagem. Ataques com essas armas são normalmente Projéteis; você pode usar Golpes e Combos contra alvos engajados de forma improvisada, mas sofre desvantagem. O dano de uma arma de projétil é igual a Instinto +1.</p><p>O dano de ataques com a arma aumenta em 1 o atributo usado para o dano. Técnicas usadas com armas custam +1 nagen.</p>",
+        "equipado": true,
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0
+        },
+        "quantidade": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!12HrLcSL8WFzrU3l.G5lCsbxmKbInXizA"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Policial",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "r3FJJmoR94Yee8IC",
+  "name": "Upgrade: Preparação",
+  "type": "upgrade",
+  "img": "systems/lenda-dragao-fogo/assets/icons/upgrade.svg",
+  "system": {
+    "chave": "preparacao",
+    "descricao": "<p>Você pode usar ações extras para preparar melhor essa técnica, mirando ou concentrando energia. Para cada ação extra que usar, ganha um dado de vantagem quando usá-la. O máximo de ações extras que você pode usar para preparar a manobra é igual à sua Aura +1.</p><p><em>Arraste este upgrade para a ficha de um personagem para aplicá-lo a uma técnica. Para aprendizado e custo, um upgrade conta como uma técnica.</em></p>"
+  },
+  "effects": [],
+  "folder": "B0EYpNKOylAHv0xc",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!r3FJJmoR94Yee8IC"
+}

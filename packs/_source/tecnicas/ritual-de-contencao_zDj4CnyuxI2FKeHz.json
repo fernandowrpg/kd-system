@@ -1,0 +1,54 @@
+{
+  "_id": "zDj4CnyuxI2FKeHz",
+  "name": "Ritual de Contenção",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ritual.svg",
+  "system": {
+    "requisitos": "Vontade 3, Aura 1",
+    "tipos": [],
+    "elemento": "",
+    "acao": "ritual",
+    "nagen": 8,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": true,
+    "descricao": "<p>Muitas vezes espíritos podem ser tão perigosos quanto são úteis. Por meio desta técnica, um mago pode realizar um ritual de alguns minutos para traçar um círculo no chão. Um espírito que entre nesse círculo está preso. Caso a aura do espírito seja 3 pontos ou maior que a do mago, ele pode tentar escapar. Faça uma jogada de aura do espírito contra Vontade do mago. Caso o espírito vença, o ritual é quebrado, o círculo desaparece e o espírito fica livre. Caso o mago vença, a aura do espírito cai um ponto. Um espírito pode se autodestruir enquanto tenta escapar da contenção, mas enquanto não vencer a disputa continuará se reconstituindo dentro do círculo. Um círculo de contenção dura uma hora. Um mago pode gastar nagen adicional para fazer com que dure mais tempo: 2 nagen para cada hora adicional. A quantidade máxima de horas adicionais é igual à aura do mago.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de Vontade.</p>",
+    "sincronizacao": "<p>O círculo de contenção é permanente.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "BeNYeYti4lBDVwId",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!zDj4CnyuxI2FKeHz"
+}

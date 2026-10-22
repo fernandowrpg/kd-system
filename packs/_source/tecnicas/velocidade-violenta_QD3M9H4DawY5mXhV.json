@@ -1,0 +1,56 @@
+{
+  "_id": "QD3M9H4DawY5mXhV",
+  "name": "Velocidade Violenta",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+  "system": {
+    "requisitos": "Aura 1, Agilidade 5, Instinto 3",
+    "tipos": [
+      "combo"
+    ],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 4,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>Existe um limite para a velocidade do corpo humano. Os yuzas treinam para alcançar esse limite, mas a única forma de ultrapassá-lo reside em abraçar instintos animalescos. Rendendo-se à sede de sangue, o yuza se concentra em um único oponente como sua presa e dispara com uma sequência de golpes violentíssimos, abandonando completamente qualquer noção de autopreservação e proteção. O yuza escolhe duas outras técnicas (Agarrões, Golpes ou Combos em qualquer combinação). Quando usa essa técnica, ele recebe nagen pelas duas técnicas além do custo por Velocidade Violenta. Como parte da mesma ação, use as duas técnicas contra o mesmo alvo, jogando com vantagem. Depois de usar Velocidade Violenta, o Limiar de Defesa do yuza cai para 0. Além disso, ele tem desvantagem para realizar defesas totais.</p>",
+    "ougi": "<p>Em vez de cair para 0, seu Limiar de Defesa sofre um redutor de -2.</p>",
+    "sincronizacao": "<p>Aumente em 1 o dano das técnicas usadas junto com Velocidade Violenta.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": true,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "Dyz5c3mnMsU1Eas7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!QD3M9H4DawY5mXhV"
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "MreRw0ccpbdejLib",
+  "name": "Ritual de Alimentação",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/ritual.svg",
+  "system": {
+    "requisitos": "Vontade 3, Aura 1",
+    "tipos": [],
+    "elemento": "",
+    "acao": "ritual",
+    "nagen": 8,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": true,
+    "descricao": "<p>Alguns shen são capazes de devorar o nagen de outras criaturas naturalmente. Os magos podem fazer a mesma coisa, mas precisam de um ritual específico. Ao realizar um ritual de alguns minutos, o mago cobre o espírito ou criatura com unguentos ou tintas próprios da sua tradição mística, deixando-o coberto de listras rajadas, como um tigre. Essas listras são extremamente dolorosas, queimando a carne e a alma. Dessa forma, uma vítima precisa estar incapacitada (ou dentro de um círculo de contenção, caso seja um espírito) para servir como alvo para o ritual. Quando o ritual se completa, a vítima morre e o mago coleta nagen, devorando-o. Faça uma jogada de Presença do mago contra a Tensão, com uma vantagem para cada ponto de aura da vítima. Em caso de sucesso, o mago recebe 1 dado de sincronização que não se perde ao final da cena, permanecendo até ser gasto. Em caso de um splash, ele recebe 2 dados de sincronização.</p>",
+    "ougi": "<p>Você recebe vantagem na jogada de Presença.</p>",
+    "sincronizacao": "<p>A vítima sobrevive, ficando apenas ferida.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "BeNYeYti4lBDVwId",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!MreRw0ccpbdejLib"
+}

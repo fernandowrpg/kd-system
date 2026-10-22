@@ -1,0 +1,54 @@
+{
+  "_id": "WICUF5iO3dNalh5A",
+  "name": "Aura Etérea",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+  "system": {
+    "requisitos": "Instinto 4, Aura de Batalha, Zanshin",
+    "tipos": [],
+    "elemento": "",
+    "acao": "acao",
+    "nagen": 6,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>O verdadeiro domínio da batalha vem quando os sentimentos se esvaem completamente, dando lugar a uma máquina de combate invencível. A técnica da Aura Etérea alcança esse princípio internalizando a aura do yuza. Dessa forma, não pode ser aprendida por yuzas com auras desequilibradas, como os shen (incluindo os hanyo) e os aceitos. Como uma ação, você dissipa uma Aura de Batalha ativa e absorve a energia para seu corpo, ficando rodeado por um tênue brilho prateado. Aumente sua Aura e Limiar de Defesa em um ponto (um aumento total de +2 no LD) e some +1 no dano de qualquer ataque. Você também tem vantagem em qualquer jogada e pode usar Instinto para fazer jogadas de ataque ou calcular dano, em vez de outro atributo. O efeito dura até o final da cena. Com a Aura Etérea ativa, o yuza não pode falar (incluindo usar kiai), ativar Aura de Batalha, invocar laços ou ativar o poder das emoções.</p>",
+    "ougi": "<p>Você pode falar (e usar kiai) com a Aura Etérea ativa.</p>",
+    "sincronizacao": "<p>Aumente em +1 os bônus no Limiar de Defesa e no dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 0,
+      "dano": "",
+      "danoOugi": "",
+      "danoSinc": "",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "ACffKyieOFdBHhjU",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!WICUF5iO3dNalh5A"
+}

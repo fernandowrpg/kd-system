@@ -1,0 +1,37 @@
+{
+  "_id": "IFazvFaz4vJyLCDT",
+  "name": "Capoeira",
+  "type": "estilo",
+  "img": "systems/lenda-dragao-fogo/assets/icons/estilo.svg",
+  "system": {
+    "descricao": "<p>Criada por brasileiros escravizados, a capoeira é parte dança e parte luta. Praticada principalmente com as pernas, esse belo estilo de luta também ensina o respeito às tradições e aos ancestrais.</p><p><strong>Ougi:</strong> @UUID[Compendium.lenda-dragao-fogo.tecnicas.Item.Js3EcyPSf6j6AXSl]{Ginga de Batalha}</p>",
+    "valores": {
+      "agarrao": 0,
+      "bloqueio": 0,
+      "combo": 2,
+      "evasao": 2,
+      "golpe": 2,
+      "projetil": 0
+    },
+    "ougis": [
+      "Ginga de Batalha"
+    ],
+    "secreto": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!IFazvFaz4vJyLCDT"
+}

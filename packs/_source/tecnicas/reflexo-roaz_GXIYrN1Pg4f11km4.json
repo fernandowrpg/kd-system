@@ -1,0 +1,56 @@
+{
+  "_id": "GXIYrN1Pg4f11km4",
+  "name": "Reflexo Roaz",
+  "type": "tecnica",
+  "img": "systems/lenda-dragao-fogo/assets/icons/bloqueio.svg",
+  "system": {
+    "requisitos": "Instinto 3",
+    "tipos": [
+      "bloqueio"
+    ],
+    "elemento": "",
+    "acao": "reacao",
+    "nagen": 2,
+    "nagenNota": "",
+    "custoPorUso": 0,
+    "usos": 0,
+    "shintai": false,
+    "ritual": false,
+    "descricao": "<p>\"Tábuas não revidam.\" ー Bruce Lee  O momento mais vulnerável de qualquer lutador é o ataque. A mentalidade ofensiva cria brechas, impedindo a defesa perfeita. As artes marciais filipinas são especialmente famosas por se aproveitar disso para converter um bloqueio em um ataque devastador. Como reação, ao ser atingido por um ataque corpo a corpo que não o deixe ferido, você pode retaliar.</p>",
+    "ougi": "<p>Você tem vantagem na jogada de ataque.</p>",
+    "sincronizacao": "<p>Some sua Aura ao dano.</p>",
+    "ehOugi": false,
+    "perfeicao": false,
+    "ativa": false,
+    "upgrades": [],
+    "limitacao": "",
+    "origem": "",
+    "ataque": {
+      "rolar": false,
+      "atributo": "agi",
+      "vantagens": 0,
+      "vantagensOugi": 1,
+      "dano": "@for",
+      "danoOugi": "",
+      "danoSinc": "@aura",
+      "danoPorDescarte": 0,
+      "vigorPorAcerto": 1
+    }
+  },
+  "effects": [],
+  "folder": "LlWHGoBmxXetAqgV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!GXIYrN1Pg4f11km4"
+}

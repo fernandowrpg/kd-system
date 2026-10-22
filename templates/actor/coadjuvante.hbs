@@ -1,0 +1,54 @@
+<div class="lenda-ficha compacta">
+  {{> "systems/lenda-dragao-fogo/templates/actor/parts/cabecalho.hbs"}}
+
+  <div class="barra-ferramentas opcoes-coadjuvante">
+    <label data-tooltip="{{localize 'LENDA.Grupo.Hint'}}"><input type="checkbox" name="system.grupo.ativo" {{checked system.grupo.ativo}} {{#unless editable}}disabled{{/unless}}> <i class="fas fa-users"></i> {{localize "LENDA.Grupo.Nome"}}</label>
+    {{#if system.grupo.ativo}}
+    <label>{{localize "LENDA.Grupo.Tamanho"}} <input type="number" name="system.grupo.tamanho" value="{{system.grupo.tamanho}}" min="1" {{#unless editable}}disabled{{/unless}}></label>
+    <span class="info">{{localize "LENDA.Grupo.Vantagens"}}: <strong>{{system.grupo.vantagens}}</strong></span>
+    {{/if}}
+    <label data-tooltip="{{localize 'LENDA.Instantaneo.Hint'}}"><input type="checkbox" name="system.instantaneo.ativo" {{checked system.instantaneo.ativo}} {{#unless editable}}disabled{{/unless}}> <i class="fas fa-bolt"></i> {{localize "LENDA.Instantaneo.Nome"}}</label>
+  </div>
+
+  {{> "systems/lenda-dragao-fogo/templates/actor/parts/abas.hbs"}}
+
+  <div class="aba-corpo">
+    <section class="tab {{aba.ficha.cssClass}}" data-group="primary" data-tab="ficha">
+      {{#if system.instantaneo.ativo}}
+      <section class="bloco instantaneo">
+        <h3 class="titulo-bloco">{{localize "LENDA.Instantaneo.Nome"}}</h3>
+        <p class="info">{{localize "LENDA.Instantaneo.Resumo" dados=system.instantaneo.dados tensao=tensao}}</p>
+        <div class="grade-detalhes">
+          <label>{{localize "LENDA.Instantaneo.FazBem"}} <input type="text" name="system.instantaneo.fazBem" value="{{system.instantaneo.fazBem}}" {{#unless editable}}disabled{{/unless}}></label>
+          <label>{{localize "LENDA.Instantaneo.FazMal"}} <input type="text" name="system.instantaneo.fazMal" value="{{system.instantaneo.fazMal}}" {{#unless editable}}disabled{{/unless}}></label>
+        </div>
+        <div class="botoes-combate">
+          <button type="button" data-action="rolarAtributo" data-atributo="agilidade"><i class="fas fa-dice"></i> {{localize "LENDA.Instantaneo.Rolar"}}</button>
+        </div>
+        <div class="grade-limiares">
+          <div class="limiar defesa"><span class="valor">{{system.limiares.defesa.value}}</span><span class="nome">{{localize "LENDA.Limiar.Defesa"}}</span></div>
+          <div class="limiar protecao"><span class="valor">{{system.limiares.protecao.value}}</span><span class="nome">{{localize "LENDA.Limiar.Protecao"}}</span></div>
+        </div>
+      </section>
+      {{else}}
+      <div class="colunas">
+        <div class="coluna">
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/atributos.hbs"}}
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/limiares.hbs"}}
+        </div>
+        <div class="coluna">
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/estilo.hbs"}}
+          {{> "systems/lenda-dragao-fogo/templates/actor/parts/ocupacoes.hbs"}}
+        </div>
+      </div>
+      {{/if}}
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/tecnicas.hbs"}}
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/combate.hbs"}}
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/trunfos.hbs"}}
+    </section>
+
+    <section class="tab {{aba.biografia.cssClass}}" data-group="primary" data-tab="biografia">
+      {{> "systems/lenda-dragao-fogo/templates/actor/parts/biografia.hbs"}}
+    </section>
+  </div>
+</div>

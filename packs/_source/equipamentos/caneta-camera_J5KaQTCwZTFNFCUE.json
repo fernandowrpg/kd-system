@@ -1,0 +1,37 @@
+{
+  "_id": "J5KaQTCwZTFNFCUE",
+  "name": "Caneta Câmera",
+  "type": "equipamento",
+  "img": "systems/lenda-dragao-fogo/assets/icons/equipamento.svg",
+  "system": {
+    "categoria": "outro",
+    "caracteristicas": [],
+    "descricao": "<p>O que parece uma discreta caneta esferográfica é na verdade uma câmera. Normalmente ela é pendurada no bolso da camisa. Tem capacidade para registrar duas horas de vídeo antes de precisar ser recarregada.</p>",
+    "equipado": false,
+    "modificadores": {
+      "vigor": 0,
+      "defesa": 0,
+      "protecao": 0,
+      "canalizacao": 0,
+      "ferimentos": 0,
+      "sincInicial": 0
+    },
+    "quantidade": 1
+  },
+  "effects": [],
+  "folder": "RMFHkiqn8xE00yZV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!J5KaQTCwZTFNFCUE"
+}

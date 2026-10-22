@@ -1,0 +1,648 @@
+{
+  "_id": "zbXSABt8qlYZSt11",
+  "name": "Rider",
+  "type": "antagonista",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "aura": 2,
+    "conceito": "Rider",
+    "atributos": {
+      "forca": 5,
+      "razao": 4,
+      "instinto": 4,
+      "agilidade": 5,
+      "presenca": 2,
+      "vontade": 4
+    },
+    "ocupacoes": {
+      "artista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "atleta": {
+        "value": 3,
+        "especializacoes": ""
+      },
+      "cientista": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "diplomata": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "engenheiro": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "medico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "mistico": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "piloto": {
+        "value": 0,
+        "especializacoes": ""
+      },
+      "trapaceiro": {
+        "value": 2,
+        "especializacoes": ""
+      },
+      "vigilante": {
+        "value": 2,
+        "especializacoes": ""
+      }
+    },
+    "estilo": {
+      "nome": "",
+      "agarrao": 0,
+      "bloqueio": 2,
+      "combo": 0,
+      "evasao": 2,
+      "golpe": 2,
+      "projetil": 0
+    },
+    "vigor": {
+      "value": 13,
+      "bonus": -1
+    },
+    "ferimentos": {
+      "value": 0,
+      "bonus": 0
+    },
+    "limiares": {
+      "canalizacao": {
+        "bonus": 1
+      },
+      "defesa": {
+        "bonus": 0
+      },
+      "protecao": {
+        "bonus": 0
+      }
+    },
+    "sincronizacao": {
+      "value": 0
+    },
+    "nagen": {
+      "rodada": 0
+    },
+    "biografia": "<p>Esses lutadores são famosos por suas motos personalizadas e cachecóis estilosos. Na verdade, são experimentos das Indústrias Tolwyn: artistas marciais transformados em ciborgues, utilizando um jasq (o “cachecol” esvoaçante) e um reator nagen para manter suas habilidades.</p>",
+    "especial": "Começa a cena com 4 dados de sincronização. 2 vantagens em jogadas de Força, Agilidade e Razão, 3 caixas de ferimento. Se o rider montar na sua moto, pode sair imediatamente da cena, impossível de ser impedido.",
+    "notas": "",
+    "avancos": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "fEuoGcRYBK9IuAFz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "lenda-dragao-fogo",
+    "systemVersion": "1.0.0",
+    "createdTime": 1760000000000,
+    "modifiedTime": 1760000000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!zbXSABt8qlYZSt11",
+  "items": [
+    {
+      "_id": "6JDSL9prqen7bH0p",
+      "name": "Ciborgue",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p><em>“Senhores, nós podemos reconstruí-lo. (...) Muito melhor do que era. Mais forte, mais rápido.” — O Homem de Seis Milhões de Dólares</em></p><p>A tecnologia de próteses cibernéticas é difundida pelo mundo todo, muito útil para garantir mais acessibilidade e autonomia para pessoas com deficiência. No entanto, você teve acesso a procedimentos experimentais que não se limitam em substituir o corpo, e sim aprimorá-lo.</p><p>Ciborgues têm o esqueleto reforçado por metal e chips integrados com o sistema nervoso para controlar seus implantes. Devido a essas alterações, ciborgues têm +3 no Limiar de Proteção, +3 na Barra de Vigor e uma caixa adicional de ferimento. Além disso, eles recebem vantagem em todos os testes para usar dispositivos eletrônicos.</p><p>Infelizmente, ser um ciborgue não é só alegria. Os implantes prejudicam o fluxo do nagen e a sincronização com o ambiente. Isso dificulta o uso de focus, com um redutor de -1 no Limiar de Canalização. Você começa toda cena com um dado de sincronização a menos, mas essa não é a pior parte. Caso chegue a Limiar de Canalização 0, o ciborgue perde a conexão natural que as pessoas têm umas com as outras por meio de suas auras, parecendo distante e alienígena, e sofre desvantagem em todas as jogadas de Presença.</p><p>Um ciborgue ferido pode ser tratado com as ocupações Médico ou Engenheiro, mas, caso seja derrotado, somente alguém treinado em ambas as ocupações pode ajudá-lo — já que se trata de um caso mais grave.</p><p>Implantes adicionais (p. 170) podem ser adquiridos apenas por meio dos trunfos Arsenal e Agente ou com avanços.</p>",
+        "afinidade": "",
+        "elemento": "",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 3,
+          "defesa": 0,
+          "protecao": 3,
+          "canalizacao": -1,
+          "ferimentos": 1,
+          "sincInicial": -1,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 0,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 0,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 0,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": false,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.6JDSL9prqen7bH0p"
+    },
+    {
+      "_id": "EVhIrY590llS9ySB",
+      "name": "Jasq",
+      "type": "trunfo",
+      "img": "systems/lenda-dragao-fogo/assets/icons/trunfo.svg",
+      "system": {
+        "requisitos": "",
+        "descricao": "<p>Você é hospedeiro de um parasita do Outro Mundo, uma criatura conhecida como JASQ. Um jasq costuma se parecer com uma lesma grande, reluzente e prateada. Ele passa o tempo todo grudado à sua pele, normalmente sobre uma cicatriz ou ao longo da coluna vertebral. Pessoas com pouca afinidade espiritual às vezes não os veem.</p><p>O jasq consome sua energia constantemente. No começo de cada cena, você perde um ponto de Vigor. Você também perde um ponto de Vigor adicional sempre que excede seu Limiar de Canalização. Porém, o parasita constantemente refina essa energia absorvida. Você começa toda cena com um dado de sincronização adicional. Caso você também seja um aceito, o jasq permite que você aprenda e use técnicas de elementos diferentes do seu, mas sempre que faz isso você perde um ponto de Vigor (além de quaisquer perdas por exceder o Limiar de Canalização).</p>",
+        "afinidade": "",
+        "elemento": "",
+        "escolha": "",
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 1,
+          "danoArmas": 0,
+          "danoFogo": 0,
+          "vigorPorCena": 1,
+          "tensaoComDois": false
+        },
+        "criacao": {
+          "lacos": 0,
+          "tecnicas": 0,
+          "estilo": 0,
+          "estiloMax": 0,
+          "ocupacoes": 0,
+          "especializacoes": 0,
+          "ougis": 0,
+          "equipamentos": 0,
+          "shintai": 0,
+          "rituais": 0
+        },
+        "jasq": true,
+        "prodigio": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.EVhIrY590llS9ySB"
+    },
+    {
+      "_id": "e48oTYbNgJL3KXBh",
+      "name": "Implante: Braços",
+      "type": "equipamento",
+      "img": "systems/lenda-dragao-fogo/assets/icons/implante.svg",
+      "system": {
+        "categoria": "implante",
+        "caracteristicas": [],
+        "descricao": "<p>Braços substituídos por próteses metálicas ou cobertos com proteção adicional aumentam o Limiar de Proteção em 1 e concedem vantagem em jogadas de Força.</p>",
+        "equipado": true,
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 1,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0
+        },
+        "quantidade": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.e48oTYbNgJL3KXBh"
+    },
+    {
+      "_id": "PxKgrSLMQHV9m4iw",
+      "name": "Implante: Computador",
+      "type": "equipamento",
+      "img": "systems/lenda-dragao-fogo/assets/icons/implante.svg",
+      "system": {
+        "categoria": "implante",
+        "caracteristicas": [],
+        "descricao": "<p>Todo ciborgue tem um computador interno como parte de seus implantes básicos, mas com esse implante o ciborgue tem uma inteligência artificial funcional atuando como co-piloto. Embora essa IA não seja verdadeiramente senciente, ela chega tão perto que às vezes é assustador. Esse implante é frequentemente usado por agências governamentais, não só dando suporte a um agente cibernético como permitindo que mantenham algum controle sobre ele. O computador concede duas vantagens em todas as jogadas de Razão.</p>",
+        "equipado": true,
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0
+        },
+        "quantidade": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.PxKgrSLMQHV9m4iw"
+    },
+    {
+      "_id": "nce8inBOEqo9ujg2",
+      "name": "Implante: Exotraje",
+      "type": "equipamento",
+      "img": "systems/lenda-dragao-fogo/assets/icons/implante.svg",
+      "system": {
+        "categoria": "implante",
+        "caracteristicas": [],
+        "descricao": "<p>Um exotraje não é exatamente um implante. É um traje que se conecta aos implantes normais de um ciborgue e aprimora suas habilidades. Existem exotrajes especializados para vários tipos diferentes de tarefa. Os mais comuns são os modelos de rocketball e de uso militar, que são extremamente parecidos (a única diferença é que os militares costumam ter armas). Esses exotrajes concedem vantagem em testes de Força e Agilidade, uma caixa adicional de ferimento e aumentam o Limiar de Proteção em 2.</p>",
+        "equipado": true,
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 2,
+          "canalizacao": 0,
+          "ferimentos": 1,
+          "sincInicial": 0
+        },
+        "quantidade": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.nce8inBOEqo9ujg2"
+    },
+    {
+      "_id": "56Bjpv7033uFj42y",
+      "name": "Implante: Gerador",
+      "type": "equipamento",
+      "img": "systems/lenda-dragao-fogo/assets/icons/implante.svg",
+      "system": {
+        "categoria": "implante",
+        "caracteristicas": [],
+        "descricao": "<p>Normalmente os implantes usam o nagen do ciborgue para funcionar, mas é possível instalar um gerador adicional de denadorita no tórax. Essa modificação é extremamente invasiva, com saídas de ventilação próximas aos pulmões. Embora não seja necessário, muitos ciborgues deixam a esfera brilhante do gerador exposta, como uma espécie de demonstração de orgulho transumanista. O gerador faz com que o ciborgue comece uma cena com um dado de sincronização adicional e permite que ele faça um esforço extra por rodada, gastando 1 ponto de Vigor para ganhar vantagem em uma jogada.</p>",
+        "equipado": true,
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 0,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 1
+        },
+        "quantidade": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.56Bjpv7033uFj42y"
+    },
+    {
+      "_id": "E3YdFCpWvfWd51XU",
+      "name": "Implante: Pernas",
+      "type": "equipamento",
+      "img": "systems/lenda-dragao-fogo/assets/icons/implante.svg",
+      "system": {
+        "categoria": "implante",
+        "caracteristicas": [],
+        "descricao": "<p>Implantes nas pernas muitas vezes não são substituição total, mas aplicação de jatos e servomotores para movimento mais ágil. É extremamente popular em rocketball. Além de vantagem em testes de Agilidade, concedem +1 no Limiar de Defesa.</p>",
+        "equipado": true,
+        "modificadores": {
+          "vigor": 0,
+          "defesa": 1,
+          "protecao": 0,
+          "canalizacao": 0,
+          "ferimentos": 0,
+          "sincInicial": 0
+        },
+        "quantidade": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.E3YdFCpWvfWd51XU"
+    },
+    {
+      "_id": "NuxkAzqQVqZAGxzr",
+      "name": "Aura de Batalha",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 5,
+        "nagenNota": "",
+        "custoPorUso": 5,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>Esta técnica é necessária para participar de competições no Circuito Mundial de Lutas. O yuza manifesta sua aura, tornando-a visível ao redor de seu corpo, brilhando como uma tocha. A aura permanece ao seu redor até o final da cena ou até ser dissipada. Enquanto tiver sua Aura de Batalha ativa, o yuza soma sua Aura como um bônus ao seu Limiar de Proteção. Quando for atingido por um ataque que o faria marcar uma caixa de ferimento, ele não marca a caixa, mas sua aura se dissipa. Usar essa técnica é extremamente cansativo. Cada ativação depois da primeira, na mesma cena, aumenta em 5 pontos o gasto de nagen.</p>",
+        "ougi": "<p>Você soma +1 no seu Limiar de Proteção com a aura ativa.</p>",
+        "sincronizacao": "<p>Ative a técnica como uma ação extra e ignore os aumentos de custo por número de ativações.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.NuxkAzqQVqZAGxzr"
+    },
+    {
+      "_id": "WKnR7GlPvAsmK9oN",
+      "name": "Finalização",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/golpe.svg",
+      "system": {
+        "requisitos": "Agilidade 3, Força 3",
+        "tipos": [
+          "golpe"
+        ],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 4,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>“Esse é o fim da linha!” ー Kyo Kusanagi, The King of Fighters  Você prepara um golpe decisivo, concentrando todo seu nagen em um único ataque devastador. O dano é igual à Força x2, mas o ataque é feito com duas desvantagens.</p>",
+        "ougi": "<p>O ataque é feito com apenas uma desvantagem.</p>",
+        "sincronizacao": "<p>Após atingir um oponente com um Combo, você pode usar Finalização como uma ação extra.</p>",
+        "ehOugi": true,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": -2,
+          "vantagensOugi": 1,
+          "dano": "@for * 2",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.WKnR7GlPvAsmK9oN"
+    },
+    {
+      "_id": "0aeDEX9ixTNMRhDg",
+      "name": "Ranbu",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/combo.svg",
+      "system": {
+        "requisitos": "",
+        "tipos": [
+          "combo"
+        ],
+        "elemento": "",
+        "acao": "acao",
+        "nagen": 3,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>“ORA ORA ORA ORA ORA ORA ORA!” – Jotaro Kujo, Jojo’s Bizarre Adventures O lutador golpeia o oponente ferozmente, numa avassaladora sequência de socos ou chutes. O dano dessa técnica pode ser aumentado descartando dados; cada resultado 5 ou mais descartado aumenta o dano em +1. O dano causado é igual à Força ou Agilidade, o que for maior.</p>",
+        "ougi": "<p>Quando você usar essa manobra como componente do ataque total de um splash (p. 184), você causa dano igual à Força + Agilidade.</p>",
+        "sincronizacao": "<p>Some sua Aura no dano.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": true,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "max(@for, @agi)",
+          "danoOugi": "",
+          "danoSinc": "@aura",
+          "danoPorDescarte": 1,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.0aeDEX9ixTNMRhDg"
+    },
+    {
+      "_id": "hHkY8SoMKAeChei9",
+      "name": "Shunpo",
+      "type": "tecnica",
+      "img": "systems/lenda-dragao-fogo/assets/icons/tecnica.svg",
+      "system": {
+        "requisitos": "Aura 1, Agilidade 4",
+        "tipos": [],
+        "elemento": "",
+        "acao": "acaoExtra",
+        "nagen": 2,
+        "nagenNota": "",
+        "custoPorUso": 0,
+        "usos": 0,
+        "shintai": false,
+        "ritual": false,
+        "descricao": "<p>A maestria da movimentação em combate, Shunpo (“passo instantâneo”), é uma técnica que permite cobrir distâncias rapidamente, aproximando-se ou afastando-se do oponente com facilidade. Com a prática, essa técnica permite se mover mais rápido do que a visão consegue acompanhar. Você pode se mover dois passos de distância (de engajado para distante, por exemplo) como uma ação extra.</p>",
+        "ougi": "<p>Quando um oponente o ataca e erra, você pode usar Shunpo como uma reação para se mover um passo de distância.</p>",
+        "sincronizacao": "<p>Assuma a iniciativa.</p>",
+        "ehOugi": false,
+        "perfeicao": false,
+        "ativa": false,
+        "upgrades": [],
+        "limitacao": "",
+        "origem": "",
+        "ataque": {
+          "rolar": false,
+          "atributo": "agi",
+          "vantagens": 0,
+          "vantagensOugi": 0,
+          "dano": "",
+          "danoOugi": "",
+          "danoSinc": "",
+          "danoPorDescarte": 0,
+          "vigorPorAcerto": 1
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "lenda-dragao-fogo",
+        "systemVersion": "1.0.0",
+        "createdTime": 1760000000000,
+        "modifiedTime": 1760000000000,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zbXSABt8qlYZSt11.hHkY8SoMKAeChei9"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Rider",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "vigor"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}
