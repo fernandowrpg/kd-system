@@ -40,10 +40,10 @@ Janela guiada pelos 10 passos do livro (conceito, aura, caminho, laços, 18 pont
 **Pelo manifesto (recomendado):** no Foundry, vá em *Sistemas de Jogo → Instalar Sistema* e cole a URL do manifesto:
 
 ```
-https://github.com/OWNER/REPO/releases/latest/download/system.json
+https://github.com/fernandowrpg/kd-system/releases/latest/download/system.json
 ```
 
-(substitua `OWNER/REPO` pelo endereço do repositório).
+(substitua `fernandowrpg/kd-system` pelo endereço do repositório).
 
 **Manual:** baixe o `lenda-dragao-fogo.zip` da última release e extraia em `Data/systems/lenda-dragao-fogo`.
 

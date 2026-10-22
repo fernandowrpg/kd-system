@@ -196,9 +196,9 @@
     "units": "m"
   },
   "primaryTokenAttribute": "vigor",
-  "url": "https://github.com/OWNER/REPO",
-  "manifest": "https://github.com/OWNER/REPO/releases/latest/download/system.json",
-  "download": "https://github.com/OWNER/REPO/releases/latest/download/lenda-dragao-fogo.zip",
+  "url": "https://github.com/fernandowrpg/kd-system",
+  "manifest": "https://github.com/fernandowrpg/kd-system/releases/latest/download/system.json",
+  "download": "https://github.com/fernandowrpg/kd-system/releases/latest/download/lenda-dragao-fogo.zip",
   "license": "LICENSE",
   "readme": "README.md",
   "changelog": "CHANGELOG.md",
