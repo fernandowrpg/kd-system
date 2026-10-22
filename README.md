@@ -59,8 +59,8 @@ As fontes dos compêndios ficam em `packs/_source/` como JSON (um arquivo por do
 
 ### Publicando uma versão
 1. Atualize `CHANGELOG.md`.
-2. Crie uma release no GitHub com uma tag `vX.Y.Z`.
-3. O workflow `Release` compila os compêndios, gera o zip e anexa `system.json` + `lenda-dragao-fogo.zip` à release, com versão e URLs preenchidas automaticamente.
+2. Envie uma tag: `git tag v1.0.1 && git push origin v1.0.1` (ou use *Actions → Release → Run workflow* e informe a versão).
+3. O workflow `Release` compila os compêndios, gera o zip e publica a release com `system.json` e `lenda-dragao-fogo.zip` anexados, com versão e URLs preenchidas automaticamente.
 
 ### Estrutura
 ```

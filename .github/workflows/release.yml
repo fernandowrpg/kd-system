@@ -1,19 +1,39 @@
 name: Release
 
-# Publique uma release no GitHub (ex.: tag v1.0.0) e este workflow compila os
-# compêndios, gera o zip do sistema e anexa system.json + zip à release.
+# Gera e publica uma release automaticamente:
+#  - ao enviar uma tag vX.Y.Z (git tag v1.0.1 && git push origin v1.0.1), ou
+#  - manualmente em Actions → Release → Run workflow, informando a versão.
+# O workflow compila os compêndios, gera o zip e publica a release com
+# system.json + lenda-dragao-fogo.zip anexados.
 on:
-  release:
-    types: [published]
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      versao:
+        description: "Versão (ex.: 1.0.1)"
+        required: true
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Definir versão e tag
+        id: versao
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            V="${{ github.event.inputs.versao }}"
+          else
+            V="${GITHUB_REF_NAME}"
+          fi
+          V="${V#v}"
+          echo "versao=$V" >> "$GITHUB_OUTPUT"
+          echo "tag=v$V" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-node@v4
         with:
@@ -31,17 +51,18 @@ jobs:
 
       - name: Atualizar system.json com versão e URLs
         env:
-          TAG: ${{ github.event.release.tag_name }}
+          VERSAO: ${{ steps.versao.outputs.versao }}
+          TAG: ${{ steps.versao.outputs.tag }}
           REPO: ${{ github.repository }}
         run: |
           node -e '
             const fs = require("fs");
             const s = JSON.parse(fs.readFileSync("system.json", "utf8"));
-            const tag = process.env.TAG, repo = process.env.REPO;
-            s.version = tag.replace(/^v/, "");
-            s.url = `https://github.com/${repo}`;
-            s.manifest = `https://github.com/${repo}/releases/latest/download/system.json`;
-            s.download = `https://github.com/${repo}/releases/download/${tag}/lenda-dragao-fogo.zip`;
+            const { VERSAO, TAG, REPO } = process.env;
+            s.version = VERSAO;
+            s.url = `https://github.com/${REPO}`;
+            s.manifest = `https://github.com/${REPO}/releases/latest/download/system.json`;
+            s.download = `https://github.com/${REPO}/releases/download/${TAG}/lenda-dragao-fogo.zip`;
             fs.writeFileSync("system.json", JSON.stringify(s, null, 2) + "\n");
           '
 
@@ -49,9 +70,16 @@ jobs:
         run: |
           zip -r lenda-dragao-fogo.zip system.json module templates styles lang assets packs README.md LICENSE CHANGELOG.md -x "packs/_source/*"
 
-      - name: Anexar arquivos à release
+      - name: Publicar release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.versao.outputs.tag }}
+          name: ${{ steps.versao.outputs.tag }}
+          target_commitish: ${{ github.sha }}
+          draft: false
+          prerelease: false
+          make_latest: "true"
+          generate_release_notes: true
           files: |
             system.json
             lenda-dragao-fogo.zip
