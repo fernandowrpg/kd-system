@@ -43,7 +43,6 @@ Janela guiada pelos 10 passos do livro (conceito, aura, caminho, laços, 18 pont
 https://github.com/fernandowrpg/kd-system/releases/latest/download/system.json
 ```
 
-(substitua `fernandowrpg/kd-system` pelo endereço do repositório).
 
 **Manual:** baixe o `lenda-dragao-fogo.zip` da última release e extraia em `Data/systems/lenda-dragao-fogo`.
 
